@@ -63,7 +63,7 @@
             <xsl:apply-templates/>
         </sup>
     </xsl:template>
-    <xsl:template match="num">.<span class="num"><xsl:apply-templates/></span>.</xsl:template>
+    <xsl:template match="num"><span class="num"><xsl:apply-templates/></span></xsl:template>
     <xsl:template match="hi[@type = 'exp']">
         <sup>
             <span class="exp">
@@ -181,13 +181,18 @@
             <span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span>
         </span>
     </xsl:template>
+    
+    
     <xsl:template match="c">
-        <i>
-            <span class="c">
-                <xsl:apply-templates/>
-            </span>
-        </i>
+        <xsl:choose>
+            <xsl:when test="@rend = 'blue'"><span class="c" style="color:darkblue"><i><xsl:apply-templates/></i></span></xsl:when>
+            <xsl:when test="@rend = 'red'"><span class="c" style="color:darkred"><i><xsl:apply-templates/></i></span></xsl:when>
+            <xsl:otherwise><span class="c"><i><xsl:apply-templates/></i></span></xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
+    
+    
+    
     <xsl:template match="persName">
         <span class="persName">
             <xsl:apply-templates/>
@@ -239,8 +244,7 @@
         <xsl:choose>
             <xsl:when test="@rendition = 'arevoir'">
                 <span class="arevoir">
-                    <i>[<xsl:apply-templates/>]</i> 💣
-                </span>
+                    <i>[<xsl:apply-templates/>]</i>&#8239;💣</span>
             </xsl:when>
             <xsl:otherwise>
                 <i>[<xsl:apply-templates/>]</i>
