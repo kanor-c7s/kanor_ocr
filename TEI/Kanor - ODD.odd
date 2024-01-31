@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Roman de Kanor - ODD</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+
+         <head>L'ODD</head>
+         <schemaSpec ident="septSages" start="TEI">
+            <moduleRef key="core"
+               include="add cb del graphic head hi name note num p pb resp respStmt rs said title unclear"/>
+            <moduleRef key="header"
+               include="availability authority change correction encodingDesc editorialDecl
+                  extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt
+                  punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
+            <moduleRef key="figures" include="figDesc figure"/>
+            <moduleRef key="linking" include="anchor seg att.global.linking"/>
+            <moduleRef key="msdescription"
+               include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem
+                  physDesc repository"/>
+            <moduleRef key="namesdates" include="country persName placeName settlement"/>
+            <moduleRef key="tei"/>
+            <moduleRef key="textcrit" include="app lem listWit rdg rdgGrp witness"/>
+            <moduleRef key="textstructure" include="TEI body text div"/>
+            <moduleRef key="transcr" include="handNotes handShift subst supplied"/>
+            <moduleRef key="analysis" include="c"/>
+
+            <elementSpec ident="del" module="core" mode="change">
+               <attList>
+                  <attDef ident="rend" mode="change" usage="req">
+                     <valList type="closed">
+                        <valItem ident="exponctuation"/>
+                        <valItem ident="scraped"/>
+                     </valList>
+                  </attDef>
+                  <attDef ident="hand" mode="change" usage="opt">
+                     <valList type="closed">
+                        <valItem ident="#hand1"></valItem>
+                        <valItem ident="#hand2"></valItem>
+                        <valItem ident="#otherhand"></valItem>                  
+                     </valList>
+                     
+                     
+                  </attDef>
+
+
+               </attList>
+
+
+            </elementSpec>
+         </schemaSpec>
+
+
+      </body>
+   </text>
+</TEI>
