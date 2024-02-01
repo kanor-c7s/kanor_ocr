@@ -9,6 +9,13 @@
                 <link rel="stylesheet" type="text/css" href="../ASSETS/Kanor.css"/>
             </head>
             <body>
+                <span class="title">Kanor et ses freres</span>
+                <br/>
+                <span>Présentation des signes employés :<br/>
+                    <ul>
+                        <li>[×] segment indéchiffrable</li>
+                        <li><span class="add">^xx^</span> ajout suscrit par le scribe</li>
+                        <li>‹x› ajout par l'éditeur</li></ul></span>
                 <xsl:apply-templates/>
             </body>
         </html>
@@ -63,7 +70,9 @@
             <xsl:apply-templates/>
         </sup>
     </xsl:template>
-    <xsl:template match="num"><span class="num"><xsl:apply-templates/></span></xsl:template>
+    <xsl:template match="num">
+        <span class="num">.<xsl:apply-templates/>.</span>
+    </xsl:template>
     <xsl:template match="hi[@type = 'exp']">
         <sup>
             <span class="exp">
@@ -168,7 +177,7 @@
         <!-- <span class="tooltip"><span class="supplied"><xsl:apply-templates/><span class="tooltip-content"><xsl:value-of select="@source"/></span></span></span> -->
         <span class="tooltip">
             <xsl:choose>
-                <xsl:when test="@source = '#SL'">[<xsl:apply-templates/>]</xsl:when>
+                <xsl:when test="@source = '#FPZ'">[<xsl:apply-templates/>]</xsl:when>
                 <xsl:otherwise>‹<xsl:apply-templates/>›</xsl:otherwise>
             </xsl:choose>
             <span class="tooltip-content">
@@ -181,18 +190,39 @@
             <span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span>
         </span>
     </xsl:template>
-    
-    
+    <xsl:template match="add">
+        <span class="add">^<xsl:apply-templates/>^</span>
+    </xsl:template>
+
+
     <xsl:template match="c">
         <xsl:choose>
-            <xsl:when test="@rend = 'blue'"><span class="c" style="color:darkblue"><i><xsl:apply-templates/></i></span></xsl:when>
-            <xsl:when test="@rend = 'red'"><span class="c" style="color:darkred"><i><xsl:apply-templates/></i></span></xsl:when>
-            <xsl:otherwise><span class="c"><i><xsl:apply-templates/></i></span></xsl:otherwise>
+            <xsl:when test="@rend = 'blue'">
+                <span class="c" style="color:darkblue">
+                    <i>
+                        <xsl:apply-templates/>
+                    </i>
+                </span>
+            </xsl:when>
+            <xsl:when test="@rend = 'red'">
+                <span class="c" style="color:darkred">
+                    <i>
+                        <xsl:apply-templates/>
+                    </i>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="c">
+                    <i>
+                        <xsl:apply-templates/>
+                    </i>
+                </span>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
-    
-    
+
+
+
     <xsl:template match="persName">
         <span class="persName">
             <xsl:apply-templates/>
@@ -245,6 +275,16 @@
             <xsl:when test="@rendition = 'arevoir'">
                 <span class="arevoir">
                     <i>[<xsl:apply-templates/>]</i>&#8239;💣</span>
+            </xsl:when>
+            <xsl:otherwise>
+                <i>[<xsl:apply-templates/>]</i>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="gap">
+        <xsl:choose>
+            <xsl:when test="@reason = 'illegible'">
+                <b>[×]</b>
             </xsl:when>
             <xsl:otherwise>
                 <i>[<xsl:apply-templates/>]</i>

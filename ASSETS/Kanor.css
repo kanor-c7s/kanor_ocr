@@ -96,6 +96,12 @@ body {
 
 .supplied {
     font-weight: bold;
+    color: green;
+}
+
+.add {
+    font-weight: bold;
+    color: green;
 }
 
 .c {
@@ -109,6 +115,11 @@ body {
 .num {
     font-variant: small-caps;
 }
+
+.exp {
+    font-variant: small-caps;
+}
+
 
 .del {
     text-decoration: line-through;
@@ -153,4 +164,8 @@ body {
 .arevoir {
     color: red;
     font-weight: bold;
+}
+
+.title {
+    font-size: 50px
 }
