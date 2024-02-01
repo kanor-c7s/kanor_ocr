@@ -5,12 +5,12 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-01-30T13:40:31Z. .
+Schema generated from ODD source 2024-02-01T19:32:06Z. .
 TEI Edition: Version 4.6.0. Last updated on
         4th April 2023, revision f18deffba
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
   
---><!---->
+--><!--Usage pour les membres de l'équipe.-->
    <define name="macro.paraContent">
       <zeroOrMore>
          <choice>
@@ -322,6 +322,52 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
          </attribute>
       </optional>
    </define>
+   <define name="att.damaged.attributes">
+      <ref name="att.dimensions.attributes"/>
+      <ref name="att.written.attributes"/>
+      <ref name="att.damaged.attribute.agent"/>
+      <ref name="att.damaged.attribute.degree"/>
+      <ref name="att.damaged.attribute.group"/>
+   </define>
+   <define name="att.damaged.attribute.agent">
+      <optional>
+         <attribute name="agent">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">categorizes the cause of the damage, if it can be identified.
+Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.damaged.attribute.degree">
+      <optional>
+         <attribute name="degree">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a coded representation of the degree of damage, either as a number between 0 (undamaged) and 1 (very extensively damaged), or as one of the codes high, medium, low, or unknown. The <code xmlns="http://www.w3.org/1999/xhtml">&lt;damage&gt;</code> element with the <code xmlns="http://www.w3.org/1999/xhtml">@degree</code> attribute should only be used where the text may be read with some confidence; text supplied from other sources should be tagged as <code xmlns="http://www.w3.org/1999/xhtml">&lt;supplied&gt;</code>.</a:documentation>
+            <choice>
+               <data type="double"/>
+               <choice>
+                  <value>high</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>medium</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>low</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>unknown</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               </choice>
+            </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.damaged.attribute.group">
+      <optional>
+         <attribute name="group">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">assigns an arbitrary number to each stretch of damage regarded as forming part of the same physical phenomenon.</a:documentation>
+            <data type="nonNegativeInteger"/>
+         </attribute>
+      </optional>
+   </define>
    <define name="att.breaking.attributes">
       <ref name="att.breaking.attribute.break"/>
    </define>
@@ -430,8 +476,11 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="septSages-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@when]">
          <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
@@ -440,8 +489,11 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="septSages-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@from]">
          <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
@@ -450,8 +502,11 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="septSages-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@to]">
          <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
@@ -481,8 +536,11 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="septSages-att.datable-calendar-calendar-constraint-rule-4">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@calendar]">
          <sch:assert test="string-length( normalize-space(.) ) gt 0"> @calendar indicates one or more
@@ -811,8 +869,11 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="septSages-att.global.source-source-only_1_ODD_source-constraint-rule-5">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@source]">
          <sch:let name="srcs" value="tokenize( normalize-space(@source),' ')"/>
@@ -1161,8 +1222,11 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="septSages-att.typed-subtypeTyped-constraint-rule-6">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@subtype]">
          <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
@@ -1191,8 +1255,11 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="septSages-att.pointing-targetLang-targetLang-constraint-rule-7">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
          <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
@@ -1303,8 +1370,11 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="septSages-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-8">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@spanTo]">
          <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
@@ -1312,6 +1382,30 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
          </sch:assert>
       </sch:rule>
    </pattern>
+   <define name="att.timed.attributes">
+      <ref name="att.timed.attribute.start"/>
+      <ref name="att.timed.attribute.end"/>
+   </define>
+   <define name="att.timed.attribute.start">
+      <optional>
+         <attribute name="start">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location within a temporal alignment at which this element begins.</a:documentation>
+            <data type="anyURI">
+               <param name="pattern">\S+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
+   <define name="att.timed.attribute.end">
+      <optional>
+         <attribute name="end">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location within a temporal alignment at which this element ends.</a:documentation>
+            <data type="anyURI">
+               <param name="pattern">\S+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
    <define name="att.transcriptional.attributes">
       <ref name="att.editLike.attributes"/>
       <ref name="att.written.attributes"/>
@@ -1666,28 +1760,40 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    </define>
    <define name="model.pPart.editorial">
       <choice>
+         <ref name="choice"/>
          <ref name="subst"/>
       </choice>
    </define>
    <define name="model.pPart.editorial_alternation">
       <choice>
+         <ref name="choice"/>
          <ref name="subst"/>
       </choice>
    </define>
    <define name="model.pPart.editorial_sequence">
+      <ref name="choice"/>
       <ref name="subst"/>
    </define>
    <define name="model.pPart.editorial_sequenceOptional">
+      <optional>
+         <ref name="choice"/>
+      </optional>
       <optional>
          <ref name="subst"/>
       </optional>
    </define>
    <define name="model.pPart.editorial_sequenceOptionalRepeatable">
       <zeroOrMore>
+         <ref name="choice"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="subst"/>
       </zeroOrMore>
    </define>
    <define name="model.pPart.editorial_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="choice"/>
+      </oneOrMore>
       <oneOrMore>
          <ref name="subst"/>
       </oneOrMore>
@@ -1697,8 +1803,10 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="add"/>
          <ref name="del"/>
          <ref name="unclear"/>
+         <ref name="damage"/>
          <ref name="handShift"/>
          <ref name="supplied"/>
+         <ref name="surplus"/>
       </choice>
    </define>
    <define name="model.pPart.transcriptional_alternation">
@@ -1706,16 +1814,20 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="add"/>
          <ref name="del"/>
          <ref name="unclear"/>
+         <ref name="damage"/>
          <ref name="handShift"/>
          <ref name="supplied"/>
+         <ref name="surplus"/>
       </choice>
    </define>
    <define name="model.pPart.transcriptional_sequence">
       <ref name="add"/>
       <ref name="del"/>
       <ref name="unclear"/>
+      <ref name="damage"/>
       <ref name="handShift"/>
       <ref name="supplied"/>
+      <ref name="surplus"/>
    </define>
    <define name="model.pPart.transcriptional_sequenceOptional">
       <optional>
@@ -1728,10 +1840,16 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="unclear"/>
       </optional>
       <optional>
+         <ref name="damage"/>
+      </optional>
+      <optional>
          <ref name="handShift"/>
       </optional>
       <optional>
          <ref name="supplied"/>
+      </optional>
+      <optional>
+         <ref name="surplus"/>
       </optional>
    </define>
    <define name="model.pPart.transcriptional_sequenceOptionalRepeatable">
@@ -1745,10 +1863,16 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="unclear"/>
       </zeroOrMore>
       <zeroOrMore>
+         <ref name="damage"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="handShift"/>
       </zeroOrMore>
       <zeroOrMore>
          <ref name="supplied"/>
+      </zeroOrMore>
+      <zeroOrMore>
+         <ref name="surplus"/>
       </zeroOrMore>
    </define>
    <define name="model.pPart.transcriptional_sequenceRepeatable">
@@ -1762,10 +1886,16 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="unclear"/>
       </oneOrMore>
       <oneOrMore>
+         <ref name="damage"/>
+      </oneOrMore>
+      <oneOrMore>
          <ref name="handShift"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="supplied"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="surplus"/>
       </oneOrMore>
    </define>
    <define name="model.pPart.edit">
@@ -2167,28 +2297,40 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    </define>
    <define name="model.global.edit">
       <choice>
+         <ref name="gap"/>
          <ref name="app"/>
       </choice>
    </define>
    <define name="model.global.edit_alternation">
       <choice>
+         <ref name="gap"/>
          <ref name="app"/>
       </choice>
    </define>
    <define name="model.global.edit_sequence">
+      <ref name="gap"/>
       <ref name="app"/>
    </define>
    <define name="model.global.edit_sequenceOptional">
+      <optional>
+         <ref name="gap"/>
+      </optional>
       <optional>
          <ref name="app"/>
       </optional>
    </define>
    <define name="model.global.edit_sequenceOptionalRepeatable">
       <zeroOrMore>
+         <ref name="gap"/>
+      </zeroOrMore>
+      <zeroOrMore>
          <ref name="app"/>
       </zeroOrMore>
    </define>
    <define name="model.global.edit_sequenceRepeatable">
+      <oneOrMore>
+         <ref name="gap"/>
+      </oneOrMore>
       <oneOrMore>
          <ref name="app"/>
       </oneOrMore>
@@ -2295,6 +2437,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <choice>
          <ref name="licence"/>
       </choice>
+   </define>
+   <define name="model.certLike">
+      <notAllowed/>
    </define>
    <define name="model.descLike">
       <notAllowed/>
@@ -2404,6 +2549,13 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="idno"/>
          <ref name="msItem"/>
          <ref name="decoNote"/>
+      </choice>
+   </define>
+   <define name="model.choicePart">
+      <choice>
+         <ref name="unclear"/>
+         <ref name="seg"/>
+         <ref name="supplied"/>
       </choice>
    </define>
    <define name="model.addressLike">
@@ -2720,8 +2872,12 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
                   id="septSages-p-abstractModel-structure-p-in-ab-or-p-constraint-report-5">
             <rule context="tei:p">
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:s="http://purl.oclc.org/dsdl/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:svg="http://www.w3.org/2000/svg"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="(ancestor::tei:ab or ancestor::tei:p) and not( ancestor::tei:floatingText |parent::tei:exemplum |parent::tei:item |parent::tei:note |parent::tei:q |parent::tei:quote |parent::tei:remarks |parent::tei:said |parent::tei:sp |parent::tei:stage |parent::tei:cell |parent::tei:figure )">
         Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
       </sch:report>
@@ -2731,8 +2887,12 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
                   id="septSages-p-abstractModel-structure-p-in-l-or-lg-constraint-report-6">
             <rule context="tei:p">
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:s="http://purl.oclc.org/dsdl/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:svg="http://www.w3.org/2000/svg"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.
       </sch:report>
@@ -2793,15 +2953,112 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <empty/>
       </element>
    </define>
+   <define name="choice">
+      <element name="choice">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(choice) groups a number of alternative encodings for the same point in a text. [3.5. Simple Editorial Changes]</a:documentation>
+         <oneOrMore>
+            <choice>
+               <ref name="model.choicePart"/>
+               <ref name="choice"/>
+            </choice>
+         </oneOrMore>
+         <ref name="att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="gap">
+      <element name="gap">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(gap) indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.5.3. Additions, Deletions, and Omissions]</a:documentation>
+         <zeroOrMore>
+            <choice>
+               <ref name="model.descLike"/>
+               <ref name="model.certLike"/>
+            </choice>
+         </zeroOrMore>
+         <ref name="att.global.attributes"/>
+         <ref name="att.timed.attributes"/>
+         <ref name="att.editLike.attributes"/>
+         <ref name="att.dimensions.attributes"/>
+         <optional>
+            <attribute name="reason">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reason) gives the reason for omission
+Suggested values include: 1] cancelled (cancelled); 2] deleted (deleted); 3] editorial (editorial); 4] illegible (illegible); 5] inaudible (inaudible); 6] irrelevant (irrelevant); 7] sampling (sampling)</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <choice>
+                        <value>cancelled</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cancelled) </a:documentation>
+                        <value>deleted</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(deleted) </a:documentation>
+                        <value>editorial</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(editorial) for features omitted from transcription due to editorial policy</a:documentation>
+                        <value>illegible</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(illegible) </a:documentation>
+                        <value>inaudible</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inaudible) </a:documentation>
+                        <value>irrelevant</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(irrelevant) </a:documentation>
+                        <value>sampling</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(sampling) </a:documentation>
+                        <data type="token">
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
+                        </data>
+                     </choice>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="agent">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(agent) in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
+Sample values include: 1] rubbing (rubbing); 2] mildew (mildew); 3] smoke (smoke)</a:documentation>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
    <define name="add">
       <element name="add">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(addition) contains letters, words, or phrases inserted in the source text by an author, scribe, or a previous annotator or corrector. [3.5.3. Additions, Deletions, and Omissions]</a:documentation>
          <ref name="macro.paraContent"/>
          <ref name="att.global.attributes"/>
-         <ref name="att.transcriptional.attributes"/>
-         <ref name="att.placement.attributes"/>
+         <ref name="att.transcriptional.attribute.status"/>
+         <ref name="att.transcriptional.attribute.cause"/>
+         <ref name="att.transcriptional.attribute.seq"/>
+         <ref name="att.editLike.attribute.evidence"/>
+         <ref name="att.editLike.attribute.instant"/>
          <ref name="att.typed.attributes"/>
          <ref name="att.dimensions.attributes"/>
+         <attribute name="hand">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> element describing the hand considered responsible for the content of the element concerned.</a:documentation>
+            <data type="anyURI">
+               <param name="pattern">\S+</param>
+            </data>
+         </attribute>
+         <attribute name="place">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>below</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>above</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>right margin</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>left margin</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>central margin</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>top margin</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>bottom margin</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>overleaf</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -2865,31 +3122,29 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="att.global.attributes"/>
          <ref name="att.editLike.attributes"/>
          <ref name="att.dimensions.attributes"/>
-         <optional>
-            <attribute name="reason">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates why the material is hard to transcribe.
-Suggested values include: 1] illegible (illegible); 2] inaudible (inaudible); 3] faded (faded); 4] background_noise (background noise); 5] eccentric_ductus (eccentric ductus)</a:documentation>
-               <list>
-                  <oneOrMore>
-                     <choice>
-                        <value>illegible</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(illegible) </a:documentation>
-                        <value>inaudible</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inaudible) </a:documentation>
-                        <value>faded</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(faded) </a:documentation>
-                        <value>background_noise</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(background noise) </a:documentation>
-                        <value>eccentric_ductus</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(eccentric ductus) indicates illegibility due to an unusual, awkward, or incompetent execution of a glyph or glyphs </a:documentation>
-                        <data type="token">
-                           <param name="pattern">[^\p{C}\p{Z}]+</param>
-                        </data>
-                     </choice>
-                  </oneOrMore>
-               </list>
-            </attribute>
-         </optional>
+         <attribute name="reason">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>arevoir</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>erased</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>faded</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>fold</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>hole</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>rewritten</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>transparence</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>uncertain</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>stain</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
          <optional>
             <attribute name="agent">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Where the difficulty in transcription arises from damage, categorizes the cause of the damage, if it can be identified.
@@ -3869,7 +4124,12 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="septSages-msIdentifier-msId_minimal-constraint-report-7">
             <rule context="tei:msIdentifier">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:svg="http://www.w3.org/2000/svg"
+                       xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="not(parent::tei:msPart) and (local-name(*[1])='idno' or local-name(*[1])='altIdentifier' or normalize-space(.)='')">An msIdentifier must contain either a repository or location.</report>
             </rule>
          </pattern>
@@ -4466,8 +4726,12 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
                   id="septSages-rdgGrp-only1lem-constraint-assert-5">
             <rule context="tei:rdgGrp">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:s="http://purl.oclc.org/dsdl/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:svg="http://www.w3.org/2000/svg"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="count(tei:lem) &lt; 2">Only one &lt;lem&gt; element may appear within a &lt;rdgGrp&gt;</sch:assert>
             </rule>
          </pattern>
@@ -4531,23 +4795,39 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
             </choice>
          </group>
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:svg="http://www.w3.org/2000/svg"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="tei"
                  uri="http://www.tei-c.org/ns/1.0"/>
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:svg="http://www.w3.org/2000/svg"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="xs"
                  uri="http://www.w3.org/2001/XMLSchema"/>
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:svg="http://www.w3.org/2000/svg"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="rng"
                  uri="http://relaxng.org/ns/structure/1.0"/>
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:svg="http://www.w3.org/2000/svg"
+                 xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="rna"
                  uri="http://relaxng.org/ns/compatibility/annotations/1.0"/>
          <ref name="att.global.attributes"/>
@@ -4752,8 +5032,12 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
                   id="septSages-div-abstractModel-structure-div-in-l-or-lg-constraint-report-8">
             <rule context="tei:div">
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:s="http://purl.oclc.org/dsdl/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:svg="http://www.w3.org/2000/svg"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="(ancestor::tei:l or ancestor::tei:lg) and not(ancestor::tei:floatingText)">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.
       </sch:report>
@@ -4763,8 +5047,12 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
                   id="septSages-div-abstractModel-structure-div-in-ab-or-p-constraint-report-9">
             <rule context="tei:div">
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:s="http://purl.oclc.org/dsdl/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:svg="http://www.w3.org/2000/svg"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="(ancestor::tei:p or ancestor::tei:ab) and not(ancestor::tei:floatingText)">
         Abstract model violation: p and ab may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.
       </sch:report>
@@ -4812,6 +5100,16 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
          </attribute>
       </optional>
    </define>
+   <define name="damage">
+      <element name="damage">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(damage) contains an area of damage to the text witness. [11.3.3.1. Damage, Illegibility, and Supplied Text]</a:documentation>
+         <ref name="macro.paraContent"/>
+         <ref name="att.global.attributes"/>
+         <ref name="att.typed.attributes"/>
+         <ref name="att.damaged.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="handNotes">
       <element name="handNotes">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains one or more <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> elements documenting the different hands identified within the source texts. [11.3.2.1. Document Hands]</a:documentation>
@@ -4845,6 +5143,7 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
          <oneOrMore>
             <choice>
                <ref name="add"/>
+               <ref name="surplus"/>
                <ref name="del"/>
                <ref name="model.milestoneLike"/>
             </choice>
@@ -4852,7 +5151,11 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="septSages-subst-substContents1-constraint-assert-6">
             <rule context="tei:subst">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+               <assert xmlns:math="http://www.w3.org/1998/Math/MathML"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="child::tei:add and (child::tei:del or child::tei:surplus)">
                   <name/> must have at least one child add and at least one child del or surplus</assert>
@@ -4874,6 +5177,28 @@ Sample values include: 1] homeoteleuton; 2] homeoarchy; 3] paleographicConfusion
          <optional>
             <attribute name="reason">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">one or more words indicating why the text has had to be supplied, e.g. overbinding, faded-ink, lost-folio, omitted-in-original.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
+         <empty/>
+      </element>
+   </define>
+   <define name="surplus">
+      <element name="surplus">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(surplus) marks text present in the source which the editor believes to be superfluous or redundant. [11.3.3.1. Damage, Illegibility, and Supplied Text]</a:documentation>
+         <ref name="macro.paraContent"/>
+         <ref name="att.global.attributes"/>
+         <ref name="att.editLike.attributes"/>
+         <ref name="att.dimensions.attributes"/>
+         <optional>
+            <attribute name="reason">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">one or more words indicating why this text is believed to be superfluous, e.g. repeated, interpolated etc.</a:documentation>
                <list>
                   <oneOrMore>
                      <data type="token">

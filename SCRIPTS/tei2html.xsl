@@ -9,13 +9,18 @@
                 <link rel="stylesheet" type="text/css" href="../ASSETS/Kanor.css"/>
             </head>
             <body>
-                <span class="title">Kanor et ses freres</span>
-                <br/>
+                <span class="title">
+                    <i>Li histoire de Kanor et de ses freres</i>
+                </span>
+                <br/><br/>
                 <span>Présentation des signes employés :<br/>
                     <ul>
                         <li>[×] segment indéchiffrable</li>
                         <li><span class="add">^xx^</span> ajout suscrit par le scribe</li>
-                        <li>‹x› ajout par l'éditeur</li></ul></span>
+                        <li>‹x› ajout par l'éditeur</li>
+                        <li><span class="del">xx</span> exponctuation par le scribe</li>
+                        <li><span class="surplus">xx</span> suppression par l'éditeur</li>
+                    </ul></span>
                 <xsl:apply-templates/>
             </body>
         </html>
@@ -151,6 +156,11 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+    <xsl:template match="surplus">
+        <span class="surplus">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     <xsl:template match="add">
         <b>
             <xsl:apply-templates/>
@@ -186,9 +196,31 @@
         </span>
     </xsl:template>
     <xsl:template match="note">
-        <span class="tooltip">
-            <span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span>
-        </span>
+        
+        
+        <xsl:choose>
+            <xsl:when test="@type = 'notecritique'">
+                <span class="tooltip">
+                    <span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span>
+                </span>
+            </xsl:when>
+            <xsl:when test="@type = 'ntravail'">
+                <span class="tooltip">
+                    <span class="note">❓<span class="tooltip-content"><xsl:apply-templates/></span></span>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="tooltip">
+                    <span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+        
+        
+        
+ 
+        
+        
     </xsl:template>
     <xsl:template match="add">
         <span class="add">^<xsl:apply-templates/>^</span>
@@ -274,7 +306,7 @@
         <xsl:choose>
             <xsl:when test="@rendition = 'arevoir'">
                 <span class="arevoir">
-                    <i>[<xsl:apply-templates/>]</i>&#8239;💣</span>
+                    <i>[<xsl:apply-templates/>]</i></span>
             </xsl:when>
             <xsl:otherwise>
                 <i>[<xsl:apply-templates/>]</i>

@@ -1,71 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:s="http://purl.oclc.org/dsdl/schematron" xmlns:sch="http://purl.oclc.org/dsdl/schematron">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Roman de Kanor - ODD</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>UniGE (Université de Genève, Suisse)</authority>
+            <authority>Lyon-II (Université Lumière-Lyon-II, France)</authority>
+            <availability status="restricted">
+               <licence>Usage pour les membres de l'équipe.</licence>
+            </availability>
          </publicationStmt>
+
+
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Le texte édité provient du manuscrit C (BnF fr.1446). Il contient deux oeuvres qui
+               appartiennent aux continuation du Cycle des Sept Sages de Rome : une version de la
+               fin du roman de Pelyarmenus, qui compte pour un tiers du manuscript, et une version
+               remaniée du roman de Kanor. Le Pelyarmenus et le Kanor peuvent être lus dans quatre
+               autres manuscrits, ici référencés V2 (BnF fr.22549) et V3 (BnF fr.22550), B (KBR
+               9245), X2 (BL Harley 4903) et G (BnF fr.93). Le manuscrit B est celui qui se
+               rapproche le plus du nôtre en terme de variantes pour la partie Pelyarmenus (à
+               compléter ensuite). Notons également la source M, miniatures avec texte au dos (Musée
+               de Reims cadre 882, III-VI).</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
+         <div>
+            <head>Les métadonnées</head>
+            <p>Cet ODD sert à organiser et documenter notre travail d'édition des documents liés à
+               l'édition fournie par Brodtkorb et revue par nos soins (§1-134) ainsi qu'à la
+               collation de la suite du roman (§135-841), sur la base du manuscrit de travail, V, et
+               des trois autres témoins systématiquement collationnés. Reste la place des manuscrits
+               C et R, à la place à définir. </p>
+         </div>
+         <div>
+            <head>Le teiHeader</head>
+            <p>Le teiHeader s'est présenté de manière assez conforme aux habitudes de la TEI. La
+               section <gi>fileDesc</gi> comporte les informations relatives au <gi>titleStmt</gi>,
+               incluant le <gi>title</gi> et le <gi>respStmt</gi> qui présente chaque membre de
+               l'équipe ainsi que celles et ceux dont l'aide s'est avérée si précieuse à
+               l'établissement de cette édition; à l'<gi>extent</gi> et au <gi>publicationStmt</gi>
+               (dans lequel nous avons repris les différentes autorités (<gi>authority</gi>) et les
+               conditions d'accès rendues par l'information <gi>availability</gi>. Le
+                  <gi>fileDesc</gi> reprend finalement le <gi>sourceDesc</gi> avec la
+                  <gi>listWit</gi> complète de nos <gi>witness</gi>. Le <gi>msDesc</gi> en donne la
+               description complète, avec leur <gi>msIdentifier</gi>, leur <gi>settlement</gi>,
+                  <gi>repository</gi> et <gi>idno</gi>, puis leur <gi>msContents</gi>, centré sur
+               les deux <gi>msItem</gi> liés aux deux parties de romans que nous éditons ici. Nous y
+               avons donc précisé l'étendue exacte dans le manuscrit avec la balise <gi>locus</gi>
+               et le titre donné, ou non, dans le manuscrit en question avec <gi>title</gi>. Notre
+               travail d'édition se concentrant sur un mansuscrit, s'ensuit un <gi>physDesc</gi> du
+               manuscrit C, avec une présentation des mains (<gi>handDesc</gi> plutôt que
+                  <gi>handNotes</gi>, par souci de cohérence avec <gi>decoDesc</gi>) et des éléments
+               décoratifs (<gi>decoDesc</gi>) en présence. Le <gi>encodingDesc</gi> reprend le
+                  <gi>editorialDecl</gi>, avec quelques réflexions liées aux éléments éditoriaux
+                  (<gi>correction</gi>, <gi>normalization</gi> et <gi>punctuation</gi>), et le
+                  <gi>projectDesc</gi>. Un rapide <gi>profileDesc</gi> permet de préciser la langue
+               de travail du texte (<gi>langUsage</gi>) avant de préciser les quelques étapes les
+               plus saillantes du travail fourni dans le <gi>revisionDesc</gi>. </p>
+         </div>
+         <div>
+            <head>Logiques d'encodage du texte</head>
+            <p><title>Apparat critique</title> Les variantes retenues dans chacun de nos 3
+               manuscrits témoins, B, G et X2 (nous renvoyons pour cela au protocole de collation)
+               ont été indiquées via les balises, <gi>app</gi>, incluant celles de <gi>lem</gi> pour
+               noter la leçon retenue et <gi>rdg</gi> pour les variantes. Une première couche
+               d'apparat concerne les leçons de notre manuscrit de base que nous avons préféré
+               rejeter, formalisée par une balise <gi>rdg</gi> dont le témoin @wit cité est
+               premièrement le manuscrit V. Parmi ces corrections à apporter au manuscrit de base,
+               se trouvent toutes les occurrences d'auto-corrections incluses dans le manuscrit.
+               Nous avons recouru aux balises <gi>del</gi> et <gi>add</gi> pour les modifications de
+               la main du copiste dans le manuscrit de base, ou du second officiant aussi sur ce
+               manuscrit. Dans la mesure du possible, nous avons veillé à rendre la réalité du
+               manuscrit de base sur lequel nous avons travaillé, ces corrections ont donc été
+               justifiées par l'attribut @rend ou @place, selon qu'elles relèvent d'exponctuations
+               ou de biffures, d'ajouts marginaux et par l'attribut @hand pour spécifier la main à
+               laquelle nous avons jugé bon de rattacher ces modifications. Dans cette première
+               couche d'apparat figurent également les balises <gi>supplied</gi> qui viennent
+               pallier aux oublis dans notre manuscrit de base. Elles conserves, par @source, le(s)
+               témoin(s) cité(s). La seconde couche d'apparat présente pour sa part toutes les
+               autres occurrences de variantes lues dans nos manuscrits témoins. Les différences
+               dans la mise en page du texte ont été indiquées pour chaque manuscrit dans notre
+               travail de collation. En particulier, nous avons gardé trace des absences ou ajouts
+               de paragraphes, ou d'enluminures, assez spécifiques au témoin B notamment, par le
+               biais d'une balise <gi>note</gi>, au @type "apparat", indiquée après la mention de
+               chaque paragraphe concerné. Un autre @type de note a également été introduit pour
+               présenter ce qui relève de "notecritique".</p>
+            <p><title>Mise en page et structuration du texte</title> Nous avons souhaité offrir un
+               accès le plus complet possible au manuscrit que nous avons transcrit et avons pour
+               cela balisé les éléments les plus saillants de sa mise en page. Aux balises
+                  <gi>pb</gi> qui indiquent les folios présentés, s'ajoutent celles des <gi>cb</gi>
+               qui gardent trace de la structure en trois colonnes de chaque folio. Nous les avons
+               numérotées b, c, d, e, f; la première étant indiquée par le changement de folio avec
+                  <gi>pb</gi>. Nous avons créé une <gi>div</gi> spécifique pour chaque section
+               présentée comme telle dans le manuscrit, indiquée par une rubrique (rendue par la
+               balise <gi>head</gi>, avec la valeur d'attribut @type "rubrique"), et une
+               illustration dans l'immense majorité des cas présentés dans notre manuscrit de base
+               (rendue par la balise <gi>figure</gi> dans laquelle un <gi>graphic</gi>, avec son
+               @url vers le site de Gallica de la Bibliothèque nationale de France), et un
+                  <gi>figDesc</gi> permettent d'offrir accès à la composante iconographique du
+               manuscrit. Ces grandes subdivisions sont également marquées par une lettrine de
+               grande taille, variant de 5 à 7 réglures, comme nous l'avons précisé par la balise
+                  <gi>c</gi> à l'attribut @ana, donnant la taille de la lettrine 5, 6 ou 7. Le texte
+               est organisé, outre ces grandes subdivisions, en paragraphes, eux-mêmes indiqués par
+               une lettrine, de la taille de deux réglures dans le manuscrit, comme nous l'avons
+               systématiquement précisé de la même manière que celle décrite ci-dessus. Si nous
+               avons écarté toute indication formelle de décoloration, trou dans le parchemin,
+               variation d'encre anodine, nous avons conservé trace de chacune de ces altérations de
+               la qualité du manuscrit quand elles ne permettaient pas une lecture assurée du texte.
+               Nous les avons rendues par la balise <gi>unclear</gi>, systématiquement précisées par
+               l'attribut @reason selon la cause exacte que nous détections pour cette altération.
+               Si cela ne nous paraissait pas possible de trancher, nous l'avons précisé de manière
+               explicite par la valeur de cet attribut "uncertain".</p>
+            <p><title>Identification des personnages et lieux et index</title> Dans notre analyse
+               d'un roman aussi fourmillant que l'est le <hi rend="italique">Roman de
+                  Pelyarmenus</hi>, nous avons décidé de rendre tout l'intérêt et la richesse de
+               l'étude des personnages mis en présence et des lieux parcourus par les balises
+                  <gi>persName</gi> et <gi>placeName</gi> pour chaque occurrence présentée. Nous
+               avons à chaque fois précisé par l'attribut @key l'identité exacte, à l'orthographe
+               uniformisée (selon sa forme la plus récurrente dans le manuscrit), du personnage ou
+               du lieu à identifier. <!-- compléter pour l'orthographe des placeName --> Au vu du
+               grand nombre de personnages et de lieux mobilisés, sous des étiquettes et des titres
+               variables en outre, nous avons souhaité conservé trace des identités de chacun-e
+               grâce aux balises <gi>rs</gi>, avec l'attribut @type selon qu'elle vienne désigner un
+               personnage ("person") ou un lieu ("place"), pour les personnages ou lieux non-nommés,
+               mais aussi évoqués (par exemple pour les duc de Lembourc ou empereur de Rome, aux
+               identités floues ou multiples selon les cas). Nous y avons intégré le même attribut
+               @key pour en préciser l'identité (dans ce cas, la key renvoie soit à l'orthographe
+               majoritaire retenue pour les <gi>persName</gi> soit à l'orthographe des noms données
+               dans les autres romans pour ceux qui n'apparaissaient pas dans le nôtre. Nous avons
+               également nous-mêmes dénommé ou étiqueté les personnages anonymes ou les lieux dits
+               qui apparaissaient à plusieurs reprises dans la narration, sous une forme
+               standardisée dans une orthographe moderne.) <!-- compléter pour les placeName -->,
+               créant ainsi une base d'informations stables en vue de l'<hi rend="italique">index
+                  nominum</hi> et de l'<hi rend="italique">index locorum</hi> de notre édition. Nous
+               n'avons néanmoins pas intégré cette balise <gi>rs</gi> dans les cas où le personnage
+               en question fait l'objet d'une adresse directe dans le cadre d'un dialogue qui le
+               verrait explicitement nommé juste avant ou après. N'ont également pas été indiquées
+               par cette balise les mentions de personnages par pronoms ou les groupes de
+               personnages. Les personnages et lieux apparus une seule fois n'ont eux aussi pas été
+               référencés de la sorte pour ne pas polluer excessivement les index.</p>
+            <p><title>Formes du discours</title> Nous avons également souhaité prêter attention aux
+               formes du discours dont procède la trame narrative. Nous avons précisé dans chacune
+               des balises <gi>said</gi> si elles présentaient un discours prononcé à haute voix ou
+               non avec l'attribut @aloud, direct ou non avec l'attribut @direct. Pour attester la
+               complexité des discours et l'importance des échos intertextuels dans ce cyle
+               narratif, mais aussi les jeux de pouvoir entre personnages, nous avons également
+               recouru à une balise <tag>seg ana="discoursEnchassé"</tag> pour indiquer quand un
+               discours est intégré dans un autre discours direct. Eu égard à l'importance dont
+               elles peuvent aussi être investies, les lettres et chansons ont également été
+               indiquées par ce type de balise <tag>seg ana="lettre"</tag> et <tag>seg
+                  ana="chanson"</tag>. Dans le même ordre d'idées, et surtout pour illustrer la
+               portée sapientiale du cycle, nous avons indiqué les insertions, dans le discours ou
+               la narration, de proverbes par la balise <tag>seg ana="proverbe"</tag>. Nous avons
+               également voulu donner du relief aux interventions narratoriales, importantes dans ce
+               roman et le reste du cycle des Sept Sages de Rome. Aux balises <gi>said</gi>, nous
+               avons adjoint celle <tag>said xml:id="nar"</tag> pour indiquer ces interventions.
+               Extradiégétiques, elles n'ont donc comporté aucune information liée à leur portée à
+               haute voix ou à leur tournure directe ou non. Dans les cas particuliers de discours
+               plus étendu, nous avons dû scinder ces balises selon les mentions d'apparat ou les
+               passages au paragraphe suivant par exemple, en recourant à l'attribut @next pour
+               pointer vers une balise <gi>said </gi>suivante, indiquée pour sa part par un xml:id
+               auquel est adressée la référence dans la balise précédente.</p>
+         </div>
+         <div>
+            <head>Protocole de collation</head>
+            <!-- à revoir : ici ou pas ? > revoir organisation du propos-->
+            <p>Détailler ici les logiques de collation, tout court (ou intégrer présentation donnée
+               par Sophie) (nécessaire ici?) et critères de mise en page numérique ? </p>
+         </div>
 
-
-         <head>L'ODD</head>
-         <schemaSpec ident="septSages" start="TEI">
-            <moduleRef key="core"
-               include="add cb del graphic head hi name note num p pb resp respStmt rs said title unclear"/>
-            <moduleRef key="header"
-               include="availability authority change correction encodingDesc editorialDecl
+         <div>
+            <head>L'ODD</head>
+            <schemaSpec ident="septSages" start="TEI">
+               <moduleRef key="core"
+                  include="add cb del graphic head hi name note num p pb resp respStmt rs said title unclear gap choice"/>
+               <moduleRef key="header"
+                  include="availability authority change correction encodingDesc editorialDecl
                   extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt
                   punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
-            <moduleRef key="figures" include="figDesc figure"/>
-            <moduleRef key="linking" include="anchor seg att.global.linking"/>
-            <moduleRef key="msdescription"
-               include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem
+               <moduleRef key="figures" include="figDesc figure"/>
+               <moduleRef key="linking" include="anchor seg att.global.linking"/>
+               <moduleRef key="msdescription"
+                  include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem
                   physDesc repository"/>
-            <moduleRef key="namesdates" include="country persName placeName settlement"/>
-            <moduleRef key="tei"/>
-            <moduleRef key="textcrit" include="app lem listWit rdg rdgGrp witness"/>
-            <moduleRef key="textstructure" include="TEI body text div"/>
-            <moduleRef key="transcr" include="handNotes handShift subst supplied"/>
-            <moduleRef key="analysis" include="c"/>
+               <moduleRef key="namesdates" include="country persName placeName settlement"/>
+               <moduleRef key="tei"/>
+               <moduleRef key="textcrit" include="app lem listWit rdg rdgGrp witness"/>
+               <moduleRef key="textstructure" include="TEI body text div"/>
+               <moduleRef key="transcr" include="handNotes handShift subst supplied damage surplus"/>
+               <moduleRef key="analysis" include="c"/>
 
-            <elementSpec ident="del" module="core" mode="change">
-               <attList>
-                  <attDef ident="rend" mode="change" usage="req">
-                     <valList type="closed">
-                        <valItem ident="exponctuation"/>
-                        <valItem ident="scraped"/>
-                     </valList>
-                  </attDef>
-                  <attDef ident="hand" mode="change" usage="opt">
-                     <valList type="closed">
-                        <valItem ident="#hand1"></valItem>
-                        <valItem ident="#hand2"></valItem>
-                        <valItem ident="#otherhand"></valItem>                  
-                     </valList>
-                     
-                     
-                  </attDef>
+               <elementSpec ident="del" module="core" mode="change">
+                  <attList>
+                     <attDef ident="rend" mode="change" usage="req">
+                        <valList type="closed">
+                           <valItem ident="exponctuation"/>
+                           <valItem ident="scraped"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="hand" mode="change" usage="opt">
+                        <valList type="closed">
+                           <valItem ident="#hand1"/>
+                           <valItem ident="#hand2"/>
+                           <valItem ident="#otherhand"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
 
+               <!-- Les segments peu clairs: raisons et facteurs -->
+               <elementSpec ident="unclear" module="core" mode="change">
+                  <attList>
+                     <attDef ident="reason" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="arevoir"/>
+                           <valItem ident="erased"/>
+                           <valItem ident="faded"/>
+                           <valItem ident="fold"/>
+                           <valItem ident="hole"/>
+                           <valItem ident="rewritten"/>
+                           <valItem ident="transparence"/>
+                           <valItem ident="uncertain"/>
+                           <valItem ident="stain"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="agent" mode="change" usage="opt">
+                        <valList type="closed">
+                           <valItem ident="smoke"/>
+                           <valItem ident="mildew"/>
+                           <valItem ident="rubbing"/>
+                           <valItem ident="copist"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
 
-               </attList>
+               <!-- ajout d'un élément textuel par l'auteur/scribe : lieu d'insertion et identification de l'agent scripteur -->
+               <elementSpec ident="add" module="core" mode="change">
+                  <attList>
+                     <attDef ident="place" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="below"/>
+                           <valItem ident="above"/>
+                           <valItem ident="right margin"/>
+                           <valItem ident="left margin"/>
+                           <valItem ident="central margin"/>
+                           <valItem ident="top margin"/>
+                           <valItem ident="bottom margin"/>
+                           <valItem ident="overleaf"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="hand" mode="change" usage="req">
+                        <valList type="closed">
+                           <valItem ident="#main1"/>
+                           <valItem ident="#main2"/>
+                           <valItem ident="#main3"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
 
+            </schemaSpec>
 
-            </elementSpec>
-         </schemaSpec>
-
-
+         </div>
       </body>
    </text>
 </TEI>

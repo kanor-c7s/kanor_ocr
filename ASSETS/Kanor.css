@@ -108,7 +108,7 @@ body {
     font-variant: small-caps;
     font-size: 30px;
     font-feature-settings: 'kern', 'swsh';
-            color: orange;
+    color: orange;
 
 }
 
@@ -120,9 +120,14 @@ body {
     font-variant: small-caps;
 }
 
-
+/* .del = exponctuation du scribe*/
 .del {
-    text-decoration: line-through;
+  text-decoration: wavy underline red;
+}
+
+/* .surplus = suppression de l'éditeur */
+.surplus {
+    text-decoration: wavy line-through;
 }
 
 .lem {
