@@ -94,58 +94,63 @@
                présenter ce qui relève de "notecritique".</p>
             <p><title>Mise en page et structuration du texte</title> Nous avons souhaité offrir un
                accès le plus complet possible au manuscrit que nous avons transcrit et avons pour
-               cela balisé les éléments les plus saillants de sa mise en page. Aux balises
-                  <gi>pb</gi> qui indiquent les folios présentés, s'ajoutent celles des <gi>cb</gi>
-               qui gardent trace de la structure en trois colonnes de chaque folio. Nous les avons
-               numérotées b, c, d, e, f; la première étant indiquée par le changement de folio avec
-                  <gi>pb</gi>. Nous avons créé une <gi>div</gi> spécifique pour chaque section
-               présentée comme telle dans le manuscrit, indiquée par une rubrique (rendue par la
-               balise <gi>head</gi>, avec la valeur d'attribut @type "rubrique"), et une
-               illustration dans l'immense majorité des cas présentés dans notre manuscrit de base
-               (rendue par la balise <gi>figure</gi> dans laquelle un <gi>graphic</gi>, avec son
-               @url vers le site de Gallica de la Bibliothèque nationale de France), et un
-                  <gi>figDesc</gi> permettent d'offrir accès à la composante iconographique du
-               manuscrit. Ces grandes subdivisions sont également marquées par une lettrine de
-               grande taille, variant de 5 à 7 réglures, comme nous l'avons précisé par la balise
-                  <gi>c</gi> à l'attribut @ana, donnant la taille de la lettrine 5, 6 ou 7. Le texte
-               est organisé, outre ces grandes subdivisions, en paragraphes, eux-mêmes indiqués par
-               une lettrine, de la taille de deux réglures dans le manuscrit, comme nous l'avons
-               systématiquement précisé de la même manière que celle décrite ci-dessus. Si nous
-               avons écarté toute indication formelle de décoloration, trou dans le parchemin,
-               variation d'encre anodine, nous avons conservé trace de chacune de ces altérations de
-               la qualité du manuscrit quand elles ne permettaient pas une lecture assurée du texte.
-               Nous les avons rendues par la balise <gi>unclear</gi>, systématiquement précisées par
+               cela balisé les éléments les plus saillants de sa mise en page. Les balises
+                  <gi>pb</gi> indiquent les numéros de folios présentés ainsi que leur côté, recto
+               ou verso, noté r / v. S'ajoutent les balises <gi>cb</gi>, qui gardent trace de la
+               structure en deux colonnes de chaque folio. Nous les avons nommées a et b. La
+               première colonne est indiquée par le changement de folio ou de côté, le cas échéant.
+               Nous avons créé une <gi>div</gi> spécifique pour chaque section présentée comme telle
+               dans le manuscrit, indiquée par une rubrique (rendue par la balise <gi>head</gi>,
+               avec la valeur d'attribut @type "rubrique"). Le manuscrit n'offre pas d'illustration
+               au lecteur. <!-- et une illustration dans l'immense
+               majorité des cas présentés dans notre manuscrit de base (rendue par la balise
+                  <gi>figure</gi> dans laquelle un <gi>graphic</gi>, avec son @url vers le site de
+               Gallica de la Bibliothèque nationale de France), et un <gi>figDesc</gi> permettent
+               d'offrir accès à la composante iconographique du manuscrit. --> Ces
+               grandes subdivisions sont également marquées par une lettrine de grande taille,
+               variant de 2 à 7 unités de réglure (UR), comme nous l'avons précisé par la balise
+                  <gi>c</gi> à l'attribut @ana, donnant la taille de la lettrine 2, 3, 4, 5, 6 ou 7.
+               Le texte est organisé, outre ces grandes subdivisions, en paragraphes. Ils peuvent
+               être indiqués par une lettrine dont la taille varie généralement entre 2 et 3 UR mais
+               peut aller jusqu'à 7 (P1, 79, 178). La mesure de ces lettrines a systématiquement été
+               conservée selon la méthode documentée ci-dessus. Si nous avons écarté toute
+               indication formelle de décoloration, trou dans le parchemin, variation d'encre
+               anodine, nous avons conservé trace de chacune de ces altérations de la qualité du
+               manuscrit quand elles ne permettaient pas une lecture assurée du texte. Nous les
+               avons rendues par la balise <gi>unclear</gi>, systématiquement précisées par
                l'attribut @reason selon la cause exacte que nous détections pour cette altération.
                Si cela ne nous paraissait pas possible de trancher, nous l'avons précisé de manière
                explicite par la valeur de cet attribut "uncertain".</p>
             <p><title>Identification des personnages et lieux et index</title> Dans notre analyse
-               d'un roman aussi fourmillant que l'est le <hi rend="italique">Roman de
-                  Pelyarmenus</hi>, nous avons décidé de rendre tout l'intérêt et la richesse de
-               l'étude des personnages mis en présence et des lieux parcourus par les balises
-                  <gi>persName</gi> et <gi>placeName</gi> pour chaque occurrence présentée. Nous
-               avons à chaque fois précisé par l'attribut @key l'identité exacte, à l'orthographe
-               uniformisée (selon sa forme la plus récurrente dans le manuscrit), du personnage ou
-               du lieu à identifier. <!-- compléter pour l'orthographe des placeName --> Au vu du
-               grand nombre de personnages et de lieux mobilisés, sous des étiquettes et des titres
-               variables en outre, nous avons souhaité conservé trace des identités de chacun-e
-               grâce aux balises <gi>rs</gi>, avec l'attribut @type selon qu'elle vienne désigner un
-               personnage ("person") ou un lieu ("place"), pour les personnages ou lieux non-nommés,
-               mais aussi évoqués (par exemple pour les duc de Lembourc ou empereur de Rome, aux
-               identités floues ou multiples selon les cas). Nous y avons intégré le même attribut
-               @key pour en préciser l'identité (dans ce cas, la key renvoie soit à l'orthographe
-               majoritaire retenue pour les <gi>persName</gi> soit à l'orthographe des noms données
-               dans les autres romans pour ceux qui n'apparaissaient pas dans le nôtre. Nous avons
-               également nous-mêmes dénommé ou étiqueté les personnages anonymes ou les lieux dits
-               qui apparaissaient à plusieurs reprises dans la narration, sous une forme
-               standardisée dans une orthographe moderne.) <!-- compléter pour les placeName -->,
-               créant ainsi une base d'informations stables en vue de l'<hi rend="italique">index
-                  nominum</hi> et de l'<hi rend="italique">index locorum</hi> de notre édition. Nous
-               n'avons néanmoins pas intégré cette balise <gi>rs</gi> dans les cas où le personnage
-               en question fait l'objet d'une adresse directe dans le cadre d'un dialogue qui le
-               verrait explicitement nommé juste avant ou après. N'ont également pas été indiquées
-               par cette balise les mentions de personnages par pronoms ou les groupes de
-               personnages. Les personnages et lieux apparus une seule fois n'ont eux aussi pas été
-               référencés de la sorte pour ne pas polluer excessivement les index.</p>
+               d'une oeuvre aussi fourmillante que sont le <hi rend="italique">Roman de
+                  Pelyarmenus</hi> et le <hi rend="italique">Roman de Kanor</hi>, nous avons décidé
+               de rendre tout l'intérêt et la richesse de l'étude des personnages mis en présence et
+               des lieux parcourus par les balises <gi>persName</gi> et <gi>placeName</gi> pour
+               chaque occurrence présentée. Nous avons à chaque fois précisé par l'attribut @key
+               l'identité exacte, à l'orthographe uniformisée (selon sa forme la plus récurrente
+               dans le manuscrit, suivant en cela le protocole d'édition du projet C7S), du
+               personnage ou du lieu à identifier.
+               <!-- compléter pour l'orthographe des placeName --> Au vu du grand nombre de
+               personnages et de lieux mobilisés, sous des étiquettes et des titres variables en
+               outre, nous avons souhaité conserver trace des identités de chacun-e grâce aux balises
+                  <gi>rs</gi>, avec l'attribut @type selon qu'elle vienne désigner un personnage
+               ("person") ou un lieu ("place"), pour les personnages ou lieux non-nommés, mais aussi
+               évoqués (par exemple pour les duc de Lembourc ou empereur de Rome, aux identités
+               floues ou multiples selon les cas). Nous y avons intégré le même attribut @key pour
+               en préciser l'identité (dans ce cas, la key renvoie soit à l'orthographe majoritaire
+               retenue pour les <gi>persName</gi> soit à l'orthographe des noms données dans les
+               autres romans pour ceux qui n'apparaissaient pas dans le nôtre. Nous avons également
+               nous-mêmes dénommé ou étiqueté les personnages anonymes ou les lieux dits qui
+               apparaissaient à plusieurs reprises dans la narration, sous une forme standardisée
+               dans une orthographe moderne.) <!-- compléter pour les placeName -->, créant ainsi
+               une base d'informations stables en vue de l'<hi rend="italique">index nominum</hi> et
+               de l'<hi rend="italique">index locorum</hi> de notre édition. Nous n'avons néanmoins
+               pas intégré cette balise <gi>rs</gi> dans les cas où le personnage en question fait
+               l'objet d'une adresse directe dans le cadre d'un dialogue qui le verrait
+               explicitement nommé juste avant ou après. N'ont également pas été indiquées par cette
+               balise les mentions de personnages par pronoms ou les groupes de personnages. Les
+               personnages et lieux apparus une seule fois n'ont eux aussi pas été référencés de la
+               sorte pour ne pas polluer excessivement les index.</p>
             <p><title>Formes du discours</title> Nous avons également souhaité prêter attention aux
                formes du discours dont procède la trame narrative. Nous avons précisé dans chacune
                des balises <gi>said</gi> si elles présentaient un discours prononcé à haute voix ou
