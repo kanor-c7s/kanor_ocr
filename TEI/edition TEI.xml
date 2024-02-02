@@ -1755,31 +1755,31 @@
                         hand="gray">cunes</add></unclear> qui ja a tans ne quideront <unclear
                      reason="faded"><add place="above" hand="gray">savoir</add></unclear> ce qui
                   ausi leur puet torner a anui come a joie.</said>
-               <said next="45-1" rendition="dialogue">Dame, dist il, sauve soit vostre grasce, je ne cuit mie
-                  que ceste chose vous doie torner a anui. Et por ce que je ne veil mie qu'il vous
-                  puist torner a anui s'a grant porfit non, je vos en dirai une partie de ce que
-                  vostre parole m'a dounee a entendre. Il <add place="above" hand="gray">est</add>
-                  voirs que on dist en provierbe que tandis que li gius est biaus est un poins dou
-                  laissier, ausi come il avient que cil qui est en vertut d'astinnence que, quant il
-                  mengue d'une viande volentiers, qu'il n'en prent mie tant que par abomination li
-                  covigne laissier, anchois se refraint et le met arriere por çou que elle li face
-                  millor digestion d'aquere natureil apetit. Tout autre<unclear reason="faded"><add
-                        place="above" hand="gray">si est</add></unclear> il, ma trés chiere dame et
-                  bone amie, m'avés vous mis en voie de ce qui me puet faire millor disgestion en
-                  liu et en tans et vous dirai coment ne por
+               <said next="45-1" rendition="dialogue">Dame, dist il, sauve soit vostre grasce, je ne
+                  cuit mie que ceste chose vous doie torner a anui. Et por ce que je ne veil mie
+                  qu'il vous puist torner a anui s'a grant porfit non, je vos en dirai une partie de
+                  ce que vostre parole m'a dounee a entendre. Il <add place="above" hand="gray"
+                     >est</add> voirs que on dist en provierbe que tandis que li gius est biaus est
+                  un poins dou laissier, ausi come il avient que cil qui est en vertut d'astinnence
+                  que, quant il mengue d'une viande volentiers, qu'il n'en prent mie tant que par
+                  abomination li covigne laissier, anchois se refraint et le met arriere por çou que
+                  elle li face millor digestion d'aquere natureil apetit. Tout autre<unclear
+                     reason="faded"><add place="above" hand="gray">si est</add></unclear> il, ma
+                  trés chiere dame et bone amie, m'avés vous mis en voie de ce qui me puet faire
+                  millor disgestion en liu et en tans et vous dirai coment ne por
                   coi.<?oxy_comment_start author="fpzanardi" timestamp="20240108T195524+0100" comment="La balise SAID ne
                   peut pas contenir une balise P, or, c&apos;est bien le cas
                ici."?></said><?oxy_comment_end?></p>
-            <p n="P45"><said xml:id="45-1" aloud="true" direct="true">Come il soit ensi que N<supplied
-                     reason="omitted">ost</supplied>re Sires m'a prestee tant d'onnor qu'il m'a mis
-                  el plus haut estage <add place="above">de la roe</add> de Fortune, ausi come il me
-                  fu dit un jor qui passés <surplus reason="doublon">es</surplus> est, il ne puet
-                  mie avenir par droit ne par nature que tous <cb n="b"/> jors je puisse vivre en
-                  l'onnor de l'empire de Rome ne de Costantinoble, anchois sont nei cil qui ceste
-                  honor atendent. S<supplied reason="omitted">i</supplied> me sambleroit
-                     raiso<supplied reason="omitted">n</supplied>s et drois que, tandis que li gius
-                  est et que je l'ai d'apeti, que jou le laisse, car je sai de voir que je mie ne
-                  porai
+            <p n="P45"><said xml:id="45-1" aloud="true" direct="true">Come il soit ensi que
+                     N<supplied reason="omitted">ost</supplied>re Sires m'a prestee tant d'onnor
+                  qu'il m'a mis el plus haut estage <add place="above">de la roe</add> de Fortune,
+                  ausi come il me fu dit un jor qui passés <surplus reason="doublon">es</surplus>
+                  est, il ne puet mie avenir par droit ne par nature que tous <cb n="b"/> jors je
+                  puisse vivre en l'onnor de l'empire de Rome ne de Costantinoble, anchois sont nei
+                  cil qui ceste honor atendent. S<supplied reason="omitted">i</supplied> me
+                  sambleroit raiso<supplied reason="omitted">n</supplied>s et drois que, tandis que
+                  li gius est et que je l'ai d'apeti, que jou le laisse, car je sai de voir que je
+                  mie ne porai
                   <?oxy_comment_start author="fpzanardi" timestamp="20240108T200338+0100" comment="déjà rencontré aussi
                   cette répétition de &quot;mie&quot;, avant et après le verbe : laisser ou corriger
                   Mais il convient de le signaler en note, et peut-être de faire un § en
@@ -1898,7 +1898,7 @@
                bien savoir que, por ce qu'il ne voloient mie que on seuist queil part il
                viertiroient, s'estoie<supplied reason="omitted">n</supplied>t il ensi de Roume et de
                lor honor parti. Lors n'i eut nul qui i osast viertir, anchois ont fait savoir a tous
-               lour enfans en queil liu qu'il fussent, long ne pries, ensi qu'il fu avenut de
+               lour enfans en queil liu qu'il fussent, long ne priés, ensi qu'il fu avenut de
                l'empereour et de l'empereris.</p>
             <p n="P49">Q<supplied reason="omitted">ua</supplied>nt il en oïrent la noviele, mout en
                furent esbahi et n'en seurent autre chose que il seurent ausi come par avis que il
@@ -2039,10 +2039,10 @@
                <said rendition="dialogue">Amis, dist li emperere, or ne savés vous que vous avés
                   dit. Ja ne savés vos que je ne sui fais d'autre matere ne de plus noble come
                   nostre premiers pere Adam, qui vescui de labor, ausi come les escritures
-                     dient<note type="notecritique">"Tu mangeras ton pain à la sueur de ton front" Genèse
-                     3, 19.</note>. Et savoir le doit chascuns ausi come par nature. Et d'autre
-                  part, jou ai entendut que Nostre Sire dist que qui ne labourra ja, es chieus
-                  n'entera. Et por cesti raison, je n'en viel mie iestre <add place="above"
+                     dient<note type="notecritique">"Tu mangeras ton pain à la sueur de ton front"
+                     Genèse 3, 19.</note>. Et savoir le doit chascuns ausi come par nature. Et
+                  d'autre part, jou ai entendut que Nostre Sire dist que qui ne labourra ja, es
+                  chieus n'entera. Et por cesti raison, je n'en viel mie iestre <add place="above"
                      >hors</add> mis, car asés sui grans et fors por porter un fais ou autre labour
                   faire, dont li aucun me donront aucune chose qui le cors soustenra a penitance
                   faire.</said>
@@ -2313,24 +2313,25 @@
                   vos demores devers moi.</said>
                <said rendition="dialogue">Et coment, dist li emperere, le porriés vos savoir se
                   autres que jou <add place="above">ne</add> vos en faisoit sage.</said>
-               <said next="60-1" rendition="dialogue">Bien vos en <?oxy_comment_start author="fpzanardi"
+               <said next="60-1" rendition="dialogue">Bien vos en
+                  <?oxy_comment_start author="fpzanardi"
                   timestamp="20240109T155238+0100" comment="Croire : P1 ind. fut. Graphie picarde.
                   Confusion possible non seulement entre les tiroirs du futur et du cond, mais aussi
                   entre les verbes «croire» et «querre». Voir Gaston Zink Morphologie «métathèse
                   dans les séquences -rer-»"?>kerrai<?oxy_comment_end?> sor vostre
                   parole, dist li chastelains, mais qu'il i ait coulor de raison.</said></p>
-            <p n="P60"><said xml-id="60-1" aloud="true"
-                  direct="true">Sire <?oxy_comment_start author="fpzanardi"
+            <p n="P60"><said xml-id="60-1" aloud="true" direct="true">Sire
+                  <?oxy_comment_start author="fpzanardi"
                   timestamp="20240109T155847+0100" comment="N&apos;est-il pas étrange que
                   l&apos;empereur appelle &quot;empereur&quot; celui qui n&apos;est que châtelain ?
                   Ne faudrait-il pas corriger ? Ou du moins mettre une note pour commenter...
                   (proposer une explication... : simple erreur - du copiste ou de l&apos;empereur
-                  qui parle ? flatterie ?)"?>emperere<?oxy_comment_end?>, dist il, mout
-                  avés grant tort et ne vos anoit se je le di, et vos dirai por coi il est voirs que
-                  vos me metés en <pb n="10v"/> voie de mentir. Car se je vos disoie qui jou sui,
-                  espoir vos ne le kerriés mie, por ce qu'il n'i aroit mie boine color de verité. Et
-                  d'autre part, s'il avenoit que je vos en deisse le contraire et i euist coulour de
-                  raison, vos le kerriés.</said>
+                  qui parle ? flatterie ?)"?>emperere<?oxy_comment_end?>, dist il,
+                  mout avés grant tort et ne vos anoit se je le di, et vos dirai por coi il est
+                  voirs que vos me metés en <pb n="10v"/> voie de mentir. Car se je vos disoie qui
+                  jou sui, espoir vos ne le kerriés mie, por ce qu'il n'i aroit mie boine color de
+                  verité. Et d'autre part, s'il avenoit que je vos en deisse le contraire et i euist
+                  coulour de raison, vos le kerriés.</said>
                <said rendition="dialogue">Tout çou est verités, dist li chastelains, et por ce que
                   je ne veil que vos ne diiés se verité non, vos conjure jou que se vos vorriés que
                   ja Dius vos pardounast mesfait que vos feissiés, que vos me dites en queil tiere
@@ -2393,16 +2394,17 @@
                   en tout l'empire de Roume ne de Coustantinoble ait si saint home que je cuit qu'il
                   est.</said>
                <said rendition="dialogue">Coment, dist elle le savés vos ?</said>
-               <said rendition="dialogue">Dame, dist il, ne me demandés autre chose de lui que
-                  je vos <supplied reason="omitted">di</supplied> ja. Autre chose ne vos en
+               <said rendition="dialogue">Dame, dist il, ne me demandés autre chose de lui que je
+                  vos <supplied reason="omitted">di</supplied> ja. Autre chose ne vos en
                   dirai.</said>
                <said rendition="dialogue">Coment ! dist elle, avés vos covena<supplied
                      reason="omitted">n</supplied>ces a lui que vos ne volés mie que je sace
                   ?</said>
                <said rendition="dialogue">Dame, dist il, n'ai jou.</said>
                <said rendition="dialogue">Par mon signor saint Nicholas, si avés ! Et s'il est ensi
-                  que je n'en sace la verité, mal ira li afaires !</said> <said rendition="dialogue">Dame, dame, dist il, sousfrés de ce dire, que foi que je doi a l'ame
-                  mon bon pere, que se jou savoie que vos en feissiés chose <supplied
+                  que je n'en sace la verité, mal ira li afaires !</said>
+               <said rendition="dialogue">Dame, dame, dist il, sousfrés de ce dire, que foi que je
+                  doi a l'ame mon bon pere, que se jou savoie que vos en feissiés chose <supplied
                      reason="omitted">que vos</supplied> ne deissiés, je vos courecheroie dou cors
                   en teil maniere que il vos dorroit a tous jours ! Coment diable covient il que un
                   prudom ne une prudefeme ne porra mie vivre en ceste ville que vos ne veilliés
@@ -3419,28 +3421,29 @@
                   <unclear rendition="arevoir">aiont</unclear> il, dist li chastelains, et or me
                   dites coment vos iestes apielé.</said> Il lor ont dit que il avoient non li uns
                Celidus et li autres Dianor. Bien conut li chastelains l'un de l'autre et dist a
-               Celidum por coi il n'ert chevaliers. <said next="#P90-1" aloud="true" direct="true">Sire, dist il,
-                  quant il plaira a Nostre Signor, si troverai celui qui faire le doit. Dont jou
-                  deproi au beneoit Saint Nicholas que il me doinst tant vivre que je le puis trover
-                  sauf et sain et entier.</said></p>
+               Celidum por coi il n'ert chevaliers. <said next="#P90-1" aloud="true" direct="true"
+                  >Sire, dist il, quant il plaira a Nostre Signor, si troverai celui qui faire le
+                  doit. Dont jou deproi au beneoit Saint Nicholas que il me doinst tant vivre que je
+                  le puis trover sauf et sain et entier.</said></p>
 
             <p n="P90">
-               <said xml:id="P90-1" aloud="true" direct="true">Celidus, biau sire, se je povoie <unclear
-                     rendition="arevoir" ana="syntaxe pronom réfléchi">s'asjoïr</unclear> por vostre
-                  gré, je ne cuit mie que piis vos en fust.</said>
+               <said xml:id="P90-1" aloud="true" direct="true">Celidus, biau sire, se je povoie
+                     <unclear rendition="arevoir" ana="syntaxe pronom réfléchi">s'asjoïr</unclear>
+                  por vostre gré, je ne cuit mie que piis vos en fust.</said>
                <said rendition="dialogue">Ciertes, sire, dist il, mout le covenra savoir de gent
                   avant que je ne le truise que je mie ne desirai tant qu'il le sacent come jou fac
                   de vos.</said> Atant li a jehi tout son errement et de son compaignon ausi. Quant
                li chastelains oï celui Celidum, si mua une grant coulor et li vint d'amirasion qu'il
-               eut, li sans de l'orteil li monta enmi le front et dist : <said next="#P91-1" aloud="true"
-                  direct="true">Ha ! Boin eureit enfant ! Voirement vos a li beneois sains ci
-                  amenet. Et tout apiertement je voi que ja la besoigne de l'eglise ne venist au
-                  desus se n'euist esté par vos et par celui que vos alés chaçant.</said></p>
+               eut, li sans de l'orteil li monta enmi le front et dist : <said next="#P91-1"
+                  aloud="true" direct="true">Ha ! Boin eureit enfant ! Voirement vos a li beneois
+                  sains ci amenet. Et tout apiertement je voi que ja la besoigne de l'eglise ne
+                  venist au desus se n'euist esté par vos et par celui que vos alés
+               chaçant.</said></p>
 
             <p n="P91">
-               <said xml:id="P91-1" aloud="true" direct="true"><c ana="lettrine3" rend="red">H</c>a ! Sire, dissent li
-                  doi damoisiel, dont en savés vos aucune chose qui nos rehaitera, s'il plaist a Diu
-                  et a vos.</said>
+               <said xml:id="P91-1" aloud="true" direct="true"><c ana="lettrine3" rend="red">H</c>a
+                  ! Sire, dissent li doi damoisiel, dont en savés vos aucune chose qui nos
+                  rehaitera, s'il plaist a Diu et a vos.</said>
                <said rendition="dialogue">Verité avés dis, fait li chastelains.</said> Dont li
                enquissent por Diu, se il savoit de lui rien, que il l'en deissent aucune chose.
                   <said aloud="true" direct="true">Biau signor, dist il, je ne vos en puis ore dire
@@ -4347,28 +4350,28 @@
                   aloud="true" direct="true">Il me poise dou sairement que jou ai fait, car je ne me
                   dounoie regart de cestui point, ne je mie ne voel por moi demeurt cis consaus qui
                   est droituriers. Et Dieu le me pardoinst, si voirement que je n'i regarde fors
-                  droiture a mon avis.</said>
-               <said aloud="true" direct="true">Dont se traist Kassidorus a sa batalle sans plus
-                  parler. Et uns autres princes ki ot non Mirus vint a Dorus et li dist : Sire, ne
-                  vos anuit de vostre sairement, car ne quidiés mie mesire vostre pere n'eut mie
-                  vostre maniere, car jou li oï dire que sairemens ki fais n'estoit par consel
-                  n'estoit a tenir a celui ki veoit ki n'i avoit couleur de droiture. Et, a l'autre
-                  lés, mesire vostre frere n'i envoiera mie, ançois irai u Kassidorus de nostre <choice>
-                     <sic>Espagne</sic>
+                  droiture a mon avis.</said> Dont se traist Kassidorus a sa batalle sans plus
+               parler. Et uns autres princes ki ot non Mirus vint a Dorus et li dist : <said
+                  aloud="true" direct="true">Sire, ne vos anuit de vostre sairement, car ne quidiés
+                  mie mesire vostre pere n'eut mie vostre maniere, car jou li oï dire que sairemens
+                  ki fais n'estoit par consel n'estoit a tenir a celui ki veoit ki n'i avoit couleur
+                  de droiture. Et, a l'autre lés, mesire vostre frere n'i envoiera mie, ançois irai
+                  u Kassidorus de nostre <choice>
+                     <orig>Espagne</orig>
                      <corr source="V3">plainne</corr>
                   </choice> volenté.</said>
-               <said aloud="true" direct="true">Amis, dist il, je vois a ma gent, car il m'est avis
-                  que je les voi ci venir sour nos et alés quel part qu'il vos plaist, car je
-                  m'otroi a tous consaus, ki ne soient de felon.</said> Atant vint Mirus a
-               Kassidorus et li dist : <said aloud="true" direct="true">Sire, de vostre consel ne
-                  doit nus recroire. Aler vos convient el mesage.</said>
-               <said aloud="true" direct="true">Mirum, Mirum, dist Kassidorus, c'est a tart ! Vees
-                  ici vos anemis u vienent fel et orgillous et ki sevent lor victoire. Mais nos, ki
-                  avons a soufrir çou que vos porés encore anuit savoir, ne doutons. Et uns seus
-                  jors de respit <num>c</num> mars vaut. A la jornee d'ui, pierdre nous convient,
-                  mais je ne sai mie conbien. Sire, tournés a vostre gent, car, se vous passés
-                  outre, je me dout que vous n'i soiiés retenus.</said> Atant se mist Mirus viers
-               l'ost Peliarmenum a guise d'oume ki mesage voloit dire, et on li fist voie deci a
+               <said rendition="dialogue">Amis, dist il, je vois a ma gent, car il m'est avis que je
+                  les voi ci venir sour nos et alés quel part qu'il vos plaist, car je m'otroi a
+                  tous consaus, ki ne soient de felon.</said> Atant vint Mirus a Kassidorus et li
+               dist : <said aloud="true" direct="true">Sire, de vostre consel ne doit nus recroire.
+                  Aler vos convient el mesage.</said>
+               <said rendition="dialogue">Mirum, Mirum, dist Kassidorus, c'est a tart ! Vees ici vos
+                  anemis u vienent fel et orgillous et ki sevent lor victoire. Mais nos, ki avons a
+                  soufrir çou que vos porés encore anuit savoir, ne doutons. Et uns seus jors de
+                  respit <num>c</num> mars vaut. A la jornee d'ui, pierdre nous convient, mais je ne
+                  sai mie conbien. Sire, tournés a vostre gent, car, se vous passés outre, je me
+                  dout que vous n'i soiiés retenus.</said> Atant se mist Mirus viers l'ost
+               Peliarmenum a guise d'oume ki mesage voloit dire, et on li fist voie deci a
                Peliarmaine, ki conmanda sa gent a ariester deci adont que cil euist dit son
                mesage.</p>
 
@@ -4659,11 +4662,13 @@
                mist au devant de sa conpagnie, ausi conme dis me tu : <said aloud="true"
                   direct="true">Je vorrai premier ferir sour iaus.</said> Et quant ce vit Dorus, si
                se pierçut et li dist li cuers qu'il encauçoit folement. Et atant saca sus et dist :
-               <said next="P147-1" aloud="true" direct="true">Ha ! Biau signor, nous soumes traï !</said></p>
+                  <said next="P147-1" aloud="true" direct="true">Ha ! Biau signor, nous soumes traï
+                  !</said></p>
 
             <p n="P147">
-               <said xml:id="147-1" aloud="true" direct="true"><c ana="lettrine2" rend="red">C</c>oument, sire ! dist
-                  dont uns chevaliers de grant cuer. De qui vous alés vous doutant ?</said>
+               <said xml:id="147-1" aloud="true" direct="true"><c ana="lettrine2" rend="red"
+                  >C</c>oument, sire ! dist dont uns chevaliers de grant cuer. De qui vous alés vous
+                  doutant ?</said>
                <said rendition="dialogue">De celui que vos la en vees aler, dist il.</said>
                <said rendition="dialogue">Par mon cief, dist uns autres, se m'en douterai deci adont
                   que jou el en saroie.</said> Atant se traisent en un asens ausi com por savoir se
@@ -4814,7 +4819,7 @@
                   au plus ordeneement que vos porés, car je ne finerai jamais deci adont que je
                   porai plus tost oïr nouviele de celui que vous poés oïr et savoir.</said> Lors a
                conmandé li preus et vallans Mardocheus que sa gent se meissent a une part et fussent
-               apresté. A l'autre lés, il conmanda que Helcanus et Mirus fussent porté illuec pries
+               apresté. A l'autre lés, il conmanda que Helcanus et Mirus fussent porté illuec priés
                en une abeïe, et fussent ouviert et enbausemé, car, se il repairoit jamais, il les
                feroit porter en Costantinoble et mettre a grant hounour en tierre. Atant se mist
                Mardocheus a la voie apriés Dorus et li autre qui mius mius apriés. Si me couvient
@@ -5745,7 +5750,7 @@
                coment li emperere avoit esté murdris. Se elle mena duel, ce povés vos croire, ensi
                com elle cuida trover arriere ses enfans. Emevos le liuon u il avoit pris le daerain
                des <num>iiii</num>, et se l'enportoit atout le biercuel en la foriest.</p>
- <!--  
+            <!--  
             <p n="" ana="Ici commence Kanor.">
                <c ana="lettrine2" rend="blue">N</c>ichole, quant elle vit que li liuons enportoit
                l'enfant, come mere corut apriés criant : <said aloud="true" direct="true">Sains

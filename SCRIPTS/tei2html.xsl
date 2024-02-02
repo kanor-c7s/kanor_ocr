@@ -12,7 +12,8 @@
                 <span class="title">
                     <i>Li histoire de Kanor et de ses freres</i>
                 </span>
-                <br/><br/>
+                <br/>
+                <br/>
                 <span>Présentation des signes employés :<br/>
                     <ul>
                         <li>[×] segment indéchiffrable</li>
@@ -196,31 +197,34 @@
         </span>
     </xsl:template>
     <xsl:template match="note">
-        
-        
+
+
         <xsl:choose>
             <xsl:when test="@type = 'notecritique'">
                 <span class="tooltip">
-                    <span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span>
+                    <span class="note">💬<span class="tooltip-content"
+                        ><xsl:apply-templates/></span></span>
                 </span>
             </xsl:when>
             <xsl:when test="@type = 'ntravail'">
                 <span class="tooltip">
-                    <span class="note">❓<span class="tooltip-content"><xsl:apply-templates/></span></span>
+                    <span class="note">❓<span class="tooltip-content"
+                        ><xsl:apply-templates/></span></span>
                 </span>
             </xsl:when>
             <xsl:otherwise>
                 <span class="tooltip">
-                    <span class="note">💬<span class="tooltip-content"><xsl:apply-templates/></span></span>
+                    <span class="note">💬<span class="tooltip-content"
+                        ><xsl:apply-templates/></span></span>
                 </span>
             </xsl:otherwise>
         </xsl:choose>
-        
-        
-        
- 
-        
-        
+
+
+
+
+
+
     </xsl:template>
     <xsl:template match="add">
         <span class="add">^<xsl:apply-templates/>^</span>
@@ -295,6 +299,18 @@
             </span>
         </span>
     </xsl:template>
+
+    <xsl:template match="rs[@type = 'place']">
+        <span class="tooltip">
+            <span class="place">
+                <xsl:apply-templates/>
+                <span class="tooltip-content">
+                    <xsl:value-of select="@key"/>
+                </span>
+            </span>
+        </span>
+    </xsl:template>
+
     <xsl:template match="seg">
         <xsl:choose>
             <xsl:when test="@ana = 'lettre'">"<xsl:apply-templates/>"</xsl:when>
@@ -306,7 +322,8 @@
         <xsl:choose>
             <xsl:when test="@rendition = 'arevoir'">
                 <span class="arevoir">
-                    <i>[<xsl:apply-templates/>]</i></span>
+                    <i>[<xsl:apply-templates/>]</i>
+                </span>
             </xsl:when>
             <xsl:otherwise>
                 <i>[<xsl:apply-templates/>]</i>
@@ -323,4 +340,34 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+
+
+
+    <xsl:template match="orig">
+        <xsl:choose>
+            <xsl:when test="parent::choice">
+
+                <xsl:choose>
+                    <xsl:when test="following-sibling::corr">
+                        <span class="tooltip">
+                            <span class="note">
+                                <xsl:value-of select="corr"/>
+                                <span class="tooltip-content">
+                                    <xsl:template match="orig">
+                                </span>
+                            </span>
+
+
+                        </span>
+
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise> </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+
+
+
 </xsl:stylesheet>
