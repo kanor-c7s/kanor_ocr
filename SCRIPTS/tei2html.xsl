@@ -17,10 +17,16 @@
                 <span>Présentation des signes employés :<br/>
                     <ul>
                         <li>[×] segment indéchiffrable</li>
-                        <li><span class="add">^xx^</span> ajout suscrit par le scribe</li>
-                        <li>‹x› ajout par l'éditeur</li>
-                        <li><span class="del">xx</span> exponctuation par le scribe</li>
-                        <li><span class="surplus">xx</span> suppression par l'éditeur</li>
+                        <li>Dieus i vot mostrer de ses o<span class="add">^ue^</span>vres : ajout
+                            suscrit par le scribe</li>
+                        <li>de grant se<span class="tooltip">‹n›<span class="tooltip-content"
+                                /></span>s aornee : ajout par l'éditeur</li>
+                        <li>Au conbrer le cheval f<span class="del">u</span>ist il merveille :
+                            exponctuation par le scribe</li>
+                        <li>et cuida bien avoir l'auwe <span class="surplus">avoir</span> copee. :
+                            suppression par l'éditeur</li>
+                        <li>je ne <span><i>(s)</i>>&#160;<b>›l‹</b></span>e saroie trover : la
+                            correction critique <b>›l‹</b> remplace le texte du ms. <i>(s)</i></li>
                     </ul></span>
                 <xsl:apply-templates/>
             </body>
@@ -343,29 +349,15 @@
 
 
 
-    <xsl:template match="orig">
-        <xsl:choose>
-            <xsl:when test="parent::choice">
 
-                <xsl:choose>
-                    <xsl:when test="following-sibling::corr">
-                        <span class="tooltip">
-                            <span class="note">
-                                <xsl:value-of select="corr"/>
-                                <span class="tooltip-content">
-                                    <xsl:template match="orig">
-                                </span>
-                            </span>
-
-
-                        </span>
-
-                    </xsl:when>
-                </xsl:choose>
-            </xsl:when>
-            <xsl:otherwise> </xsl:otherwise>
-        </xsl:choose>
+    <!-- Template for the choice element -->
+    <xsl:template match="choice">
+        <span><i>(<xsl:value-of select="orig"/>)</i>&#160;<b>›<xsl:value-of select="corr"
+            />‹</b></span>
+        <!-- Affiche la correction proposée -->
     </xsl:template>
+
+
 
 
 

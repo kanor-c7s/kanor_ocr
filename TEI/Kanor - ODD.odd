@@ -132,25 +132,25 @@
                personnage ou du lieu à identifier.
                <!-- compléter pour l'orthographe des placeName --> Au vu du grand nombre de
                personnages et de lieux mobilisés, sous des étiquettes et des titres variables en
-               outre, nous avons souhaité conserver trace des identités de chacun-e grâce aux balises
-                  <gi>rs</gi>, avec l'attribut @type selon qu'elle vienne désigner un personnage
-               ("person") ou un lieu ("place"), pour les personnages ou lieux non-nommés, mais aussi
-               évoqués (par exemple pour les duc de Lembourc ou empereur de Rome, aux identités
-               floues ou multiples selon les cas). Nous y avons intégré le même attribut @key pour
-               en préciser l'identité (dans ce cas, la key renvoie soit à l'orthographe majoritaire
-               retenue pour les <gi>persName</gi> soit à l'orthographe des noms données dans les
-               autres romans pour ceux qui n'apparaissaient pas dans le nôtre. Nous avons également
-               nous-mêmes dénommé ou étiqueté les personnages anonymes ou les lieux dits qui
-               apparaissaient à plusieurs reprises dans la narration, sous une forme standardisée
-               dans une orthographe moderne.) <!-- compléter pour les placeName -->, créant ainsi
-               une base d'informations stables en vue de l'<hi rend="italique">index nominum</hi> et
-               de l'<hi rend="italique">index locorum</hi> de notre édition. Nous n'avons néanmoins
-               pas intégré cette balise <gi>rs</gi> dans les cas où le personnage en question fait
-               l'objet d'une adresse directe dans le cadre d'un dialogue qui le verrait
-               explicitement nommé juste avant ou après. N'ont également pas été indiquées par cette
-               balise les mentions de personnages par pronoms ou les groupes de personnages. Les
-               personnages et lieux apparus une seule fois n'ont eux aussi pas été référencés de la
-               sorte pour ne pas polluer excessivement les index.</p>
+               outre, nous avons souhaité conserver trace des identités de chacun-e grâce aux
+               balises <gi>rs</gi>, avec l'attribut @type selon qu'elle vienne désigner un
+               personnage ("person") ou un lieu ("place"), pour les personnages ou lieux non-nommés,
+               mais aussi évoqués (par exemple pour les duc de Lembourc ou empereur de Rome, aux
+               identités floues ou multiples selon les cas). Nous y avons intégré le même attribut
+               @key pour en préciser l'identité (dans ce cas, la key renvoie soit à l'orthographe
+               majoritaire retenue pour les <gi>persName</gi> soit à l'orthographe des noms données
+               dans les autres romans pour ceux qui n'apparaissaient pas dans le nôtre. Nous avons
+               également nous-mêmes dénommé ou étiqueté les personnages anonymes ou les lieux dits
+               qui apparaissaient à plusieurs reprises dans la narration, sous une forme
+               standardisée dans une orthographe moderne.) <!-- compléter pour les placeName -->,
+               créant ainsi une base d'informations stables en vue de l'<hi rend="italique">index
+                  nominum</hi> et de l'<hi rend="italique">index locorum</hi> de notre édition. Nous
+               n'avons néanmoins pas intégré cette balise <gi>rs</gi> dans les cas où le personnage
+               en question fait l'objet d'une adresse directe dans le cadre d'un dialogue qui le
+               verrait explicitement nommé juste avant ou après. N'ont également pas été indiquées
+               par cette balise les mentions de personnages par pronoms ou les groupes de
+               personnages. Les personnages et lieux apparus une seule fois n'ont eux aussi pas été
+               référencés de la sorte pour ne pas polluer excessivement les index.</p>
             <p><title>Formes du discours</title> Nous avons également souhaité prêter attention aux
                formes du discours dont procède la trame narrative. Nous avons précisé dans chacune
                des balises <gi>said</gi> si elles présentaient un discours prononcé à haute voix ou
@@ -242,6 +242,20 @@
                            <valItem ident="mildew"/>
                            <valItem ident="rubbing"/>
                            <valItem ident="copist"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+
+               <!-- ajout d'une note : sa nature -->
+               <elementSpec ident="note" module="core" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList type="closed">
+                           <valItem ident="apparat"/>
+                           <valItem ident="ntravail"/>
+                           <valItem ident="notecritique"/>
                         </valList>
                      </attDef>
                   </attList>
