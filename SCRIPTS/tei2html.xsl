@@ -214,7 +214,7 @@
             </xsl:when>
             <xsl:when test="@type = 'ntravail'">
                 <span class="tooltip">
-                    <span class="note">❓<span class="tooltip-content"
+                    <span class="ntravail">&#160;&#10067;<span class="tooltip-content"
                         ><xsl:apply-templates/></span></span>
                 </span>
             </xsl:when>
@@ -324,9 +324,10 @@
             <xsl:otherwise>'<xsl:apply-templates/>'</xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
     <xsl:template match="unclear">
         <xsl:choose>
-            <xsl:when test="@rendition = 'arevoir'">
+            <xsl:when test="@type = 'arevoir'">
                 <span class="arevoir">
                     <i>[<xsl:apply-templates/>]</i>
                 </span>
@@ -352,7 +353,7 @@
 
     <!-- Template for the choice element -->
     <xsl:template match="choice">
-        <span><i>(<xsl:value-of select="orig"/>)</i>&#160;<b>›<xsl:value-of select="corr"
+        <span><i>(<xsl:value-of select="orig"/>)</i>&#160;<b>›<xsl:value-of select="reg"
             />‹</b></span>
         <!-- Affiche la correction proposée -->
     </xsl:template>

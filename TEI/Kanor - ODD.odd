@@ -225,6 +225,7 @@
                   <attList>
                      <attDef ident="reason" mode="replace" usage="req">
                         <valList type="closed">
+                           <!-- la valeur arevoir est un outil de travail permettant de mettre en surbrillance des incertitudes éditoriales. Cette valeur sera effacée à terme  -->
                            <valItem ident="arevoir"/>
                            <valItem ident="erased"/>
                            <valItem ident="faded"/>

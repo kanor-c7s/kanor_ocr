@@ -171,6 +171,10 @@ body {
     font-weight: bold;
 }
 
+.ntravail {
+    color: orange;
+}
+
 .title {
     font-size: 50px
 }
