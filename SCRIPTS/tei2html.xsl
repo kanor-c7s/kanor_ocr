@@ -115,6 +115,7 @@
             <xsl:apply-templates/>
         </i>
     </xsl:template>
+    
     <xsl:template match="said">
         <xsl:choose>
             <xsl:when test="@rendition = 'dialogue'">
@@ -136,6 +137,9 @@
                         test="preceding-sibling::said and following-sibling::said[1][@rendition = 'dialogue']"
                         ><br/> – <xsl:apply-templates/>
                     </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates/>
+                    </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
             <xsl:when test="@direct = 'true' and @aloud = 'true' and not(@rendition = 'dialogue')">
@@ -146,7 +150,7 @@
                     <xsl:otherwise><br/> «&#xA0;<xsl:apply-templates/>&#xA0;»<br/></xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
-            <xsl:when test="@direct = 'true' and aloud = 'true' and @next">
+            <xsl:when test="@direct='true' and @aloud='true' and @next">
                 <!-- SG : HELP (again) : j'ai tenté qqch pour assurer la visualisation des discours qui doivent être
             scindés en deux balises (xml:id et next), maiiis ça ne marche pas (ex dans le fichier de Sophie en bas du §426) -->
                 <br/> «&#xA0;<xsl:apply-templates/></xsl:when>
@@ -158,6 +162,8 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
+    
     <xsl:template match="del">
         <span class="del">
             <xsl:apply-templates/>
@@ -202,9 +208,8 @@
             </span>
         </span>
     </xsl:template>
+    
     <xsl:template match="note">
-
-
         <xsl:choose>
             <xsl:when test="@type = 'notecritique'">
                 <span class="tooltip">
@@ -215,7 +220,7 @@
             <xsl:when test="@type = 'ntravail'">
                 <span class="tooltip">
                     <span class="ntravail">&#160;&#10067;<span class="tooltip-content"
-                        ><xsl:apply-templates/></span></span>
+                            ><xsl:apply-templates/></span></span>
                 </span>
             </xsl:when>
             <xsl:otherwise>
@@ -225,44 +230,22 @@
                 </span>
             </xsl:otherwise>
         </xsl:choose>
-
-
-
-
-
-
     </xsl:template>
+    
+    
     <xsl:template match="add">
         <span class="add">^<xsl:apply-templates/>^</span>
     </xsl:template>
 
-
-    <xsl:template match="c">
-        <xsl:choose>
-            <xsl:when test="@rend = 'blue'">
-                <span class="c" style="color:darkblue">
-                    <i>
-                        <xsl:apply-templates/>
-                    </i>
-                </span>
-            </xsl:when>
-            <xsl:when test="@rend = 'red'">
-                <span class="c" style="color:darkred">
-                    <i>
-                        <xsl:apply-templates/>
-                    </i>
-                </span>
-            </xsl:when>
-            <xsl:otherwise>
-                <span class="c">
-                    <i>
-                        <xsl:apply-templates/>
-                    </i>
-                </span>
-            </xsl:otherwise>
-        </xsl:choose>
+    <!-- script pour la balise "hi" avec le premier élément de "rend" égal à "initiale" et le dernier sa couleur. -->
+    <xsl:template match="hi[starts-with(@rend, 'initiale')]">
+        <span class="lettrine" style="color:dark{tokenize(@rend, '\s+')[3]}">
+            
+            <i>
+                <xsl:apply-templates/>
+            </i>
+        </span>
     </xsl:template>
-
 
 
     <xsl:template match="persName">
@@ -324,7 +307,7 @@
             <xsl:otherwise>'<xsl:apply-templates/>'</xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
+
     <xsl:template match="unclear">
         <xsl:choose>
             <xsl:when test="@type = 'arevoir'">

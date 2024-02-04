@@ -106,7 +106,10 @@
                majorité des cas présentés dans notre manuscrit de base (rendue par la balise
                   <gi>figure</gi> dans laquelle un <gi>graphic</gi>, avec son @url vers le site de
                Gallica de la Bibliothèque nationale de France), et un <gi>figDesc</gi> permettent
-               d'offrir accès à la composante iconographique du manuscrit. --> Ces
+               d'offrir accès à la composante iconographique du manuscrit. --> 
+               Des lettrines viennent enrichir le manuscript. Si elles marquent 
+               
+               Ces
                grandes subdivisions sont également marquées par une lettrine de grande taille,
                variant de 2 à 7 unités de réglure (UR), comme nous l'avons précisé par la balise
                   <gi>c</gi> à l'attribut @ana, donnant la taille de la lettrine 2, 3, 4, 5, 6 ou 7.
