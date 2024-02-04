@@ -10,7 +10,7 @@ class XmlModifier:
 
     def increment_number(self, match):
         self.counter += 1
-        return f'<p n="{self.counter}">'
+        return f'<p n="P{self.counter}">'
 
     def modify_xml(self, xml_code):
         modified_xml = re.sub(r'<p n="P\d+">', self.increment_number, xml_code)
