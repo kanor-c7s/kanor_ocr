@@ -2,7 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-
     <!-- Template principal -->
     <xsl:template match="/">
         <html>
@@ -19,16 +18,16 @@
                 <span>Présentation des signes employés :</span>
                 <ul>
                     <li>[×] segment indéchiffrable</li>
-                    <li>Dieus i vot mostrer de ses o<span class="add">^ue^</span>vres : ajout
-                        suscrit par le scribe</li>
-                    <li>de grant se<span class="tooltip">‹n›<span class="tooltip-content"/></span>s
-                        aornee : ajout par l'éditeur</li>
-                    <li>Au conbrer le cheval f<span class="del">u</span>ist il merveille :
-                        exponctuation par le scribe</li>
-                    <li>et cuida bien avoir l'auwe <span class="surplus">avoir</span> copee. :
-                        suppression par l'éditeur</li>
-                    <li>je ne <span><i>(s)</i>>&#160;<b>›l‹</b></span>e saroie trover : la
-                        correction critique <b>›l‹</b> remplace le texte du ms.</li>
+                    <li> Dieus i vot mostrer de ses o<span class="add">^ue^</span>vres : ajout
+                        suscrit par le scribe </li>
+                    <li> de grant se<span class="tooltip">‹n›<span class="tooltip-content"/></span>s
+                        aornee : ajout par l'éditeur </li>
+                    <li> Au conbrer le cheval f<span class="del">u</span>ist il merveille :
+                        exponctuation par le scribe </li>
+                    <li> et cuida bien avoir l'auwe <span class="surplus">avoir</span> copee. :
+                        suppression par l'éditeur </li>
+                    <li> je ne <span><i>(s)</i>>&#160;<b>›l‹</b></span>e saroie trover : la
+                        correction critique <b>›l‹</b> remplace le texte du ms. </li>
                 </ul>
                 <xsl:apply-templates/>
             </body>
@@ -149,38 +148,40 @@
         </xsl:choose>
     </xsl:template>
 
-    <!-- Template pour les said -->
+    <!-- Template pour les said
+    Utiliser http://xpather.com/ pour tester les chemins
+    -->
+
     <xsl:template match="said">
         <xsl:choose>
-
             <!-- Template pour les rendition DIALOGUE -->
 
             <xsl:when test="@rendition = 'dialogue'">
                 <xsl:choose>
-                    
-                    <xsl:when
-                        test="preceding-sibling::said and following-sibling::said[1][@rendition = 'dialogue']">
-                        <br/> – <xsl:apply-templates/>
-                    </xsl:when>
-                    
-                    <xsl:when
-                        test="preceding-sibling::said or position() = 1 and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '.')">
-                        <br/> – <xsl:apply-templates/>&#xA0;»<br/>
-                    </xsl:when>
-
-                    <!-- ça c'est à revoir -->
-                    <xsl:when test="position() = last() and following-sibling::node()[1][self::said[@rendition = 'dialogue']]">
-                        <br/> «&#xA0;<xsl:apply-templates/></xsl:when>
-                    
-                    
-
                     <!-- Condition propre au discours direct avec incise terminale non suivie d'un DD -->
-                    <!-- Type : – Et j'en ferai la besougne », dist il. -->
+                    <!-- Type : – Et j'en ferai la besougne », dist il. (§§132, 159) -->
                     <!-- On met la virgule à la fin du DD et le script la met après les » -->
+                    <!-- Ce test doit être en premier sinon il y a conflit avec un autre test -->
+
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., ',')">
                         <br/> – <xsl:value-of select="substring(., 1, string-length(.) - 1)"
                         />&#xA0;», </xsl:when>
+
+                    <!-- ça c'est à revoir -->
+                    <xsl:when
+                        test="position() = last() and following-sibling::node()[1][self::said[@rendition = 'dialogue']]">
+                        <br/> «&#xA0;<xsl:apply-templates/></xsl:when>
+
+                    <xsl:when
+                        test="preceding-sibling::said and following-sibling::said[1][@rendition = 'dialogue']">
+                        <br/> – <xsl:apply-templates/>
+                    </xsl:when>
+
+                    <xsl:when
+                        test="preceding-sibling::said or position() = 1 and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '.')">
+                        <br/> – <xsl:apply-templates/>&#xA0;»<br/>
+                    </xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '?')">
@@ -196,8 +197,6 @@
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and not(matches(., '^.*[\.!\?]$'))">
                         <br/> – <xsl:apply-templates/>&#xA0;»</xsl:when>
 
-                    
-
                     <!-- Ajout d'une condition spécifique à <said> lorsqu'un @rendition=dialogue chevauche un <p> (ex. par. 59-60)
                         On modifie la condition de test pour qu’elle ne dépende pas du contexte de l’élément <said>
                     Voir d'ailleurs s'il n'est pas plus économique de supprimer la prise en compte du contexte 
@@ -206,22 +205,19 @@
                         test="//preceding-sibling::said and //following-sibling::said[1][@rendition = 'dialogue']">
                         <br/> – <xsl:apply-templates/>
                     </xsl:when>-->
-
-                    <xsl:otherwise>
-                        <xsl:apply-templates/>
-                    </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
 
             <!-- Template pour les débuts DIALOGUE -->
 
+            <xsl:when test="position() = 1 and following-sibling::said[@rendition = 'dialogue']"> -
+                <xsl:apply-templates/></xsl:when>
+
             <xsl:when test="@direct = 'true' and @aloud = 'true' and not(@rendition = 'dialogue')">
                 <xsl:choose>
-                    
                     <!-- Template pour les débuts DIALOGUE qui ont une suite dans le même <p> -->
                     <xsl:when test="following-sibling::said[1][@rendition = 'dialogue']">
                         <br/> «&#xA0;<xsl:apply-templates/></xsl:when>
-                   
 
                     <!-- Template pour les spécifiques pour les discours type "dis me tu" -->
                     <xsl:when test="@style = 'nogap'"
@@ -452,6 +448,4 @@
         <span><i>(<xsl:value-of select="orig"/>)</i>&#160;<b>›<xsl:value-of select="reg"
             />‹</b></span>
     </xsl:template>
-
-
 </xsl:stylesheet>

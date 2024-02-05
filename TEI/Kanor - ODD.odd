@@ -19,13 +19,13 @@
          <sourceDesc>
             <p>Le texte édité provient du manuscrit C (BnF fr.1446). Il contient deux oeuvres qui
                appartiennent aux continuation du Cycle des Sept Sages de Rome : une version de la
-               fin du roman de Pelyarmenus, qui compte pour un tiers du manuscript, et une version
-               remaniée du roman de Kanor. Le Pelyarmenus et le Kanor peuvent être lus dans quatre
-               autres manuscrits, ici référencés V2 (BnF fr.22549) et V3 (BnF fr.22550), B (KBR
-               9245), X2 (BL Harley 4903) et G (BnF fr.93). Le manuscrit B est celui qui se
-               rapproche le plus du nôtre en terme de variantes pour la partie Pelyarmenus (à
-               compléter ensuite). Notons également la source M, miniatures avec texte au dos (Musée
-               de Reims cadre 882, III-VI).</p>
+               fin du <hi>roman de Pelyarmenus</hi>, qui compte pour un tiers du manuscript, et une
+               version remaniée du <hi>roman de Kanor</hi>. Le <hi>Pelyarmenus</hi> et le
+                  <hi>Kanor</hi> peuvent être lus dans quatre autres manuscrits, ici référencés V2
+               (BnF fr.22549) et V3 (BnF fr.22550), B (KBR 9245), X2 (BL Harley 4903) et G (BnF
+               fr.93). Le manuscrit B est celui qui se rapproche le plus du nôtre en termes de
+               variantes pour la partie Pelyarmenus (à compléter ensuite). Notons également la
+               source M, miniatures avec texte au dos (Musée de Reims cadre 882, III-VI).</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -92,32 +92,46 @@
                biais d'une balise <gi>note</gi>, au @type "apparat", indiquée après la mention de
                chaque paragraphe concerné. Un autre @type de note a également été introduit pour
                présenter ce qui relève de "notecritique".</p>
-            <p><title>Mise en page et structuration du texte</title> Nous avons souhaité offrir un
-               accès le plus complet possible au manuscrit que nous avons transcrit et avons pour
-               cela balisé les éléments les plus saillants de sa mise en page. Les balises
-                  <gi>pb</gi> indiquent les numéros de folios présentés ainsi que leur côté, recto
-               ou verso, noté r / v. S'ajoutent les balises <gi>cb</gi>, qui gardent trace de la
-               structure en deux colonnes de chaque folio. Nous les avons nommées a et b. La
-               première colonne est indiquée par le changement de folio ou de côté, le cas échéant.
-               Nous avons créé une <gi>div</gi> spécifique pour chaque section présentée comme telle
-               dans le manuscrit, indiquée par une rubrique (rendue par la balise <gi>head</gi>,
-               avec la valeur d'attribut @type "rubrique"). Le manuscrit n'offre pas d'illustration
-               au lecteur. <!-- et une illustration dans l'immense
-               majorité des cas présentés dans notre manuscrit de base (rendue par la balise
-                  <gi>figure</gi> dans laquelle un <gi>graphic</gi>, avec son @url vers le site de
-               Gallica de la Bibliothèque nationale de France), et un <gi>figDesc</gi> permettent
-               d'offrir accès à la composante iconographique du manuscrit. --> 
-               Des lettrines viennent enrichir le manuscript. Si elles marquent 
-               
-               Ces
-               grandes subdivisions sont également marquées par une lettrine de grande taille,
-               variant de 2 à 7 unités de réglure (UR), comme nous l'avons précisé par la balise
-                  <gi>c</gi> à l'attribut @ana, donnant la taille de la lettrine 2, 3, 4, 5, 6 ou 7.
-               Le texte est organisé, outre ces grandes subdivisions, en paragraphes. Ils peuvent
-               être indiqués par une lettrine dont la taille varie généralement entre 2 et 3 UR mais
-               peut aller jusqu'à 7 (P1, 79, 178). La mesure de ces lettrines a systématiquement été
-               conservée selon la méthode documentée ci-dessus. Si nous avons écarté toute
-               indication formelle de décoloration, trou dans le parchemin, variation d'encre
+            <p><title>Mise en page et structuration du texte</title>
+               <!-- Partie balisage des sections du texte --> Dans le but de fournir un accès aussi
+               complet que possible au manuscrit que nous avons transcrit, nous avons balisé les
+               éléments les plus marquants de sa mise en page. Les balises <gi>pb</gi> indiquent les
+               numéros de folios présentés ainsi que leur côté, soit recto ou verso, noté r / v. Les
+               balises <gi>cb</gi> sont ajoutées pour conserver la structure en deux colonnes de
+               chaque folio, que nous avons nommées a et b. La première colonne est indiquée par le
+               changement de folio ou de côté, si nécessaire. Nous avons créé une <gi>div</gi>
+               spécifique pour chaque section présentée comme telle dans le manuscrit, indiquée par
+               une rubrique (rendue par la balise <gi>head</gi>, avec la valeur d’attribut @type “
+               "rubrique"). <!-- Partie lettrines + pieds-de-mouches --> Le manuscrit n'offre pas
+               d'illustration au lecteur, mais il est visuellement enrichi par l'usage de lettrines,
+               dont trois types distincts sont identifiés, chacun ayant une fonction spécifique dans
+               l'organisation du texte. Deux types de lettrines marquent les grandes subdivisions du
+               texte, à savoir les chapitres. Une grande lettrine historiée est présente au début du
+               roman, illustrant un homme jetant un objet dans une poubelle. Les autres lettrines
+               sont ornées et peintes, avec une alternance rouge et bleu, de grande taille (variant
+               de 3UR (f. 2) à 8UR (f. 1rA)) et d'apparence plutôt modeste. La taille a été précisée
+               à la balise <gi>hi</gi> en position 2 de l'attribut @rendition. Elles sont
+               généralement précédées d'une rubrique qui résume, de manière succint, le thème
+               principal du chapitre. Des lettrines filigranées rouges et bleues (avec quelques
+               erreurs, f. 31rB), réalisées à l'encre, qui s’allongent pour décorer la marge, sont
+               utilisées pour marquer les paragraphes. Ces filigranes disparaissent à partir du f.
+               17r. Plusieurs particularités sont à noter : une lettrine filigranée avec une tête
+               d'homme au f. 11r, des lettres avec des fioritures qui débordent dans les marges
+               supérieure et inférieure aux f. 31v, 32r, 34r. Dans la partie écrite par la deuxième
+               main (f. 18rA), chaque paragraphe commence systématiquement par une lettrine simple à
+               l'encre, alternant entre deux couleurs. À gauche de l'initiale, on peut souvent lire
+               en petit, à l'encre claire, le rappel de la lettre à dessiner. Dans la partie
+               attribuée à la première main, les paragraphes peuvent également être signalés par un
+               pied-de-mouche, alternant entre le rouge et le bleu. Cela n'est pas le cas dans la
+               partie écrite par la deuxième main. Il y a également quelques particularités
+               concernant les pieds-de-mouche : ils sont parfois tracés à la hâte en encre noire (f.
+               13rB bas), voire oubliés (seul le rappel // est visible : f. 15vB haut, 12vA haut) ou
+               effacés (f. 12rB haut). Lorsqu'un pied-de-mouche est combiné avec une lettrine, comme
+               au f. 5rA, la fin de la phrase qui conclut le paragraphe se trouve à gauche du
+               symbole ¶, tandis qu'à sa droite, le paragraphe suivant a déjà commencé, ceci dans un
+               souci d'économie d'espace. Le symbole ¶ a été conservé dans l'édition pour en rendre
+               compte. <!-- Partie qualités et accidents de la matière --> Si nous avons écarté
+               toute indication formelle de décoloration, trou dans le parchemin, variation d'encre
                anodine, nous avons conservé trace de chacune de ces altérations de la qualité du
                manuscrit quand elles ne permettaient pas une lecture assurée du texte. Nous les
                avons rendues par la balise <gi>unclear</gi>, systématiquement précisées par
@@ -180,12 +194,13 @@
          <div>
             <head>Protocole de collation</head>
             <!-- à revoir : ici ou pas ? > revoir organisation du propos-->
-            <p>Détailler ici les logiques de collation, tout court (ou intégrer présentation donnée
-               par Sophie) (nécessaire ici?) et critères de mise en page numérique ? </p>
+            <p>Une collation partielle sera proposée sur une sélection d'extraits du <hi>Roman de
+                  Kanor</hi>. Les témoins restent à définir. Le but sera de préciser (établir ?) le
+                  <hi>stemma codicum</hi> de l'oeuvre.</p>
          </div>
 
          <div>
-            <head>L'ODD</head>
+            <head> L'ODD </head>
             <schemaSpec ident="septSages" start="TEI">
                <moduleRef key="core"
                   include="add cb del graphic head hi name note num p pb resp respStmt rs said title unclear gap choice"/>
@@ -251,7 +266,6 @@
                   </attList>
                </elementSpec>
 
-
                <!-- ajout d'une note : sa nature -->
                <elementSpec ident="note" module="core" mode="change">
                   <attList>
@@ -289,9 +303,7 @@
                      </attDef>
                   </attList>
                </elementSpec>
-
             </schemaSpec>
-
          </div>
       </body>
    </text>
