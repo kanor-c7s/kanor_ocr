@@ -257,7 +257,7 @@
                            <valItem ident="overleaf"/>
                         </valList>
                      </attDef>
-                     <attDef ident="hand" mode="change" usage="req">
+                     <attDef ident="hand" mode="replace" usage="req">
                         <valList type="closed">
                            <valItem ident="#main1"/>
                            <valItem ident="#main2"/>
@@ -299,26 +299,29 @@ cette dernière est fautive
 
                <elementSpec ident="corr" module="core" mode="change">
                   <attList>
-                     <attDef ident="resp" mode="change" usage="req">
-                        <valList type="open">
+                     <attDef ident="resp" mode="replace" usage="req">
+                        <valList type="closed">
                            <valItem ident="#FPZ"/>
                         </valList>
                      </attDef>
-                     <attDef ident="cert" mode="change" usage="req">
-                        <valList type="open"> </valList>
+                     <attDef ident="cert" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="high"/>
+                           <valItem ident="low"/>
+                        </valList>
                      </attDef>
                   </attList>
                </elementSpec>
 
                <elementSpec ident="del" module="core" mode="change">
                   <attList>
-                     <attDef ident="type" mode="change" usage="req">
+                     <attDef ident="type" mode="replace" usage="req">
                         <valList type="closed">
                            <valItem ident="exponctuation"/>
                            <valItem ident="scraped"/>
                         </valList>
                      </attDef>
-                     <attDef ident="hand" mode="change" usage="req">
+                     <attDef ident="hand" mode="replace" usage="req">
                         <valList type="closed">
                            <valItem ident="#hand1"/>
                            <valItem ident="#hand2"/>
@@ -328,7 +331,7 @@ cette dernière est fautive
                   </attList>
                </elementSpec>
 
-               <elementSpec ident="gap" mode="change" module="core">
+               <elementSpec ident="gap" module="core" mode="change">
                   <attList>
                      <attDef ident="reason" mode="replace" usage="req">
                         <valList type="closed">
@@ -365,13 +368,13 @@ cette dernière est fautive
                <!-- SE DÉCIDER -->
                <elementSpec ident="head" module="core" mode="change">
                   <attList>
-                     <attDef ident="type" mode="change" usage="req">
+                     <attDef ident="type" mode="replace" usage="req">
                         <valList type="closed">
                            <valItem ident="rubrique"/>
                            <valItem ident="explicit"/>
                         </valList>
                      </attDef>
-                     <attDef ident="n" mode="change" usage="rec"/>
+                     <attDef ident="n" mode="change" usage="req"/>
                   </attList>
                </elementSpec>
 
@@ -381,7 +384,7 @@ cette dernière est fautive
                      <attDef ident="corresp" mode="delete"/>
                      <attDef ident="ana" mode="delete"/>
                      <attDef ident="facs" mode="delete"/>
-                     <attDef ident="rend" mode="change" usage="req">
+                     <attDef ident="rend" mode="replace" usage="req">
                         <valList mode="add" type="closed">
                            <valItem ident="rubricated"/>
                            <valItem ident="decorated-initial"/>
@@ -397,13 +400,13 @@ cette dernière est fautive
                            <valItem ident="6"/>
                            <valItem ident="7"/>
                            <valItem ident="8"/>
-                           <valItem ident="9"/>                           
+                           <valItem ident="9"/>
                         </valList>
                      </attDef>
                   </attList>
                </elementSpec>
 
-               <elementSpec ident="name" module="core" mode="change">
+               <elementSpec ident="name" module="core" mode="replace">
                   <attList>
                      <attDef ident="type" mode="replace" usage="req">
                         <valList type="closed">
@@ -420,7 +423,7 @@ cette dernière est fautive
                Ne fonctionne pas-->
                <elementSpec ident="note" module="core" mode="change">
                   <attList>
-                     <attDef ident="type2" mode="change" usage="req">
+                     <attDef ident="type" mode="replace" usage="req">
                         <valList type="closed">
                            <valItem ident="apparat"/>
                            <valItem ident="ntravail"/>
@@ -430,7 +433,7 @@ cette dernière est fautive
                   </attList>
                </elementSpec>
 
-               <elementSpec ident="orig" mode="change">
+               <elementSpec ident="orig" mode="replace">
                   <gloss>Original</gloss>
                   <desc xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">permet
                      d'encoder la forme originale du manuscrit.</desc>
@@ -554,7 +557,7 @@ cette dernière est fautive
                            <valItem ident="false"/>
                         </valList>
                      </attDef>
-                     <attDef ident="who" mode="change" usage="opt">
+                     <attDef ident="who" mode="replace" usage="opt">
                         <valList type="closed" mode="replace">
                            <valItem ident="#nar"/>
                         </valList>
@@ -595,8 +598,11 @@ cette dernière est fautive
                            <valItem ident="transparence"/>
                            <valItem ident="stain"/>
                         </valList>
+
+
+
                      </attDef>
-                     <attDef ident="agent" mode="change" usage="opt">
+                     <attDef ident="agent" mode="replace" usage="opt">
                         <valList type="closed">
                            <valItem ident="smoke"/>
                            <valItem ident="mildew"/>
@@ -604,7 +610,7 @@ cette dernière est fautive
                            <valItem ident="copist"/>
                         </valList>
                      </attDef>
-                     <attDef ident="cert" mode="change" usage="req">
+                     <attDef ident="cert" mode="replace" usage="req">
                         <valList type="closed">
                            <valItem ident="high"/>
                            <valItem ident="medium"/>
