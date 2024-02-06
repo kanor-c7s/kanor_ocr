@@ -5,6 +5,7 @@
     <!-- Template principal -->
     <xsl:template match="/">
         <html>
+            
             <head>
                 <title>Kanor et ses frères</title>
                 <link rel="stylesheet" type="text/css" href="../ASSETS/Kanor.css"/>
@@ -38,13 +39,7 @@
     <xsl:template match="teiHeader"/>
 
     <!-- Template pour les titres de rubrique -->
-    <xsl:template match="head[@type = 'rubrique']">
-        <h1>
-            <span class="headNum">[<xsl:value-of select="substring-after(@n, 'R')"/>]</span>
-            <xsl:text> </xsl:text>
-            <xsl:apply-templates/>
-        </h1>
-    </xsl:template>
+
 
     <!-- Template pour les titres explicites -->
     <xsl:template match="head[@type = 'explicit']">
@@ -105,48 +100,8 @@
         <span class="num">.<xsl:apply-templates/>.</span>
     </xsl:template>
 
-    <!-- Template pour les hi avec type = 'exp' -->
-    <xsl:template match="hi[@type = 'exp']">
-        <sup>
-            <span class="exp">
-                <xsl:apply-templates/>
-            </span>
-        </sup>
-    </xsl:template>
-
-    <!-- Template pour les hi avec rend = 'exp' -->
-    <xsl:template match="hi[@rend = 'exp']">
-        <sup>
-            <span class="exp">
-                <xsl:apply-templates/>
-            </span>
-        </sup>
-    </xsl:template>
-
-    <!-- Template pour les hi avec rend = 'italique' -->
-    <xsl:template match="hi[@rend = 'italique']">
-        <i>
-            <xsl:apply-templates/>
-        </i>
-    </xsl:template>
 
     <!-- Template pour les hi -->
-    <xsl:template match="hi">
-        <xsl:choose>
-            <xsl:when test="@rend = 'exp'">
-                <sup>
-                    <span class="exp">
-                        <xsl:apply-templates/>
-                    </span>
-                </sup>
-            </xsl:when>
-            <xsl:when test="@rend = 'italique'">
-                <i>
-                    <xsl:apply-templates/>
-                </i>
-            </xsl:when>
-        </xsl:choose>
-    </xsl:template>
 
     <!-- Template pour les said
     Utiliser http://xpather.com/ pour tester les chemins
@@ -274,12 +229,6 @@
         </span>
     </xsl:template>
 
-    <!-- Template pour les éléments add -->
-    <xsl:template match="add">
-        <b>
-            <xsl:apply-templates/>
-        </b>
-    </xsl:template>
 
     <!-- Template pour les éléments app -->
     <xsl:template match="app">
@@ -349,14 +298,45 @@
         <span class="add">^<xsl:apply-templates/>^</span>
     </xsl:template>
 
-    <!-- Template pour les éléments hi avec rend commençant par 'initiale' -->
-    <xsl:template match="hi[starts-with(@rend, 'initiale')]">
-        <span class="lettrine" style="color:dark{tokenize(@rend, '\s+')[3]}">
-            <i>
-                <xsl:apply-templates/>
-            </i>
-        </span>
+    <!-- Template pour les éléments hi -->
+    <xsl:template match="hi">
+        <xsl:choose>
+            <xsl:when test="starts-with(@rend, 'rubricated')">
+                <span class="rubricated">
+                    <span class="headNum">[<xsl:value-of select="ancestor::div[1]/head/@n"/>]</span>
+                    <xsl:text> </xsl:text>
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:when test="@rend = 'exp'">
+                <sup>
+                    <span class="exp">
+                        <xsl:apply-templates/>
+                    </span>
+                </sup>
+            </xsl:when>
+            <xsl:when test="@rend = 'italique'">
+                <i>
+                    <xsl:apply-templates/>
+                </i>
+            </xsl:when>
+            <xsl:when test="starts-with(@rend, 'decorated-initial')">
+                <span class="lettrine" style="color:dark{tokenize(@rend, '\s+')[3]}">
+                    <i>
+                        <xsl:apply-templates/>
+                    </i>
+                </span>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
+    
+
+
+
+
+
+
+
 
     <!-- Template pour les éléments persName -->
     <xsl:template match="persName">

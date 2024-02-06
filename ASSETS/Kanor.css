@@ -32,7 +32,8 @@ p {
     word-spacing: 2px;
     line-height: 1.4;
 }
-h1 {
+
+.rubricated {
     color: darkred;
     font-size: 25px;
     text-align: left;

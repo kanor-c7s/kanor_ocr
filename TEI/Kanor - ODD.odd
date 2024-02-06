@@ -202,84 +202,47 @@
          <div>
             <head> L'ODD </head>
             <schemaSpec ident="septSages" start="TEI">
+
+               <!-- Inclut le module "core" qui contient des éléments de base pour la structuration du texte. -->
                <moduleRef key="core"
-                  include="add cb del graphic head hi name note num p pb resp respStmt rs said title unclear gap choice"/>
+                  include="add cb choice corr del gap head hi name note num p pb resp respStmt rs said title unclear"/>
+
+               <!-- Inclut le module "header" qui contient des éléments pour la description de l'encodage et la déclaration éditoriale. -->
                <moduleRef key="header"
-                  include="availability authority change correction encodingDesc editorialDecl
-                  extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt
-                  punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
+                  include="availability authority change correction encodingDesc editorialDecl extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
+
+               <!-- Inclut le module "figures" qui contient des éléments pour la description des figures. -->
                <moduleRef key="figures" include="figDesc figure"/>
+
+               <!-- Inclut le module "linking" qui contient des éléments pour la création de liens et de segments. -->
                <moduleRef key="linking" include="anchor seg att.global.linking"/>
+
+               <!-- Inclut le module "msdescription" qui contient des éléments pour la description des manuscrits. -->
                <moduleRef key="msdescription"
-                  include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem
-                  physDesc repository"/>
+                  include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem physDesc repository"/>
+
+               <!-- Inclut le module "namesdates" qui contient des éléments pour les noms de personnes, de lieux, de pays et de colonies. -->
                <moduleRef key="namesdates" include="country persName placeName settlement"/>
+
+               <!-- Inclut tous les éléments du module "tei". -->
                <moduleRef key="tei"/>
+
+               <!-- Inclut le module "textcrit" qui contient des éléments pour la critique textuelle. -->
                <moduleRef key="textcrit" include="app lem listWit rdg rdgGrp witness"/>
+
+               <!-- Inclut le module "textstructure" qui contient des éléments pour la structuration du texte. -->
                <moduleRef key="textstructure" include="TEI body text div"/>
+
+               <!-- Inclut le module "transcr" qui contient des éléments pour la transcription. -->
                <moduleRef key="transcr" include="handNotes handShift subst supplied damage surplus"/>
+
+               <!-- Inclut le module "analysis" qui contient des éléments pour l'analyse. -->
                <moduleRef key="analysis" include="c"/>
 
-               <elementSpec ident="del" module="core" mode="change">
-                  <attList>
-                     <attDef ident="rend" mode="change" usage="req">
-                        <valList type="closed">
-                           <valItem ident="exponctuation"/>
-                           <valItem ident="scraped"/>
-                        </valList>
-                     </attDef>
-                     <attDef ident="hand" mode="change" usage="opt">
-                        <valList type="closed">
-                           <valItem ident="#hand1"/>
-                           <valItem ident="#hand2"/>
-                           <valItem ident="#otherhand"/>
-                        </valList>
-                     </attDef>
-                  </attList>
-               </elementSpec>
+               <!-- ICI COMMENCE LA DÉFINITION DES ÉLÉMENTS -->
 
-               <!-- Les segments peu clairs: raisons et facteurs -->
-               <elementSpec ident="unclear" module="core" mode="change">
-                  <attList>
-                     <attDef ident="reason" mode="replace" usage="req">
-                        <valList type="closed">
-                           <!-- la valeur arevoir est un outil de travail permettant de mettre en surbrillance des incertitudes éditoriales. Cette valeur sera effacée à terme  -->
-                           <valItem ident="arevoir"/>
-                           <valItem ident="erased"/>
-                           <valItem ident="faded"/>
-                           <valItem ident="fold"/>
-                           <valItem ident="hole"/>
-                           <valItem ident="rewritten"/>
-                           <valItem ident="transparence"/>
-                           <valItem ident="uncertain"/>
-                           <valItem ident="stain"/>
-                        </valList>
-                     </attDef>
-                     <attDef ident="agent" mode="change" usage="opt">
-                        <valList type="closed">
-                           <valItem ident="smoke"/>
-                           <valItem ident="mildew"/>
-                           <valItem ident="rubbing"/>
-                           <valItem ident="copist"/>
-                        </valList>
-                     </attDef>
-                  </attList>
-               </elementSpec>
+               <!-- éléments du module CORE -->
 
-               <!-- ajout d'une note : sa nature -->
-               <elementSpec ident="note" module="core" mode="change">
-                  <attList>
-                     <attDef ident="type" mode="change" usage="req">
-                        <valList type="closed">
-                           <valItem ident="apparat"/>
-                           <valItem ident="ntravail"/>
-                           <valItem ident="notecritique"/>
-                        </valList>
-                     </attDef>
-                  </attList>
-               </elementSpec>
-
-               <!-- ajout d'un élément textuel par l'auteur/scribe : lieu d'insertion et identification de l'agent scripteur -->
                <elementSpec ident="add" module="core" mode="change">
                   <attList>
                      <attDef ident="place" mode="replace" usage="req">
@@ -299,11 +262,412 @@
                            <valItem ident="#main1"/>
                            <valItem ident="#main2"/>
                            <valItem ident="#main3"/>
+                           <valItem ident="#main4"/>
                         </valList>
                      </attDef>
                   </attList>
                </elementSpec>
+
+               <elementSpec ident="cb" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="n" mode="change" usage="req"/>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="choice" mode="change">
+                  <modelGrp output="web">
+                     <model predicate="sic and corr" behaviour="alternate">
+                        <param name="default" value="corr[@cert='low']"/>
+                        <param name="alternate" value="sic"/>
+                     </model>
+                     <model predicate="orig and reg" behaviour="alternate">
+                        <param name="default" value="reg"/>
+                        <param name="alternate" value="orig"/>
+                     </model>
+                  </modelGrp>
+               </elementSpec>
+
+               <elementSpec ident="corr" module="core" mode="change">
+                  <attList>
+                     <attDef ident="resp" mode="change" usage="req">
+                        <valList type="open">
+                           <valItem ident="#FPZ"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="del" module="core" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList type="closed">
+                           <valItem ident="exponctuation"/>
+                           <valItem ident="scraped"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="hand" mode="change" usage="req">
+                        <valList type="closed">
+                           <valItem ident="#hand1"/>
+                           <valItem ident="#hand2"/>
+                           <valItem ident="#otherhand"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="gap" mode="change" module="core">
+                  <attList>
+                     <attDef ident="reason" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="lost">
+                              <desc> The material is entirely gone, i.e. there is no physical
+                                 carrier to bear text information any more. </desc>
+                           </valItem>
+                           <valItem ident="effaced">
+                              <desc> Any physical harm to the surface that entirely ereases
+                                 information </desc>
+                           </valItem>
+                           <valItem ident="unknown">
+                              <desc>Where the type of gap is unknown.</desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                     <attDef ident="unit" mode="replace" usage="opt">
+                        <valList type="closed">
+                           <valItem ident="g">
+                              <desc> The unit to be measured is glyph coded in the "g" element. It
+                                 is comparable to a character. </desc>
+                           </valItem>
+                           <valItem ident="ab">
+                              <desc> The unit to be measured is a glyph-block coded in the "ab"
+                                 element. </desc>
+                           </valItem>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+
+
+               <!-- SE DÉCIDER -->
+               <elementSpec ident="head" module="core" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList type="closed">
+                           <valItem ident="rubrique"/>
+                           <valItem ident="explicit"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="n" mode="change" usage="rec"/>
+                  </attList>
+               </elementSpec>
+
+               <!-- SE DÉCIDER -->
+               <elementSpec ident="hi" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="rend" mode="change" usage="req">
+                        <valList mode="add" type="open">
+                           <valItem ident="rubricated"/>
+                           <valItem ident="decorated-initial"/>
+                           <valItem ident="orig"/>
+                           <valItem ident="reg"/>
+                           <valItem ident="italic"/>
+                           <valItem ident="green"/>
+                           <valItem ident="title"/>
+                           <valItem ident="exp"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="name" module="core" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="people"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="key" mode="change" usage="req">
+                        <valList type="open"/>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <!-- ajout d'une note : sa nature -->
+               <elementSpec ident="note" module="core" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList type="closed">
+                           <valItem ident="apparat"/>
+                           <valItem ident="ntravail"/>
+                           <valItem ident="notecritique"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="orig" mode="change">
+                  <gloss>Original</gloss>
+                  <desc xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">permet
+                     d'encoder la forme originale du manuscrit.</desc>
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+
+
+               <elementSpec ident="p" module="core" mode="change">
+                  <constraintSpec ident="p_n_check" scheme="schematron">
+                     <constraint>
+                        <sch:rule context="tei:text//tei:p">
+                           <sch:assert test="@n" role="error">Please add a @n attribute</sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <attList>
+                     <attDef ident="n" mode="change" usage="req">
+                        <valList type="open"/>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="pb" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="n" mode="change" usage="req">
+                        <valList type="open"/>
+                     </attDef>
+                     <attDef ident="facs" mode="change" usage="req">
+                        <valList type="open"/>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="reg" mode="change">
+                  <gloss>Régularisation</gloss>
+                  <desc xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">permet
+                     d'encoder la forme régularisée.</desc>
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="unit" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+
+               <!-- RESP ICI -->
+
+               <elementSpec ident="respStmt" module="core" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="resp" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="persName" minOccurs="1" maxOccurs="1"/>
+                     </sequence>
+                  </content>
+               </elementSpec>
+
+               <elementSpec ident="rs" module="core" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="person"/>
+                           <valItem ident="place"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="key" mode="change" usage="req">
+                        <valList type="open"/>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+
+               <elementSpec ident="said" mode="change">
+                  <constraintSpec ident="narrator" scheme="schematron">
+                     <!-- <constraint>
+                <sch:rule context="tei:said[./@who]">
+                  <sch:assert test="not(./@direct)">Direct est interdit si c'est le narrateur qui parle</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+            <constraintSpec ident="narrator2" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:said[./@who]">
+                  <sch:assert test="not(./@aloud)">Aloud est interdit si c'est le narrateur qui parle</sch:assert>
+                </sch:rule>
+              </constraint>-->
+                  </constraintSpec>
+                  <constraintSpec ident="character_aloud" scheme="schematron">
+                     <constraint>
+                        <sch:rule context="tei:said[./not(@who)]">
+                           <sch:assert test="./@aloud">Aloud est obligatoire si c'est un personnage
+                              qui parle qui parle</sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <constraintSpec ident="character_direct1" scheme="schematron">
+                     <constraint>
+                        <sch:rule context="tei:said[./not(@who)]">
+                           <sch:assert test="./@direct">Direct est obligatoire si c'est un
+                              personnage qui parle qui parle</sch:assert>
+                        </sch:rule>
+                     </constraint>
+                  </constraintSpec>
+                  <attList>
+                     <attDef ident="aloud" mode="replace" usage="rec">
+                        <valList type="closed">
+                           <valItem ident="true"/>
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="direct" mode="replace" usage="rec">
+                        <valList type="closed">
+                           <valItem ident="true"/>
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="who" mode="change" usage="opt">
+                        <valList type="closed" mode="replace">
+                           <valItem ident="#nar"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="rendition" mode="replace" usage="opt">
+                        <valList type="closed" mode="replace">
+                           <valItem ident="dialogue"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="sic" mode="change">
+                  <gloss>Graphie originale mais fautive</gloss>
+                  <desc xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">permet
+                     d'encoder la forme originale du manuscrit tout en signalant que cette dernière
+                     est fautive</desc>
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+
+               <!-- TITLE ICI -->
+
+               <!-- On utilise la balise <unclear> pour son usage TEI officiel
+               mais aussi, dans une certaine mesure, pour sa proximité avec <certainty>. L'incertitude
+               est considérée ici comme étant celle de l'éditeur, par manque de compétence quelle qu'elle soit.
+               L'incertitude pouvant découler de l'absence de clarté, on en a fait une raison à fin formative. -->
+
+               <elementSpec ident="unclear" module="core" mode="change">
+                  <attList>
+                     <attDef ident="reason" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="acertain"/>
+                           <valItem ident="erased"/>
+                           <valItem ident="faded"/>
+                           <valItem ident="fold"/>
+                           <valItem ident="hole"/>
+                           <valItem ident="rewritten"/>
+                           <valItem ident="transparence"/>
+                           <valItem ident="stain"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="agent" mode="change" usage="opt">
+                        <valList type="closed">
+                           <valItem ident="smoke"/>
+                           <valItem ident="mildew"/>
+                           <valItem ident="rubbing"/>
+                           <valItem ident="copist"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="cert" mode="change" usage="req">
+                        <valList type="closed">
+                           <valItem ident="high"/>
+                           <valItem ident="medium"/>
+                           <valItem ident="low"/>
+                           <valItem ident="unknown"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               <!-- éléments du module HEADER -->
+               <!-- éléments du module FIGURES -->
+               <!-- éléments du module LINKING -->
+               <!-- éléments du module MSDESCRIPTION -->
+               <!-- éléments du module NAMESDATE -->
+               <!-- éléments du module TEI -->
+               <!-- éléments du module TEXTCRIT -->
+               <!-- éléments du module TEXTSCTRUCTURE -->
+               <!-- éléments du module TRANSCR -->
+
+               <elementSpec ident="supplied" mode="change" module="transcr">
+                  <attList>
+                     <attDef ident="reason" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="gap"/>
+                           <valItem ident="damage"/>
+                           <valItem ident="unclear"/>
+                           <valItem ident="omitted"/>
+                           <valItem ident="unknown"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="precision" mode="replace" usage="opt">
+                        <valList type="closed">
+                           <valItem ident="low"/>
+                           <valItem ident="high"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="unit" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="g"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <!-- éléments du module ANALYSIS -->
+
+
+
+
+
+
+
+
+
+
             </schemaSpec>
+
+
+
          </div>
       </body>
    </text>
