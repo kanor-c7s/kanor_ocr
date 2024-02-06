@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Li histoire de Kanor et de ses frerejs</title>
+            <title>Li histoire de Kanor et de ses freres</title>
             <respStmt>
                <resp>Direction</resp>
                <persName key="YFJ">Yasmina Foehr-Janssens</persName>
@@ -219,14 +219,14 @@
                apiel <gap quantity="4" reason="illegible" unit="chars"/> Betsaïde. Il s'acointa <gap
                   quantity="4" reason="illegible" unit="chars"/> en teil maniere <gap quantity="4"
                   reason="illegible" unit="chars"/> anchois repaira en son <cb n="b"/> paiis. Et
-               avint qu'il ne demoura mie mout que la damoisiel <choice>
-                  <orig>
-                     <del rend="exponctuation">e</del>
-                  </orig>
-                  <reg resp="FPZ">e</reg>
-               </choice>, qui avoit mis son cuer ou damoisiel, fist tant par force d'esperiment que
-               il sambloit au damoisiel chascune nuit que cele li venoit de devant, et li disoit
-               paroles necessaires ; por coi il au matin se leva et manda de ses p <supplied
+               avint qu'il ne demoura mie mout que la damoisiel<choice>
+                  <sic>
+                     <unclear reason="erased" cert="high"><del type="exponctuation" hand="#hand1"
+                           >e</del></unclear>
+                  </sic>
+                  <reg resp="#FPZ">e</reg>
+               </choice> il sambloit au damoisiel chascune nuit que cele li venoit de devant, et li
+               disoit paroles necessaires ; por coi il au matin se leva et manda de ses p <supplied
                   reason="omitted">r</supplied>inces et dist par sa bone foi que or ert li tans
                venus qu'il voloit celi avoir qui li ert venue en son dormant. Quant ce entendirent
                li baron, si s'aviserent de lor sort dont j'ai desus dit, et missent le plus grant
@@ -243,22 +243,22 @@
                fait mension. De coi il avint qu'il l'en amena en Gresce et l'espousa a la guise de
                son paiis. Il n'eurent mie esté mout ensamble quant nouviles vi <supplied
                   reason="omitted">n</supplied>rent de Rome que sa cousine Fastige avoient li
-               Roumain demise et chacie <note place="bottom" type="ling">Pas d'accentuation sur le
-                  «e» final : participe passé picard : le radical se termine par un son palatal, la
-                  final «-ie» est une réduction de «-iee». On peut dire que le «e» final est le
-                  morphème grammatical de genre féminin.</note> de la citei et que il le vausist
-               soucoure en auteil maniere come li siens pere Pheseus avoit soucoru Laurun le sien
-               pere. Que vous iroie devisant ? Li vaillans Kassidorus s'avisa et dist que <seg
-                  ana="proverbe">li une bontés l'autre recuiert</seg>
-               <note type="notecritique">L'une bonté l'autre requiert (Morawski 1146).</note>. Il
-               atorna sa voie et laissa sa feme en garde un sien ami. Il en ala a Roume et sa feme
-               demoura enchainte. Et avint que li tiermes ala tant que la dame envoia a Roume a son
-               signor por lui savoir coment il <orig
-                  ana="ne dans un contexte interrogatif, marquant simplement l'hésitation / ou alors c'est l'abréviation de en / coment il en estoit / un peu l'équivalent de ce qu'il en était  ?"
-                  >n</orig> estoit et savoir de lui son iestre. Li més que cestui mesage deut faire
-               le fist en teil maniere ke sa letre fu fausee, et trova Kassidorus escrit que cil en
-               cui garde il avoit sa feme laissie li mandoit que elle despuis qu'il s'ert partis de
-               li, elle ne s'estoit gardee mout autrement come se elle fust a tos conmune, et que il
+               Roumain demise et chacie <note type="notecritique">Pas d'accentuation sur le «e» final :
+                  participe passé picard : le radical se termine par un son palatal, la final «-ie»
+                  est une réduction de «-iee». On peut dire que le «e» final est le morphème
+                  grammatical de genre féminin.</note> de la citei et que il le vausist soucoure en
+               auteil maniere come li siens pere Pheseus avoit soucoru Laurun le sien pere. Que vous
+               iroie devisant ? Li vaillans Kassidorus s'avisa et dist que <seg>li une bontés
+                  l'autre recuiert</seg>.<note type="notecritique">L'une bonté l'autre requiert
+                  (Morawski 1146).</note> Il atorna sa voie et laissa sa feme en garde un sien ami.
+               Il en ala a Roume et sa feme demoura enchainte. Et avint que li tiermes ala tant que
+               la dame envoia a Roume a son signor por lui savoir coment il <choice>
+                  <orig>n</orig>
+                  <reg>en</reg>
+               </choice> estoit et savoir de lui son iestre. Li més que cestui mesage deut faire le
+               fist en teil maniere ke sa letre fu fausee, et trova Kassidorus escrit que cil en cui
+               garde il avoit sa feme laissie li mandoit que elle despuis qu'il s'ert partis de li,
+               elle ne s'estoit gardee mout autrement come se elle fust a tos conmune, et que il
                mandast de queil mort il voloit que on le feist morir. </p>
             <p n="P5"> Cil qui mout ert sages et aviseus remanda a celui que telle come il li avoit
                charcié, il li gardast deci a son repairier. Et qu'avint de çou ? Li traïtour qui de

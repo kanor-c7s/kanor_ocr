@@ -205,7 +205,7 @@
 
                <!-- Inclut le module "core" qui contient des éléments de base pour la structuration du texte. -->
                <moduleRef key="core"
-                  include="add cb choice corr del gap head hi name note num p pb resp respStmt rs said title unclear"/>
+                  include="add cb choice corr del gap head hi name note num orig p pb reg resp respStmt rs said sic title unclear"/>
 
                <!-- Inclut le module "header" qui contient des éléments pour la description de l'encodage et la déclaration éditoriale. -->
                <moduleRef key="header"
@@ -279,16 +279,22 @@
                </elementSpec>
 
                <elementSpec ident="choice" mode="change">
-                  <modelGrp output="web">
-                     <model predicate="sic and corr" behaviour="alternate">
-                        <param name="default" value="corr[@cert='low']"/>
-                        <param name="alternate" value="sic"/>
-                     </model>
-                     <model predicate="orig and reg" behaviour="alternate">
-                        <param name="default" value="reg"/>
-                        <param name="alternate" value="orig"/>
-                     </model>
-                  </modelGrp>
+                  <!--  sic (Graphie originale mais fautive) permet d'encoder la forme originale du manuscrit tout en signalant que
+cette dernière est fautive
+                        corr (Correction) permet de signaler les corrections apportées au texte
+                        -> processus d'édition critique -->
+                  <model predicate="sic and corr" behaviour="alternate">
+                     <param name="default" value="corr[@cert='low']"/>
+                     <param name="alternate" value="sic"/>
+                  </model>
+
+                  <!--  orig (Original) permet d'encoder la forme originale du manuscrit.
+                        reg (Régularisation) permet d'encoder la forme régularisée.
+                        -> processus de normalisation -->
+                  <model predicate="orig and reg" behaviour="alternate">
+                     <param name="default" value="reg"/>
+                     <param name="alternate" value="orig"/>
+                  </model>
                </elementSpec>
 
                <elementSpec ident="corr" module="core" mode="change">
@@ -297,6 +303,9 @@
                         <valList type="open">
                            <valItem ident="#FPZ"/>
                         </valList>
+                     </attDef>
+                     <attDef ident="cert" mode="change" usage="req">
+                        <valList type="open"> </valList>
                      </attDef>
                   </attList>
                </elementSpec>
@@ -373,15 +382,22 @@
                      <attDef ident="ana" mode="delete"/>
                      <attDef ident="facs" mode="delete"/>
                      <attDef ident="rend" mode="change" usage="req">
-                        <valList mode="add" type="open">
+                        <valList mode="add" type="closed">
                            <valItem ident="rubricated"/>
                            <valItem ident="decorated-initial"/>
-                           <valItem ident="orig"/>
-                           <valItem ident="reg"/>
                            <valItem ident="italic"/>
-                           <valItem ident="green"/>
                            <valItem ident="title"/>
                            <valItem ident="exp"/>
+                           <valItem ident="blue"/>
+                           <valItem ident="red"/>
+                           <valItem ident="2"/>
+                           <valItem ident="3"/>
+                           <valItem ident="4"/>
+                           <valItem ident="5"/>
+                           <valItem ident="6"/>
+                           <valItem ident="7"/>
+                           <valItem ident="8"/>
+                           <valItem ident="9"/>                           
                         </valList>
                      </attDef>
                   </attList>
@@ -400,10 +416,11 @@
                   </attList>
                </elementSpec>
 
-               <!-- ajout d'une note : sa nature -->
+               <!-- ajout d'une note : sa nature 
+               Ne fonctionne pas-->
                <elementSpec ident="note" module="core" mode="change">
                   <attList>
-                     <attDef ident="type" mode="change" usage="req">
+                     <attDef ident="type2" mode="change" usage="req">
                         <valList type="closed">
                            <valItem ident="apparat"/>
                            <valItem ident="ntravail"/>
@@ -551,10 +568,6 @@
                </elementSpec>
 
                <elementSpec ident="sic" mode="change">
-                  <gloss>Graphie originale mais fautive</gloss>
-                  <desc xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">permet
-                     d'encoder la forme originale du manuscrit tout en signalant que cette dernière
-                     est fautive</desc>
                   <attList>
                      <attDef ident="corresp" mode="delete"/>
                      <attDef ident="ana" mode="delete"/>
@@ -632,22 +645,15 @@
                   <attList>
                      <attDef ident="reason" mode="replace" usage="req">
                         <valList type="closed">
-                           <valItem ident="gap"/>
                            <valItem ident="damage"/>
-                           <valItem ident="unclear"/>
                            <valItem ident="omitted"/>
                            <valItem ident="unknown"/>
                         </valList>
                      </attDef>
-                     <attDef ident="precision" mode="replace" usage="opt">
+                     <attDef ident="cert" mode="replace" usage="opt">
                         <valList type="closed">
                            <valItem ident="low"/>
                            <valItem ident="high"/>
-                        </valList>
-                     </attDef>
-                     <attDef ident="unit" mode="replace" usage="req">
-                        <valList type="closed">
-                           <valItem ident="g"/>
                         </valList>
                      </attDef>
                   </attList>

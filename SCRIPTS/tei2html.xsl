@@ -8,7 +8,7 @@
 
             <head>
                 <title>Kanor et ses frères</title>
-                <link rel="stylesheet" type="text/css" href="../ASSETS/Kanor.css"/>
+                <link rel="stylesheet" type="text/css" href="../../ASSETS/Kanor.css"/>
                 <meta http-equiv="cache-control" content="no-cache"/>
                 <meta http-equiv="expires" content="0"/>
                 <meta http-equiv="pragma" content="no-cache"/>
@@ -33,6 +33,9 @@
                     <li> je ne <span><i>(s)</i>>&#160;<b>›l‹</b></span>e saroie trover : la
                         correction critique <b>›l‹</b> remplace le texte du ms. </li>
                 </ul>
+                <br/>
+                <hr/>
+                <br/>
                 <xsl:apply-templates/>
             </body>
         </html>
