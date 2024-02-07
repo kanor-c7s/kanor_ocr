@@ -2,26 +2,26 @@
     font-family: 'EB Garamond';
     font-style: normal;
     font-weight: 400;
-    src: local('EB Garamond 12'), url(http://brick.freetls.fastly.net/fonts/ebgaramond/400.woff) format('woff');
+    src: local('EB Garamond 12'), url(https://brick.freetls.fastly.net/fonts/ebgaramond/400.woff) format('woff');
 }
 @font-face {
     font-family: 'EB Garamond';
     font-style: italic;
     font-weight: 400;
-    src: local('EB Garamond 12 Italic'), url(http://brick.freetls.fastly.net/fonts/ebgaramond/400i.woff) format('woff');
+    src: local('EB Garamond 12 Italic'), url(https://brick.freetls.fastly.net/fonts/ebgaramond/400i.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    src: local('Open Sans'), url(http://brick.freetls.fastly.net/fonts/opensans/400.woff) format('woff');
+    src: local('Open Sans'), url(https://brick.freetls.fastly.net/fonts/opensans/400.woff) format('woff');
 }
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    src: local('Open Sans Bold'), url(http://brick.freetls.fastly.net/fonts/opensans/700.woff) format('woff');
+    src: local('Open Sans Bold'), url(https://brick.freetls.fastly.net/fonts/opensans/700.woff) format('woff');
 }
 
 p {
@@ -51,10 +51,11 @@ h2 {
 
 body {
     background-color: white;
+    font-size: 20px;
     text-align: justify;
     margin-right: 13em;
-    margin-left: 13em;
-    margin-top: 3em;
+    margin-left: 7em;
+    margin-top: 2em;
     font-family: 'EB Garamond';
 }
 

@@ -22,16 +22,40 @@
                 <span>Présentation des signes employés :</span>
                 <ul>
                     <li>[×] segment indéchiffrable</li>
-                    <li> Dieus i vot mostrer de ses o<span class="add">^ue^</span>vres : ajout
+                    <li>Dieus i vot mostrer de ses o<span class="add">^ue^</span>vres : ajout
                         suscrit par le scribe </li>
-                    <li> de grant se<span class="tooltip">‹n›<span class="tooltip-content"/></span>s
+                    <li>de grant se<span class="tooltip">‹n›<span class="tooltip-content"/></span>s
                         aornee : ajout par l'éditeur </li>
-                    <li> Au conbrer le cheval f<span class="del">u</span>ist il merveille :
+                    <li>Au conbrer le cheval f<span class="del">u</span>ist il merveille :
                         exponctuation par le scribe </li>
-                    <li> et cuida bien avoir l'auwe <span class="surplus">avoir</span> copee. :
+                    <li>et cuida bien avoir l'auwe <span class="surplus">avoir</span> copee. :
                         suppression par l'éditeur </li>
-                    <li> je ne <span><i>(s)</i>>&#160;<b>›l‹</b></span>e saroie trover : la
+                    <li>je ne <span><i>(s)</i>>&#160;<b>›l‹</b></span>e saroie trover : la
                         correction critique <b>›l‹</b> remplace le texte du ms. </li>
+                    <li>li envieus<span class="tooltip"><span class="note">💬<span
+                                    class="tooltip-content">topos de prologue que de rejeter les
+                                    critiques à l'avance. Ce qui est intéressant, c'est
+                                    l'utilisation d'un cas sujet alors que finalement le GN est COD
+                                    : ou alors il y a une anacoluthe...</span></span></span> / et
+                        puis les sont <span class="tooltip"
+                                ><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#0096ff" version="1.1" id="Capa_1" width="24px" height="24px" viewBox="-62.89 -62.89 609.57 609.57" xml:space="preserve" transform="matrix(-1, 0, 0, 1, 0, 0)rotate(0)" stroke="#0096ff" stroke-width="0.00483789">
+               <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="4.83789"/>
+               <g id="SVGRepo_iconCarrier"> 
+                  <g> 
+                     <g> 
+                        <polygon points="434.77,405.332 465.895,405.332 465.895,122.667 329.895,122.667 329.895,280.288 329.895,293.333 316.073,293.333 167.228,293.333 167.228,405.332 361.895,405.332 361.895,483.789 "/> 
+                        <path d="M17.895,280h30.88l73.12,79.973V280h45.333h149.333V122.667V0H17.895V280z M266.138,116.6 c6.267,0,11.989,3.4,16.407,6.067c5.43,5.333,8.885,11.845,8.885,19.549c0,13.968-11.325,25.453-25.292,25.453 c-13.968,0-25.294-11.565-25.294-25.533c0-7.701,3.453-14.133,8.886-19.467C254.145,120,259.867,116.6,266.138,116.6z M199.927,116.6c6.267,0,11.99,3.4,16.408,6.067c5.429,5.333,8.886,11.845,8.886,19.549c0,13.968-11.326,25.453-25.294,25.453 c-13.968,0-25.293-11.565-25.293-25.533c0-7.701,3.454-14.133,8.886-19.467C187.937,120,193.66,116.6,199.927,116.6z M133.715,117.243c13.971,0,25.293,11.326,25.293,25.293c0,13.968-11.325,25.293-25.293,25.293 c-13.968,0-25.293-11.325-25.293-25.293C108.422,128.565,119.748,117.243,133.715,117.243z M67.507,117.243 c13.968,0,25.293,11.326,25.293,25.293c0,13.968-11.326,25.293-25.293,25.293c-13.971,0-25.293-11.325-25.293-25.293 C42.214,128.565,53.538,117.243,67.507,117.243z"/> </g> </g> </g></svg><span
+                                class="tooltip-content"><b>fpzanardi :</b><br/>à corriger en «alees»
+                                en suivant V3 ? Ou bien, si le fait se reproduit (participes passés
+                                en –er), le signaler en introduction linguistique.</span></span>aler
+                        oïr / [li emperere] <span class="tooltip"><span class="ntravail">❓<span
+                                    class="tooltip-content">Le cas de ce groupe nominal ne fait pas
+                                    de doute grâce au déterminant : CSS. Mais l'analyse syntaxique
+                                    montre qu'il est en fait complément détaché de li chastelains
+                                    vint a lui.</span></span></span>: notes affichées sous forme
+                        d'info-bulle au passage de la souris :<br/>notes de 1) <b>apparat</b> 2)
+                            <b>commentaire</b> Oxygen 3) <b>travail</b> (seront supprimées)</li>
                 </ul>
                 <br/>
                 <hr/>
@@ -458,7 +482,9 @@
             <svg fill="#0096ff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="-62.89 -62.89 609.57 609.57" xml:space="preserve" transform="matrix(-1, 0, 0, 1, 0, 0)rotate(0)" stroke="#0096ff" stroke-width="0.00483789"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="4.83789"/><g id="SVGRepo_iconCarrier"> <g> <g> <polygon points="434.77,405.332 465.895,405.332 465.895,122.667 329.895,122.667 329.895,280.288 329.895,293.333 316.073,293.333 167.228,293.333 167.228,405.332 361.895,405.332 361.895,483.789 "/> <path d="M17.895,280h30.88l73.12,79.973V280h45.333h149.333V122.667V0H17.895V280z M266.138,116.6 c6.267,0,11.989,3.4,16.407,6.067c5.43,5.333,8.885,11.845,8.885,19.549c0,13.968-11.325,25.453-25.292,25.453 c-13.968,0-25.294-11.565-25.294-25.533c0-7.701,3.453-14.133,8.886-19.467C254.145,120,259.867,116.6,266.138,116.6z M199.927,116.6c6.267,0,11.99,3.4,16.408,6.067c5.429,5.333,8.886,11.845,8.886,19.549c0,13.968-11.326,25.453-25.294,25.453 c-13.968,0-25.293-11.565-25.293-25.533c0-7.701,3.454-14.133,8.886-19.467C187.937,120,193.66,116.6,199.927,116.6z M133.715,117.243c13.971,0,25.293,11.326,25.293,25.293c0,13.968-11.325,25.293-25.293,25.293 c-13.968,0-25.293-11.325-25.293-25.293C108.422,128.565,119.748,117.243,133.715,117.243z M67.507,117.243 c13.968,0,25.293,11.326,25.293,25.293c0,13.968-11.326,25.293-25.293,25.293c-13.971,0-25.293-11.325-25.293-25.293 C42.214,128.565,53.538,117.243,67.507,117.243z"/> </g> </g> </g></svg>
             <span class="tooltip-content">
                 <b><xsl:value-of
-                    select="substring-before(substring-after(., 'author=&quot;'), '&quot;')"/> :</b><br/>
+                        select="substring-before(substring-after(., 'author=&quot;'), '&quot;')"/>
+                    :</b>
+                <br/>
                 <xsl:value-of
                     select="substring-before(substring-after(., 'comment=&quot;'), '&quot;')"/>
             </span>
