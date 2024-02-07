@@ -433,10 +433,7 @@ cette dernière est fautive
                   </attList>
                </elementSpec>
 
-               <elementSpec ident="orig" mode="replace">
-                  <gloss>Original</gloss>
-                  <desc xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">permet
-                     d'encoder la forme originale du manuscrit.</desc>
+               <elementSpec ident="orig" mode="change">
                   <attList>
                      <attDef ident="corresp" mode="delete"/>
                      <attDef ident="ana" mode="delete"/>

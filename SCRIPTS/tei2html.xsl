@@ -406,8 +406,8 @@
     <!-- Template pour les éléments unclear -->
     <xsl:template match="unclear">
         <xsl:choose>
-            <xsl:when test="@type = 'arevoir'">
-                <span class="arevoir">
+            <xsl:when test="@reason = 'acertain'">
+                <span class="acertain">
                     <i>[<xsl:apply-templates/>]</i>
                 </span>
             </xsl:when>
@@ -424,14 +424,46 @@
                 <b>[×]</b>
             </xsl:when>
             <xsl:otherwise>
-                <i>[<xsl:apply-templates/>]</i>
+                <b>[×]</b>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
-    <!-- Template pour les éléments choice -->
+
+    <!-- Template pour les éléments corr -->
+    <xsl:template match="corr">
+        <xsl:choose>
+            <xsl:when test="@cert = 'low'">
+                <span class="acertain">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+    <!-- Template pour les éléments <choice>
+    On sélectionne les deux enfants du noeud <choice> par une expression xpath, car leur type est variable.
+    -->
     <xsl:template match="choice">
-        <span><i>(<xsl:value-of select="orig"/>)</i>&#160;<b>›<xsl:value-of select="reg"
+        <span><i>(<xsl:value-of select="./*[1]"/>)</i>&#160;<b>›<xsl:value-of select="./*[2]"
             />‹</b></span>
     </xsl:template>
+
+    <xsl:template match="processing-instruction('oxy_comment_start')">
+        <!-- Display the content of the @comment attribute -->
+        <span class="tooltip">
+            <svg fill="#0096ff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="-62.89 -62.89 609.57 609.57" xml:space="preserve" transform="matrix(-1, 0, 0, 1, 0, 0)rotate(0)" stroke="#0096ff" stroke-width="0.00483789"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="4.83789"/><g id="SVGRepo_iconCarrier"> <g> <g> <polygon points="434.77,405.332 465.895,405.332 465.895,122.667 329.895,122.667 329.895,280.288 329.895,293.333 316.073,293.333 167.228,293.333 167.228,405.332 361.895,405.332 361.895,483.789 "/> <path d="M17.895,280h30.88l73.12,79.973V280h45.333h149.333V122.667V0H17.895V280z M266.138,116.6 c6.267,0,11.989,3.4,16.407,6.067c5.43,5.333,8.885,11.845,8.885,19.549c0,13.968-11.325,25.453-25.292,25.453 c-13.968,0-25.294-11.565-25.294-25.533c0-7.701,3.453-14.133,8.886-19.467C254.145,120,259.867,116.6,266.138,116.6z M199.927,116.6c6.267,0,11.99,3.4,16.408,6.067c5.429,5.333,8.886,11.845,8.886,19.549c0,13.968-11.326,25.453-25.294,25.453 c-13.968,0-25.293-11.565-25.293-25.533c0-7.701,3.454-14.133,8.886-19.467C187.937,120,193.66,116.6,199.927,116.6z M133.715,117.243c13.971,0,25.293,11.326,25.293,25.293c0,13.968-11.325,25.293-25.293,25.293 c-13.968,0-25.293-11.325-25.293-25.293C108.422,128.565,119.748,117.243,133.715,117.243z M67.507,117.243 c13.968,0,25.293,11.326,25.293,25.293c0,13.968-11.326,25.293-25.293,25.293c-13.971,0-25.293-11.325-25.293-25.293 C42.214,128.565,53.538,117.243,67.507,117.243z"/> </g> </g> </g></svg>
+            <span class="tooltip-content">
+                <b><xsl:value-of
+                    select="substring-before(substring-after(., 'author=&quot;'), '&quot;')"/> :</b><br/>
+                <xsl:value-of
+                    select="substring-before(substring-after(., 'comment=&quot;'), '&quot;')"/>
+            </span>
+        </span>
+    </xsl:template>
+
+
 </xsl:stylesheet>
