@@ -7,6 +7,17 @@
       <fileDesc>
          <titleStmt>
             <title>Li histoire de Kanor et de ses freres</title>
+            <author>Anonyme</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>UniGE (Université de Genève, Suisse)</authority>
+            <authority>Lyon-II (Université Lumière-Lyon-II, France)</authority>
+            <publisher>Florian-Pierre Zanardi</publisher>
+            <availability status="restricted">
+               <licence>usage pour les membres de l'équipe</licence>
+            </availability>
+            <date>2023-2028</date>
+
             <respStmt>
                <resp>Direction</resp>
                <persName key="YFJ">Yasmina Foehr-Janssens</persName>
@@ -32,54 +43,123 @@
                <persName key="MTM">Meradith Tilbury McMunn</persName>
             </respStmt>
             <!-- Voir comment mentionner les responsables de la partie Peliarmenus -->
-         </titleStmt>
+         </publicationStmt>
+
          <extent>Édition complète de l'oeuvre Kanor et ses frere contenue dans le ms. Bnf fr. 1446,
             qui contient un résumé du cycle des continuations du Sept sages de Rome, une version
             abrégée de la fin du <persName key="Pelyarmenus">Pelyarmenus</persName> (pour une bonne
             part du manuscrit B) ainsi qu'une version remaniée, peut-être lacunaire, du roman de
-               <persName key="Kanor">Kanor</persName>. </extent>
-         <publicationStmt>
-            <authority>UniGE (Université de Genève, Suisse)</authority>
-            <authority>Lyon-II (Université Lumière-Lyon-II, France)</authority>
-            <availability status="restricted">
-               <licence>usage pour les membres de l'équipe</licence>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="C">
-                  <msDesc>
-                     <msIdentifier>
-                        <settlement>Paris</settlement>
-                        <repository>BnF</repository>
-                        <idno>fr. 1446</idno>
-                     </msIdentifier>
-                     <msContents>
-                        <msItem>
-                           <locus from="1ra" to="3ra"/>
-                           <title> Résumé du cycle des continuations du Sept sages de Rome </title>
-                        </msItem>
-                        <msItem>
-                           <locus from="3ra" to="26vb"/>
-                           <title> Fin remaniée du roman de Pelyarmenus (#446-#842) </title>
-                        </msItem>
-                        <msItem>
-                           <locus from="26vb" to="70rb"/>
-                           <title> Version remaniée (abrégée ou lacunaire ?) du roman de Kanor
-                           </title>
-                        </msItem>
-                     </msContents>
+               <persName key="Kanor">Kanor</persName>.</extent>
 
-                     <physDesc>
-                        <handDesc>
-                           <handNote xml:id="hand1">Première main</handNote>
-                           <handNote xml:id="hand2">Deuxième main</handNote>
-                           <handNote xml:id="otherhand">Autre main</handNote>
-                        </handDesc>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
+
+
+         <sourceDesc>
+            <msDesc xml:id="C">
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France - Département des
+                     Manuscrits</repository>
+                  <idno>fr. 01446</idno>
+                  <altIdentifier>
+                     <idno>Regius 7834(3.3)</idno>
+                     <idno>Colbert 1436</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>
+                  <title>Li Histoire de Kanor et de ses freres</title>
+                  <origDate>entre 1289 et 1292</origDate>
+                  <note><p>Notice tiré de la base Jonas, section romane, notice de "PARIS,
+                        Bibliothèque nationale de France, Manuscrits, fr. 01446" dans la base
+                        Jonas-IRHT/CNRS (permalink : <ref
+                           target="http://jonas.irht.cnrs.fr/manuscrit/45610"
+                           >http://jonas.irht.cnrs.fr/manuscrit/45610</ref>). Consultation du
+                        08/02/2024.</p>
+                     <p>Notice François Avril, Fichier des manuscrits enluminés du département des
+                        Manuscrits. NAF 28635 (4) (permalink : <ref
+                           target="https://gallica.bnf.fr/ark:/12148/btv1b10000507p/f1152.item"
+                           >https://gallica.bnf.fr/ark:/12148/btv1b10000507p/f1152.item</ref>).</p></note>
+               </head>
+
+               <msContents>
+                  <msItemStruct>
+                     <locus>fol.1ra-fol.3ra</locus>
+                     <author>Anonyme (attribution à Baudoin Butor)</author>
+                     <title>Récapitulation cycle des continuations du Sept sages de Rome</title>
+                     <rubric>Ichi encomence li histoire de Kanor et de ses freres, liqueil furent
+                        fil au noble Kassidorus, empereor de Costostinnoble et de Rome, liqueil
+                        furent engenré en l'emperis Fastige, ki fille fu a l'empereor
+                        Phiseus.</rubric>
+                     <incipit>Ha ! Diex, si sousfissanment ai esté requis de noble prince Huon de
+                        Casteillon et comte de Saint Pol...</incipit>
+                     <explicit>ci endroit face fin de ma rechapitulation et entre en ma matere, dont
+                        jou ai fait mension en mon prologue devant, et comence ici endroit mon
+                        livre.</explicit>
+                  </msItemStruct>
+                  <msItemStruct>
+                     <locus>fol.3rb-fol.26vb</locus>
+                     <author>Anonyme (attribution à Baudoin Butor)</author>
+                     <title>Fin de Pelyarmenus</title>
+                     <incipit>Dieus, qui par sa grant puissance le monde establi, il doinst honour
+                        et joie parfaite a mon trés chier signor devant nomei...</incipit>
+                     <explicit>Mais a ce veil venir qu'il morut et fu mis en tiere a grant
+                        honor.</explicit>
+                  </msItemStruct>
+                  <msItemStruct>
+                     <locus>fol.26-fol.70rb</locus>
+                     <author>Anonyme (attribution à Baudoin Butor)</author>
+                     <title>Li Histoire de Kanor et de ses freres.</title>
+                     <incipit>L'empereris demoura en la garde au chastelain, mais une chose avint
+                        tandis que l'empereris vint a l'empereour, car Nichole...</incipit>
+                     <explicit>...porveu li avoit esté des le coumenchement dou siecle. Explicit li
+                        histoire de Kanor et de ses freres.</explicit>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Parchemin</p>
+                        </support>
+                        <extent>
+                           <width unit="mm">285</width>
+                           <height unit="mm">210</height>
+                        </extent>
+                        <foliation>
+                           <p>iii + 210 folios (à l'encre noire en haut à droite) ; XIX-CCX à
+                              l'encre brune en bas à droite à partir du f. 115r (lais du
+                              pellican).</p>
+                        </foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="53"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>La partie Kanor comporte au moins trois mains.</p>
+                     <handNote scriptRef="#main1">Première main (f. 1ra-17vb/24va-fin)</handNote>
+                     <handNote scriptRef="#main2">Deuxième main (f. 18ra-24rb)</handNote>
+                     <handNote scriptRef="#main3">Troisième main (f. 29vb(l.14)-29vb)</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote>TYPE D'écriture</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <p>Écrit dans la province de <origPlace>Hainaut</origPlace> dans le dernier
+                        quart du 13<hi rend="exp">e</hi> siècle, sans doute <origDate
+                           notAfter="1292" notBefore="1289">entre 1289 et 1292</origDate>.</p>
+                  </origin>
+                  <acquisition>
+                     <p>On note la signature de Pierre Pithou (1539-1596), avocat et érudit
+                        français, au folio 1. Au même folio en bas, l'ex-libris de Jacques Auguste I
+                        de Thou (1553-1617). Ce manuscrit aurait servi de modèle à une version (ou à
+                        un roman ?) qu'a fait entreprendre Hugues VI lorsqu'il était encore dans la
+                        bibliothèque de Jacques Auhuste de Thou.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
          </sourceDesc>
 
 
@@ -454,7 +534,7 @@
                vinret ariere por plus honoreement faire l'asamblee. Por coi il n'avint onques si
                grant joie en Rome come il avint de cestui afaire, si me veil ore a ce metre que je
                ci endroit face fin de ma rechapitulation et entre en ma matere, dont jou ai fait
-               mension <del type="exponctuation">en</del> mon prologue devant, et comence ici
+               mension <add hand="#main1" place="above">en</add> mon prologue devant, et comence ici
                endroit mon livre.</p>
             <p n="P11">
                <hi rend="decorated-initial 4 red">D</hi>ieus, qui par sa grant puissance le monde
@@ -1835,17 +1915,17 @@
                conme il est dit de devant, se gisoit en un liu dispoisé dou palais l'empereour, si
                que, quant ce venoit au matin ausi acoustumeement, il s'en venoit en la sale et sans
                nului mal faire et por l'empereour a atendre ausi come di me tu : <said aloud="true"
-                  direct="true">Je doi mon signor garder <pb n="8v"/> et lui porter compaignie.
-               </said> Il mie ne s'oublia a celui jour dont <unclear reason="faded"
-               >l'em</unclear>perere et li empereris s'estoient parti la nuit devant. Dont il avint
-               que quant li chanberlench se furent apierciut de cesti chose, si furent a merveille
-               abaubi et ne sorent que dire ne que faire. La noviele en ala par tout l'osteil, come
-               cele que mie ne peut iestre cellé legierement et sans faille, que a celi eure li
-               cours avoit esté wid<del type="exponctuation">i</del>é des grans signors et a mout
-               privee maisnie. Il avint que li maistre de l'osteil se misent ensanble et por avoir
-               conseil coment il porroient esploitier de cestui afaire. Dont parla uns chevaliers,
-               qui fu sages et avisés, et dist en teil maniere : <said aloud="true" direct="true">Je
-                  ne puis veoir en cestui afaire c'une chose qui mie
+                  direct="true">Je doi mon signor garder <pb n="8v"/> et lui porter
+                  compaignie.</said> Il mie ne s'oublia a celui jour dont <unclear reason="faded"
+                  >l'em</unclear>perere et li empereris s'estoient parti la nuit devant. Dont il
+               avint que quant li chanberlench se furent apierciut de cesti chose, si furent a
+               merveille abaubi et ne sorent que dire ne que faire. La noviele en ala par tout
+               l'osteil, come cele que mie ne peut iestre cellé legierement et sans faille, que a
+               celi eure li cours avoit esté wid<del type="exponctuation">i</del>é des grans signors
+               et a mout privee maisnie. Il avint que li maistre de l'osteil se misent ensanble et
+               por avoir conseil coment il porroient esploitier de cestui afaire. Dont parla uns
+               chevaliers, qui fu sages et avisés, et dist en teil maniere : <said aloud="true"
+                  direct="true">Je ne puis veoir en cestui afaire c'une chose qui mie
                   <?oxy_comment_start author="fpzanardi" timestamp="20240108T201953+0100" comment="Comment comprendre la
                   P6 ? Ne faudrait-il pas corriger en 'face' ? Noter aussi l'emploi
                   de 'mie' sans 'ne', au sens de 'quelque
@@ -2453,7 +2533,7 @@
                   enchiés lui qui cel ouvrage a fait que nos avomes veu, qui si parfaitement est
                   biens fais, que tous li mons s'en doit avoir mervelle. Et s'il est ensi que tu i
                      puisse<supplied reason="omitted">s</supplied> chose savoir ne voir que tu
-                  cuidés qu'il me doit iestre celé, si le me di, et je ferai do tot ta vo <pb
+                  cuidés qu'il me doit iestre celé, si le me di, et je ferai do tot ta vo<pb
                      break="no" n="11r"/>lenté.</said>
             </p>
             <p n="P63"> Cil qui mie ne fu loiaus siergans, et fu covoiteus de faire la dame sa
@@ -2464,14 +2544,14 @@
                   siergant en son osteil cui il croie autant com il fait moi. Et ne cuit mie que en
                   aucun maniere il ne l'ait trové en moi. Por coi, ma trés chiere dame, je vos dirai
                   une chose a coi je cuit que vos vos i acorderés, et tout par coulor de raison. On
-                  dist en provierbe, et cest voirs, <quote type="proverbe"
-                     ana="Peut-être par référence à Amour de mère est plus grande que de nourrice», Perceforest, III."
-                     >que qui ainme mius de mere, cel est fole norrice.</quote> Por coi je di que
-                  nus ne doit amer tant <del type="exponctuation">a</del> mon signor que vos meime,
-                  et par ce que je cuit que vos plus l'amés de moi, si gardés la soie honor et la
-                  moie, car de ce que vos me querés, je ferai mon povoir por la vostre volenté
-                  aconplir, et por ceste chose mius celer de vos a lui et de lui a moi. Por coi nule
-                  parole n'en peuist issir hors.</said>
+                  dist en provierbe, et cest voirs, <quote type="proverbe">que qui ainme mius de
+                     mere, cel est fole norrice</quote><note type="apparat">Peut-être par référence
+                     à Amour de mère est plus grande que de nourrice», <i>Perceforest</i>,
+                     III.</note>. Por coi je di que nus ne doit amer tant <del type="exponctuation"
+                     >a</del> mon signor que vos meime, et par ce que je cuit que vos plus l'amés de
+                  moi, si gardés la soie honor et la moie, car de ce que vos me querés, je ferai mon
+                  povoir por la vostre volenté aconplir, et por ceste chose mius celer de vos a lui
+                  et de lui a moi. Por coi nule parole n'en peuist issir hors.</said>
                <said rendition="dialogue">Fastre, ce dist la dame, de çou ne sui jou mie a aprendre,
                   que ce ne covenist faire.</said>
                <said rendition="dialogue">En non Diu, dame, dist cil, de ce me plaist mout que vos
@@ -4754,8 +4834,8 @@
                trop vilainne cose sambleroit as aucuns ki dolant sont de ciaus ki par linage et par
                ce que boins arbres si doit par raison porter boin fruit, et il avient aucune fois
                qu'il convient que cil arbres falle, et par plusiours raisons, ensi com li plusour
-               sevent, cil maleois fruis fu en agait pourveus de force, et vinrent de si parfo
-                  <unclear reason="acertain" cert="low">i</unclear>te viertu que Envie, ki nul
+               sevent, cil maleois fruis fu en agait pourveus de force, et vinrent de si
+                  parfo<unclear reason="acertain" cert="low">i</unclear>te viertu que Envie, ki nul
                damage qui puist avenir a nul povre gent ne redoute, douna cuer et hardement ciaus ki
                recouvrerent a ce qu'il vinrent a un fais sor les proudoumes qui mie n'eurent dou
                tout en tout eus lor amis, et furent ausi entrepris que l'en conte dou boin Judas
@@ -4924,7 +5004,7 @@
                mout couvignable : <said aloud="true" direct="true">Ha ! Chevaliers plains de
                   parfaite honor et de mout haute grasse, je me rendisse a toi, mais que vous a
                   merci me vosissiés recevoir !</said> Et quant li autre doi oïrent ensi lor
-               conpagnon parler, n'i eut de lui qui ne fust meus a ce qu'il dis <cb n="b" break="no"
+               conpagnon parler, n'i eut de lui qui ne fust meus a ce qu'il dis<cb n="b" break="no"
                />sent tout autresi feroient il. Lors respondi Dorus : <said aloud="true"
                   direct="true">Ha ! Signour roumain ! Ja m'avés vos autrefois menti ! Ne vos
                   cerroie nient autrement conme vostre signour, qui mes frere deuist iestre, et si

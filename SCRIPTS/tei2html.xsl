@@ -32,6 +32,7 @@
                         suppression par l'éditeur </li>
                     <li>je ne <span><i>(s)</i>>&#160;<b>›l‹</b></span>e saroie trover : la
                         correction critique <b>›l‹</b> remplace le texte du ms. </li>
+                    <li>devant <span class="acertain"><i>[provés]</i></span> siergans : élément demandant une second regard</li>
                     <li>li envieus<span class="tooltip"><span class="note">💬<span
                                     class="tooltip-content">topos de prologue que de rejeter les
                                     critiques à l'avance. Ce qui est intéressant, c'est
@@ -436,7 +437,7 @@
                 </span>
             </xsl:when>
             <xsl:otherwise>
-                <i>[<xsl:apply-templates/>]</i>
+                <xsl:apply-templates/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>

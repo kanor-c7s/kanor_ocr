@@ -205,11 +205,11 @@
 
                <!-- Inclut le module "core" qui contient des éléments de base pour la structuration du texte. -->
                <moduleRef key="core"
-                  include="add cb choice corr del gap head hi name note num orig p pb reg resp respStmt rs said sic title unclear"/>
+                  include="add author cb choice corr del gap head hi name note num orig p pb reg resp respStmt rs said sic title unclear"/>
 
                <!-- Inclut le module "header" qui contient des éléments pour la description de l'encodage et la déclaration éditoriale. -->
                <moduleRef key="header"
-                  include="availability authority change correction encodingDesc editorialDecl extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
+                  include="publicationStmt availability authority change correction encodingDesc editorialDecl extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
 
                <!-- Inclut le module "figures" qui contient des éléments pour la description des figures. -->
                <moduleRef key="figures" include="figDesc figure"/>
@@ -486,14 +486,14 @@ cette dernière est fautive
 
                <!-- RESP ICI -->
 
-               <elementSpec ident="respStmt" module="core" mode="change">
+               <!--    <elementSpec ident="respStmt" module="core" mode="change">
                   <content>
                      <sequence>
                         <elementRef key="resp" minOccurs="1" maxOccurs="1"/>
                         <elementRef key="persName" minOccurs="1" maxOccurs="1"/>
                      </sequence>
                   </content>
-               </elementSpec>
+               </elementSpec> -->
 
                <elementSpec ident="rs" module="core" mode="change">
                   <attList>
