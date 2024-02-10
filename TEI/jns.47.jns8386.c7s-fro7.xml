@@ -7,7 +7,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ms. BnF fr. 1446 (C) : Li Histoire de Kanor et de ses freres</title>
+            <title>ms. BnF fr. 1446 (C) : Récapitulation du Cycle</title>
+            <author>Anonyme</author>
          </titleStmt>
 
          <editionStmt>
@@ -15,7 +16,7 @@
             <respStmt xml:id="FPZ">
                <resp when="2022">Éditeur</resp>
                <persName>Florian-Pierre Zanardi</persName>
-               <idno>jns.47.jns8386.ciham-fro2</idno>
+               <idno>jns.47.jns8386.c7s-fro7</idno>
                <!-- ORCID 0009-0005-2868-0006 -->
             </respStmt>
             <respStmt xml:id="YFJ">
