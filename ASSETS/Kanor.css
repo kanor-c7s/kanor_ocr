@@ -65,6 +65,8 @@ body {
 }
 
 .pb {
+display: inline-block;
+    text-indent: 0em;
     font-size: 15px;
     color: darkred;
 }
@@ -74,12 +76,24 @@ body {
     color: darkred;
 }
 
+
 .persName {
-    color: blue;
+    display: inline-block;
+    text-indent: 0em;
+}
+
+.persName::first-letter {
+    color: royalblue;
 }
 
 .placeName {
-    color: green;
+    display: inline-block;
+    text-indent: 0em;
+   }
+   
+   .placeName {
+   background-color: black;
+    color: #0FFF50;
 }
 
 .rs {

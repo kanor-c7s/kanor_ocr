@@ -21,6 +21,10 @@
                 <br/>
                 <span>Présentation des signes employés :</span>
                 <ul>
+                    <li>les noms de personnage apparaissent avec une <span class="persName"
+                            >Capitale</span> colorée pour indiquer que le nom a bien été encodé.
+                        Tous les noms sont dotés d'une infobulle qui va rechercher le contenu de
+                            l'<hi>index nominum</hi>. Même principe pour les noms de lieux.</li>
                     <li>[×] segment indéchiffrable</li>
                     <li>Dieus i vot mostrer de ses o<span class="add">^ue^</span>vres : ajout
                         suscrit par le scribe </li>
@@ -32,7 +36,8 @@
                         suppression par l'éditeur </li>
                     <li>je ne <span><i>(s)</i>>&#160;<b>›l‹</b></span>e saroie trover : la
                         correction critique <b>›l‹</b> remplace le texte du ms. </li>
-                    <li>devant <span class="acertain"><i>[provés]</i></span> siergans : élément demandant une second regard</li>
+                    <li>devant <span class="acertain"><i>[provés]</i></span> siergans : élément
+                        demandant une second regard</li>
                     <li>li envieus<span class="tooltip"><span class="note">💬<span
                                     class="tooltip-content">topos de prologue que de rejeter les
                                     critiques à l'avance. Ce qui est intéressant, c'est
@@ -370,11 +375,38 @@
 
 
     <!-- Template pour les éléments persName -->
+    <xsl:key name="person-by-id" match="person" use="@xml:id"/>
+
     <xsl:template match="persName">
-        <span class="persName">
-            <xsl:apply-templates/>
+        <span class="tooltip">
+            <span class="persName">
+                <xsl:apply-templates/>
+            </span>
+            <span class="tooltip-content">
+                <xsl:for-each select="key('person-by-id', @key)">
+                    <span class="occupation">
+                        <b>
+                            <xsl:value-of select="persName"/>
+                        </b>
+                        <br/>
+                    </span>
+                    <span class="occupation">
+                        <b>
+                            <xsl:value-of select="occupation"/>
+                        </b>
+                        <br/>
+                    </span>
+                    <xsl:for-each select="note">
+                        <span class="note">
+                            <xsl:value-of select="."/>
+                            <br/>
+                        </span>
+                    </xsl:for-each>
+                </xsl:for-each>
+            </span>
         </span>
     </xsl:template>
+
 
     <!-- Template pour les éléments placeName -->
     <xsl:template match="placeName">

@@ -204,11 +204,11 @@
 
                <!-- Inclut le module "core" qui contient des éléments de base pour la structuration du texte. -->
                <moduleRef key="core"
-                  include="add author cb choice corr del gap head hi name note num orig p pb reg resp respStmt rs said sic title unclear"/>
+                  include="add author cb choice corr del gap head hi name note num orig p pb reg resp respStmt rs said sic title unclear publisher date textLang quote"/>
 
                <!-- Inclut le module "header" qui contient des éléments pour la description de l'encodage et la déclaration éditoriale. -->
                <moduleRef key="header"
-                  include="publicationStmt availability authority change correction encodingDesc editorialDecl extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc publicationStmt punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt"/>
+                  include="publicationStmt editionStmt availability authority change correction encodingDesc editorialDecl extent fileDesc handNote hyphenation idno language langUsage licence normalization projectDesc punctuation profileDesc revisionDesc segmentation sourceDesc teiHeader titleStmt edition handNote"/>
 
                <!-- Inclut le module "figures" qui contient des éléments pour la description des figures. -->
                <moduleRef key="figures" include="figDesc figure"/>
@@ -218,10 +218,10 @@
 
                <!-- Inclut le module "msdescription" qui contient des éléments pour la description des manuscrits. -->
                <moduleRef key="msdescription"
-                  include="decoDesc decoNote handDesc locus msContents msDesc msIdentifier msItem physDesc repository"/>
+                  include="decoDesc rubric msItemStruct incipit explicit decoNote handDesc locus msContents msDesc msIdentifier msItem physDesc repository altIdentifier msName locusGrp locus objectDesc dimensions width height"/>
 
                <!-- Inclut le module "namesdates" qui contient des éléments pour les noms de personnes, de lieux, de pays et de colonies. -->
-               <moduleRef key="namesdates" include="country persName placeName settlement"/>
+               <moduleRef key="namesdates" include="country persName placeName settlement persName"/>
 
                <!-- Inclut tous les éléments du module "tei". -->
                <moduleRef key="tei"/>
@@ -258,10 +258,9 @@
                      </attDef>
                      <attDef ident="hand" mode="replace" usage="req">
                         <valList type="closed">
-                           <valItem ident="#main1"/>
-                           <valItem ident="#main2"/>
-                           <valItem ident="#main3"/>
-                           <valItem ident="#main4"/>
+                           <valItem ident="#hand1"/>
+                           <valItem ident="#hand2"/>
+                           <valItem ident="#hand3"/>
                         </valList>
                      </attDef>
                   </attList>
@@ -324,7 +323,7 @@ cette dernière est fautive
                         <valList type="closed">
                            <valItem ident="#hand1"/>
                            <valItem ident="#hand2"/>
-                           <valItem ident="#otherhand"/>
+                           <valItem ident="#hand3"/>
                         </valList>
                      </attDef>
                   </attList>
@@ -341,6 +340,8 @@ cette dernière est fautive
                            <valItem ident="effaced">
                               <desc> Any physical harm to the surface that entirely ereases
                                  information </desc>
+                           </valItem>
+                           <valItem ident="illegible">
                            </valItem>
                            <valItem ident="unknown">
                               <desc>Where the type of gap is unknown.</desc>
@@ -367,13 +368,13 @@ cette dernière est fautive
                <!-- SE DÉCIDER -->
                <elementSpec ident="head" module="core" mode="change">
                   <attList>
-                     <attDef ident="type" mode="replace" usage="req">
+                     <attDef ident="type" mode="replace" usage="opt">
                         <valList type="closed">
                            <valItem ident="rubrique"/>
                            <valItem ident="explicit"/>
                         </valList>
                      </attDef>
-                     <attDef ident="n" mode="change" usage="req"/>
+                     <attDef ident="n" mode="change" usage="opt"/>
                   </attList>
                </elementSpec>
 
@@ -386,40 +387,52 @@ cette dernière est fautive
                      <attDef ident="rend" mode="replace" usage="req">
                         <valList mode="add" type="closed">
                            <valItem ident="rubricated"/>
-                           <valItem ident="decorated-initial"/>
+                           <valItem ident="decorated-initial 2 red"/>
+                           <valItem ident="decorated-initial 3 red"/>
+                           <valItem ident="decorated-initial 4 red"/>
+                           <valItem ident="decorated-initial 5 red"/>
+                           <valItem ident="decorated-initial 6 red"/>
+                           <valItem ident="decorated-initial 7 red"/>
+                           <valItem ident="decorated-initial 8 red"/>
+                           <valItem ident="decorated-initial 9 red"/>
+                           <valItem ident="decorated-initial 2 blue"/>
+                           <valItem ident="decorated-initial 3 blue"/>
+                           <valItem ident="decorated-initial 4 blue"/>
+                           <valItem ident="decorated-initial 5 blue"/>
+                           <valItem ident="decorated-initial 6 blue"/>
+                           <valItem ident="decorated-initial 7 blue"/>
+                           <valItem ident="decorated-initial 8 blue"/>
+                           <valItem ident="decorated-initial 9 blue"/>
                            <valItem ident="italic"/>
                            <valItem ident="title"/>
                            <valItem ident="exp"/>
-                           <valItem ident="blue"/>
-                           <valItem ident="red"/>
-                           <valItem ident="2"/>
-                           <valItem ident="3"/>
-                           <valItem ident="4"/>
-                           <valItem ident="5"/>
-                           <valItem ident="6"/>
-                           <valItem ident="7"/>
-                           <valItem ident="8"/>
-                           <valItem ident="9"/>
                         </valList>
                      </attDef>
                   </attList>
                </elementSpec>
 
-               <elementSpec ident="name" module="core" mode="replace">
+               <elementSpec ident="name" module="core" mode="change">
                   <attList>
-                     <attDef ident="type" mode="replace" usage="req">
+                     <attDef ident="type" mode="change" usage="req">
                         <valList type="closed">
                            <valItem ident="people"/>
                         </valList>
                      </attDef>
-                     <attDef ident="key" mode="change" usage="req">
-                        <valList type="open"/>
-                     </attDef>
                   </attList>
                </elementSpec>
 
-               <!-- ajout d'une note : sa nature 
-               Ne fonctionne pas-->
+
+                 <elementSpec ident="quote" module="core" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="proverbe"/>
+                        </valList>
+                        </attDef>
+                  </attList>
+               </elementSpec>
+
+               <!-- ajout d'une note : sa nature -->
                <elementSpec ident="note" module="core" mode="change">
                   <attList>
                      <attDef ident="type" mode="replace" usage="req">
@@ -449,11 +462,6 @@ cette dernière est fautive
                         </sch:rule>
                      </constraint>
                   </constraintSpec>
-                  <attList>
-                     <attDef ident="n" mode="change" usage="req">
-                        <valList type="open"/>
-                     </attDef>
-                  </attList>
                </elementSpec>
 
                <elementSpec ident="pb" mode="change">
@@ -483,16 +491,15 @@ cette dernière est fautive
                   </attList>
                </elementSpec>
 
-               <!-- RESP ICI -->
 
-               <!--    <elementSpec ident="respStmt" module="core" mode="change">
+               <elementSpec ident="respStmt" module="core" mode="change">
                   <content>
                      <sequence>
                         <elementRef key="resp" minOccurs="1" maxOccurs="1"/>
-                        <elementRef key="persName" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="name" minOccurs="1" maxOccurs="1"/>
                      </sequence>
                   </content>
-               </elementSpec> -->
+               </elementSpec>
 
                <elementSpec ident="rs" module="core" mode="change">
                   <attList>
@@ -632,12 +639,86 @@ cette dernière est fautive
 
 
 
-
                <!-- éléments du module HEADER -->
+
+               <elementSpec ident="editionStmt" module="header" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="edition" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="respStmt" minOccurs="5" maxOccurs="15"/>
+                     </sequence>
+                  </content>
+               </elementSpec>
+
+               <elementSpec ident="edition" module="header" mode="change">
+                  <attList>
+                     <attDef ident="key" mode="change" usage="req">
+                        <valList type="open"/>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="publicationStmt" module="header" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="authority" minOccurs="1" maxOccurs="2"/>
+                        <elementRef key="publisher" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="availability" minOccurs="1" maxOccurs="1"/>
+                        <elementRef key="date" minOccurs="1" maxOccurs="15"/>
+                        <elementRef key="extent" minOccurs="1" maxOccurs="15"/>
+                     </sequence>
+                  </content>
+               </elementSpec>
+
+
+
                <!-- éléments du module FIGURES -->
                <!-- éléments du module LINKING -->
                <!-- éléments du module MSDESCRIPTION -->
+
+               <elementSpec ident="altIdentifier" module="msdescription" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="idno" minOccurs="1" maxOccurs="2"/>
+                     </sequence>
+                  </content>
+               </elementSpec>
+
+
+               <elementSpec ident="handDesc" module="msdescription" mode="change">
+                  <content>
+                     <sequence>
+                        <elementRef key="p"/>
+                        <elementRef key="handNote" minOccurs="3" maxOccurs="3"/>
+                     </sequence>
+                  </content>
+               </elementSpec>
+
+
+
+
+
                <!-- éléments du module NAMESDATE -->
+
+               <elementSpec ident="persName" module="namesdates" mode="change">
+                  <attList>
+                     <attDef ident="key" mode="change" usage="req">
+                        <valList type="open"/>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+               <elementSpec ident="placeName" module="namesdates" mode="change">
+                  <desc>Indication des noms de lieux dans la narration sous cette balise en vue de
+                     l'index de lieux</desc>
+                  <attList>
+                     <attDef ident="key" mode="change" usage="req">
+                        <valList type="open"/>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+
+
                <!-- éléments du module TEI -->
                <!-- éléments du module TEXTCRIT -->
                <!-- éléments du module TEXTSCTRUCTURE -->
