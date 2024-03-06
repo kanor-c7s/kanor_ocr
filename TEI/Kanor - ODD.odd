@@ -440,6 +440,7 @@ cette dernière est fautive
                            <valItem ident="apparat"/>
                            <valItem ident="ntravail"/>
                            <valItem ident="notecritique"/>
+                           <valItem ident="notelangue"/>
                         </valList>
                      </attDef>
                   </attList>
@@ -674,6 +675,24 @@ cette dernière est fautive
 
                <!-- éléments du module FIGURES -->
                <!-- éléments du module LINKING -->
+               <elementSpec ident="seg" module="linking" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="proverbe"/>
+                           <valItem ident="discoursEnchassé"/>
+                           <valItem ident="lettre"/>
+                           <valItem ident="chanson"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="rendition" mode="replace" usage="opt">
+                        <valList type="closed" mode="replace">
+                           <valItem ident="dialogue"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               
                <!-- éléments du module MSDESCRIPTION -->
 
                <elementSpec ident="altIdentifier" module="msdescription" mode="change">
