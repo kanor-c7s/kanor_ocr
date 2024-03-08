@@ -62,6 +62,7 @@
 
          <sourceDesc>
             <msDesc xml:lang="fro" xml:id="C">
+               
                <msIdentifier>
                   <country>France</country>
                   <settlement>Paris</settlement>
@@ -75,28 +76,28 @@
                   <msName>Français 1446</msName>
                </msIdentifier>
 
-               <head>
-                  <p>Le manuscrit BnF fr. 1446 est important à plusieurs égards. Tout d’abord, il se
-                     distingue par la présence d’un ensemble d’œuvres dont la rédaction ou la
-                     composition peuvent être qualifiées d’exceptionnelles. Outre une rédaction non
-                     cyclique et composite de la dernière des continuations du Cycle des Sept Sages
-                     de Rome, il faut signaler la présence de brouillons et ébauches attribuées à
-                     Baudouin Butor, occupant les marges inférieures des folios 70 à 109 et les
-                     folios 108 à 115, et qui sont autant de documents incontournables pour qui
-                     s’intéresse à la genèse du Roman de Perceforest. Le fr. 1446 contient aussi le
-                     manuscrit unique du Couronnement de Renart, version wallonne du Roman de
-                     Renart. Il faut signaler un témoin des Fables de Marie de France. Le manuscrit
-                     a enfin agrégé, dans sa seconde partie, trois manuscrits à l’origine séparés
-                     contenant les œuvres poétiques de Baudouin et de Jean de Condé. Le Pelyarmenus
-                     et le Kanor peuvent être lus dans quatre autres manuscrits, ici référencés V2
-                     (BnF fr.22549) et V3 (BnF fr.22550), B (KBR 9245), X2 (BL Harley 4903) et G
-                     (BnF fr.93). Le manuscrit B est celui qui se rapproche le plus du nôtre en
-                     termes de variantes pour la partie Pelyarmenus (à compléter ensuite). Notons
-                     également la source M, miniatures avec texte au dos (Musée de Reims cadre 882,
-                     III-VI).</p>
-               </head>
-
+               <head>Introduction</head>
+               <p>Le manuscrit BnF fr. 1446 est important à plusieurs égards. Tout d’abord, il se
+                  distingue par la présence d’un ensemble d’œuvres dont la rédaction ou la
+                  composition peuvent être qualifiées d’exceptionnelles. Outre une rédaction non
+                  cyclique et composite de la dernière des continuations du Cycle des Sept Sages
+                  de Rome, il faut signaler la présence de brouillons et ébauches attribuées à
+                  Baudouin Butor, occupant les marges inférieures des folios 70 à 109 et les
+                  folios 108 à 115, et qui sont autant de documents incontournables pour qui
+                  s’intéresse à la genèse du Roman de Perceforest. Le fr. 1446 contient aussi le
+                  manuscrit unique du Couronnement de Renart, version wallonne du Roman de
+                  Renart. Il faut signaler un témoin des Fables de Marie de France. Le manuscrit
+                  a enfin agrégé, dans sa seconde partie, trois manuscrits à l’origine séparés
+                  contenant les œuvres poétiques de Baudouin et de Jean de Condé. Le Pelyarmenus
+                  et le Kanor peuvent être lus dans quatre autres manuscrits, ici référencés V2
+                  (BnF fr.22549) et V3 (BnF fr.22550), B (KBR 9245), X2 (BL Harley 4903) et G
+                  (BnF fr.93). Le manuscrit B est celui qui se rapproche le plus du nôtre en
+                  termes de variantes pour la partie Pelyarmenus (à compléter ensuite). Notons
+                  également la source M, miniatures avec texte au dos (Musée de Reims cadre 882,
+                  III-VI).</p>
+               
                <msContents>
+                  
                   <textLang mainLang="fro">Ancien français</textLang>
                   <msItem xml:id="Kanor" n="1">
                      <msItemStruct xml:id="Recapitulation">
@@ -112,7 +113,7 @@
                         <explicit>ci endroit face fin de ma rechapitulation et entre en ma matere,
                            dont jou ai fait mension en mon prologue devant, et comence ici endroit
                            mon livre.</explicit>
-                        <note>Selon la pdg IIv, le roman est attribué à Baudouin Butor.</note>
+                        <note type="tei-header">Selon la pdg IIv, le roman est attribué à Baudouin Butor.</note>
                      </msItemStruct>
 
                      <msItemStruct xml:id="Peliarmenus">
@@ -137,10 +138,10 @@
                            freres.</explicit>
                      </msItemStruct>
 
-                     <note>Rédaction indéchiffrable car trop effacée dans la marge supérieure du f.
+                     <note type="tei-header">Rédaction indéchiffrable car trop effacée dans la marge supérieure du f.
                         210v.</note>
 
-                     <note>
+                     <note type="tei-header">
                         <p>Notice tirée de la base Jonas, section romane, notice de "PARIS,
                            Bibliothèque nationale de France, Manuscrits, fr. 01446" dans la base
                            Jonas-IRHT/CNRS (permalink : <ref
@@ -176,7 +177,7 @@
                   <msItem>
                      <locus>f. 108vb-114vb</locus>
                      <title>Brouillons de Baudoin Butor</title>
-                     <note>Pour une analyse des différentes campagnes de brouillons, voir l'article
+                     <note type="tei-header">Pour une analyse des différentes campagnes de brouillons, voir l'article
                         de Noémie Chardonnens et Barbara Wahlen.</note>
                   </msItem>
 
@@ -257,15 +258,11 @@
                         identification précise des mains ayant concouru à la rédaction de ce
                         manuscrit est redoublée par les enjeux de paternité et de création des
                         œuvres qu’il renferme : des rapports intertextuels tangibles ont en effet
-                        été établis entre le Roman de Kanor et les brouillons de Butor.</p>
-
-                     <p>Face à un flou préjudiciable à la bonne connaissance des différentes
+                        été établis entre le Roman de Kanor et les brouillons de Butor. Face à un flou préjudiciable à la bonne connaissance des différentes
                         campagnes d’écriture de la section, on souhaite a minima fournir une
                         description paléographique qui permettrait de mettre au jour les différentes
                         mains identifiables clairement ainsi que les accidents de rédaction qu’on
-                        croit déceler.</p>
-
-                     <p>La partie <persName key="Kanor">Kanor</persName> comporte au moins trois
+                        croit déceler. La partie <persName key="Kanor">Kanor</persName> comporte au moins trois
                         mains.</p>
 
                      <handNote xml:id="hand1">
@@ -276,28 +273,26 @@
                            d'exponctuations. Le positionnement labile des signes abréviatifs et la
                            détérioration matérielle du manuscrit rendent parfois la lecture
                            difficile.</p>
-                        <p>Formes individuelles remarquables : <ul>
-                              <li>"a" : simple ove. On peut apercevoir des "a" avec crosse mais non
+                        <p>Formes individuelles remarquables : "a" : simple ove. On peut apercevoir des "a" avec crosse mais non
                                  bouclés, mais la plupart est bien à simple ove (souvent avec une
-                                 petite crosse).</li>
-                              <li>g : hampe trés fréquemment exagérée en retrait latéral gauche
-                                 jusqu'à 2 caractéres.</li>
-                              <li>s : en début de ligne, la hampe se développe dans la marge. En fin
+                                 petite crosse). /
+                             g : hampe trés fréquemment exagérée en retrait latéral gauche
+                                 jusqu'à 2 caractéres. /
+                             s : en début de ligne, la hampe se développe dans la marge. En fin
                                  de ligne, lorsqu'elle termine le mot, elle est fréquemment en forme
-                                 suscrite.</li>
-                              <li>i : marquées d’un accent oblique pour le distinguer d’autres
+                                 suscrite./
+                              i : marquées d’un accent oblique pour le distinguer d’autres
                                  jambages en cotexte ambigu. Non systématique et laxité
-                                 positionnelle du signe.</li>
-                              <li>haut et bas de colonnes : tracés des hampes des p, j, g, s (!)
+                                 positionnelle du signe./
+                            haut et bas de colonnes : tracés des hampes des p, j, g, s (!)
                                  pour les bas ou des hastes des l, s (!) pour les hauts parfois
                                  exagérés, jusqu'à ressembler à une fioriture décorative (folio 31v
-                                 pour une vue d'ensemble). </li>
-                           </ul>
+                                 pour une vue d'ensemble). 
                         </p>
                         <p>Abréviations : système abréviatif dense pour un texte littéraire. La
                            laxité des emplois, pour ne pas dire leur irrégularité, rend la lecture
                            parfois complexe (c'est le cas du tilde vertical qui agit comme un
-                           opérateur abréviatif à usage large).<br/>Tilde avec diverses valeurs,
+                           opérateur abréviatif à usage large). Tilde avec diverses valeurs,
                            dont nasalisation des voyelles, abréviations usuelles de p barré droit et
                            paraphe, q barré, signe conventionnel pour -us et conjonction et.
                            Contraction de mots fréquents jusqu'à réduction à une lettre avec tilde
@@ -381,11 +376,10 @@
 
                <history>
                   <origin>
-                     <p>Provenant de la Flandre (province de <origPlace>Hainaut</origPlace>) ou du
+                     <p>Provenant de la Flandre (province de Hainaut) ou du
                         Nord de la France. Dernier quart du 13<hi rend="exp">e</hi> siècle pour les
                         folios 1-114 et première moitié du 14<hi rend="exp">e</hi> siècle pour les
-                        folios 115-210. Plus précisément, pour la partie Kanor, sans doute <origDate
-                           notAfter="1292" notBefore="1289">entre 1289 et 1292</origDate>, selon
+                        folios 115-210. Plus précisément, pour la partie Kanor, sans doute entre 1289 et 1292, selon
                         l'identification du dédicataire Hugues II de Châtillon que propose Lewis
                         Thorpe (sur la pdg 2v, une note : "Hugues de Chatillon fut Comte de St Pol
                         de 1226 à 1291").</p>
@@ -1234,7 +1228,7 @@
                citei et que il le vausist soucoure en auteil maniere come li siens pere <persName
                   key="Fiséus">Pheseus</persName> avoit soucoru Laurun le sien pere. Que vous iroie
                devisant ? Li vaillans <persName key="Cassidorus">Kassidorus</persName> s'avisa et
-               dist que <seg>li une bontés l'autre recuiert</seg>.<note type="notecritique">L'une
+               dist que <seg ana="proverbe">li une bontés l'autre recuiert</seg>.<note type="notecritique">L'une
                   bonté l'autre requiert (Morawski 1146).</note> Il atorna sa voie et laissa sa feme
                en garde un sien ami. Il en ala a <placeName key="Rome">Rome</placeName> et sa feme
                demoura enchainte. Et avint que li tiermes ala tant que la dame envoia a <placeName
@@ -1555,7 +1549,7 @@
                   >Fastige</persName>, qui a merveille ert bone dame et de grant se<supplied
                   reason="omitted">n</supplied>s aornee. Dont il avint que apriés toutes ces choses
                devant dites et faites, tuit li baron qui a ceste concorde furent s'en vinrent<note
-                  types="notetravail">à vérifier le "n"</note> ariere por plus honoreement faire
+                  type="ntravail">à vérifier le "n"</note> ariere por plus honoreement faire
                l'asamblee. Por coi il n'avint onques si grant joie en <placeName key="Rome"
                   >Rome</placeName> come il avint de cestui afaire, si me veil ore a ce metre que je
                ci endroit face fin de ma rechapitulation et entre en ma matere, dont jou ai fait
@@ -2841,7 +2835,7 @@
                tornast au meschief. Car issi come je le truist escrit, il covint a ciaus de lor
                malisse coper le cengles as chevaus des <num>ii</num> chevaliers avant qui les
                peuissent metre a tiere, ne seuist l'eure de mot. Quant il se troverent jus sans
-               autre pierte, q<supplied reason="omitted">ua</supplied>nt <persName ref="Helcanus">Helcanus</persName>
+               autre pierte, q<supplied reason="omitted">ua</supplied>nt <persName key="Helcanus">Helcanus</persName>
                vit son signor a tiere dejouste lui, si le prist par le main et dist : <said
                   aloud="true" direct="true">Sire, traions nous hors de ceste chace qui vient ci,
                   car trop me doute que vous ne soiiés bleciés de ces maleois robeour.</said>
@@ -2996,7 +2990,7 @@
                   chevacerés mie tous jors a lorains que il ne vous covigne pierdre en aucune
                   maniere.</said> Li emperere entendi l'empereris et nota ce que elle avoit dit en
                autre maniere que elle n'avoit fait. Lors li dist en sourriant : <said aloud="true"
-                  direct="true">Dame, dame, n'est mie merveille, s'il n'est <unclear reason="faded">
+                  direct="true">Dame, dame, n'est mie merveille, s'il n'est <unclear reason="faded" cert="high">
                      <add hand="#hand1" place="above">ensi</add>
                   </unclear> que vous avés dit, car toute sifaite chose est çou de ce siecle. Car
                   quant il avient que on s'i aseure le plus, c'est quant <seg ana="proverbe">on est
@@ -3024,8 +3018,8 @@
                <said rendition="dialogue" aloud="true" direct="true">Ha ! Sire, par Diu merci, ce
                   dist la dame, or soit quant il vous plaist, car je ne cuit mie que vous le me
                   doiiés bien dire avant qu'il m'en fust auques de mestiers, ne je ja ci endroit
-                  n'arai la maniere d'au<del hand="#hand1" type="overst">ques</del>
-                  <unclear reason="faded">
+                  n'arai la maniere d'au<del hand="#hand1" type="scraped">ques</del>
+                  <unclear reason="faded" cert="high">
                      <add hand="#hand1" place="above">cunes</add>
                   </unclear> qui ja a tans ne quideront <unclear cert="low" reason="faded">
                      <add hand="#hand1" place="above">savoir</add>
@@ -4700,7 +4694,7 @@
                et fors estoit, si <unclear cert="low" reason="acertain">must</unclear> tout par
                tout. Dont nos trovons en l'istoire que nul de celui qui tos ne le livrast les dos,
                et avint que lor compaingnom prise<supplied reason="omitted">n</supplied>t si grant
-                  <unclear reason="background_noise">cuer</unclear> en iaus qu'il missent ciaus a la
+                  <unclear reason="stain" cert="low">cuer</unclear> en iaus qu'il missent ciaus a la
                mort qu'il n'i demoura c'uns seus qui lor jehi un tresort que li robeour avoient
                asamblé en une cavee dedens la foriest. Celui prisent il por lor covoitise des dras
                d'or et de soie, de pieres presieuses et de juiaus dorei d'argent, de pluisors autre
@@ -4715,8 +4709,8 @@
                <hi rend="decorated-initial 2 red">C</hi>este ave<supplied reason="omitted"
                   >n</supplied>ture avint as marcheans qu'il euissent aus pierdut et le lour. Dont
                il avint que cel tresor et lor il misent en lor nes, et li damoisiel, qu<subst>
-                  <add>i</add>
-                  <del>e</del>
+                  <add place="above" hand="#hand1">i</add>
+                  <del type="exponctuation" hand="#hand1">e</del>
                </subst> ne covoitoie<supplied reason="omitted">n</supplied>t or ne argent, pieres
                presieuses, fors a destruire orguel, fauseté et felounie, avoient <num>ii</num>
                chevaus faitis qu'il avoient trové el rechiet as murdreours, qui ne cuidierent mie
