@@ -94,7 +94,7 @@
                   moindre des fichiers, de distinguer plus nettement les choix d'édition et,
                   partant, d'encodage de l'information qui ont été décidés. Les fichiers de
                   l’édition sont nommés et identifiés de la manière suivante :
-                  « urn:cts:froLit:jns47.jns8386.ciham-fro2 ». La première partie de l’URN :
+                  « urn:cts:froLit:jns47.jns8386.c7s-fro7 ». La première partie de l’URN :
                   « urn:cts » indique à quel système de référence appartient l’URN ; ici, la norme
                   CTS. « froLit » signifie que le texte appartient à un corpus des textes en ancien
                   français. Les éléments précédés de « jns » indiquent les identifiants de l’œuvre
@@ -718,9 +718,9 @@
                </div3>
                <div3>
                   <head>Les corrections</head>
-                  <p>Selon la main qui le copie, le texte offre différents degrés de fiabilités.
+                  <p>Selon la main qui le copie, le texte offre différents degrés de fiabilité.
                      Nous l'avons présenté dans l'analyse paléographique, la main <hi>hand2</hi> est
-                     beaucoup plus net et fiable que <hi>hand1</hi>. Le travail d'édition étant
+                     beaucoup plus nette et fiable que <hi>hand1</hi>. Le travail d'édition étant
                      encore en cours, nous ne proposons ici qu'un aperçu des outils que nous
                      comptons à terme employer. De manière générale, toutes les balises
                         <gi>corr</gi> contiennent un attribut <att>cert</att> (degré de certitude du

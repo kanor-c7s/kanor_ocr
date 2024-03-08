@@ -499,7 +499,7 @@
          </editorialDecl>
       </encodingDesc>
 
-      <profileDesc>
+      <!--<profileDesc>
          <particleDesc>
             <listPerson>
                <person xml:id="Pelyarmenus">
@@ -879,7 +879,7 @@
                         <persName key="Luce">Luce</persName></note>
                </person>
 
-               <!-- Ajouts propres au Kanor -->
+               <!-\- Ajouts propres au Kanor -\->
 
                <person xml:id="Kanor">
                   <persName>Kanor</persName>
@@ -1130,10 +1130,10 @@
          </settingDesc>
 
 
-      </profileDesc>
+      </profileDesc>-->
    </teiHeader>
    <text>
-      <body n="jns.47.jns8386.c7s-fro7.1" xml-land="fro">
+      <body n="urn:cts:froLit:jns.47.jns8386.c7s-fro7.1" xml:lang="fro">
          <div type="chapter" n="1">
             <head n="1" type="rubrique">
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f7.image" n="1r"/>
@@ -1498,10 +1498,10 @@
                   <persName key="Pelyarmenus">Peliarmenus</persName> ne vot tenir covent. Et qu'en
                avint ? <persName key="Dorus">Dorus</persName>, qui au jor de dont passoit tous les
                autres chevaliers de proece, fist tant qu'il se mist a aler viers <placeName
-                  key="Rome">Rome</placeName> a<unclear reason="acertain" cert="high"><choice>
-                     <sic><del type="exponctuation" hand="#hand1">t</del></sic>
-                     <supplied reason="omitted">t</supplied>
-                  </choice></unclear>ot asés pau de gent et prist <persName key="Pelyarmenus"
+                  key="Rome">Rome</placeName> a<choice>
+                  <sic><del type="exponctuation" hand="#hand1">t</del></sic>
+                  <supplied reason="omitted">t</supplied>
+               </choice>ot asés pau de gent et prist <persName key="Pelyarmenus"
                   >Peliarmenum</persName> en une foriest ou il ert alés chacier. Et dist li contes
                que, en teil maniere que on porte poisson de la mer sor un cheval, en <num>ii</num>
                paniers furent mis lovet et tenchillié <persName key="Pelyarmenus"
@@ -1539,28 +1539,28 @@
                   d'<placeName key="Espaigne">Espaigne</placeName>
                <persName key="Josias">Josias</persName>, li sisimes fu <persName key="Daphus"
                   >Daphus</persName> li Gris, li sietiesmes <persName key="Mirrus">Mirus</persName>
-               li Fiers, li <unclear cert="low" reason="acertain">w</unclear>uitimes <persName
-                  key="Gazus">Gazaus</persName> de <placeName key="Rome">Rome</placeName>, li
-               nuevimes <persName key="Karus">Karus</persName> de <placeName key="Nise"
-                  >Nisse</placeName>, li disimes <persName key="Clyodorus">Cliodorus</persName>, li
-               onsimes <persName key="Nestor">Nestor</persName> d'Aquillé, li dousiemes Hecas de
-                  <placeName key="Frise">Frige</placeName>, li tresimes <persName key="Mardocheus"
-                  >Mardocheus</persName> li Grius, li quatorsimes <persName key="Leus"
-                  >Leus</persName> et li quinsimes, que je deuisse avoir premiers nomei, fu li dus
-               Lembourgis, qui le plus covignable voie trova, par coi li une partie et li autre
-               furent grant tans ensamble bo<surplus reason="useless">n</surplus>in ami. Si ne veil
-               ore mie faire une longue devise car aillors est contenu et jou el ai a entendre, si
-               veil venir a ce que li emperere covint par sa volenté et a le requeste des damoisiaus
-               deseure dis que il repairast a <placeName key="Rome">Rome</placeName> a l'empereris
-                  <persName key="Fastige">Fastige</persName>, qui a merveille ert bone dame et de
-               grant se<supplied reason="omitted">n</supplied>s aornee. Dont il avint que apriés
-               toutes ces choses devant dites et faites, tuit li baron qui a ceste concorde furent
-               s'en vinrent<note types="notetravail">à vérifier le "n"</note> ariere por plus
-               honoreement faire l'asamblee. Por coi il n'avint onques si grant joie en <placeName
-                  key="Rome">Rome</placeName> come il avint de cestui afaire, si me veil ore a ce
-               metre que je ci endroit face fin de ma rechapitulation et entre en ma matere, dont
-               jou ai fait mension <add hand="#hand1" place="above">en</add> mon prologue devant, et
-               comence ici endroit mon livre.</p>
+               li Fiers, li witimes <persName key="Gazus">Gazaus</persName> de <placeName key="Rome"
+                  >Rome</placeName>, li nuevimes <persName key="Karus">Karus</persName> de
+                  <placeName key="Nise">Nisse</placeName>, li disimes <persName key="Clyodorus"
+                  >Cliodorus</persName>, li onsimes <persName key="Nestor">Nestor</persName>
+               d'Aquillé, li dousiemes Hecas de <placeName key="Frise">Frige</placeName>, li
+               tresimes <persName key="Mardocheus">Mardocheus</persName> li Grius, li quatorsimes
+                  <persName key="Leus">Leus</persName> et li quinsimes, que je deuisse avoir
+               premiers nomei, fu li dus Lembourgis, qui le plus covignable voie trova, par coi li
+               une partie et li autre furent grant tans ensamble bo<surplus reason="useless"
+                  >n</surplus>in ami. Si ne veil ore mie faire une longue devise car aillors est
+               contenu et jou el ai a entendre, si veil venir a ce que li emperere covint par sa
+               volenté et a le requeste des damoisiaus deseure dis que il repairast a <placeName
+                  key="Rome">Rome</placeName> a l'empereris <persName key="Fastige"
+                  >Fastige</persName>, qui a merveille ert bone dame et de grant se<supplied
+                  reason="omitted">n</supplied>s aornee. Dont il avint que apriés toutes ces choses
+               devant dites et faites, tuit li baron qui a ceste concorde furent s'en vinrent<note
+                  types="notetravail">à vérifier le "n"</note> ariere por plus honoreement faire
+               l'asamblee. Por coi il n'avint onques si grant joie en <placeName key="Rome"
+                  >Rome</placeName> come il avint de cestui afaire, si me veil ore a ce metre que je
+               ci endroit face fin de ma rechapitulation et entre en ma matere, dont jou ai fait
+               mension <add hand="#hand1" place="above">en</add> mon prologue devant, et comence ici
+               endroit mon livre.</p>
             <p n="P13">
                <hi rend="decorated-initial 4 red">D</hi>ieus, qui par sa grant puissance le monde
                establi, il doinst honour et joie parfaite a mon tres chier signor devant nomei, por
@@ -1898,13 +1898,12 @@
                cil ert entalentés de parfurnir ce qu'il avoit en propos. Lors l'a pris, voiant maint
                baron qui tuit missent lor ententes coment il se maintenroit. Mais tout ausi qu'il
                n'i acontast pau u nient, empuigna l'espiel et mist a sa volenté, et apriés s'est
-               aprestés et se <unclear cert="low" reason="acertain">mella</unclear>
-               <note type="notecritique">sens ? s'occuper de ? Ne peut-on lire autre chose ?</note>
-               en ses armes et el cheval au plus afaitiement qu'il peut, come cil qui bien savoit
-               que tuit et toutes l'esgardoient, et il s'i <surplus reason="doublon">s'i</surplus>
-               maintint si noblement qu'il en eut la grasce de tous et de toutes. Au conbrer le
-               cheval f<del hand="#hand1" type="exponctuation">u</del>ist il merveille, car si le
-               mist en un mont qu'il fu avis a chascun qu'il se deuist lanchier en l'air, <pb
+               aprestés et se mella en ses armes et el cheval au plus afaitiement qu'il peut, come
+               cil qui bien savoit que tuit et toutes l'esgardoient, et il s'i <surplus
+                  reason="doublon">s'i</surplus> maintint si noblement qu'il en eut la grasce de
+               tous et de toutes. Au conbrer le cheval f<del hand="#hand1" type="exponctuation"
+                  >u</del>ist il merveille, car si le mist en un mont qu'il fu avis a chascun qu'il
+               se deuist lanchier en l'air, <pb
                   facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f14.image" n="4v"/> et
                apriés ce s'est afichiés es estriefs de si grant forche que li diestriers en archoia
                desous lui, que mie n'ert petis ne foibles. Lors se mist au ferir des esporons petit
@@ -1932,17 +1931,16 @@
                <said rendition="dialogue" aloud="true" direct="true">Ne m'en chaut, dist li
                   emperere, dou cheval. Bien puet on savoir que cheval covient avoir a ce faire.
                   Mais jou aucune fois feru en quintainne et ai veut ferir, dont je vous aseur que,
-                  tout peuist on ferir de tous les sans mesprendre, si<note type="notecritique">On
-                     dirait que tout à coup il s'adresse à <persName key="Leus">Leus</persName>...
-                     Il y a peut-être une lacune ?</note> avés vous la grignor proece faite si come
-                  hom de vostre eage et de vostre taille, que jou onques mais veisse et ne mie sans
-                  plus de tout ce que je ne prise <unclear reason="acertain" cert="low"
-                     >plus</unclear> autant çou que vous revenistes au sachier sus, a vostre trons
-                  si a point que vous le recuellietes en teil maniere.</said>
+                  tout peuist on ferir de tous lés sans mesprendre, si avés vous la grignor proece
+                  faite si come hom de vostre eage et de vostre taille, que jou onques mais veisse,
+                  et ne mie<note type="ntravail">syntaxe de la phrase à revoir</note> sans plus de
+                  tout ce que je ne prise <unclear reason="acertain" cert="low">ps?</unclear> autant
+                  çou que vous revenistes au sachier sus a vostre trons si a point que vous le
+                  recuellietes en teil maniere.</said>
                <said rendition="dialogue" aloud="true" direct="true">Sire, dist il, ço prenderoie je
                   a faire tous les cos, mais a ce que <surplus reason="doublon">que</surplus> je ai
                   la quintaine <add hand="#hand1" place="above">misse</add> a tiere me sent jou un
-                  poi blecies, si vous pri en gueredon de ce que jou ai fait un poi de chose que
+                  poi bleciés, si vous pri en gueredon de ce que jou ai fait un poi de chose que
                   vous avés veü volentiers, que vous ne vous desairiés<note type="notecritique">Quel
                      est ce verbe ? Visiblement un composé de 'aïrier', se mettre en colère. Mais je
                      ne trouve nulle pas un composé avec le préfixe des-... On retrouve la rime
@@ -1996,14 +1994,13 @@
                <said rendition="dialogue" aloud="true" direct="true">Et par mon chief, dist li
                   emperere, je vous tieng a sage.</said>
             </p>
-            <p n="P24"> Ensi avint de cesti chose que on desfendi sor cors et sor <unclear
-                  reason="acertain" cert="low">quanque</unclear> que nus povoit meffaire, qu'il ne
-               fust nus si osés qui represist cestui afaire en liu ou plus de gent le seuissent.
-               Lors fu mout soutiument ensevelis et apareilliés en un osteil dedens <placeName
-                  key="Rome">Rome</placeName> por le mius celer, por coi raison il me covient ore
-               venir a ce que, quant <persName key="Leus">Leus</persName>, ensi come jou ai dit
-               desus, ot la quintainne misse <del hand="#hand1" type="exponctuation">en</del> a
-               tiere, ensi come vous avés oï, n'i eut nule des gentius dame dont j'ai desus fait
+            <p n="P24"> Ensi avint de cesti chose que on desfendi sor cors et sor quanque nus povoit
+               meffaire, qu'il ne fust nus si osés qui represist cestui afaire en liu ou plus de
+               gent le seuissent. Lors fu mout soutiument ensevelis et apareilliés en un osteil
+               dedens <placeName key="Rome">Rome</placeName> por le mius celer, por coi raison il me
+               covient ore venir a ce que, quant <persName key="Leus">Leus</persName>, ensi come jou
+               ai dit desus, ot la quintainne misse <del hand="#hand1" type="exponctuation">en</del>
+               a tiere, ensi come vous avés oï, n'i eut nule des gentius dame dont j'ai desus fait
                mension qui ne fussent mout esbahies de cesti avenue. <persName key="Nera"
                   >Nera</persName>, qui sor toutes avoit le parler, en main enbracha <persName
                   key="Cassidoire">Kassidoire</persName>, qui feme fu <persName key="Leus"
@@ -2651,14 +2648,15 @@
                son frere qui le damoisiel avoit fiancié qu'il de lui ne se partiroit devant çou
                qu'il l'aroit mis a merci, u il lui ! Adont i eut sachié, bouté et hurté et feri en
                tamainte biele pluisor maniere, si qu'en la fin covint que <persName key="Dorus"
-                  >Dorus</persName> venist au <unclear reason="acertain" cert="low">sou<del
-                     hand="#hand1" type="exponctuation">f</del>rir</unclear><note
-                  type="notecritique">Est-ce cette lettre qui est exponctuée ? ou le -r- qui suit ?
-                  Et est-ce un -s- ou un -f- ?</note> et le covint reuser entre ciaus qui le missent
-               arriere de son cop, et en fu ausi come a l'issir dou sens. Lors s'escria s'enseingne
-               en teil maniere qu'il dist : <said aloud="true" direct="true">Or li aiuwe a <persName
-                     key="Leus">Leum</persName>, or li aiuwe <del hand="#hand1" type="exponctuation"
-                     >l</del> a <persName key="Leus">Leum</persName> !</said>
+                  >Dorus</persName> venist au sou<choice>
+                  <orig><del hand="#hand1" type="exponctuation">f</del></orig>
+                  <reg cert="high" resp="#FPZ"><supplied reason="omitted">f</supplied></reg>
+               </choice>rir<note type="notecritique">Est-ce cette lettre qui est exponctuée ? ou le
+                  -r- qui suit ? Et est-ce un -s- ou un -f- ?</note> et le covint reuser entre ciaus
+               qui le missent arriere de son cop, et en fu ausi come a l'issir dou sens. Lors
+               s'escria s'enseingne en teil maniere qu'il dist : <said aloud="true" direct="true">Or
+                  li aiuwe a <persName key="Leus">Leum</persName>, or li aiuwe <del hand="#hand1"
+                     type="exponctuation">l</del> a <persName key="Leus">Leum</persName> !</said>
                <persName key="Hayno">Hainnaus</persName>, dont jou avoie devant parlé, n'avoit mie
                en oubli la parole que vous oïstes desus. Anchois eut tost entendut la parole quant
                il dist<said aloud="true" direct="true">or li aiuwe a <persName key="Leus"
@@ -2677,12 +2675,12 @@
                      <persName key="Hayno">Hainnaus</persName>, a <persName key="Leus"
                      >Leum</persName> ! Qui en vieust se vingne <add hand="#hand1" place="above">a
                      son</add> encontre.</said> Lors retorna tous li tornois sor <persName
-                  key="Leus">Leum</persName>. Qui dont veist ses banieres droitement <unclear
-                  cert="low" reason="acertain">entirement</unclear><note type="ntravail">ou en
-                  airement?</note> tenir <del hand="#hand1" type="exponctuation">droitement</del>
-               lour <?oxy_comment_start author="fpzanardi" timestamp="20240108T152130+0100"
-               comment="Comment comprendre ces deux pronoms ?"?>lui
-               <?oxy_comment_end?>. Bien dire peuist on : <said aloud="true" direct="true">Cil
+                  key="Leus">Leum</persName>. Qui dont veist ses banieres droitement en aïrement
+               tenir <del hand="#hand1" type="exponctuation">droitement</del>
+               <choice>
+                  <sic>l</sic>
+                  <corr cert="high" resp="#FPZ">s</corr>
+               </choice>our lui, bien dire peuist on : <said aloud="true" direct="true">Cil
                      <persName key="Leus">Leus</persName> est esleus sor tous les autres, qui ne
                   trueve son pareil ne qui a lui puist durer.</said> Ceste noviele vint a
                l'empereour et au duch, qui trespasoient les rens et veoient les mius faisans a l'un
@@ -2792,9 +2790,8 @@
                      >Leum</persName> !</said>
                <said rendition="dialogue" aloud="true" direct="true">Ne vous vaut, dist li
                   uns.</said>
-               <said rendition="dialogue" aloud="true" direct="true">Rendre vous covient a cui,
-                     dis<del hand="#hand1" type="scraped"><unclear reason="acertain" cert="low"
-                        >t</unclear></del>
+               <said rendition="dialogue" aloud="true" direct="true">Rendre vous covient a cui ?
+                  d<unclear reason="faded" cert="high">ist</unclear>
                   <persName key="Dorus">Dorus</persName>.</said>
                <said rendition="dialogue" aloud="true" direct="true">Au povre chevalier, dist li
                   uns.</said>
@@ -2844,8 +2841,7 @@
                tornast au meschief. Car issi come je le truist escrit, il covint a ciaus de lor
                malisse coper le cengles as chevaus des <num>ii</num> chevaliers avant qui les
                peuissent metre a tiere, ne seuist l'eure de mot. Quant il se troverent jus sans
-               autre pierte, q<supplied reason="omitted">ua</supplied>nt <unclear reason="acertain"
-                  cert="low">Hel</unclear><note type="ntravail">Ne s'agit-il pas d'Hainnaus ?</note>
+               autre pierte, q<supplied reason="omitted">ua</supplied>nt <persName ref="Helcanus">Helcanus</persName>
                vit son signor a tiere dejouste lui, si le prist par le main et dist : <said
                   aloud="true" direct="true">Sire, traions nous hors de ceste chace qui vient ci,
                   car trop me doute que vous ne soiiés bleciés de ces maleois robeour.</said>
@@ -2858,7 +2854,7 @@
                   timestamp="20240108T175732+0100" comment="La P3 est bizarre, on attendrait la P1,
                   'dui' (à Dorus qui lui demande où sont ses chevaliers, Helcanus répond
                   'j'ai dû les perdre tous'. ?)"?>dut <?oxy_comment_end?> avoir le
-                  tout pierdut.</said> Atant vi<unclear cert="low" reason="acertain">n</unclear>rent
+                  tout pierdut.</said> Atant vinrent
                lor banieres waucrer parmi le tornoi, si se sont trait cele part, et escuhier
                comencent a cuerre a l'un lés et a l'autre. Si ne furent onques gent
                <?oxy_comment_start author="fpzanardi"
