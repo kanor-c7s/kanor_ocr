@@ -62,7 +62,7 @@
 
          <sourceDesc>
             <msDesc xml:lang="fro" xml:id="C">
-               
+
                <msIdentifier>
                   <country>France</country>
                   <settlement>Paris</settlement>
@@ -80,24 +80,23 @@
                <p>Le manuscrit BnF fr. 1446 est important à plusieurs égards. Tout d’abord, il se
                   distingue par la présence d’un ensemble d’œuvres dont la rédaction ou la
                   composition peuvent être qualifiées d’exceptionnelles. Outre une rédaction non
-                  cyclique et composite de la dernière des continuations du Cycle des Sept Sages
-                  de Rome, il faut signaler la présence de brouillons et ébauches attribuées à
-                  Baudouin Butor, occupant les marges inférieures des folios 70 à 109 et les
-                  folios 108 à 115, et qui sont autant de documents incontournables pour qui
-                  s’intéresse à la genèse du Roman de Perceforest. Le fr. 1446 contient aussi le
-                  manuscrit unique du Couronnement de Renart, version wallonne du Roman de
-                  Renart. Il faut signaler un témoin des Fables de Marie de France. Le manuscrit
-                  a enfin agrégé, dans sa seconde partie, trois manuscrits à l’origine séparés
-                  contenant les œuvres poétiques de Baudouin et de Jean de Condé. Le Pelyarmenus
-                  et le Kanor peuvent être lus dans quatre autres manuscrits, ici référencés V2
-                  (BnF fr.22549) et V3 (BnF fr.22550), B (KBR 9245), X2 (BL Harley 4903) et G
-                  (BnF fr.93). Le manuscrit B est celui qui se rapproche le plus du nôtre en
-                  termes de variantes pour la partie Pelyarmenus (à compléter ensuite). Notons
-                  également la source M, miniatures avec texte au dos (Musée de Reims cadre 882,
-                  III-VI).</p>
-               
+                  cyclique et composite de la dernière des continuations du Cycle des Sept Sages de
+                  Rome, il faut signaler la présence de brouillons et ébauches attribuées à Baudouin
+                  Butor, occupant les marges inférieures des folios 70 à 109 et les folios 108 à
+                  115, et qui sont autant de documents incontournables pour qui s’intéresse à la
+                  genèse du Roman de Perceforest. Le fr. 1446 contient aussi le manuscrit unique du
+                  Couronnement de Renart, version wallonne du Roman de Renart. Il faut signaler un
+                  témoin des Fables de Marie de France. Le manuscrit a enfin agrégé, dans sa seconde
+                  partie, trois manuscrits à l’origine séparés contenant les œuvres poétiques de
+                  Baudouin et de Jean de Condé. Le Pelyarmenus et le Kanor peuvent être lus dans
+                  quatre autres manuscrits, ici référencés V2 (BnF fr.22549) et V3 (BnF fr.22550), B
+                  (KBR 9245), X2 (BL Harley 4903) et G (BnF fr.93). Le manuscrit B est celui qui se
+                  rapproche le plus du nôtre en termes de variantes pour la partie Pelyarmenus (à
+                  compléter ensuite). Notons également la source M, miniatures avec texte au dos
+                  (Musée de Reims cadre 882, III-VI).</p>
+
                <msContents>
-                  
+
                   <textLang mainLang="fro">Ancien français</textLang>
                   <msItem xml:id="Kanor" n="1">
                      <msItemStruct xml:id="Recapitulation">
@@ -113,7 +112,8 @@
                         <explicit>ci endroit face fin de ma rechapitulation et entre en ma matere,
                            dont jou ai fait mension en mon prologue devant, et comence ici endroit
                            mon livre.</explicit>
-                        <note type="tei-header">Selon la pdg IIv, le roman est attribué à Baudouin Butor.</note>
+                        <note type="tei-header">Selon la pdg IIv, le roman est attribué à Baudouin
+                           Butor.</note>
                      </msItemStruct>
 
                      <msItemStruct xml:id="Peliarmenus">
@@ -138,8 +138,8 @@
                            freres.</explicit>
                      </msItemStruct>
 
-                     <note type="tei-header">Rédaction indéchiffrable car trop effacée dans la marge supérieure du f.
-                        210v.</note>
+                     <note type="tei-header">Rédaction indéchiffrable car trop effacée dans la marge
+                        supérieure du f. 210v.</note>
 
                      <note type="tei-header">
                         <p>Notice tirée de la base Jonas, section romane, notice de "PARIS,
@@ -177,8 +177,8 @@
                   <msItem>
                      <locus>f. 108vb-114vb</locus>
                      <title>Brouillons de Baudoin Butor</title>
-                     <note type="tei-header">Pour une analyse des différentes campagnes de brouillons, voir l'article
-                        de Noémie Chardonnens et Barbara Wahlen.</note>
+                     <note type="tei-header">Pour une analyse des différentes campagnes de
+                        brouillons, voir l'article de Noémie Chardonnens et Barbara Wahlen.</note>
                   </msItem>
 
                   <msItem>
@@ -258,12 +258,13 @@
                         identification précise des mains ayant concouru à la rédaction de ce
                         manuscrit est redoublée par les enjeux de paternité et de création des
                         œuvres qu’il renferme : des rapports intertextuels tangibles ont en effet
-                        été établis entre le Roman de Kanor et les brouillons de Butor. Face à un flou préjudiciable à la bonne connaissance des différentes
-                        campagnes d’écriture de la section, on souhaite a minima fournir une
-                        description paléographique qui permettrait de mettre au jour les différentes
-                        mains identifiables clairement ainsi que les accidents de rédaction qu’on
-                        croit déceler. La partie <persName key="Kanor">Kanor</persName> comporte au moins trois
-                        mains.</p>
+                        été établis entre le Roman de Kanor et les brouillons de Butor. Face à un
+                        flou préjudiciable à la bonne connaissance des différentes campagnes
+                        d’écriture de la section, on souhaite a minima fournir une description
+                        paléographique qui permettrait de mettre au jour les différentes mains
+                        identifiables clairement ainsi que les accidents de rédaction qu’on croit
+                        déceler. La partie <persName key="Kanor">Kanor</persName> comporte au moins
+                        trois mains.</p>
 
                      <handNote xml:id="hand1">
                         <p>f. 1ra-17vb/24va-fin</p>
@@ -273,27 +274,23 @@
                            d'exponctuations. Le positionnement labile des signes abréviatifs et la
                            détérioration matérielle du manuscrit rendent parfois la lecture
                            difficile.</p>
-                        <p>Formes individuelles remarquables : "a" : simple ove. On peut apercevoir des "a" avec crosse mais non
-                                 bouclés, mais la plupart est bien à simple ove (souvent avec une
-                                 petite crosse). /
-                             g : hampe trés fréquemment exagérée en retrait latéral gauche
-                                 jusqu'à 2 caractéres. /
-                             s : en début de ligne, la hampe se développe dans la marge. En fin
-                                 de ligne, lorsqu'elle termine le mot, elle est fréquemment en forme
-                                 suscrite./
-                              i : marquées d’un accent oblique pour le distinguer d’autres
-                                 jambages en cotexte ambigu. Non systématique et laxité
-                                 positionnelle du signe./
-                            haut et bas de colonnes : tracés des hampes des p, j, g, s (!)
-                                 pour les bas ou des hastes des l, s (!) pour les hauts parfois
-                                 exagérés, jusqu'à ressembler à une fioriture décorative (folio 31v
-                                 pour une vue d'ensemble). 
-                        </p>
+                        <p>Formes individuelles remarquables : "a" : simple ove. On peut apercevoir
+                           des "a" avec crosse mais non bouclés, mais la plupart est bien à simple
+                           ove (souvent avec une petite crosse). / g : hampe trés fréquemment
+                           exagérée en retrait latéral gauche jusqu'à 2 caractéres. / s : en début
+                           de ligne, la hampe se développe dans la marge. En fin de ligne,
+                           lorsqu'elle termine le mot, elle est fréquemment en forme suscrite./ i :
+                           marquées d’un accent oblique pour le distinguer d’autres jambages en
+                           cotexte ambigu. Non systématique et laxité positionnelle du signe./ haut
+                           et bas de colonnes : tracés des hampes des p, j, g, s (!) pour les bas ou
+                           des hastes des l, s (!) pour les hauts parfois exagérés, jusqu'à
+                           ressembler à une fioriture décorative (folio 31v pour une vue
+                           d'ensemble). </p>
                         <p>Abréviations : système abréviatif dense pour un texte littéraire. La
                            laxité des emplois, pour ne pas dire leur irrégularité, rend la lecture
                            parfois complexe (c'est le cas du tilde vertical qui agit comme un
-                           opérateur abréviatif à usage large). Tilde avec diverses valeurs,
-                           dont nasalisation des voyelles, abréviations usuelles de p barré droit et
+                           opérateur abréviatif à usage large). Tilde avec diverses valeurs, dont
+                           nasalisation des voyelles, abréviations usuelles de p barré droit et
                            paraphe, q barré, signe conventionnel pour -us et conjonction et.
                            Contraction de mots fréquents jusqu'à réduction à une lettre avec tilde
                            vertical suscrit (trés, dist, <persName key="Kanor">Kanor</persName>,
@@ -376,10 +373,10 @@
 
                <history>
                   <origin>
-                     <p>Provenant de la Flandre (province de Hainaut) ou du
-                        Nord de la France. Dernier quart du 13<hi rend="exp">e</hi> siècle pour les
-                        folios 1-114 et première moitié du 14<hi rend="exp">e</hi> siècle pour les
-                        folios 115-210. Plus précisément, pour la partie Kanor, sans doute entre 1289 et 1292, selon
+                     <p>Provenant de la Flandre (province de Hainaut) ou du Nord de la France.
+                        Dernier quart du 13<hi rend="exp">e</hi> siècle pour les folios 1-114 et
+                        première moitié du 14<hi rend="exp">e</hi> siècle pour les folios 115-210.
+                        Plus précisément, pour la partie Kanor, sans doute entre 1289 et 1292, selon
                         l'identification du dédicataire Hugues II de Châtillon que propose Lewis
                         Thorpe (sur la pdg 2v, une note : "Hugues de Chatillon fut Comte de St Pol
                         de 1226 à 1291").</p>
@@ -1154,7 +1151,7 @@
                en la rebriche ci encoste, ai fait mension. Et por ce que li envieus<note
                   type="notecritique">topos de prologue que de rejeter les critiques à l'avance. Ce
                   qui est intéressant, c'est l'utilisation d'un cas sujet alors que finalement le GN
-                  est COD : ou alors il y a une anacoluthe...</note>, qui nul avancement ne
+                  est CO2 : ou alors il y a une anacoluthe...</note>, qui nul avancement ne
                vauroient avoir sor nul home qui blasmer seuist aus, ne ceus de leur lignie, veil je
                le mien non del tout en tout celer, quant il me doit sousfire a ce que li miens sire
                le sace devant dis, sans cui confort je ne porroie mie teil ouvrage asovir
@@ -1228,19 +1225,18 @@
                citei et que il le vausist soucoure en auteil maniere come li siens pere <persName
                   key="Fiséus">Pheseus</persName> avoit soucoru Laurun le sien pere. Que vous iroie
                devisant ? Li vaillans <persName key="Cassidorus">Kassidorus</persName> s'avisa et
-               dist que <seg ana="proverbe">li une bontés l'autre recuiert</seg>.<note type="notecritique">L'une
-                  bonté l'autre requiert (Morawski 1146).</note> Il atorna sa voie et laissa sa feme
-               en garde un sien ami. Il en ala a <placeName key="Rome">Rome</placeName> et sa feme
-               demoura enchainte. Et avint que li tiermes ala tant que la dame envoia a <placeName
-                  key="Rome">Rome</placeName> a son signor por lui savoir coment il <choice>
-                  <orig>n</orig>
-                  <reg>en</reg>
-               </choice> estoit et savoir de lui son iestre. Li més que cestui mesage deut faire le
-               fist en teil maniere ke sa letre fu fausee, et trova <persName key="Cassidorus"
-                  >Kassidorus</persName> escrit que cil en cui garde il avoit sa feme laissie li
-               mandoit que elle despuis qu'il s'ert partis de li, elle ne s'estoit gardee mout
-               autrement come se elle fust a tos conmune, et que il mandast de queil mort il voloit
-               que on le feist morir.</p>
+               dist que <seg ana="proverbe">li une bontés l'autre recuiert</seg>.<note
+                  type="notecritique">L'une bonté l'autre requiert (Morawski 1146).</note> Il atorna
+               sa voie et laissa sa feme en garde un sien ami. Il en ala a <placeName key="Rome"
+                  >Rome</placeName> et sa feme demoura enchainte. Et avint que li tiermes ala tant
+               que la dame envoia a <placeName key="Rome">Rome</placeName> a son signor por lui
+               savoir coment il <supplied reason="omitted">e</supplied>n<note type="notelangue">Ce
+                  "n" vaut souvent pour "en" : à mettre dans la syntaxe</note> estoit et savoir de
+               lui son iestre. Li més que cestui mesage deut faire le fist en teil maniere ke sa
+               letre fu fausee, et trova <persName key="Cassidorus">Kassidorus</persName> escrit que
+               cil en cui garde il avoit sa feme laissie li mandoit que elle despuis qu'il s'ert
+               partis de li, elle ne s'estoit gardee mout autrement come se elle fust a tos conmune,
+               et que il mandast de queil mort il voloit que on le feist morir.</p>
             <p n="P5"> Cil qui mout ert sages et aviseus remanda a celui que telle come il li avoit
                charcié, il li gardast de ci a son repairier. Et qu'avint de çou ? Li traitour<note
                   type="notecritique">Ici, il s'agit de "traitor" "négociateurs" qui se trouvent
@@ -1285,12 +1281,12 @@
                   >Costantinoble</placeName> et dist tant a l'empereour d'un et d'el qu'il envoia en
                   <placeName key="Constantinople">Costatinoble</placeName>, por celui destruire que
                l'empereris avoit eut en garde, mais ausi come Dius, qui mie ne volt sousfrir la
-               destruction dou loial siergant, le tensa, por ce qu'il fu mis en forte et orible
-               prison de ci a dont que <persName key="Cassidorus">Kassidorus</persName> revint en
-                  <placeName key="Grèce">Gresce</placeName>, mais ainch por ce ne fu delivrés, si
-               sutil furent li traïtor, qui la bone dame cuidierent avoir mise a mort.<note
-                  type="notecritique">La syntaxe et le sens de cette fin de pbrase ne fonctionnent
-                  pas...</note></p>
+               destruction dou loial siergant, le tensa, por ce <surplus reason="syntaxe"
+                  >qu'</surplus>il fu mis en forte et orible prison de ci a dont que <persName
+                  key="Cassidorus">Kassidorus</persName> revint en <placeName key="Grèce"
+                  >Gresce</placeName>, mais ainch por ce ne fu delivrés, si sutil furent li traïtor,
+               qui la bone dame cuidierent avoir mise a mort.<note type="notecritique">La syntaxe et
+                  le sens de cette fin de pbrase ne fonctionnent pas...</note></p>
             <p n="P7">
                <hi rend="decorated-initial 3 blue">L</hi>i emperere, qui en nule maniere ne povoit
                oublier la mort de l'empereris que li cuers ne li deist que morte avoit esté ausi
@@ -1384,7 +1380,7 @@
                me vauroit ore avant faire ci plus lonc conte quant aillours est contenu mieus et en
                millor maniere ? Mais por le mius entendre avant vient ore li contes a çou que li
                emperere et li damoisiaus reparriere<supplied reason="omitted">n</supplied>t en l'ost
-                  <persName key="Edypus1">Hedipu</persName> et fu ceste chose acointié a tous ciaus
+                  <persName key="Edypus1">Hedipu</persName> et fu ceste chose acointïe a tous ciaus
                qui il le covint savoir. Mie ne demoura que li emperere o lui <persName key="Edypus1"
                   >Hedipus</persName> vinrent aveuch aus grant plenté de barons, si sont venut por
                lor jornees enchiés celui <persName key="Polus">Polum</persName>, et lor fu conté ce
@@ -1403,14 +1399,14 @@
                plours, et dist a lui priveement : <said aloud="true" direct="true">Chiers sire, il
                   me covint de vous partir a ma confusion dolante et enchainte, <pb
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f9.image" n="2r"/> or me
-                  veille Dieus otroiier en aucn tans perseverer ma vie et <gap reason="lost"/> grant
-                  joie que je de vos ne me puisse partir.</said>
+                  veille Dieus otroiier en aucun tans perseverer ma vie et <gap reason="lost"/>
+                  grant joie que je de vos ne me puisse partir.</said>
                <said rendition="dialogue" aloud="true" direct="true">Ha ! Dieus, dist li emperere,
                   et <gap reason="lost"/> qu'on ne puet contrester, ne covient fors que le cuer
                   mener a <gap reason="lost"/> pais, et se vos ce ne faites, il ne puet mie
                   legierement s<gap reason="lost"/> qu'en aucune maniere cil courous ne vos doit
                   iestre convertis <gap reason="lost"/> Et si avient soi nient qu'il n'est si male
-                  qui n'ajut ne si bo<supplied reason="omitted">ne qui</supplied> ne griet, ne
+                  qui n'aiut ne si bo<supplied reason="omitted">ne qui</supplied> ne griet, ne
                   d'autre part nus ne doit iestre dolans d'autrui a<gap reason="lost"/> ment mais
                   qu'il vigne de droiture.</said>
                <said rendition="dialogue" aloud="true" direct="true">Ha ! Sire, dist la dame <gap
@@ -1425,7 +1421,7 @@
                   reason="lost"/> ir parfaite joie de mon tres grant anui. Quant li emperere eut
                   <gap reason="lost"/> me, si fu mout joians et en celi joie en eut trop grant <gap
                   reason="lost"/> si dist : <said aloud="true" direct="true">Dame, s'il est ensi
-                  come vos dites, si on loes</said><gap reason="lost"/> que ceste grasce li avoit
+                  come vos dites, si on loes <gap reason="lost"/></said> que ceste grasce li avoit
                dounee. Et il l'aseuroit <gap reason="lost"/> son envenroit a parfaite joie. En ceste
                maniere s<gap reason="lost"/> Rome de l'emperere, et s'en revint a Roume ou ele
                   de<gap reason="lost"/> Si fait ore ci fin ceste histoire et reparte li <gap
@@ -1457,16 +1453,17 @@
                noble aventure n'oï <gap reason="lost"/>r, car uns murdreors avoit la puciele
                encoupee, qui le avoit <gap reason="lost"/>rdié une pucelete qu'ele avoit en garde.
                Et il meisme avoit le <gap reason="lost"/>rdre fait por la raison de ce qu'elle ne se
-               voloit acorder en vilon <gap reason="lost"/>aire de son cors. Et por iceli avoit fait
-               cest entieme qu'il ert <gap reason="lost"/>deprover soi contre un autre s'il le
-               voloit escondire. Ci s'escondis <gap reason="lost"/>is mout a point ensi com il est
-               conté aillors. Car Helcanus vint si a point <gap reason="lost"/>puciele fust perie.
-               Quant il se presenta contre le traïtor et le conquist <gap reason="lost"/>nes com cil
-               qui bien faire le seut. Et dist li contes que tout ce a point <gap reason="lost"/>la
-               partie a l'emperere eurent bataille contre Peliarmenus et sa gent et furent <gap
-                  reason="lost"/>consi et mis a merci Fastidorus et li rois d'<placeName
-                  key="Aragon">Aragon</placeName> pris et Costantinoble <gap reason="lost"/>se de
-               vers l'empereour en ateil maniere come se chascuns fust saisis ¶ d'iaus mil.</p>
+               voloit acorder en vilon<supplied reason="damage" cert="high">ie f</supplied>aire de
+               son cors. Et por iceli avoit fait cest entieme qu'il ert <gap reason="lost"/>deprover
+               soi contre un autre s'il le voloit escondire. Ci s'escondis <gap reason="lost"/>is
+               mout a point ensi com il est conté aillors. Car Helcanus vint si a point <gap
+                  reason="lost"/>puciele fust perie. Quant il se presenta contre le traïtor et le
+               conquist <gap reason="lost"/>nes com cil qui bien faire le seut. Et dist li contes
+               que tout ce a point <gap reason="lost"/>la partie a l'emperere eurent bataille contre
+               Peliarmenus et sa gent et furent <gap reason="lost"/>consi et mis a merci Fastidorus
+               et li rois d'<placeName key="Aragon">Aragon</placeName> pris et Costantinoble <gap
+                  reason="lost"/>se de vers l'empereour en ateil maniere come se chascuns fust
+               saisis ¶ d'iaus mil.</p>
 
             <p n="P11">
                <gap reason="lost"/> emperere vit ceste besoigne ensi faite, si nus <gap
@@ -1492,9 +1489,9 @@
                   <persName key="Pelyarmenus">Peliarmenus</persName> ne vot tenir covent. Et qu'en
                avint ? <persName key="Dorus">Dorus</persName>, qui au jor de dont passoit tous les
                autres chevaliers de proece, fist tant qu'il se mist a aler viers <placeName
-                  key="Rome">Rome</placeName> a<choice>
+                  key="Rome">Rome</placeName> a <choice>
                   <sic><del type="exponctuation" hand="#hand1">t</del></sic>
-                  <supplied reason="omitted">t</supplied>
+                  <corr cert="low" resp="#FPZ"><supplied reason="omitted">t</supplied></corr>
                </choice>ot asés pau de gent et prist <persName key="Pelyarmenus"
                   >Peliarmenum</persName> en une foriest ou il ert alés chacier. Et dist li contes
                que, en teil maniere que on porte poisson de la mer sor un cheval, en <num>ii</num>
@@ -1522,10 +1519,10 @@
                son fil. Quant il furent tout ensamble, se <supplied reason="omitted">e</supplied>n i
                eut <num>xv</num> principaus qui furent esleu por le concorde et le pais asovir. Et
                por ce que je veil que vous mius sachiés qui il furent, por ce qu'il m'en covenra
-               aidier en mon conte ci apriés, le<supplied reason="omitted">s</supplied>
-                  m'<surplus>es</surplus>estuet il nomer ci endroit, por plus covignablement puisier
-               ma matere, qui de cesti doit movoir. Li premiers et li plus grans sire fu li rois
-                  d'<placeName key="Aragon">Aragon</placeName> et cil apriés, por cui on en feist
+               aidier en mon conte ci apriés, le<supplied reason="omitted">s</supplied> m'<surplus
+                  reason="repeated">es</surplus>estuet il nomer ci endroit, por plus covignablement
+               puisier ma matere, qui de cesti doit movoir. Li premiers et li plus grans sire fu li
+               rois d'<placeName key="Aragon">Aragon</placeName> et cil apriés, por cui on en feist
                plus d'une part et d'autre, ce fu li cuens de <placeName key="Flandres"
                   >Flandres</placeName>, li tiers <persName key="Edypus1">Hedipus</persName> de
                   <placeName key="Galilée">Galylee</placeName>, li quars <persName key="Japhus"
@@ -1541,7 +1538,7 @@
                tresimes <persName key="Mardocheus">Mardocheus</persName> li Grius, li quatorsimes
                   <persName key="Leus">Leus</persName> et li quinsimes, que je deuisse avoir
                premiers nomei, fu li dus Lembourgis, qui le plus covignable voie trova, par coi li
-               une partie et li autre furent grant tans ensamble bo<surplus reason="useless"
+               une partie et li autre furent grant tans ensamble bo<surplus reason="morpho"
                   >n</surplus>in ami. Si ne veil ore mie faire une longue devise car aillors est
                contenu et jou el ai a entendre, si veil venir a ce que li emperere covint par sa
                volenté et a le requeste des damoisiaus deseure dis que il repairast a <placeName
@@ -1616,7 +1613,7 @@
                   <corr cert="high" resp="#FPZ">ee</corr>
                </choice><?oxy_comment_end?> guerre, dont euissent il le lor esvoituree et asovie.
                Mais il ont bien veut as amis que lor contre partie avoit, qu'il n'i euist mestier,
-               et por ce fu dis cis proverbes : <seg ana="proverbe">Premiers que mius vuit amis,
+               et por ce fu dis cis proverbes : <seg ana="proverbe">premiers que mius vuit amis,
                   qu'autres tresors.</seg> Dont <persName key="Pelyarmenus">Pelyarmenus</persName>
                dist a celi fois au noble prince le conte de <placeName key="Flandres"
                   >Flandres</placeName> : <said aloud="true" direct="true">Sire, cest tresor que
@@ -1642,7 +1639,7 @@
                iaus. Aprés ce se misent li prince d'une part et entendirent a çou dont il avoient
                esté requis des damoisiaus desus dis.<said aloud="true" direct="true">Beneïçon aiie
                   de Diu, dist chascuns, coment porroit on grignor coust faire de fieste come ceste
-                  est encomencié ?</said>
+                  est encomencïe ?</said>
                <said rendition="dialogue" aloud="true" direct="true">Par foi, dist chascuns,
                   voirement puet on bien savoir que qui le chose veut faire de bone volenté, que mie
                   ne cuert volentiers escusance dou laissier ; et puisqu'il est ensi que faire
@@ -1717,7 +1714,7 @@
                as chans en lor chars. Dont il i eut teil bruit et teil friente qu'il ne fust nus qui
                a grant merveille ne tenist le grant honor des noble chars de <placeName key="Rome"
                   >Rome</placeName>. Dont il avint ausi come des autres tous que l'empereris avoit
-               fais faire <surplus reason="doublon">qu'elle avait fait faire</surplus>
+               fais faire <surplus reason="repeated">qu'elle avait fait faire</surplus>
                <num>v</num> chars et tous garnis d'orfaverie, liqueil fure<supplied reason="omitted"
                   >n</supplied>t aorné de pieres presieuses et coviers de fins dras d'or finement
                doublés dehors et dedens. Li cheval qui atelé i furent, ne cuidiés mie que il fussent
@@ -1748,7 +1745,7 @@
                <persName key="Edypus1">Hedipus</persName> de <placeName key="Galilée"
                   >Galylee</placeName>, li sisimes <persName key="Bourleus">Bourleus</persName> de
                   <placeName key="Lembourc">Lenborch</placeName>, li sietimes <persName key="Karus"
-                  >Karus</persName>, li dus de <placeName key="Nise">Nisse</placeName>, li vuitimes
+                  >Karus</persName>, li dus de <placeName key="Nise">Nisse</placeName>, li witimes
                   <persName key="Mirrus">Mirus</persName> li Fiers, li nuevimes <persName
                   key="Daphus">Daphus</persName> li Gris, li disiemes <persName key="Robert"
                   >Rebiers</persName> de <placeName key="Flandres">Flandres</placeName>, li onsimes
@@ -1784,7 +1781,7 @@
                qui mout s'en esjoï et dist entre ses dens : <said aloud="true" direct="true">J'aie
                   mal dehé se je ne voroie volentiers<note type="notecritique">Signe qui ressemble à
                      un tilde sur le premier «o», mais C ne contient jamais «vonlont-». Ce n'est
-                     pourtant pas impossible. Confusion avec “voulont-” ?</note> ! Mais que je ne
+                     pourtant pas impossible. Confusion avec “voulont-” ?</note>, mais que je ne
                   m'en doutasse d'aucun mescief que avenir i poroit.</said> En çou qu'il pensoit a
                çou, li dist <persName key="Bourleus">Borleus</persName> li dus : <said aloud="true"
                   direct="true">Sire, que dites vos des damoisiaus qui a ce se sont osfiert ?</said>
@@ -1851,7 +1848,13 @@
                      reason="omitted">n</supplied>s dist que ce fu ausi come par la mescheance de la
                   quintainne que vous i adierchastes. Mais faites le bien, que vous encore i
                   puissiés ausi a droit ferir come vous avés fait. Dont dirons nous que vous en avés
-                  l'auwe copee.</said>
+                  l'auwe copee<note type="notecritique">L'auwe, c'est l'oie. Il s'agit d'une
+                     expression proverbiale, beaucoup commentée bien plus tard chez Pathelin : en
+                     cotexte, il s'agit de "réussir de manière habile à qqc.". Il s'agit d'une
+                     pratique-jeu qu'on retrouver surtout dans le Nord (plusieurs témoignages dans
+                     des textes wallons). Voir Roques Mario. « Copper l'oe ». In: Comptes rendus des
+                     séances de l'Académie des Inscriptions et Belles-Lettres, 84ᵉ année, N. 5,
+                     1940. pp. 395-401.</note>.</said>
                <said rendition="dialogue" aloud="true" direct="true">Sire, dist <persName key="Leus"
                      >Leus</persName>, je ne sai que vous ne autres dirés, mais j'aim mius qu'il
                   atant demeurt que jou encore i couruse, et puis se m'i covenist faillir, por coi
@@ -1894,7 +1897,7 @@
                n'i acontast pau u nient, empuigna l'espiel et mist a sa volenté, et apriés s'est
                aprestés et se mella en ses armes et el cheval au plus afaitiement qu'il peut, come
                cil qui bien savoit que tuit et toutes l'esgardoient, et il s'i <surplus
-                  reason="doublon">s'i</surplus> maintint si noblement qu'il en eut la grasce de
+                  reason="repeated">s'i</surplus> maintint si noblement qu'il en eut la grasce de
                tous et de toutes. Au conbrer le cheval f<del hand="#hand1" type="exponctuation"
                   >u</del>ist il merveille, car si le mist en un mont qu'il fu avis a chascun qu'il
                se deuist lanchier en l'air, <pb
@@ -1932,7 +1935,7 @@
                   çou que vous revenistes au sachier sus a vostre trons si a point que vous le
                   recuellietes en teil maniere.</said>
                <said rendition="dialogue" aloud="true" direct="true">Sire, dist il, ço prenderoie je
-                  a faire tous les cos, mais a ce que <surplus reason="doublon">que</surplus> je ai
+                  a faire tous les cos, mais a ce que <surplus reason="repeated">que</surplus> je ai
                   la quintaine <add hand="#hand1" place="above">misse</add> a tiere me sent jou un
                   poi bleciés, si vous pri en gueredon de ce que jou ai fait un poi de chose que
                   vous avés veü volentiers, que vous ne vous desairiés<note type="notecritique">Quel
@@ -2084,12 +2087,11 @@
                <said rendition="dialogue" aloud="true" direct="true">Sire, dist <del hand="#hand1"
                      type="exponctuation"><persName key="Leus">Leus</persName></del>
                   <persName key="Dorus">Dorus</persName>, de ce que <persName key="Leus"
-                     >Leus</persName>, mes frere, est bleciés me doit il anoiier ! Mais que je
-                  demain soie por lui a tornoi me ferai je a merveille joiant !</said> Lors vint
-                  <persName key="Helcanus">Helcanus</persName> et li cuens de <placeName
-                  key="Flandres">Flandres</placeName> a l'empereour et dissent : <said aloud="true"
-                  direct="true">Sire, qu'avés vous fait de <persName key="Leus">Leum</persName>
-                  ?</said>
+                     >Leus</persName>, mes frere, est bleciés me doit il anoiier, mais que je demain
+                  soie por lui a tornoi me ferai je a merveille joiant !</said> Lors vint <persName
+                  key="Helcanus">Helcanus</persName> et li cuens de <placeName key="Flandres"
+                  >Flandres</placeName> a l'empereour et dissent : <said aloud="true" direct="true"
+                  >Sire, qu'avés vous fait de <persName key="Leus">Leum</persName> ?</said>
                <said rendition="dialogue" aloud="true" direct="true">Biau signor, dist il, jou en ai
                   fait ce que vous povés oïr.</said>
                <said rendition="dialogue" aloud="true" direct="true">Sire, dist dont <persName
@@ -2587,12 +2589,9 @@
             <p n="P39">
                <hi rend="decorated-initial 2 blue">E</hi>nsi esploita li cuens au chevalier, et
                quant <persName key="Pelyarmenus">Peliarmenus</persName> oï çou, si fu mout joians et
-               cuida bien avoir l'auwe <surplus reason="doublon">avoir</surplus>
-               <?oxy_comment_start author="fpzanardi"
-               timestamp="20240108T150828+0100" comment="sens de l'expression 'couper
-               l'eau' en cotexte"?>copee<?oxy_comment_end?>. Mais en pau d'eure
-               tourna la roe autrement quant uns povres chevaliers vint au conte et li dist qu'il
-               n'avoit riens fait se il n'amenoit a ce qu'il avoit tout le jor chacié et sans
+               cuida bien avoir l'auwe <surplus reason="repeated">avoir</surplus> copee. Mais en pau
+               d'eure tourna la roe autrement quant uns povres chevaliers vint au conte et li dist
+               qu'il n'avoit riens fait se il n'amenoit a ce qu'il avoit tout le jor chacié et sans
                faille, que si fist il, car il ne demoura mie que li cuens a l'aide de celui qu'il
                ramena por <persName key="Pelyarmenus">Peliarmenus</persName>, teil que, mal grei de
                tous ciaus qui aidier li vorrent, fu pris dou
@@ -2726,7 +2725,7 @@
                une chace de chevaliers qui venoit a grant bruit et amenoient un chevalier qui a
                merveille metoit grant defense a çou que on le voloit jus metre dou cheval, et uns
                autres venoit apriés de mout grant ravinne, criant : <said aloud="true" direct="true"
-                  >Or li ajue ! Or li ajuwe a <persName key="Daphus">Daphus</persName> !</said> Qui
+                  >Or li aiue ! Or li aiuwe a <persName key="Daphus">Daphus</persName> !</said> Qui
                dont euist veut <add hand="#hand1" place="above">celui</add> coment il se feri
                entr'iaus qui son signor enmenoient, dire peuist merveille. Car mal de chelui qu'il
                ne covenist laissier celui <persName key="Daphus">Daphus</persName> et entendre a
@@ -2780,12 +2779,12 @@
                voie"?>muet<?oxy_comment_end?> por aler sa voie, si enporte apriés par
                sa forche <del hand="#hand1" type="exponctuation">apriés a</del> ciaus qui lui
                tiennent ausiment par le force dou diestrier et de lui. Les mena il grant pieche
-               criant : <said aloud="true" direct="true">Or li ajuwe a <persName key="Leus"
+               criant : <said aloud="true" direct="true">Or li aiuwe a <persName key="Leus"
                      >Leum</persName> !</said>
                <said rendition="dialogue" aloud="true" direct="true">Ne vous vaut, dist li
                   uns.</said>
                <said rendition="dialogue" aloud="true" direct="true">Rendre vous covient a cui ?
-                  d<unclear reason="faded" cert="high">ist</unclear>
+                     d<unclear reason="faded" cert="high">ist</unclear>
                   <persName key="Dorus">Dorus</persName>.</said>
                <said rendition="dialogue" aloud="true" direct="true">Au povre chevalier, dist li
                   uns.</said>
@@ -2805,7 +2804,7 @@
             <p n="P41">
                <hi rend="decorated-initial 2 blue">E</hi>n çou que vous avés oï desus, rescrie
                   <persName key="Dorus">Dorus</persName> : <said aloud="true" direct="true">Or li
-                  ajuwe ! <persName key="Hayno">Hainnau</persName> a <persName key="Leus"
+                  aiuwe ! <persName key="Hayno">Hainnau</persName> a <persName key="Leus"
                      >Leum</persName> !</said> Lors li dist uns chevaliers : <said aloud="true"
                   direct="true">Ja <persName key="Hayno">Hainnau</persName> ne autres ne vous i ara
                   mestier que ren<del hand="#hand1" type="exponctuation">chce</del>dre ne vous
@@ -2835,10 +2834,11 @@
                tornast au meschief. Car issi come je le truist escrit, il covint a ciaus de lor
                malisse coper le cengles as chevaus des <num>ii</num> chevaliers avant qui les
                peuissent metre a tiere, ne seuist l'eure de mot. Quant il se troverent jus sans
-               autre pierte, q<supplied reason="omitted">ua</supplied>nt <persName key="Helcanus">Helcanus</persName>
-               vit son signor a tiere dejouste lui, si le prist par le main et dist : <said
-                  aloud="true" direct="true">Sire, traions nous hors de ceste chace qui vient ci,
-                  car trop me doute que vous ne soiiés bleciés de ces maleois robeour.</said>
+               autre pierte, q<supplied reason="omitted">ua</supplied>nt <persName key="Helcanus"
+                  >Helcanus</persName> vit son signor a tiere dejouste lui, si le prist par le main
+               et dist : <said aloud="true" direct="true">Sire, traions nous hors de ceste chace qui
+                  vient ci, car trop me doute que vous ne soiiés bleciés de ces maleois
+                  robeour.</said>
                <said rendition="dialogue" aloud="true" direct="true">N'en doutés ja, dist il, mais
                   de ce ai je grant merveille ou vostre chevalier sont.</said>
                <said rendition="dialogue" aloud="true" direct="true">En non Diu, sire, dist <del
@@ -2848,10 +2848,9 @@
                   timestamp="20240108T175732+0100" comment="La P3 est bizarre, on attendrait la P1,
                   'dui' (à Dorus qui lui demande où sont ses chevaliers, Helcanus répond
                   'j'ai dû les perdre tous'. ?)"?>dut <?oxy_comment_end?> avoir le
-                  tout pierdut.</said> Atant vinrent
-               lor banieres waucrer parmi le tornoi, si se sont trait cele part, et escuhier
-               comencent a cuerre a l'un lés et a l'autre. Si ne furent onques gent
-               <?oxy_comment_start author="fpzanardi"
+                  tout pierdut.</said> Atant vinrent lor banieres waucrer parmi le tornoi, si se
+               sont trait cele part, et escuhier comencent a cuerre a l'un lés et a l'autre. Si ne
+               furent onques gent <?oxy_comment_start author="fpzanardi"
                timestamp="20240108T175955+0100" comment="??? Comment comprenez-vous cette forme ? Ne
                peut-on résoudre autrement ? Est-ce un participe dialectal ? Je n'en trouve pas
                la trace... Cette forme devrait être un participe passé au cas régime masculin
@@ -2889,10 +2888,11 @@
                Et li un et li autre avoient tant feru que mal de celui qui volentiers ne vosist que
                chascuns fust retrais. Li emperere et li dus firent souner le retraite et se
                coumencierent a retraire petit et petit. Mais quant ce seut <persName key="Dorus"
-                  >Dorus</persName>, dont primes fu il raloii<surplus>i</surplus>és a sa bataille et
-               mis en fors et entais chevaus, si se feri es plus fors batailles qu'il veoit, si
-               qu'il avint a celi fois que si chevalier le tinrent plus priés qu'il n'avoient en
-               tout le jour, si qu'il avint qu'en la fin les for<surplus>
+                  >Dorus</persName>, dont primes fu il raloii<surplus reason="morpho">i</surplus>és
+               a sa bataille et mis en fors et entais chevaus, si se feri es plus fors batailles
+               qu'il veoit, si qu'il avint a celi fois que si chevalier le tinrent plus priés qu'il
+               n'avoient en tout le jour, si qu'il avint qu'en la fin les for<surplus
+                  reason="morpho">
                   <add hand="#hand1" place="above">li</add>
                </surplus>ma<note type="ntravail">Ne peut-on ignorer la correction, et garder « forma
                   » au sens de « mettre au pas », « éduquer », avec un sens ironique, comme quand on
@@ -2990,7 +2990,8 @@
                   chevacerés mie tous jors a lorains que il ne vous covigne pierdre en aucune
                   maniere.</said> Li emperere entendi l'empereris et nota ce que elle avoit dit en
                autre maniere que elle n'avoit fait. Lors li dist en sourriant : <said aloud="true"
-                  direct="true">Dame, dame, n'est mie merveille, s'il n'est <unclear reason="faded" cert="high">
+                  direct="true">Dame, dame, n'est mie merveille, s'il n'est <unclear reason="faded"
+                     cert="high">
                      <add hand="#hand1" place="above">ensi</add>
                   </unclear> que vous avés dit, car toute sifaite chose est çou de ce siecle. Car
                   quant il avient que on s'i aseure le plus, c'est quant <seg ana="proverbe">on est
@@ -3028,12 +3029,12 @@
                   vostre grasce, je ne cuit mie que ceste chose vous doie torner a anui. Et por ce
                   que je ne veil mie qu'il vous puist torner a anui s'a grant porfit non, je vos en
                   dirai une partie de ce que vostre parole m'a dounee a entendre. Il <add
-                     hand="#hand1" place="above">est</add> voirs que on dist en provierbe que tandis
-                  que li gius est biaus est un poins dou laissier, ausi come il avient que cil qui
-                  est en vertut d'astinnence que, quant il mengue d'une viande volentiers, qu'il
-                  n'en prent mie tant que par abomination li covigne laissier, anchois se refraint
-                  et le met arriere por çou que elle li face millor digestion d'aquere natureil
-                  apetit. Tout autre<unclear cert="high" reason="faded">
+                     hand="#hand1" place="above">est</add> voirs que on dist en provierbe que <seg
+                     ana="proverbe">tandis que li gius est, biaus est un poins dou laissier</seg>,
+                  ausi come il avient que cil qui est en vertut d'astinnence que, quant il mengue
+                  d'une viande volentiers, qu'il n'en prent mie tant que par abomination li covigne
+                  laissier, anchois se refraint et le met arriere por çou que elle li face millor
+                  digestion d'aquere natureil apetit. Tout autre<unclear cert="high" reason="faded">
                      <add hand="#hand1" place="above">si est</add>
                   </unclear> il, ma tres chiere dame et bone amie, m'avés vous mis en voie de ce qui
                   me puet faire millor disgestion en liu et en tans et vous dirai coment ne por coi.
@@ -3043,9 +3044,9 @@
                <said aloud="true" direct="true">Come il soit ensi que N<supplied reason="omitted"
                      >ost</supplied>re Sires m'a prestee tant d'onnor qu'il m'a mis el plus haut
                   estage <add hand="#hand1" place="above">de la roe</add> de Fortune, ausi come il
-                  me fu dit un jor qui passés <surplus reason="doublon">es</surplus> est, il ne puet
-                  mie avenir par droit ne par nature que tous <cb n="b"/> jors je puisse vivre en
-                  l'onnor de l'empire de <placeName key="Rome">Rome</placeName> ne de <placeName
+                  me fu dit un jor qui passés <surplus reason="repeated">es</surplus> est, il ne
+                  puet mie avenir par droit ne par nature que tous <cb n="b"/> jors je puisse vivre
+                  en l'onnor de l'empire de <placeName key="Rome">Rome</placeName> ne de <placeName
                      key="Constantinople">Costantinoble</placeName>, anchois sont nei cil qui ceste
                   honor atendent. S<supplied reason="omitted">i</supplied> me sambleroit
                      raiso<supplied reason="omitted">n</supplied>s et drois que, tandis que li gius
@@ -3248,20 +3249,21 @@
                   li ere de lui.</said> Dont ne valut rien a <persName key="Fastidorus"
                   >Fastidorum</persName> chose qu'il peuist dire a <persName key="Celydus"
                   >Celidum</persName> qu'il ne se partist de lui, vosist u non, et se mist ariere en
-               son paiis, o lui un chevalier et sa maisnie. Si <surplus>re</surplus>retourne ore ci
-               endroit li contes a l'empereour et a l'empereris et se taist de <persName
-                  key="Celydus">Celidum</persName>.</p>
+               son paiis, o lui un chevalier et sa maisnie. Si <surplus reason="morpho"
+               >re</surplus>retourne ore ci endroit li contes a l'empereour et a l'empereris et se
+               taist de <persName key="Celydus">Celidum</persName>.</p>
             <p n="P53">
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f23.image" n="9r"/>
                <hi rend="decorated-initial 4 red">O</hi>r nos dist ici endroit li contes que, quant
                li emperere et l'empereris se furent de <placeName key="Rome">Rome</placeName> parti,
                il n'eurent mie alé c'une jornee asés petite quant ce vint au matin qu'il eurent giut
-               a un viliel, et issoient de lor osteil ou il avoient ostelé. Si troverent au matin a
-               l'issir de l'huis le liuon, qui se gisoit au dehors de la porte. Et quant li emperere
-               le vit et il lui, onques ne fu faite joie de bieste a home ne d'oume a bieste si
-               grant come il se firent.<said aloud="true" direct="true">Beneïçon aiiou de Diu ! dist
-                  li empereris. Sire, c'avés vous enpens<supplied reason="omitted">é</supplied> de
-                  cele bieste a faire, qui en teil point nos a sivi et veut sivre ?</said>
+               a un viliel, et issoient de lor osteil ou il avoient ostelé. Si troverent au matin, a
+               l'issir de l'huis, le liuon, qui se gisoit au dehors de la porte. Et quant li
+               emperere le vit, et il lui, onques ne fu faite joie de bieste a home ne d'oume a
+               bieste si grant come il se firent.<said aloud="true" direct="true">Beneïçon aiiou de
+                  Diu ! dist li empereris. Sire, c'avés vous enpens<supplied reason="omitted"
+                     >é</supplied> de cele bieste a faire, qui en teil point nos a sivi et veut
+                  sivre ?</said>
                <said rendition="dialogue" aloud="true" direct="true">Dame, dist il, mout est noble
                   compaignie de lui ! Et puisqu'il plest a Nostre Signor sosfrir, le me covient et
                   vous d'autre part.</said>
@@ -3300,15 +3302,16 @@
                   Nostre Signor que jou n'aie. Et d'autre part je vous voi de millor et de grignor
                   sens que je ne sui, et non mie par ce que je ne vous doie dire mon povre avis
                   selonc ce que je sent et voi de vos. Il m'est avis que vous avés ci endroit ceste
-                  dame que je voi qui est aparellié a faire tout plainneme<del hand="#hand1"
-                     type="scraped">n</del><supplied source="#FPZ" reason="omitted">n</supplied>t
-                  vostre volenté, coment ses povoir se puist estendre, et bien savés que Nostre Sire
-                  si ne coumande mie que nus soit omecides del cors metre a destruction, se ce non
-                  qu'il en puet souffrir selonc çou que Nature se puet estendre a çou que li chars
-                  n'ait mie son delit, por coi on n'oblie mie son creatour. Et par icest raison que
-                  jou voi en la dame, qui mie n'est conplexionee de faire penitance en droit de vos
-                  et de moi, il covenroit que elle fust en liu qui fust en droit foi et ou ele ne
-                     <cb n="b"/> vous empeechast a faire chose qui a Nostre Creator deuist
+                  dame que je voi qui est aparellié a faire tout plainneme<choice>
+                     <sic><del hand="#hand1" type="scraped">n</del></sic>
+                     <corr cert="high" resp="#FPZ">n</corr>
+                  </choice>t vostre volenté, coment ses povoir se puist estendre, et bien savés que
+                  Nostre Sire si ne coumande mie que nus soit omecides del cors metre a destruction,
+                  se ce non qu'il en puet souffrir selonc çou que Nature se puet estendre a çou que
+                  li chars n'ait mie son delit, por coi on n'oblie mie son creatour. Et par icest
+                  raison que jou voi en la dame, qui mie n'est conplexionee de faire penitance en
+                  droit de vos et de moi, il covenroit que elle fust en liu qui fust en droit foi et
+                  ou ele ne <cb n="b"/> vous empeechast a faire chose qui a Nostre Creator deuist
                   desplaire.</said>
             </p>
             <p n="P55">
@@ -3326,8 +3329,8 @@
                   qu'il aroient de lui. Me vorroie je demourer en cest desiert et vivre de ma labour
                   en aucune maniere, ausi come il font aucun preudonme qui mie n'ont de coi vivre
                   sans le cors traveillier.</said>
-               <said rendition="dialogue" aloud="true" direct="true">Beneïçon aiie de Diu, dist li
-                  preudome, coment poriés vous endurer le travail de labour, qui onques riens n'en
+               <said rendition="dialogue" aloud="true" direct="true">Beneïçon aiie de Diu ! dist li
+                  preudome. Coment poriés vous endurer le travail de labour, qui onques riens n'en
                   feistes ?</said>
                <said rendition="dialogue" aloud="true" direct="true">Amis, dist li emperere, or ne
                   savés vous que vous avés dit. Ja ne savés vos que je ne sui fais d'autre matere ne
@@ -3361,7 +3364,7 @@
                liu choisi, mout lor pleut et abielist, car c'estoit auques priés d'une liue de
                   <placeName key="Gomor">Gomor</placeName> (ce fu li chastiaus dont li preudom lor
                avoit fait mension devant) et ert auques sor la voie qui venoit del rechiet dou
-               preudonme <surplus reason="doublon">qui venoit del rechiet</surplus> au chastiel de
+               preudonme <surplus reason="repeated">qui venoit del rechiet</surplus> au chastiel de
                   <placeName key="Gomor">Gomor</placeName> desus dis, liqueus estoit a
                   <num>xii</num> li<del hand="#hand1" type="exponctuation">e</del>ues de Patras ou
                li beneois cors <persName key="saintNicholas">saint Nicholas</persName> repose, et
@@ -3384,22 +3387,23 @@
                l'avoit fait fermer. Li preudom dont li emperere estoit acointiés ert ouvrriers et
                mout bons maistre de filés faire et de rois a peschier en douce aige. Et quant il les
                avoit fais, si les aportoit au chastiel por vendre, si que de ce vivoit li preudome
-               mout saintement, et dou sorplus qu'il ne despendoit mie, dounoit a l'eglise de saint
-               Nicholas. Li emperere, par celui preudome, s'acointa de chiaus qui avoient l'ueuvre
-               entre mains et lor dist que, por le <persName key="saintNicholas">saint
-                  Nicholai</persName>, il le meissent en l'uevre, et il se travilleroit a ce que de
-               porter piere, meutier, çaus et savelon. Quant cil ont veü l'empereour, si esgarderent
-               en lui toute biauté parfaite et disent : <said aloud="true" direct="true">Biau sire,
-                  nos ne veons mie en vos que vos teus soiiés que por faire teil manuevre que vos
-                  dites. Anchois iestes mius dispo<del hand="#hand1" type="exponctuation">s</del>sés
-                  a tenir un empire et un roiaume por tenir loiauté de justice, dont li pluisor sont
-                  au jour d'ui mout deciut.</said> Quant li emperere eut celui entendut, si mua une
-               coulor mout merveilleuse et dist : <said aloud="true" direct="true">Ha ! Biau signor,
-                  merci, ne puent mie tout iestre emperere ne roi, ne doit on mie avoir en despit
-                  les laboureurs ne les gaingneours de mestier. Mius aim a gaignier mon vivre a le
-                  suor de mes menbres et l'ame sauver, que je fusse empereour ne rois et puis vivre
-                  es delisses et mengier les morsiaus dou sanc de la suour de ciaus que je voi
-                  chascun jor traveillier por le cors soustenir en santé, ausi come font maint en i
+               mout saintement, et dou sorplus qu'il ne despendoit mie, dounoit a l'eglise de
+                  <persName key="saintNicholas">saint Nicholas</persName>. Li emperere, par celui
+               preudome, s'acointa de chiaus qui avoient l'ueuvre entre mains et lor dist que, por
+               le <persName key="saintNicholas">saint Nicholai</persName>, il le meissent en
+               l'uevre, et il se travilleroit a ce que de porter piere, meutier, çaus et savelon.
+               Quant cil ont veü l'empereour, si esgarderent en lui toute biauté parfaite et disent
+               : <said aloud="true" direct="true">Biau sire, nos ne veons mie en vos que vos teus
+                  soiiés que por faire teil manuevre que vos dites. Anchois iestes mius dispo<del
+                     hand="#hand1" type="exponctuation">s</del>sés a tenir un empire et un roiaume
+                  por tenir loiauté de justice, dont li pluisor sont au jour d'ui mout
+                  deciut.</said> Quant li emperere eut celui entendut, si mua une coulor mout
+               merveilleuse et dist : <said aloud="true" direct="true">Ha ! Biau signor, merci, ne
+                  puent mie tout iestre emperere ne roi, ne doit on mie avoir en despit les
+                  laboureurs ne les gaingneours de mestier. Mius aim a gaignier mon vivre a le suor
+                  de mes menbres et l'ame sauver, que je fusse empereour ne rois et puis vivre es
+                  delisses et mengier les morsiaus dou sanc de la suour de ciaus que je voi chascun
+                  jor traveillier por le cors soustenir en santé, ausi come font maint en i
                   a.</said> Dont quant li emperere eut ce dit, si seurent vraiement que ce fu un
                sains home, et l'ont detenut et mis en l'uevre a faire ce qu'il li pleut. Lors
                entendi li emperere a siervir machons de piere porter et de meutier faire, si come
@@ -3498,8 +3502,8 @@
                   direct="true">Damoisiele, por coi ne dites vos dont teus ouvrages vos vient, que
                   vos alés vendant par cest chastiel ? Car il atient a nos que nos de sifaites
                   choses sachons la verité.</said>
-               <said rendition="dialogue" aloud="true" direct="true">Sire, dist la
-                     puciele<surplus>s</surplus>, tout est verités çou que vos dites. Et d'autre
+               <said rendition="dialogue" aloud="true" direct="true">Sire, dist la puciele<surplus
+                     reason="morpho">s</surplus>, tout est verités çou que vos dites. Et d'autre
                   part est il ausi usages que, quant que aucun prodome ou aucune bone dame a aucun
                   vallet ou meschine en cui il se fie et en celi fiance ne puet avoir se tous biens
                   non, et puis li coumande sa privauté a faire, dont il ne veut mie que parole
@@ -3789,7 +3793,7 @@
                   siergant en son osteil cui il croie autant com il fait moi. Et ne cuit mie que en
                   aucun maniere il ne l'ait trové en moi. Por coi, ma tres chiere dame, je vos dirai
                   une chose a coi je cuit que vos vos i acorderés, et tout par coulor de raison. On
-                  dist en provierbe, et cest voirs, <seg ana="proverbe">que qui ainme mius de mere,
+                  dist en provierbe, et c'est voirs, que <seg ana="proverbe">qui ainme mius de mere,
                      cel est fole norrice</seg><note type="apparat">Peut-être par référence à Amour
                      de mère est plus grande que de nourrice», Perceforest, III.</note>. Por coi je
                   di que nus ne doit amer tant <del hand="#hand1" type="exponctuation">a</del> mon
@@ -3806,7 +3810,8 @@
                dame eut celui entendut, si visa et seut a coi cil beoit, mais il dou tout ne li
                osoit dire son corage. Si pensa que se elle voloit esvoiturer sa fole pensee, que li
                covenoit faire un vilain meschief de son cors, çou dont ele n'euist cure, n'euist
-                  e<surplus>n</surplus>sté la dolante jalousie, dont je desus ai fait mension.</p>
+                  e<surplus reason="morpho">n</surplus>sté la dolante jalousie, dont je desus ai
+               fait mension.</p>
             <p n="P66"> Lors avint de ceste chose une laide aventure, car la dame estoit mout
                anieuse que ele ne povoit avoir nul oir de son signor. Si avint de çou que li
                diaubles, ausi come jou ai dit deseure, ne beoit mie sans plus un seul a cu<supplied
@@ -3873,7 +3878,7 @@
                   soie !</said> Et por ce ne laissa il mie a rugier ne a grondir ausi come di me tu
                : <said aloud="true" direct="true">Vos n'iestes mie venus por bien, et me poise que
                   je ne vos puis paiier vostre desierte !</said> Et li emperere s'en apierchuit et
-               hucha le chastelain qui <surplus reason="doublon">avoit</surplus> en avoit teil paor
+               hucha le chastelain qui <surplus reason="repeated">avoit</surplus> en avoit teil paor
                qu'il a poi n'issoit dou sens. Et li emperere dist : <said aloud="true" direct="true"
                   >Sire, alés hardiement a mon signor qui vos apiele.</said> Il i ala <del
                   hand="#hand1" type="exponctuation">u ele</del> envis, mais il de honte ne lossa
@@ -3887,7 +3892,7 @@
                   hastivement par la grigne et si l'aplanoiiés.</said> Et il si fist. Maitennant il
                s'umilia lui et se mist a ses piés, et li emperere dist : <said aloud="true"
                   direct="true">Or vos traiiés arriere chastelain et me faites avant venir nostre
-                  siergant.</said> Et il si fist. Et quant li liuons le <surplus reason="doublon"
+                  siergant.</said> Et il si fist. Et quant li liuons le <surplus reason="repeated"
                   >le</surplus> vit, si fist samblant de lui devorer, et li emperere le maneça, et
                   <del hand="#hand1" type="exponctuation">i</del> il se tint ausi chois com uns
                aignaus.</p>
@@ -3945,10 +3950,10 @@
                <hi rend="decorated-initial 2 blue">Q</hi>uant li chastelains vit ce, si fu ausi come
                tous abaubis des riches juiaus que l'empereris li avoit douneis, et ne seut autre
                chose que dire qu'il respondi : <said aloud="true" direct="true">Dame, nient plus
-                  come li povres hom ne doit escondire le don dou riche, li riche<unclear
-                     reason="acertain" cert="low">s</unclear> ne doit escondire le don dou povre
-                  quant il a cuer et volenté dou merir. Et por ce nel di jou mie que cis dons soit
-                  de povre home a riche, anchois est dons de riche a povre.</said>
+                  come li povres hom ne doit escondire le don dou riche, li riche<supplied
+                     reason="omitted">s</supplied> ne doit escondire le don dou povre quant il a
+                  cuer et volenté dou merir. Et por ce nel di jou mie que cis dons soit de povre
+                  home a riche, anchois est dons de riche a povre.</said>
                <said rendition="dialogue" aloud="true" direct="true">Castelains, chastelains ! dist
                   l'emperere, encor a a amende<del hand="#hand1" type="exponctuation">r</del> a ce
                   que vos dites et ne vos anuit se je vos en reprenc.</said>
@@ -4007,9 +4012,8 @@
                partis de l'empereour et de l'empereris, et se misent au chemin lui et son escuhier,
                qui avoit mout grant despit dou liuon, qui ensi si ert hierechiés a lui et a son
                signor nient, si ne se puet tenir qu'il n'en dist une parole dont il fu blasmés de
-               son signor.<said aloud="true" direct="true">Il me samble, dist l' <unclear cert="low"
-                     reason="acertain">icuuiers</unclear>, que ce soit uns enchantemens de ce
-                  liuon.</said>
+               son signor.<said aloud="true" direct="true">Il me samble, dist li cuviers, que ce
+                  soit uns enchantemens de ce liuon.</said>
                <said rendition="dialogue" aloud="true" direct="true">Coment ! dist li chastelains,
                      <persName key="Fastre">Fastre</persName>, qu'en dirés vos ?</said>
                <said rendition="dialogue" aloud="true" direct="true">Je n'en dirai autre choise,
@@ -4028,12 +4032,12 @@
                   povés, car vos n'avés povoir dou bien dire ne dou mal, fors çou qu'il vos
                   plaist.</said>
                <said rendition="dialogue" aloud="true" direct="true">Voire, en non Diu, dist cil. Or
-                  ai jou dit <unclear reason="acertain" cert="low">paumoire</unclear> se jou ai dit
-                  que il me samble un enchateis. Encore dirai el, car je ne cuit mie que teus hom se
-                  partist onques por bien de son paiis, qui lui ait fait aucun vilisse, por coi il
-                  ne puet arriester soit de cele dame ravie qu'il a aveuch lui, ou de son signor
-                  traïr d'aucuns chas qui mie ne soit covignables.
-                  <?oxy_comment_start author="fpzanardi"
+                  ai jou dit paumoire<note type="notecritique">La transcription semble bonne. Le mot
+                     a le sens de "digne d'éloges"</note> se jou ai dit que il me samble un
+                  enchateis. Encore dirai el, car je ne cuit mie que teus hom se partist onques por
+                  bien de son paiis, qui lui ait fait aucun vilisse, por coi il ne puet arriester
+                  soit de cele dame ravie qu'il a aveuch lui, ou de son signor traïr d'aucuns chas
+                  qui mie ne soit covignables. <?oxy_comment_start author="fpzanardi"
                   timestamp="20240110T130644+0100" comment="à
                   reprendre"?><?oxy_comment_end?>
                </said>
@@ -4049,7 +4053,7 @@
                   venus por son destorbier.</said>
                <said rendition="dialogue" aloud="true" direct="true">En non Diu, dist li
                   chastelains, car ses liuons li douna a entendre. Ja ne vois tu coment il fu meli a
-                  devant moi et <surplus reason="doublon">et</surplus> toi voloit corre seure. Ja
+                  devant moi et <surplus reason="repeated">et</surplus> toi voloit corre seure. Ja
                   Dieus <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f29.image"
                      n="12r"/> ne m'ait, dist cil, se por ce ne di je ore que ce me sambla une
                   maniere de flaterie, tout ausi come di me tu<said aloud="true" direct="true">vos
@@ -4060,8 +4064,8 @@
                </said>
                <said rendition="dialogue" aloud="true" direct="true">Et jou ai dehé, dist li
                   chastelains, que je ne cuit mie que li liuons sournoiast mie de mout.</said>
-               <said rendition="dialogue" aloud="true" direct="true">E <unclear cert="low"
-                     reason="acertain">n</unclear> ne cuidiés vos bien çou, dist li
+               <said rendition="dialogue" aloud="true" direct="true">En<note type="notecritique"
+                     >Pronom adverbial, COI de "cuidier"</note> ne cuidiés vos bien, çou dist li
                   escuhiers.</said>
                <said rendition="dialogue" aloud="true" direct="true">Par mon chief, dist il, puisque
                   tu ce aspense, je le cuit.</said>
@@ -4128,9 +4132,8 @@
                   puisse avoir vraie colour de ce que je sache, je ne veil autre chose.</said>
                <said rendition="dialogue" aloud="true" direct="true">Je ne sai, dist cil, qu'el a
                   autre color vos volés avoir, car chaiens est cele que mesire i a fait venir por
-                  mius acomplir sa volenté. Or i <unclear cert="low" reason="acertain"
-                     >parra</unclear> coment vos en porés mius ouvrer por plus malitiosement savoir
-                  la pure verité.</said>
+                  mius acomplir sa volenté. Or i parra coment vos en porés mius ouvrer por plus
+                  malitiosement savoir la pure verité.</said>
             </p>
             <p n="P73">
                <said aloud="true" direct="true">Coment, <persName key="Fastre">Fastre</persName>,
@@ -4142,8 +4145,8 @@
                   <?oxy_comment_start author="fpzanardi"
                   timestamp="20240110T190943+0100" comment="dislocation du
                   sujet"?>je<?oxy_comment_end?> ne vi dame qui mius samblast
-                     <unclear cert="low" reason="acertain">iestre</unclear> de boin liu iestre venue
-                  conme elle fait.</said>
+                  iestre de boin liu <surplus reason="repeated">iestre</surplus> venue conme elle
+                  fait.</said>
                <said rendition="dialogue" aloud="true" direct="true">Et de biauté, coment va ses
                   afaires ?</said>
                <said rendition="dialogue" aloud="true" direct="true">De la biauté, dist cil, ne vos
@@ -4232,7 +4235,7 @@
                   le covenant. Mais il seroit plus grans honors a moi et a vos qu'il venissent a moi
                   que je a aus.</said>
                <said rendition="dialogue" aloud="true" direct="true">Dame, sauve soit vostre grasce,
-                  je ne cuit mie que se vos saviés que il sont bon, que vos ne fussiés mout lié
+                  je ne cuit mie que se vos saviés que il sont bon, que vos ne fussiés mout lïe
                   d'iaus faire honor et cortoisie.</said>
                <said rendition="dialogue" aloud="true" direct="true">Sire, por ce que je cuit et sai
                   que vos counissiés iaus et lor lignié, si feriés vos bien se vos me volliés
@@ -4280,7 +4283,8 @@
                   grant train de cele dame voir. Mal ai jou se je le veil nient voir.</said>
                <said rendition="dialogue" aloud="true" direct="true">Dame, dist il, droit avés. Car
                   ausi vos cousteroit elle de vos juiaus aucuns dont elle ne vos costera nul por que
-                  vos ne le veroi <unclear reason="acertain" cert="low">s</unclear>.</said>
+                  vos ne le veroi<unclear reason="acertain" cert="low">s</unclear><note
+                     type="notecritique">Ici, le scribe corrige veroie en verois</note>.</said>
                <said rendition="dialogue" aloud="true" direct="true">Sire, dist elle, vos avés voir
                   dit.</said>
             </p>
@@ -4299,37 +4303,33 @@
                aprestee ausi come elle vausist corre et si prist une puciele o li et vint cele part
                ou elle savoit que li emperere estoit. Lors vint a la maison et vit que li emperere
                et l'empereris seoient au super, li uns dejouste l'autre par mout grant signe d'amor,
-               et tout ce vit elle par une <unclear cert="low" reason="acertain">craie</unclear>
-               d'une feniestre. Li liuon senti la chastelaine et sailli cele part ausi come tous
-               esragiés, et <unclear reason="acertain" cert="low">cuda</unclear> venir a celi por
-               soi devouré. Quant la chastelaine oï ce, ne cuidiés mie que elle oubliast ses talons
-               come cele qui ne cuist voie ne sentier, mais come chevros fuit en la lande vint
-               afuiant a un fosse qui parfons et plains estoit d'iauwe. Cele qui goute ne <add
-                  hand="#hand1" place="above">vit</add> tume de la tieste avant, por coi ele bust
-               avant que li tallons fussent moillié.</p>
+               et tout ce vit elle par une craie d'une feniestre. Li liuon senti la chastelaine et
+               sailli cele part ausi come tous esragiés, et cuda venir a celi por soi devouré. Quant
+               la chastelaine oï ce, ne cuidiés mie que elle oubliast ses talons come cele qui ne
+               cuist voie ne sentier, mais come chevros fuit en la lande vint afuiant a un fosse qui
+               parfons et plains estoit d'iauwe. Cele qui goute ne <add hand="#hand1" place="above"
+                  >vit</add> tume de la tieste avant, por coi ele bust avant que li tallons fussent
+               moillié.</p>
             <p n="P77">
                <hi rend="decorated-initial 2 red">C</hi>elle qui apriés vint qui mie ne s'aseuroit
                vint ausi come Dius li volt aidier. Sa dame, qui en li auwe ert cheue, si coumencha a
                crier : <said aloud="true" direct="true">Harou !</said>
                <persName key="Fastre">Fastres</persName>, qui en agait estoit, acourut cele part et
-               sailli apriés sa dame en teil maniere come un diable les cuida au ii noiier. Mais uns
-               autres dist : <said aloud="true" direct="true">Tien coi, et si me lai covenir, car je
-                  lor ferai encore piis faire.</said> Lors a cil aidié que <persName key="Fastre"
+               sailli apriés sa dame en teil maniere come un diable les cuida au <num>ii</num>
+                  noiier<note type="notelangue">infinitif substantivé</note>. Mais uns autres dist :
+                  <said aloud="true" direct="true">Tien coi, et si me lai covenir, car je lor ferai
+                  encore piis faire.</said> Lors a cil aidié que <persName key="Fastre"
                   >Fastre</persName> enbraça la chastelaine et l'enporta hors entres ses bras. Et
-               quant elle fu hors, si cuida cil que elle fust noiié come cele qui ne movoit menbre
-               qu'ele euist, dont n'oserent faire noise come cil qui pareuissent
-               <?oxy_comment_start author="fpzanardi"
-               timestamp="20240110T193159+0100" comment="on attend un
-               infinitif"?>esté<?oxy_comment_end?> honi se li chastelains le seuist.
-               Dont cuidierent torner en fuies quant cil <persName key="Fastre">Fastre</persName>
-               senti que ele n'ert mie morte, dont fu avisés que il <add hand="#hand1" place="above"
-                  >li</add> mist les rains amont et le chief contreval, por coi ele jeta li auwe
-               hors de li parmi la bouche et revint a li, en teil maniere que il fisent tant que
-               elle fu couchié ausi come elle euist autre maladie. Il fu ja tart et tans que on deut
-               souper et le manda li chastelains. Dit li fu que elle estoit deshaitié et il vint a
-               li, se li enquist que elle avoit, et ele dist : <said aloud="true" direct="true">Ha !
-                  Mais hom ! Come vos tost m'ariés oublie<note type="notelangue">Terminaison picarde
-                     ou absence de féminin ? Pour le moment on dit que c'est un pp. picard.</note>
+               quant elle fu hors, si cuida cil que elle fust noiïe come cele qui ne movoit menbre
+               qu'ele euist, dont n'oserent faire noise come cil qui par euissent esté honi se li
+               chastelains le seuist. Dont cuidierent torner en fuies quant cil <persName
+                  key="Fastre">Fastre</persName> senti que ele n'ert mie morte, dont fu avisés que
+               il <add hand="#hand1" place="above">li</add> mist les rains amont et le chief
+               contreval, por coi ele jeta li auwe hors de li parmi la bouche et revint a li, en
+               teil maniere que il fisent tant que elle fu couchïe ausi come elle euist autre
+               maladie. Il fu ja tart et tans que on deut souper et le manda li chastelains. Dit li
+               fu que elle estoit deshaitïe et il vint a li, se li enquist que elle avoit, et ele
+               dist : <said aloud="true" direct="true">Ha ! Mais hom ! Come vos tost m'ariés oublïe
                   se jou estoie morte !</said>
             </p>
             <p n="P78">
@@ -4339,13 +4339,11 @@
                <said rendition="dialogue" aloud="true" direct="true">Par foi, sire, dist ele, je le
                   vos dirai. Voirs est que jou anuit me sentoie un poi pesans et me mis en cest
                   gardin por moi esbatre. Et avint que j'oï ausi come uller une bieste et venir
-                  deviers vostre <add hand="#hand1" place="above">
-                     <unclear cert="low" reason="acertain">viies</unclear>
-                  </add> faucounerie <unclear cert="low" reason="acertain">nes acui</unclear> et
-                  vraiement que je cuidai que ce fust cil diaubles liuons de coi vos m'aviés anuit
-                  contei, qui aucun home chachast por lui devorier. Si vos ciertefie que onques jour
-                  de ma vie n'eut si grant paour come jou ai eue. Et por ce sui je ore en teil point
-                  come vos poés veoir.</said>
+                  deviers vostre <add hand="#hand1" place="above">viies</add> faucounerie nes acui
+                  et vraiement que je cuidai que ce fust cil diaubles liuons de coi vos m'aviés
+                  anuit contei, qui aucun home chachast por lui devorier. Si vos ciertefie que
+                  onques jour de ma vie n'eut si grant paour come jou ai eue. Et por ce sui je ore
+                  en teil point come vos poés veoir.</said>
                <said rendition="dialogue" aloud="true" direct="true">Dame, dist il, ce poise moi que
                   la busche d'autrui <del hand="#hand1" type="exponctuation">est</del> mesfait est
                   cheoite sor vos, et si vos jur ensains que se je puis savoir qui cele part soit
@@ -4355,7 +4353,7 @@
             </p>
             <p n="P79"> Atant se parti de la li chastelains et vint u li emperere et l'empereris
                estoient mout destorbé et dist : <said aloud="true" direct="true">Sire, quel chiere
-                  faites vos ! Chastelains, ensi com li tans l'aporte ! Dont venes vos ore a ceste
+                  faites vos ! Chastelains, ensi com li tans l'aporte ! Dont venés vos ore a ceste
                   eure ?</said>
                <said rendition="dialogue" aloud="true" direct="true">Sire, dist il, je vieng d'un
                   liu ou il me samble que li aucun avoient bien mestier de mius qu'il
@@ -4367,22 +4365,30 @@
                      hand="#hand1" type="exponctuation">ci</del> venus et autrui destorber.</said>
                <said rendition="dialogue" aloud="true" direct="true">Ha ! Sire, dist li chastelains,
                   ja ne m'est il pau d'autrui destorbier fors que dou vostre.</said>
-               <said rendition="dialogue" aloud="true" direct="true">N'est mie sages qui d'autrui
-                  anui s'apaise, dist li emperere.</said>
-               <said rendition="dialogue" aloud="true" direct="true">Or me dites dont mais qu'il ne
+               <said rendition="dialogue" aloud="true" direct="true"><seg ana="proverbe">N'est mie
+                     sages qui d'autrui anui s'apaise</seg><note type="notecritique">Il s'agit d'une
+                     référence à Isidore de Séville (Synonyma) : #39 "Ne t'esleesse mie de la mort ou de
+                     l'anui de ton aversaire, que autreteus ne t'aviegne et que Dieu ne retorne de
+                     li en toi son mautalent."</note>, dist li emperere.</said>
+               <said rendition="dialogue" aloud="true" direct="true">Or me dites dont, mais qu'il ne
                   vos anuit, fait li chastelains, qui vos ai si destorbé.</said>
                <said rendition="dialogue" aloud="true" direct="true">Je le vos dirai, dist il. Voirs
                   est que nos seiiemes anuit au souper, et vint je ne sai cui a cele fenestre de
                   dehors por veoir chaiens. Et nostre liuons le senti, qui sailli cele <choice>
-                     <orig>ꝑat</orig>
+                     <orig>parat</orig>
                      <reg source="FPZ">part</reg>
-                  </choice> et vos aseur que il mist teil painne a l'issir hor que jou onques por
-                  povoir que je euisse ne l'en peut apaisier. Et avint de çou une aventure qui en la
-                  fin, por çou que je ne le laissoie hors, que il fist samblant de nos tous devorer,
-                  et je n'eut plus de confort que je sailli a me espee et me mis entre ma dame et
-                  lui por lui ochire se je peuisse. Quant il vit ce, si se mist a merci et se couru
-                  asés tos a mes piés, dont je lo le glorius roi de de paradis, qu'il a la nuit
-                  d'anuit nos atens d'anieuse mort.</said>
+                  </choice> et vos aseur que il mist teil painne a l'issir hor que jou onques, por
+                  povoir que je euisse, ne l'en peut apaisier. Et avint de çou une aventure qui en
+                  la fin, por çou que je ne le laissoie hors, que il fist samblant de nos tous
+                  devorer, et je n'euc plus de confort que je sailli a me espee et me mis entre ma
+                  dame et lui por lui ochire se je peuisse. Quant il vit ce, si se mist a merci et
+                  se couru asés tos a mes piés, dont je lo le glorius roi de <surplus
+                     reason="repeated">de</surplus> paradis qu'il, a la nuit d'anuit<note
+                     type="notecritique">Cette expression, sorte de "nuit d'angoisse" du Christ, est
+                     déjà présente dans le Roman des Sept Sages de Rome ainsi que dans Helcanus. On
+                     la retrouve plus loin dans Kanor.</note>, nos atens d'anieuse mort<note
+                     type="notecritique">Voir du côté de Perceval le Gallois, qui contient la même
+                     expression.</note>.</said>
             </p>
             <p n="P80">
                <hi rend="decorated-initial 2 blue">Q</hi>uant li chastelains eut l'empereour oït, si
@@ -4508,9 +4514,9 @@
                qui aler s'en voloit en la queste de son pere, car il avoit loé qu'il ne peut iestre
                chevaliers fors de lui. <persName key="Daphus">Daphus</persName> ne le volt detenir,
                anchois le comanda a celui qui l'avoit fait naistre et dist que se il fust en point
-               de l'aler<surplus>i</surplus> que mout volentiers li tenist conpaignie, et por Diu il
-               li saluast l'empereour, son signor. La estoit li damoisiaus <persName key="Dyanor"
-                  >Dianor</persName>, ses fius, q <choice>
+               de l'aler<surplus reason="morpho">i</surplus> que mout volentiers li tenist
+               conpaignie, et por Diu il li saluast l'empereour, son signor. La estoit li damoisiaus
+                  <persName key="Dyanor">Dianor</persName>, ses fius, q <choice>
                   <orig>
                      <gap reason="illegible"/>e </orig>
                   <reg>ue</reg>
@@ -4643,9 +4649,9 @@
                   mervelleuse, dont nus ne poroit iestre si tost sages se il ne l'avoit apris en
                   pluisors manieres, si nos dites se vos savés hiermitage nul en ceste foriest ou
                   autre herbegage ou nos anuis peuïssons avoir osteil.</said>
-               <said rendition="dialogue" aloud="true" direct="true">Ausi nos ajut Nostre Sire,
+               <said rendition="dialogue" aloud="true" direct="true">Ausi nos aiut Nostre Sire,
                   disent cil, que nos ne savomes hermitage nul en cest foriest autre que d'un saint
-                  home qui trepasa il a bien <num>ii</num> ans et cil est tous gastés si come nos
+                  home qui trepasa il a bien <num>ii</num> ans, et cil est tous gastés si come nos
                   cuidomes.</said>
                <said rendition="dialogue" aloud="true" direct="true">Et or nos dites, fait <persName
                      key="Celydus">Celidus</persName>, que il gent vos iestes ne dont vos venés ne
@@ -4698,7 +4704,7 @@
                mort qu'il n'i demoura c'uns seus qui lor jehi un tresort que li robeour avoient
                asamblé en une cavee dedens la foriest. Celui prisent il por lor covoitise des dras
                d'or et de soie, de pieres presieuses et de juiaus dorei d'argent, de pluisors autre
-               avoir dont uns roiaumes fust ramplis. Si trovons que a l'ajue des <num>ii</num>
+               avoir dont uns roiaumes fust ramplis. Si trovons que a l'aiue des <num>ii</num>
                damoisiaus, il <num>xxv</num> missent a destrustion <num>lxxx</num> et <num>vi</num>
                murdreurs dont li paiis et les <unclear reason="acertain" cert="low"
                   >hones</unclear><note type="ntravail">On attendrait 'homes' mais seulement deux
@@ -4753,8 +4759,8 @@
                uns hom reviestis des armes Nostre Signor, et si lor douna se beneïcon. Et puis
                s'esvanui d'iaus et a çou la tormente s'acoisa. Dont il avint briement qu'il lor vint
                un dous vens et releverent un noviel mast amont et tendirent novieles cordes et
-               noviel voile en depriant celui qui <surplus reason="doublon">qui</surplus> sauvés les
-               avoit qu'il les conduisist la ou sa volentés estoit. Cil qui mie ne voloit que li
+               noviel voile en depriant celui qui <surplus reason="repeated">qui</surplus> sauvés
+               les avoit qu'il les conduisist la ou sa volentés estoit. Cil qui mie ne voloit que li
                siens nons ne fust ensauchiés les conduisi en asés poi de tans a un port que on
                apieloit <placeName key="Cleodor">Cleodor</placeName>, çou fu a demie liue de
                   <placeName key="Gomor">Gomor</placeName> le chastiel dont jou avoie fait mension
@@ -4857,7 +4863,7 @@
                lui et son iestre.</p>
             <p n="P92">
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f35.image" n="15r"/> Quant
-               il se furent enresalué, li chastelains lor enquist dont il furent. Il disent qu'il
+               il se furent entresalué, li chastelains lor enquist dont il furent. Il disent qu'il
                erent d'<placeName key="Espaigne">Espaigne</placeName> et erent parti de lor paiis
                por une merveilleuse aventure, et li beneois confiés <persName key="saintNicholas"
                   >sains Nicholas</persName> les avoit la amenés par miracle, ausi come il cuidoient
@@ -4867,7 +4873,7 @@
                   jou que vos demorrés o moi, car encor ai jou mout poi de confort de siergant que
                   jou plus prise de vos.</said>
                <said rendition="dialogue" aloud="true" direct="true">Sire, dissent li damoisiel, la
-                  vostre merci. En vostre ajue et en vostre confort volons nos demourer, mais nos
+                  vostre merci. En vostre aiue et en vostre confort volons nos demourer, mais nos
                   avons compaignie ou il a mout de bons siergans qui ja se tenroient a desbarté se
                   nos laisiens lor compaignie.</said> Quant il eurent ce dit, li chastelains dist :
                   <said aloud="true" direct="true">Biau signor, vos, quant iestes vos d'une
@@ -4919,20 +4925,20 @@
                <said rendition="dialogue" aloud="true" direct="true">Sire, dist il, vostre hounor
                   croist de jor en jor.</said> Lors li conta de fil en aguille la venue de <persName
                   key="Celydus">Celidum</persName> et de <persName key="Dyanor">Dianor</persName>,
-               coment sains Nicholas les avoit avoiiés ausi come par miracle.<said aloud="true"
-                  direct="true">Chastelains, dist li emperere, cui Dius veut aidier, nus ne li puet
-                  grever. Et sachiés que ceste aventure me plaist quant je sai qu'il plaist a Nostre
-                  Signor, et vos di vraiement qu'il me plaist en l'ounor dou bon saint que se li
-                  marchis vient sor le eglise, que je l'ajue a conforter et veil porter arme et
-                  faire <persName key="Celydus">Celidum</persName> chevalier entre lui et <persName
-                     key="Dyanor">Dianor</persName> son cousin, qui mie ne le seroient se ne fust
-                  por le beneoit sain ensauchier.</said> Quant li chastelains oï çou, onques mais
-               jour de sa vie si liés ne fu. Et que fist il ? De joie ne peut mot dire. Anchois en
-                  <cb n="b" break="no"/>bracha l'empereour mout humlement et il dist : <said
-                  aloud="true" direct="true">Chastelains, il vos covient une chose faire. Alés
-                  enchiés vos et m'aiiés aprestee robe imperiaus au matin, et gardés que nus sace
-                  ceste chose qui je soie, fors li aucun cuideront que je soie des nes issus por
-                  faire a vostre gent ajie.</said>
+               coment <persName key="saintNicholas">sains Nicholas</persName> les avoit avoiiés ausi
+               come par miracle.<said aloud="true" direct="true">Chastelains, dist li emperere, cui
+                  Dius veut aidier, nus ne li puet grever. Et sachiés que ceste aventure me plaist
+                  quant je sai qu'il plaist a Nostre Signor, et vos di vraiement qu'il me plaist en
+                  l'ounor dou bon saint que se li marchis vient sor le eglise, que je l'aiue a
+                  conforter et veil porter arme et faire <persName key="Celydus">Celidum</persName>
+                  chevalier entre lui et <persName key="Dyanor">Dianor</persName> son cousin, qui
+                  mie ne le seroient se ne fust por le beneoit sain ensauchier.</said> Quant li
+               chastelains oï çou, onques mais jour de sa vie si liés ne fu. Et que fist il ? De
+               joie ne peut mot dire. Anchois en<cb n="b" break="no"/>bracha l'empereour mout
+               humlement et il dist : <said aloud="true" direct="true">Chastelains, il vos covient
+                  une chose faire. Alés enchiés vos et m'aiiés aprestee robe imperiaus au matin, et
+                  gardés que nus sace ceste chose qui je soie, fors li aucun cuideront que je soie
+                  des nes issus por faire a vostre gent aiie.</said>
             </p>
             <p n="P95"> Ensi come li emperere le devisa fu fait. Au matin vint li emperere et trova
                le chastelain qui li eut aprestee robe tele come por lui. <persName key="Celydus"
@@ -4943,17 +4949,17 @@
                   key="Celydus">Celidus</persName> vint devant son pere l'empereour, si le conut et
                se mist a ses piés et dist : <said aloud="true" direct="true">Ha ! Biaus pere,
                   rechevés moi a ami. Ja sui jou vostre fius, qui par tant contree vos ai cuis. Or
-                  m'a ci avoiié li beneois sains Nicholas.</said> Dont leva amont li emperere sans
-               plus dire et baisa lui et son cousin. Et puis les traist d'une part et dist : <said
-                  aloud="true" direct="true">Or biau signor, ensi covient aprendre qui se veut faire
-                  conoistre en bienfait ausi jone come vos ore iestes. Me mis jou hors de ma contree
-                  la ou jou me fis conoistre de pluisors, ausi come il covient vos faire avant que
-                  vos puissiés auques iestre ensauchié en bienfait. Et por ce que jou ai entendu que
-                  Nostre Sire si vos a ci amenés ausi come par avis de miracle, je me sui fais
-                  conoistre a vos por çou que jou vos veil doner l'ordene de chevalerie et veil que
-                  vos soiiés chevalier <placeName key="Jhesu Crist">Jhesu Crist</placeName> a
-                  ensauchier son non, foi et loiauté metre au deseure, orguel et felounie au
-                  desous.</said>
+                  m'a ci avoiié li beneois <persName key="saintNicholas">sains
+                  Nicholas</persName>.</said> Dont leva amont li emperere sans plus dire et baisa
+               lui et son cousin. Et puis les traist d'une part et dist : <said aloud="true"
+                  direct="true">Or biau signor, ensi covient aprendre qui se veut faire conoistre en
+                  bienfait ausi jone come vos ore iestes. Me mis jou hors de ma contree la ou jou me
+                  fis conoistre de pluisors, ausi come il covient vos faire avant que vos puissiés
+                  auques iestre ensauchié en bienfait. Et por ce que jou ai entendu que Nostre Sire
+                  si vos a ci amenés ausi come par avis de miracle, je me sui fais conoistre a vos
+                  por çou que jou vos veil doner l'ordene de chevalerie et veil que vos soiiés
+                  chevalier <placeName key="Jhesu Crist">Jhesu Crist</placeName> a ensauchier son
+                  non, foi et loiauté metre au deseure, orguel et felounie au desous.</said>
                <said rendition="dialogue" aloud="true" direct="true">Pere, dist <persName
                      key="Celydus">Celidus</persName>, ensi l'ai je en covent a mon povoir, et mes
                   cousins ausi.</said> Tant mist <persName key="Celydus">Celidus</persName>
@@ -4965,7 +4971,7 @@
                   est toute haitié, grasce Diu, et avons <num>iiii</num> biaus fius qui ja ont un an
                   a ceste Pentecoste.</said>
                <said rendition="dialogue" aloud="true" direct="true">Biaus sire, glorieus <choice>
-                     <orig>ꝑ</orig>
+                     <orig>per</orig>
                      <reg>P</reg>
                   </choice>ere et fius et sains espereris, vos en puisiés iestre ensauchiés, dist
                      <persName key="Celydus">Celidus</persName>.</said>
@@ -5002,10 +5008,11 @@
                      <placeName key="Gomor">Gomor</placeName> vaincu par Cassidorus</note>
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f36.image" n="15v"/> que
                li marchis estoit meus atout <num>x<hi rend="exp">m</hi></num> escus et venoient sor
-               le chan desus dit. Ensi avint que la nuit a l'eglise de mon signor sains Nicholas
-               villierent <num>xx</num> damoisiel qui a l'endemain furent tuit chevalier de la main
-               a l'empereour et por l'amor as <num>ii</num> damoisiel <persName key="Celydus"
-                  >Celidus</persName> et <persName key="Dyanor">Dianor</persName>.</p>
+               le chan desus dit. Ensi avint que la nuit a l'eglise de mon signor <persName
+                  key="saintNicholas">sains Nicholas</persName> villierent <num>xx</num> damoisiel
+               qui a l'endemain furent tuit chevalier de la main a l'empereour et por l'amor as
+                  <num>ii</num> damoisiel <persName key="Celydus">Celidus</persName> et <persName
+                  key="Dyanor">Dianor</persName>.</p>
 
 
             <p n="P97">Que vos ira je ore faisant plus lonc conte ? Avint que cil de la nes dont
@@ -5053,7 +5060,7 @@
                cil cheï el camp qui longes ne peut durer en l'air. Li chevaus s'en vint outre a
                l'autre lés ou il fu bien recheus. <persName key="Celydus">Celidus</persName> feri
                apriés son compaignon et toute la soie compaignie. Qui dont veist home maintenir tres
-               efforchiement entr'iaus ou il se feri, dire peuist tout cil <num>x <hi rend="exp"
+               efforchiement entr'iaus ou il se feri, dire peuist tout cil <num>x<hi rend="exp"
                      >m</hi>
                </num> n'aront mie povoir a lui. <persName key="Dyanor">Dianor</persName>, qui ja
                avoit fait son poindre, li vint au seneistre, qui en calenge mist son cors en teil
@@ -5070,18 +5077,21 @@
                dou cheval, se ce ne furent aucun gentil home cui il venoit ausi conme de nature. De
                coi il avint que li aucun se missent jus des chevaus a piet. Cil avoient haches et
                enferoient si grans coes a <num>ii</num> mains qu'il en porfendoient chevaus et
-               chevalier. Li autre avoient faicons et braceroles et mainte pluisor autre armeure qui
-               ne fust nus qui treist come Sainte Englise si prova.</p>
+               chevalier. Li autre avoient faicons<note type="ntravail">lat. >factio ? C'est peu
+                  satisfaisant. Le mot est coordonné à plusieurs termes relevant de l'armement. Le
+                  mot "façon" ne comprend pas ce sens.</note> et braceroles et mainte pluisor autre
+               armeure qui ne fust nus qui treist come Sainte Englise si prova.</p>
             <p n="P100"> Li chastelains, qui mie ne se mist arriere de l'eglise son droit a
                soustenir, achainst le marchis a l'un lés et ne fust nus qui contre lui et les siens
                ne fremist. Que vos iroie ore celant ? Ne cuidiés mie que cil a l'autre lés ne
                feissent mout a resoignier ou il en avoit <num>x<hi rend="exp">m</hi></num> contre
-                  <num>iiii</num>. Ne peuist avenir se Dieus et sai<supplied reason="omitted"
-                  >n</supplied>s Nicholas ne les confortast. Et nonporquant de la proece d'iaus n'i
-               avoit nul a l'autre lés, por coi li boins emperere se traveilla a çou qu'il de sa min
-               en la fin saisi et prist le marchis et le delivra au chastelain, qui maintenant
-               l'envoia el chastiel de <placeName key="Gomor">Gomor</placeName>. Li remanans de sa
-               gent coumenciere<supplied reason="omitted">n</supplied>t mout a ruser, car sovent
+                  <num>iiii</num>. Ne peuist avenir se Dieus et <persName key="saintNicholas"
+                     >sai<supplied reason="omitted">n</supplied>s Nicholas</persName> ne les
+               confortast. Et nonporquant de la proece d'iaus n'i avoit nul a l'autre lés, por coi
+               li boins emperere se traveilla a çou qu'il de sa min en la fin saisi et prist le
+               marchis et le delivra au chastelain, qui maintenant l'envoia el chastiel de
+                  <placeName key="Gomor">Gomor</placeName>. Li remanans de sa gent
+                  coumenciere<supplied reason="omitted">n</supplied>t mout a ruser, car sovent
                avient que <seg ana="proverbe">quant li chies se diut, il en est a tous les menbres
                   piis.</seg>
             </p>
@@ -5095,7 +5105,7 @@
                a çou, que il erent si grant plenté et aveuc çou chevalier esleu et de grant volente
                plain de confondre le chastelain, qui teil confusion lor avoit fait. Ne lor valut
                ochire ne meshaignier les covint, car il ne porent de nule part avoir duree. Et
-               trovons que de <num>x</num> piersonnes il en i eut <num>v</num> mors que pris que
+               trovons que de <num>x</num> piersonnes il en i eut <num>v</num> mors, que pris que
                afolés, et li remanans se missent au mius qui porent a garant.</p>
             <p n="P102">
                <hi rend="decorated-initial 2 blue">E</hi>nsi fu pris li marchis et sa gent malmisse.
@@ -5113,7 +5123,7 @@
                l'empereris estoit en cest point, li doi damoisiel vi<supplied reason="omitted"
                   >n</supplied>rent a li et elle conut <persName key="Celydus">Celidum</persName>,
                si <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f37.image" n="16r"/>
-               <surplus reason="doublon">si</surplus> ne fu onques si grans joie com elle li fist,
+               <surplus reason="repeated">si</surplus> ne fu onques si grans joie com elle li fist,
                por coi je ne pus mie recorder toutes leur devises ne leur paroles. Mais ensi avint
                que, quant li damoisiel eurent conjoïe la dame et elle aus, il prisent congiet a
                l'empereour et a l'empereris et disent qu'il voloient paiier lor voage au saint
@@ -5128,7 +5138,7 @@
                grant piece. Dont il avint que tant furent aveuc lui que mal deut iestre alee la
                chose, car li sarra<supplied reason="omitted">s</supplied>ins avoit femes qu'il avoit
                fait metre en une tour, dont <persName key="Dyanor">Dianor</persName> fu encusés au
-               prince que por l'ochoison d'eles il avoit ochis sa gaite et fu mis en prison, dont
+               prince que, por l'ochoison d'eles, il avoit ochis sa gaite et fu mis en prison, dont
                   <persName key="Celydus">Celidus</persName> fu a trop grant meschief. Mais cil qui
                mie ne veut sousfrir l'empecement des bons le delivra par une aventure que li princes
                eut a faire une chevachié sor crestiens, por coi <persName key="Celydus"
@@ -5190,11 +5200,11 @@
                ne s'en partiroient mie si tost. <persName key="Celydus">Celidus</persName>, qui
                sages et avisé estoit, vint en cest afaire au prince et li dist : <said aloud="true"
                   direct="true">Sire, la renomee et li sens do<supplied reason="omitted"
-                     >n</supplied>t jou avoie oï parlé de <surplus reason="doublon">de</surplus> vos
-                  me fist venir en vostre presence, por coi je et mes cousins avomes esté detenut
-                  par deviers vos. Biau sire, or soit ensi qu'il plaise a Nostre Signor, que vos en
-                  aiiés fait en partie vostre volenté ! S'estende or a çou vostre cortoisie que nos
-                  puissons por aler ou nos avoumes voet et promis.</said>
+                     >n</supplied>t jou avoie oï parlé de <surplus reason="repeated">de</surplus>
+                  vos me fist venir en vostre presence, por coi je et mes cousins avomes esté
+                  detenut par deviers vos. Biau sire, or soit ensi qu'il plaise a Nostre Signor, que
+                  vos en aiiés fait en partie vostre volenté ! S'estende or a çou vostre cortoisie
+                  que nos puissons por aler ou nos avoumes voet et promis.</said>
                <said rendition="dialogue" aloud="true" direct="true"><persName key="Celydus"
                      >Celidus</persName>, biau sire chiers ! Vostre requeste ne cuier jou mie
                   refuser. Mais de ce ne me poroie jou apaisier que de moi vos partés fors sains et
@@ -5336,7 +5346,7 @@
                veil ore a ce venir que li doi chevalier enmenerent ensi la puciele en la susperior
                chambre dou palais, qui a cel tans fu mout noble <unclear cert="low"
                   reason="acertain">s</unclear>, car cil princes l'avoit a mierveile fait hautement
-               amen <surplus reason="doublon">n</surplus>der.</p>
+               amen <surplus reason="repeated">n</surplus>der.</p>
             <p n="P111">
                <hi rend="decorated-initial 3 red">L</hi>es <num>iii</num> dames de la tour,
                   do<supplied reason="omitted">n</supplied>t jou avoie fait devant mension, por plus
@@ -5379,8 +5389,8 @@
                meismes estoit navrés en teil maniere que on cuidoit vraiement que il deuist demorer
                afollés, et que bone chose fust que on sor lui alast <?oxy_comment_start author="fpzanardi" timestamp="20240111T194212+0100"
                comment="réduplication du sujet"?>
-               <surplus reason="reduplication">on</surplus><?oxy_comment_end?>, tandis qu'il ert en
-               si povre point. En ce que il erent en ceste matere, la puciele tenoit <persName
+               <surplus reason="repeated">on</surplus><?oxy_comment_end?>, tandis qu'il ert en si
+               povre point. En ce que il erent en ceste matere, la puciele tenoit <persName
                   key="Celydus">Celidus</persName> a grant conseil et descharpentoit bien çou que
                ses frere et li autre cuidoient charpenter, et vos <add hand="#hand1" place="above"
                   >dirai</add> en quel maniere.</p>
@@ -5433,10 +5443,12 @@
                   </choice>, je l'ai visé selonch çou que je l'ai entendut de vos. Il covient que
                   nos faignons nostre volenté que nos puissons venir a chief de ce que nos volons
                   faire. Je vos mousterai grant amor et veil que li prinches sace qu'il ne soit
-                  riens que vos comandés sor moi que je ne soie aparelliés de faire, por coi vos li
-                  porés dire que je o vos en irai de quelle eure que vos en ailliés. Et quant vos
-                  m'arés pris ausi come a vostre loi, si me porrés conmader vostre bone volenté. Et
-                  pus cuerrons nos liu et maniere de faire vostre volenté.</said>
+                  riens que vos comandés sor moi que je ne soie aparellié<unclear cert="low"
+                     reason="acertain">s</unclear><note type="ntravail">que faire de ce "s" final ?
+                     + pp picard si suppression ?</note> de faire, por coi vos li porés dire que je
+                  o vos en irai de quelle eure que vos en ailliés. Et quant vos m'arés pris ausi
+                  come a vostre loi, si me porrés conmader vostre bone volenté. Et pus cuerrons nos
+                  liu et maniere de faire vostre volenté.</said>
                <said rendition="dialogue" aloud="true" direct="true">Ensi l'otroi je,</said> dist la
                puciele.</p>
             <p n="P115"> En ce quil avoient issi li uns a l'autre devisé, <persName key="Dyanor"
@@ -5524,11 +5536,11 @@
                   source="V3">estoient</supplied> cil doi vrai amant en teil liu que la puciele li
                mist les bras au col et l'euist, je cuit, baisié se elle ne l'euist laissié por deus
                chose : li une fu por confusion de ce que feme ne doit mie iestre si abandounee, et
-               li autre que mie n'estoit encore bauptisié en humanité, tout le fust elle
+               li autre que mie n'estoit encore bauptisïe en humanité, tout le fust elle
                spirituelment. Si dist : <said aloud="true" direct="true">Dous amis, et je vos otroi
                   par ceste covenance mon cuer et toute ma pensee, car çou iert del mius que tout je
                   m'en alaisse aveuch vous ausi com a larron.</said>
-               <said rendition="dialogue" aloud="true" direct="true">Je l'aju asés mius</said>, dist
+               <said rendition="dialogue" aloud="true" direct="true">Je l'aiu asés mius,</said> dist
                il.</p>
             <p n="P118">
                <hi rend="decorated-initial 2 blue">M</hi>out longement ont parlé ensamble entre
@@ -5592,7 +5604,7 @@
                   >Rome</placeName> que li preudome anchien et les bones dames de bone vie et les
                puciles de valor, qui cure n'avoient de vilonie, li jouenciel, qui de naturel
                entendement se voloient metre au bien faire, et li mal ordené, qui ne chaçoient fors
-               hustin et laidire tous ciaus <surplus reason="doublon">et laidire tous
+               hustin et laidire tous ciaus <surplus reason="repeated">et laidire tous
                   ciaus</surplus> de cui j'ai desus dit venoient a aus por prendre a ochoison, cil
                estoient batut et laidegiet et trait en cause devant baillius, devant <unclear
                   cert="low" reason="acertain">provés</unclear> siergans et autres qui mis estoient
@@ -5638,10 +5650,10 @@
             </p>
             <p n="P122">
                <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f41.image" n="18r"/>
-               <said rendition="dialogue" aloud="true" direct="true">De ci se parti ier uns mes ki
-                  m'en aporta nouvieles, dist <persName key="Helcanus">Helcanus</persName>, n'a mie
-                     <num>iii</num> jours. Si est tous sains et haitiés. Mais li dus, ses sires, est
-                  mors, dont il est mout destorbés.</said>
+               <said aloud="true" direct="true">De ci se parti ier uns més ki m'en aporta nouvieles,
+                  dist <persName key="Helcanus">Helcanus</persName>, n'a mie <num>iii</num> jours.
+                  Si est tous sains et haitiés, mais li dus, ses sires, est mors, dont il est mout
+                  destorbés.</said>
                <said rendition="dialogue" aloud="true" direct="true">Ensi avient, dist Perliarmenus,
                   de ciaus ki plus ne pueent vivre, ausi conme de nostre frere <persName
                      key="Fastidorus">Fastidorus</persName>.</said>
@@ -5745,7 +5757,7 @@
                      key="Pelyarmenus">Peliarmenus</persName>. Vous samble bien qu'il ait raisson a
                   çou que vos avés oït ?</said> Aucuns i eut ki ne se peurent taire qu'il ne
                deissent : <said aloud="true" direct="true">Sire, il nous samble que nous aions une
-                  tiere convoitié dou diable. Ne porons nous jamais vivre en pais !</said>
+                  tiere convoitïe dou diable. Ne porons nous jamais vivre en pais !</said>
                <said rendition="dialogue" aloud="true" direct="true">Biau signour, dist il,
                   convoitise et envie ne puet pro avoir. Et ne vous esmiervelliés de <persName
                      key="Pelyarmenus">Peliarmenum</persName>, car il resamble l'uel que jou ai oït
@@ -5789,7 +5801,7 @@
                despit avoit de celui qui il avoit jadis mis a tel merci, coume il est allours
                contenut, jura que, se il jamais pooit avenir que il au deseure en fust, qu'il ne
                cuncieroit mais lui ne autrui. Il ne fu mie perecheus de soi ciercier en liu u il
-               quida avoir secours ne ajue. A chelui tans estoit mors li boins grans <persName
+               quida avoir secours ne aiue. A chelui tans estoit mors li boins grans <persName
                   key="Robert">Robiers</persName> de <placeName key="Flandres">Flandres</placeName>,
                qui le concorde avoit faite, isi coume il est contenu el coumencement de ceste
                histore. Mais d'un autre prince qui avoit la fille au boin conte, qui <persName
@@ -5875,7 +5887,7 @@
                fu dus de <placeName key="Nise">Nisse</placeName> et avoit siervi d'armes a
                l'empereour <persName key="Cassidorus">Kassidorus</persName>. Cil vint a <persName
                   key="Helcanus">Helcanus</persName> et li dist : <said aloud="true" direct="true"
-                  >Sire, si voirement m'ajut li Sires qui me fourma que mout devés grant paour avoir
+                  >Sire, si voirement m'aiut li Sires qui me fourma que mout devés grant paour avoir
                      <pb facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f43.image" n="19r"/>
                   et nel lairai que nel vous die. Il est voirs que la vostre force si est mout
                   grans, et ce que nous quidoumes bien avoir droit, selonc ce qu'on nos a fait a
@@ -5991,7 +6003,7 @@
                   widasse u je venisse en liu u il et jou le puissons desraisnier, car <pb
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f44.image" n="19v"/> jou
                   n'i avoie droit, coume cil ki mie n'avoie esté engenrés de son pere. Et de ce ne
-                  me doi je mie mout courecier, car on set bien que sa mere fu cacié de l'empire por
+                  me doi je mie mout courecier, car on set bien que sa mere fu cacïe de l'empire por
                   ce qu'elle s'abandounoit a garçons et allours, dont il fu engenrés. Et celle, ki
                   seut d'art d'ingremance, fist tant que li diable le garirent a ce que puis se
                   racorda a men pere qui maniere en amenee qu'on assés bien set. Si voirement, m'aït
@@ -6351,7 +6363,7 @@
                si erent mis ausi com au retour et soutiument s'estoient destourné au traviers d'une
                roche, et cil, qui mis s'estoient apriés iaus au retour, quidierent vraiement qu'il
                retournassent a un fais por paour d'iaus, si se tinrent mout a deciut quant il lor
-               furent issi escapet, et ne seurent que faire d'iaus <surplus reason="doublon"
+               furent issi escapet, et ne seurent que faire d'iaus <surplus reason="repeated"
                   >faire</surplus> siute.<said aloud="true" direct="true">Par mon cief, dist li uns,
                   ja issi ne demora, car il ont cuer pierdu ore apriés !</said> Il se missent les
                esclos ausi com il peurent mius savoir coment il furent cacié. N'eurent mie alé tant
@@ -6467,7 +6479,7 @@
                cosse meu. A l'endemain matin oïrent nouviele que <persName key="Dorus"
                   >Dorus</persName> s'estoit mis apriés <persName key="Pelyarmenus"
                   >Peliarmainne</persName>, qui s'en aloit sans lui aseurer.<said aloud="true"
-                  direct="true">Beneïchon de Dieu ajiou ! disent li aucun. Coment puet <pb
+                  direct="true">Beneïchon de Dieu aiiou ! disent li aucun. Coment puet <pb
                      facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f49.image" n="22r"/> uns
                   hom tant durer de faire çou qu'il a la journee d'ier faisoit ?</said>
                <said rendition="dialogue" aloud="true" direct="true">Ne sai, dist li autres. Car je
@@ -6500,26 +6512,27 @@
                deussent selonc droiture et par linage, li rois d'Arragon, ki toute s'entente avoit
                mise a ce k'Envie, ki n'est lié de nul avancement de proudoume, peuist venir a cief a
                çou qu'elle tous jours convoite, car, ausi com dist li philosophes, <seg
-                  ana="proverbe">Envie si est tous les jours lié qu'elle voit proudoume morir</seg>,
-               et en dist un haut mot : Voirs est, fait elle, que si est noble cose de preudoume que
-               parfaite hounors, si dist qu'elle le fait vivre d'une seconde glorieuse vie, car il
-               est escrit que, quant li hom muert, ses nons ne puet morir, ançois convient que li
-               nons demeurt <unclear cert="low" reason="acertain">queus</unclear> qu'il soit, si
-               qu'Envie est si joians de çou qu'elle voit proudoume partir de cest siecle qu'elle a
-               son non li convient tous mautelens pardouner. Autresi fist li rois d'Arragon, onques,
-               despuis que li preus <persName key="Helcanus">Helcanus</persName> eut aquis l'ounour
-               dou roy d'Espagne, en qui siervice il avoit jadis esté contre lui, amer le puet. Et
-               ci revient a moralitté li provierbes que jou devant avoie traitié, que mout vilainne
-               cose est de boine semence faire vilain fruit <note type="apparat">CC : Variante du
-                  proverbe "Bon fruit vient de bonne semence" (Morawski 289), avec une insistance
-                  notable sur le vice dans l'inversion qui est ainsi proposée dans la présentation
-                  de la sentence.</note>. Ha ! Senescaus de <placeName key="Rome">Rome</placeName>,
-               qui si vilain roi engenrastes en une si vallans dame, com vous envis euissiés dagnier
-               soufrir faire de vostre <cb n="b"/> car et de vostre sanc si vilain maisiel com
-               vostre fius fist de ce ki li deuist tourner a hounour et a loenge ! Mes de ce me
-               convient ore taire et venir a ce que tuit cil qui demouré estoient se raloiierent
-               tuit a lui et se missent ensamble et puis eurent de tous sens lor espiés, ki leur
-               disent nouvieles coument leur avierse partie se maintint.<said aloud="true"
+                  ana="proverbe">envie si est tous les jours lie<note type="notelangue">pp
+                     féminin</note> qu'elle voit proudoume morir</seg>, et en dist un haut mot :
+                  <said aloud="true" direct="true">Voirs est, fait elle, que si est noble cose de
+                  preudoume que parfaite hounors,</said> si dist qu'elle le fait vivre d'une seconde
+               glorieuse vie, car il est escrit que, quant li hom muert, ses nons ne puet morir,
+               ançois convient que li nons demeurt, queus qu'il soit, si qu'Envie est si joians de
+               çou qu'elle voit proudoume partir de cest siecle qu'elle a son non li convient tous
+               mautelens pardouner. Autresi fist li rois d'Arragon, onques, despuis que li preus
+                  <persName key="Helcanus">Helcanus</persName> eut aquis l'ounour dou roy d'Espagne,
+               en qui siervice il avoit jadis esté contre lui, amer le puet. Et ci revient a
+               moralitté li provierbes que jou devant avoie traitié, que <seg ana="proverbe">mout
+                  vilainne cose est de boine semence faire vilain fruit</seg><note type="apparat">CC
+                  : Variante du proverbe "Bon fruit vient de bonne semence" (Morawski 289), avec une
+                  insistance notable sur le vice dans l'inversion qui est ainsi proposée dans la
+                  présentation de la sentence.</note>. Ha ! Senescaus de <placeName key="Rome"
+                  >Rome</placeName>, qui si vilain roi engenrastes en une si vallans dame, com vous
+               envis euissiés dagnier soufrir faire de vostre <cb n="b"/> car et de vostre sanc si
+               vilain maisiel com vostre fius fist de ce ki li deuist tourner a hounour et a loenge
+               ! Mes de ce me convient ore taire et venir a ce que tuit cil qui demouré estoient se
+               raloiierent tuit a lui et se missent ensamble et puis eurent de tous sens lor espiés,
+               ki leur disent nouvieles coument leur avierse partie se maintint.<said aloud="true"
                   direct="true">Bien va, dist li rois. Or vos metés apriés, car je vos aseur que ja
                   piés ne nos escapera.</said> Isi se sont mis apriés de lonc, mais ce me convient
                tout laissier et venir a <persName key="Pelyarmenus">Peliarmenus</persName>, ki grant
@@ -6535,24 +6548,23 @@
                conpagnon, mais en petit d'eure lor furent contraire, com cil ki les envaïrent et lor
                coururent sus si aigrement que mal de celui ki peuist consel mettre a lui desfendre,
                si furent il abaubi. Por coi il ne demora mie qu'en poi d'eure furent tuit mis a
-               mort, et puis ont li aucun grant avantage eut de ce qu'il reco <unclear
-                  reason="acertain" cert="low">v</unclear>rerent a lor millors cevaus. Et puis se
-               misent au cevaucier avant, si n'ont finé deci qu'il ont coisi <persName
-                  key="Pelyarmenus">Peliarmenus</persName>, lui trentime, qui tuit erent descendu de
-               lor cevaus pour mius reposer eus et lor diestriers. Et que firent li <num>x</num>
-               maintenant ? Vinrent sour iaus, ausi com di me tu : <said aloud="true" direct="true"
-                  style="nogap"> Ja orrois nouvieles !</said> Mes en petit deure furent de ciaus
-               asali, dont il ne se doutoient. Et avint que si aida Dieu u li diables que <persName
-                  key="Pelyarmenus">Peliarmenus</persName> se mist en son ceval avant que nus fust a
-               lui venus, et des autres eut ocis ne sai quants avant k'en leur ceval fussent monté.
-               Illeuc eut une batalle si merveleuse que <persName key="Pelyarmenus"
-                  >Peliarmenus</persName> quida iestre traïs de sa gent meisme et feri en la
-               foriest, lui tiere sans lui aseurer. <persName key="Dorus">Dorus</persName>, de qui
-               jou avoie fait mension devant coument il avoit sus saciet, ert ausi com sour l'oïr le
-               caple des espees qui retentissoient de long par la foriest, lors se mist a venir
-               celle part et ne demora qu'il s'enbati en une lande u cil se conbatoient, mais nul
-               n'i vit des siens. Et nonporquant vint il la au plus tost qu'il pot, si trouva les
-                  <num>x</num> contre les <num>xxviii</num>
+               mort, et puis ont li aucun grant avantage eut de ce qu'il recovrerent a lor millors
+               cevaus. Et puis se misent au cevaucier avant, si n'ont finé deci qu'il ont coisi
+                  <persName key="Pelyarmenus">Peliarmenus</persName>, lui trentime, qui tuit erent
+               descendu de lor cevaus pour mius reposer eus et lor diestriers. Et que firent li
+                  <num>x</num> maintenant ? Vinrent sour iaus, ausi com di me tu : <said
+                  aloud="true" direct="true" style="nogap">Ja orrois nouvieles !</said> Mes, en
+               petit d'eure, furent de ciaus asali, dont il ne se doutoient. Et avint que si aida
+               Dieu u li diables que <persName key="Pelyarmenus">Peliarmenus</persName> se mist en
+               son ceval avant que nus fust a lui venus, et des autres eut ocis ne sai quants avant
+               k'en leur ceval fussent monté. Illeuc eut une batalle si merveleuse que <persName
+                  key="Pelyarmenus">Peliarmenus</persName> quida iestre traïs de sa gent meisme et
+               feri en la foriest, lui tiere sans lui aseurer. <persName key="Dorus"
+                  >Dorus</persName>, de qui jou avoie fait mension devant coument il avoit sus
+               saciet, ert ausi com sour l'oïr le caple des espees qui retentissoient de long par la
+               foriest, lors se mist a venir celle part et ne demora qu'il s'enbati en une lande u
+               cil se conbatoient, mais nul n'i vit des siens. Et nonporquant vint il la au plus
+               tost qu'il pot, si trouva les <num>x</num> contre les <num>xxviii</num>
                <note type="apparat">plus loin ils sont vingt-sept</note> qui mout grant painne
                avoient mis a ciaus mettre au desous, ki si poi furent contre iaus. Il ne counut mie
                les siens, car il s'estoient descouneu, ausi com jou avoie dit devant, et cil ki
@@ -6584,7 +6596,7 @@
                de ci a la nuit qu'il se quida esforcier, et ses cevaus par mesceance s'adreça contre
                un arbre, et la se creva de sa force et de la radour k'il eut en lui, et il meisme fu
                auques bleciés. Li troi, ki de fies en autres regardoient par arrier, si sacierent
-               sus et virent ceste mesaventure, ensi com vous avés oï. Et a vint que li uns dist :
+               sus et virent ceste mesaventure, ensi com vous avés oï. Et avint que li uns dist :
                   <said aloud="true" direct="true">Or afiert li retorners !</said> Lors vinrent tout
                a un fais sour le noble chevalier, qui mie ne s'esbahi ausi com mout d'autre euissent
                fait, et fist apenseement une cose que li auquant n'euissent mie fait, car bien puet
@@ -6692,7 +6704,7 @@
                <hi rend="decorated-initial 2 red">Q</hi>uant <persName key="Dorus">Dorus</persName>
                eut oï <persName key="Abylon">Abilon</persName> ce retraire, si eut mout grant
                mervelle de cesti aventure et ne se fust jamais avisés que <persName key="Hayno"
-                  >Hainos</persName> euist issi esploitié. En cest <surplus reason="doublon"
+                  >Hainos</persName> euist issi esploitié. En cest <surplus reason="repeated"
                   >t</surplus>ui aventure cevauça <persName key="Dorus">Dorus</persName> aval la
                foriest, et cil <persName key="Abylon">Abilon</persName> le sivoit au mius qu'il
                peut, com cil ki a mout grant painne et traval le faisoit, et avoec tout ce le
@@ -7164,7 +7176,7 @@
                contes mension, que trop i aroit a dire anchois que on peuist venir au principal de
                la bataille. Si afiert que je m'en passe ore au plus briement que je porrai, sans ma
                matere corrumpre, et veil ore repairier au plus souffissantment de ciaus <surplus
-                  reason="doublon">de ciaus</surplus> qui la chace avoient fait empriés <persName
+                  reason="repeated">de ciaus</surplus> qui la chace avoient fait empriés <persName
                   key="Dorus">Dorum</persName>.</p>
             <p n="P171">
                <persName key="Hayno"><hi rend="decorated-initial 3 blue">H</hi>aynos</persName>,
@@ -7260,7 +7272,7 @@
                venir li uns a l'autre, et por oïr novieles plus que por bataille avoir. Cil de
                l'autre partie avoient oït l'un et l'autre souner. Si conurent les <num>ii</num>
                parties et seurent bien que li gros sons estoit de lor contraires et li autres
-                  <surplus reason="doublon">et li autres</surplus> ert <persName key="Abylon"
+                  <surplus reason="repeated">et li autres</surplus> ert <persName key="Abylon"
                   >Abilon</persName>. Si se missent viers le son d'<persName key="Abylon"
                   >Abilon</persName> mout esforchiement, et li jour lour coumença a aparoir. Si se
                sont mout esforchiet de venir viers aus, mais ce lor fu contraire que li
@@ -7363,7 +7375,7 @@
                le fist descendre et lui desarmer, et tout autresi le chevalier.</p>
             <p n="P179">
                <hi rend="decorated-initial 3 red">L</hi>ors ne demoura qu'elle seut maintenant tout
-               le covenant de mon signor <persName key="Dorus">Dorus</persName>, et fu si lié come
+               le covenant de mon signor <persName key="Dorus">Dorus</persName>, et fu si lïe come
                cele qui plus le haïoit come vivant car li siens pere avoit fait le sien destruire,
                et elle autresi le destruiroit. De ce avint une merveilleuse aventure car elle
                maintenant li mostra signe d'amor, et dist qu'il li donroit une puison a boivre par
@@ -7391,22 +7403,22 @@
                      pas. Corriger ?</note> de mort.</said> Lors li conta coment elle cuidoit avoir
                esploitié, por coi ele voloit qu'il alast a <persName key="Pelyarmenus"
                   >Peliarmenus</persName>, et si li portast noviele de cesti chose, et prist les
-               armeures de mon signo<surplus>n</surplus>r <persName key="Dorus">Dorus</persName> a
-               ces ensegnes. Cil fu joians et prist les armeures del bon chevalier, et si s'en arma
-               en teil maniere qu'il monta en son cheval, et si ne fina de chevachier tout le jor de
-               ci an vespre, qui li prist si grans maladie qu'il li covint descendre en la foriest u
-               il morut la nuis meime.</p>
+               armeures de mon signo<surplus reason="morpho">n</surplus>r <persName key="Dorus"
+                  >Dorus</persName> a ces ensegnes. Cil fu joians et prist les armeures del bon
+               chevalier, et si s'en arma en teil maniere qu'il monta en son cheval, et si ne fina
+               de chevachier tout le jor de ci an vespre, qui li prist si grans maladie qu'il li
+               covint descendre en la foriest u il morut la nuis meime.</p>
             <p n="P180">
                <persName key="Abylon">Abilon</persName>, ausi come jou avoie dis desus, eut a
                merveille grant courous quant il ne le vit repairier, tout autresi ont cil qui
-               maitenant ont cuidiet qu'il n'euist apielé gent por iaus malmetre.
-                  Maite<surplus>n</surplus>nant ont veü venir afuiant celui qui eut estors de mon
+               maitenant ont cuidiet qu'il n'euist apielé gent por iaus malmetre. Maite<surplus
+                  reason="morpho">n</surplus>nant ont veü venir afuiant celui qui eut estors de mon
                signor <persName key="Dorus">Dorus</persName>. Il si vint entr'iaus por ce qu'il <cb
                   n="b"/> cuidoit iestre des lor, et il l'ont saisi et enquis qui il ert. Il lor
                conta tout isi com il li estoit avenut que d'iaus <num>vi</num> n'en i avoit qui lui
                eschape. <said aloud="true" direct="true">Coment ! dist mesire <persName key="Hayno"
-                     >Haynos</persName>, di nos en queil liu tu laissas celui de cui tu
-                     par<surplus>l</surplus>oles.</said>
+                     >Haynos</persName>, di nos en queil liu tu laissas celui de cui tu par<surplus
+                     reason="morpho">l</surplus>oles.</said>
                <said rendition="dialogue" aloud="true" direct="true">Ha ! Biau signor, dist
                      <persName key="Abylon">Abilon</persName>, ce est mesire <persName key="Dorus"
                      >Dorus</persName> que je vos ai apielé, et cuidoie qu'il deuist iestre venus a
@@ -7500,12 +7512,13 @@
                qu'il, a tous autres qu'il haïoit, tous mal talens il pardouna, mais cil qui mie ne
                consent teus afaires sans raison li envoia teil maladie qu'il issi dou sens, et le
                covint loiier come diervé. Ceste aventure fu seue des nobles prinche, et eurent
-               conseil li Roumain qu'il req<surplus>u</surplus>uerent le respit as Grigois, isi com
-               il furent. Lors fu avisé de la partie as Roumains li rois d'<placeName key="Aragon"
-                  >Aragon</placeName>, de la partie as Grigois <persName key="Japhus"
-                  >Japhus</persName>, li Fris, por coi cil doi, por asentement des parties, uns jors
-               fu pris en la nove <placeName key="Grèce">Gresce</placeName> au chastiel Orguillous
-               d'illuech a la saint Jehan. Lors se sont parti li une partie et li autre.</p>
+               conseil li Roumain qu'il req<surplus reason="morpho">u</surplus>uerent le respit as
+               Grigois, isi com il furent. Lors fu avisé de la partie as Roumains li rois
+                  d'<placeName key="Aragon">Aragon</placeName>, de la partie as Grigois <persName
+                  key="Japhus">Japhus</persName>, li Fris, por coi cil doi, por asentement des
+               parties, uns jors fu pris en la nove <placeName key="Grèce">Gresce</placeName> au
+               chastiel Orguillous d'illuech a la saint Jehan. Lors se sont parti li une partie et
+               li autre.</p>
             <p n="P186">
                <persName key="Helcanus">Helcanus</persName> fu raportei en <placeName
                   key="Constantinople">Costantinoble</placeName> a grant dolor <supplied

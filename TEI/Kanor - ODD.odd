@@ -605,6 +605,18 @@ cette dernière est fautive
                      </attDef>
                   </attList>
                </elementSpec>
+               
+               <elementSpec ident="surplus" mode="change" module="transcr">
+                  <attList>
+                     <attDef ident="reason" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="repeated"/>
+                           <valItem ident="syntaxe"/>
+                           <valItem ident="morpho"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
 
                <!-- éléments du module ANALYSIS -->
 

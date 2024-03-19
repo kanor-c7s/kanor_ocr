@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Glossaire du ms. 1446</head>
+
+            <entry xml:id="aatine">
+               <form type="lemma">
+                  <orth>aatine</orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos">n</gram>
+                  <gram type="gen">f</gram>
+               </gramGrp>
+               <sense n="1">
+                  <def>querelle, combat, provocation</def>
+               </sense>
+               <etym>Emprunté au <lang>latin</lang>
+                  <mentioned>etia</mentioned>. [<xr type="godefroy">I.11</xr> - <xr type="few"
+                     >XVI.179b</xr> - <xr type="dmf">aatine</xr>] </etym>
+            </entry>
+
+            <entry xml:id="abaissier">
+               <form type="lemma">
+                  <orth>abaissier</orth>
+               </form>
+               <gramGrp>
+                  <gram type="pos">n</gram>
+                  <gram type="gen">m</gram>
+               </gramGrp>
+               <sense n="1">
+                  <cit>
+                     <quote>a l'abaisier des fiers</quote>
+                     <def>le croisement des fers</def>
+                  </cit>
+               </sense>
+               <etym>Emprunté au <lang>latin</lang>
+                  <mentioned>etia</mentioned>. [<xr type="godefroy">I.11</xr> - <xr type="few"
+                     >XVI.179b</xr> - <xr type="dmf">aatine</xr>] </etym>
+            </entry>
+
+
+
+
+
+
+         </div>
+      </body>
+   </text>
+</TEI>
