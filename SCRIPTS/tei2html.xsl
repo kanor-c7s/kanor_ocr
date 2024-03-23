@@ -106,17 +106,42 @@
 
     <!-- Template pour les paragraphes -->
     <xsl:template match="p">
-        <p>
-            <b>§<span class="paraNum"><xsl:value-of select="substring-after(@n, 'P')"/></span></b>
+        <p style="display:inline;">
+            <span style="float: left;padding-right: 15px;">
+                <b>§<span class="paraNum"><xsl:value-of select="substring-after(@n, 'P')"
+                    /></span></b>
+            </span>
             <xsl:text> </xsl:text>
             <xsl:apply-templates/>
         </p>
+        <br/>
+    </xsl:template>
+
+    <xsl:template match="div">
+        <xsl:choose>
+            <xsl:when test="@type = 'chapter'">
+                <p>
+                    <xsl:apply-templates/>
+                </p>
+            </xsl:when>
+            <xsl:when test="@type = 'section'">
+                <p class="section">
+                    <xsl:apply-templates/>
+                </p>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
 
     <!-- Template pour les numéros de page -->
     <xsl:template match="pb">
+
+        <span class="pbfloat" id="{@n}">[<a href="{@facs}" target="_blank"><xsl:value-of select="@n"
+                />a</a>]</span>
+        <xsl:text/>
+        <xsl:apply-templates/>
+
         <sup>
-            <span class="pb">[<xsl:value-of select="@n"/>]</span>
+            <span class="pb" id="{@n}">[<xsl:value-of select="@n"/>]</span>
             <xsl:text/>
             <xsl:apply-templates/>
         </sup>
@@ -124,6 +149,11 @@
 
     <!-- Template pour les numéros de colonne -->
     <xsl:template match="cb">
+
+        <span class="cbfloat">[<a href="{preceding::pb[1]/@facs}" target="_blank"><xsl:value-of
+            select="preceding::pb[1]/@n"/>b</a>]</span>
+        <xsl:text/>
+        <xsl:apply-templates/>
         <sup>
             <span class="cb">[<xsl:value-of select="@n"/>]</span>
             <xsl:text/>
@@ -133,7 +163,9 @@
 
     <!-- Template pour les numéros -->
     <xsl:template match="num">
-        <span class="num">.<xsl:apply-templates/>.</span>
+        <span class="num">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
 
 
@@ -155,38 +187,36 @@
                     <!-- Ce test doit être en premier sinon il y a conflit avec un autre test -->
 
                     <xsl:when
-                        test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., ',')">
-                        <br/> – <xsl:value-of select="substring(., 1, string-length(.) - 1)"
-                        />&#xA0;», </xsl:when>
+                        test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., ',')"
+                        > – <xsl:value-of select="substring(., 1, string-length(.) - 1)"/>&#xA0;», </xsl:when>
 
                     <!-- ça c'est à revoir -->
                     <xsl:when
-                        test="position() = last() and following-sibling::node()[1][self::said[@rendition = 'dialogue']]">
-                        <br/> «&#xA0;<xsl:apply-templates/></xsl:when>
+                        test="position() = last() and following-sibling::node()[1][self::said[@rendition = 'dialogue']]"
+                        > «&#xA0;<xsl:apply-templates/></xsl:when>
 
                     <xsl:when
-                        test="preceding-sibling::said and following-sibling::said[1][@rendition = 'dialogue']">
-                        <br/> – <xsl:apply-templates/>
+                        test="preceding-sibling::said and following-sibling::said[1][@rendition = 'dialogue']"
+                        > – <xsl:apply-templates/>
                     </xsl:when>
 
                     <xsl:when
-                        test="preceding-sibling::said or position() = 1 and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '.')">
-                        <br/> – <xsl:apply-templates/>&#xA0;»<br/>
+                        test="preceding-sibling::said or position() = 1 and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '.')"
+                        > – <xsl:apply-templates/>&#xA0;» </xsl:when>
+
+                    <xsl:when
+                        test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '?')"
+                        > – <xsl:apply-templates/>&#xA0;»<br/>
                     </xsl:when>
 
                     <xsl:when
-                        test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '?')">
-                        <br/> – <xsl:apply-templates/>&#xA0;»<br/>
+                        test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '!')"
+                        > – <xsl:apply-templates/>&#xA0;»<br/>
                     </xsl:when>
 
                     <xsl:when
-                        test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '!')">
-                        <br/> – <xsl:apply-templates/>&#xA0;»<br/>
-                    </xsl:when>
-
-                    <xsl:when
-                        test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and not(matches(., '^.*[\.!\?]$'))">
-                        <br/> – <xsl:apply-templates/>&#xA0;»</xsl:when>
+                        test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and not(matches(., '^.*[\.!\?]$'))"
+                        > – <xsl:apply-templates/>&#xA0;»</xsl:when>
 
                     <!-- Ajout d'une condition spécifique à <said> lorsqu'un @rendition=dialogue chevauche un <p> (ex. par. 59-60)
                         On modifie la condition de test pour qu’elle ne dépende pas du contexte de l’élément <said>
@@ -208,43 +238,36 @@
                 <xsl:choose>
                     <!-- Template pour les débuts DIALOGUE qui ont une suite dans le même <p> -->
                     <xsl:when test="following-sibling::said[1][@rendition = 'dialogue']">
-                        <br/> «&#xA0;<xsl:apply-templates/></xsl:when>
+                        «&#xA0;<xsl:apply-templates/></xsl:when>
 
                     <!-- Template pour les spécifiques pour les discours type "dis me tu" -->
-                    <xsl:when test="@style = 'nogap'"
-                        >«&#xA0;<xsl:apply-templates/>&#xA0;»</xsl:when>
+                    <xsl:when test="@style = 'nogap'">
+                        «&#xA0;<xsl:apply-templates/>&#xA0;»</xsl:when>
 
-                    <!-- Condition propre au discours direct avec incise terminale non précédée ou suivie d'un DD -->
+                    <!-- Condition propre au discours direct avec incise terminale non précédée ou suivie d'un DD (ou sans incise) -->
                     <!-- Type : – Et j'en ferai la besougne ! » dist il. -->
                     <xsl:when
-                        test="not(preceding-sibling::said[1][@rendition = 'dialogue']) and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '!')">
-                        <br/> «&#xA0;<xsl:apply-templates/>&#xA0;» </xsl:when>
+                        test="not(preceding-sibling::said[1][@rendition = 'dialogue']) and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '!')"
+                        > «&#xA0;<xsl:apply-templates/>&#xA0;» </xsl:when>
 
                     <!-- Condition propre au discours direct avec incise terminale non précédée ou suivie d'un DD -->
                     <!-- Type : – Et j'en ferai la besougne », dist il. -->
                     <!-- On met la virgule à la fin du DD et le script la met après les » -->
                     <xsl:when
-                        test="not(preceding-sibling::said[1][@rendition = 'dialogue']) and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., ',')">
-                        <br/> «&#xA0;<xsl:value-of select="substring(., 1, string-length(.) - 1)"
+                        test="not(preceding-sibling::said[1][@rendition = 'dialogue']) and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., ',')"
+                        > «&#xA0;<xsl:value-of select="substring(., 1, string-length(.) - 1)"
                         />&#xA0;», </xsl:when>
 
                     <!-- Condition propre au discours direct avec incise terminale non précédée ou suivie d'un DD -->
                     <!-- Type : – Et j'en ferai la besougne ? » dist il. -->
                     <xsl:when
-                        test="not(preceding-sibling::said[1][@rendition = 'dialogue']) and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '?')">
-                        <br/> «&#xA0;<xsl:apply-templates/>&#xA0;» </xsl:when>
+                        test="not(preceding-sibling::said[1][@rendition = 'dialogue']) and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '?')"
+                        > «&#xA0;<xsl:apply-templates/>&#xA0;» </xsl:when>
 
-                    <xsl:otherwise>
-                        <br/> «&#xA0;<xsl:apply-templates/>&#xA0;»<br/>
-                    </xsl:otherwise>
+                    <xsl:otherwise> «&#xA0;<xsl:apply-templates/>&#xA0;» </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
-            <xsl:when test="@direct = 'true' and @aloud = 'true' and @next">
-                <br/> «&#xA0;<xsl:apply-templates/>
-            </xsl:when>
-            <xsl:when test="@direct = 'true' and @aloud = 'true' and @xml:id">
-                <xsl:apply-templates/>&#xA0;»<br/>
-            </xsl:when>
+
             <xsl:otherwise>
                 <xsl:apply-templates/>
             </xsl:otherwise>
@@ -314,7 +337,7 @@
             </xsl:when>
             <xsl:when test="@type = 'ntravail'">
                 <span class="tooltip">
-                    <span class="ntravail">&#160;&#10067;<span class="tooltip-content">
+                    <span class="ntravail">&#10067;<span class="tooltip-content">
                             <xsl:apply-templates/>
                         </span></span>
                 </span>
@@ -357,7 +380,8 @@
                 </i>
             </xsl:when>
             <xsl:when test="starts-with(@rend, 'decorated-initial')">
-                <span class="lettrine" style="color:dark{tokenize(@rend, '\s+')[3]}">
+                <span class="lettrine"
+                    style="color:dark{tokenize(@rend, '\s+')[3]};font-size:{tokenize(@rend, '\s+')[2]}em">
                     <i>
                         <xsl:apply-templates/>
                     </i>
@@ -456,6 +480,7 @@
         <xsl:choose>
             <xsl:when test="@ana = 'lettre'">"<xsl:apply-templates/>"</xsl:when>
             <xsl:when test="@ana = 'chanson'">"<xsl:apply-templates/>"</xsl:when>
+            <xsl:when test="@ana = 'proverbe'">“<xsl:apply-templates/>”</xsl:when>
             <xsl:otherwise>'<xsl:apply-templates/>'</xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -522,6 +547,11 @@
                     select="substring-before(substring-after(., 'comment=&quot;'), '&quot;')"/>
             </span>
         </span>
+    </xsl:template>
+
+
+    <xsl:template match="text()">
+        <xsl:value-of select="replace(., ' :', '&#160;:')"/>
     </xsl:template>
 
 
