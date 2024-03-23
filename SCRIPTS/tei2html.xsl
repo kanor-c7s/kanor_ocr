@@ -151,7 +151,7 @@
     <xsl:template match="cb">
 
         <span class="cbfloat">[<a href="{preceding::pb[1]/@facs}" target="_blank"><xsl:value-of
-            select="preceding::pb[1]/@n"/>b</a>]</span>
+                    select="preceding::pb[1]/@n"/>b</a>]</span>
         <xsl:text/>
         <xsl:apply-templates/>
         <sup>
@@ -188,51 +188,47 @@
 
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., ',')"
-                        > – <xsl:value-of select="substring(., 1, string-length(.) - 1)"/>&#xA0;», </xsl:when>
+                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:value-of select="substring(., 1, string-length(.) - 1)"/>&#xA0;», </xsl:when>
 
-                    <!-- ça c'est à revoir -->
-                    <xsl:when
-                        test="position() = last() and following-sibling::node()[1][self::said[@rendition = 'dialogue']]"
-                        > «&#xA0;<xsl:apply-templates/></xsl:when>
+                    <!-- Template pour les spécifiques pour les discours en fin de <p> -->
+                    <xsl:when test="@style = 'last'"><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/></xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said and following-sibling::said[1][@rendition = 'dialogue']"
-                        > – <xsl:apply-templates/>
+                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>
+                    </xsl:when>
+                    
+                    <xsl:when
+                        test="following-sibling::said[1][@rendition = 'dialogue']"
+                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>
                     </xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said or position() = 1 and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '.')"
-                        > – <xsl:apply-templates/>&#xA0;» </xsl:when>
+                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>&#xA0;» </xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '?')"
-                        > – <xsl:apply-templates/>&#xA0;»<br/>
+                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>&#xA0;»
                     </xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '!')"
-                        > – <xsl:apply-templates/>&#xA0;»<br/>
+                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>&#xA0;»
                     </xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and not(matches(., '^.*[\.!\?]$'))"
-                        > – <xsl:apply-templates/>&#xA0;»</xsl:when>
-
-                    <!-- Ajout d'une condition spécifique à <said> lorsqu'un @rendition=dialogue chevauche un <p> (ex. par. 59-60)
-                        On modifie la condition de test pour qu’elle ne dépende pas du contexte de l’élément <said>
-                    Voir d'ailleurs s'il n'est pas plus économique de supprimer la prise en compte du contexte 
-                    pour tous les tests concernant <said>, <p> n'ayant pas de rapport.
-                    <xsl:when
-                        test="//preceding-sibling::said and //following-sibling::said[1][@rendition = 'dialogue']">
-                        <br/> – <xsl:apply-templates/>
-                    </xsl:when>-->
+                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>&#xA0;»</xsl:when>
                 </xsl:choose>
             </xsl:when>
+           
 
             <!-- Template pour les débuts DIALOGUE -->
 
-            <xsl:when test="position() = 1 and following-sibling::said[@rendition = 'dialogue']"> -
-                <xsl:apply-templates/></xsl:when>
+            <xsl:when test="position() = 1 and following-sibling::said[@rendition = 'dialogue']"> 
+                «&#xA0;<xsl:apply-templates/></xsl:when>
+            
 
             <xsl:when test="@direct = 'true' and @aloud = 'true' and not(@rendition = 'dialogue')">
                 <xsl:choose>
@@ -243,6 +239,10 @@
                     <!-- Template pour les spécifiques pour les discours type "dis me tu" -->
                     <xsl:when test="@style = 'nogap'">
                         «&#xA0;<xsl:apply-templates/>&#xA0;»</xsl:when>
+                    
+                    <!-- Template pour les spécifiques pour les discours en fin de <p> -->
+                    <xsl:when test="@style = 'last'">
+                        «&#xA0;<xsl:apply-templates/></xsl:when>
 
                     <!-- Condition propre au discours direct avec incise terminale non précédée ou suivie d'un DD (ou sans incise) -->
                     <!-- Type : – Et j'en ferai la besougne ! » dist il. -->
@@ -264,7 +264,7 @@
                         test="not(preceding-sibling::said[1][@rendition = 'dialogue']) and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '?')"
                         > «&#xA0;<xsl:apply-templates/>&#xA0;» </xsl:when>
 
-                    <xsl:otherwise> «&#xA0;<xsl:apply-templates/>&#xA0;» </xsl:otherwise>
+                    <xsl:otherwise> «&#xA0;<xsl:apply-templates/>&#xA0;»</xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
 
