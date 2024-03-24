@@ -8,7 +8,7 @@
 
             <head>
                 <title>Kanor et ses frères</title>
-                <link rel="stylesheet" type="text/css" href="../../ASSETS/Kanorpropre.css"/>
+                <link rel="stylesheet" type="text/css" href="./ASSETS/Kanorpropre.css"/>
                 <meta http-equiv="cache-control" content="no-cache"/>
                 <meta http-equiv="expires" content="0"/>
                 <meta http-equiv="pragma" content="no-cache"/>
@@ -518,9 +518,7 @@
 
 
     <!-- les non breaking spaces sont ici -->
- <!--   <xsl:template match="text()">
-        <xsl:value-of select="replace(., '[:!?]', '&#160;$0')"/>
-    </xsl:template>-->
+  
 
 
 </xsl:stylesheet>

@@ -1652,8 +1652,8 @@
                      <corr cert="high" resp="#FPZ">ee</corr>
                   </choice><?oxy_comment_end?> guerre, dont euissent il le lor esvoituree et asovie.
                   Mais il ont bien veut as amis que lor contre partie avoit, qu'il n'i euist
-                  mestier, et por ce fu dis cis proverbes : <seg ana="proverbe">premiers que mius
-                     vuit amis, qu'autres tresors.</seg> Dont <persName key="Pelyarmenus"
+                  mestier, et por ce fu dis cis proverbes premiers que <seg ana="proverbe">mius vuit
+                     amis, qu'autres tresors.</seg> Dont <persName key="Pelyarmenus"
                      >Pelyarmenus</persName> dist a celi fois au noble prince le conte de <placeName
                      key="Flandres">Flandres</placeName> : <said aloud="true" direct="true">Sire,
                      cest tresor que vostre chiere mere a asamblé, come feme qui mout n'a mie eut
@@ -1869,7 +1869,7 @@
                   que il tenoit, il a l'aprochier de l'estace entrepassant le lança de teil vertu
                   que il le trespierça parmi en teil maniere que li fiers parut une paume au dehors
                   a l'autre lés. Cest cop virent maint baron qui ce tinrent a mervilleuse proeche.
-                  apriés cestui si essaiierent pluisor qui ce ne peurent ataindre que <persName
+                  Apriés cestui si essaiierent pluisor qui ce ne peurent ataindre que <persName
                      key="Leus">Leus</persName> fist. De la se parti <persName key="Leus"
                      >Leus</persName> et vint a une quintainne ou li pluisor avoient si malement
                   falli que l'en disoit que nus preudom, se il ne vosist que on se mochast de lui,
@@ -2510,13 +2510,13 @@
                   damoisiel de <placeName key="Puille">Puille</placeName> et de <placeName
                      key="Calabre">Chalabre</placeName>. Qi dont veist coment chascuns se traist a
                   sa partie, dire peuist cest provierbe qui est escris ou latin, et dist en teil
-                  maniere : <seg ana="proverbe">similis similem cuerit.<note type="notecritique">On
-                        retrouve l'idée structurante à de nombreux égards selon laquelle la
-                        ressemblance de comportement, de classe, de propriété, de talent est un
-                        facteur de cohésion voire d'émulation ici.</note>
-                  </seg> Ce fu a dire que chascuns frans hom se mist a sa franche labour et li
-                  autre, qui de çou cure n'avoient, se missent a l'autre lés. De lor mengier ne de
-                  lor boire ne me covient ore mie que je
+                  maniere : <seg ana="proverbe">similis similem cuerit.</seg><note
+                     type="notecritique">On retrouve l'idée structurante à de nombreux égards selon
+                     laquelle la ressemblance de comportement, de classe, de propriété, de talent
+                     est un facteur de cohésion voire d'émulation ici.</note> Ce fu a dire que
+                  chascuns frans hom se mist a sa franche labour et li autre, qui de çou cure
+                  n'avoient, se missent a l'autre lés. De lor mengier ne de lor boire ne me covient
+                  ore mie que je
                   <?oxy_comment_start author="fpzanardi" timestamp="20240108T143602+0100"
                comment="C'est une graphie analogique des P1 de présent de l'indicatif
                habituellement : canto &gt; cant, chant. Pour computo, c'est un proparoxyton de
@@ -2940,11 +2940,15 @@
                   se fust partis de celui sans autre doumage. Mais cil le racuellent devant et
                   deriere, si l'euisse<supplied reason="omitted">n</supplied>t en la fin ochis quant
                   cil <persName key="Hayno">Hainnaus</persName> se feri entr'iaus conme gierfaus a
-                  la grue. La endroit reconmecha une escremie mervillouse, que il covint que li gius
-                  tornast au meschief. Car issi come je le truist escrit, il covint a ciaus de lor
-                  malisse coper le cengles as chevaus des <num>ii</num> chevaliers avant qui les
-                  peuissent metre a tiere, ne seuist l'eure de mot. Quant il se troverent jus sans
-                  autre pierte, q<supplied reason="omitted">ua</supplied>nt <persName key="Helcanus"
+                  la grue.<note type="ntravail">Image stéréotypée, comparant le combattant à
+                     l'oiseau chasseur. Emprunt à Yvain, ou le chevalier au Lion : si con girfauz
+                     grue randone. Cf. Baudouin Van den Abeele De l’épervier à l’émerillon : images
+                     de la chasse au vol dans les romans de Chrétien de Troyes </note> La endroit
+                  reconmecha une escremie mervillouse, que il covint que li gius tornast au
+                  meschief. Car issi come je le truist escrit, il covint a ciaus de lor malisse
+                  coper le cengles as chevaus des <num>ii</num> chevaliers avant qui les peuissent
+                  metre a tiere, ne seuist l'eure de mot. Quant il se troverent jus sans autre
+                  pierte, q<supplied reason="omitted">ua</supplied>nt <persName key="Helcanus"
                      >Helcanus</persName> vit son signor a tiere dejouste lui, si le prist par le
                   main et dist : <said aloud="true" direct="true">Sire, traions nous hors de ceste
                      chace qui vient ci, car trop me doute que vous ne soiiés bleciés de ces maleois
@@ -3014,7 +3018,7 @@
                   Quant li emperere et li dus les de<del hand="#hand1" type="exponctuation"
                   >s</del>partirent, si se retraisent a merveille tart en la citei.</p>
                <p n="P43">Que vous iroie desoremais plus autre chose disant ? Tout et comunalement
-                  qui faire le volt vint a court souper. Ja peuist on veoir des nes et des surchius
+                  qui faire le volt vint a court souper. Ja peuist on veoir des nés et des surchius
                   froissiés et autre mainte pluisor bleceure qui puis ne fu si sanee qu'il n'i
                   parust toute saine. A l'autre lés, mout i eut de ciaus qui furent si bleciet et
                   navret qu'il lor covint demorer as osteus et iaus faire garder qu'il ne chaïssent
@@ -4390,10 +4394,10 @@
                         >Galylee</placeName> ou mes sires mes oncles me mena en une guerre qui la fu
                      d'un prince de <placeName key="Bethsaÿda">Bethsaïde</placeName> et d'un autre
                      de <placeName key="Tibériade">Thyberiadis</placeName>. La ne peut on concorde
-                     trover, fors que par le bataille de ii chevaliers, dont je vos aseur que cis
-                     hom qui ci est venus s'arma encontre le plus redouté sarrasin qui fust en toute
-                     la superior <placeName key="Galilée">Galylee</placeName>, et la fu cil outrés
-                     d'armes par le cors de cestui, que vos ore si poi prisiés.</said>
+                     trover, fors que par le bataille de <num>ii</num> chevaliers, dont je vos aseur
+                     que cis hom qui ci est venus s'arma encontre le plus redouté sarrasin qui fust
+                     en toute la superior <placeName key="Galilée">Galylee</placeName>, et la fu cil
+                     outrés d'armes par le cors de cestui, que vos ore si poi prisiés.</said>
                   <said rendition="dialogue" aloud="true" direct="true" style="last">Sire, dist
                      elle, or le veil je tant prisier que je me doute qu'il ne vos doie anuier, puis
                      que je sai qu'il est de teil valour. Et si ne cuit mie qu'il ne soit de grant
@@ -5121,7 +5125,7 @@
                   dire. Anchois en<cb n="b" break="no"/>bracha l'empereour mout humlement et il dist
                   : <said aloud="true" direct="true">Chastelains, il vos covient une chose faire.
                      Alés enchiés vos et m'aiiés aprestee robe imperiaus au matin, et gardés que nus
-                     sace ceste chose qui je soie, fors li aucun cuideront que je soie des nes issus
+                     sace ceste chose qui je soie, fors li aucun cuideront que je soie des nés issus
                      por faire a vostre gent aiie.</said>
                </p>
                <p n="P96">Ensi come li emperere le devisa fu fait. Au matin vint li emperere et
@@ -6820,22 +6824,23 @@
                   d'Espagne, en qui siervice il avoit jadis esté contre lui, amer le puet. Et ci
                   revient a moralitté li provierbes que jou devant avoie traitié, que <seg
                      ana="proverbe">mout vilainne cose est de boine semence faire vilain
-                     fruit</seg><note type="apparat">CC : Variante du proverbe "Bon fruit vient de
+                     fruit</seg><note type="notecritique">CC : Variante du proverbe "Bon fruit vient de
                      bonne semence" (Morawski 289), avec une insistance notable sur le vice dans
-                     l'inversion qui est ainsi proposée dans la présentation de la sentence.</note>.
-                  Ha ! Senescaus de <placeName key="Rome">Rome</placeName>, qui si vilain roi
-                  engenrastes en une si vallans dame, <unclear cert="low" reason="hole"
-                     >com</unclear> vous envis euissiés dagnier soufrir faire <unclear cert="low"
-                     reason="hole">de</unclear> vostre <cb n="b"/> car et de vostre sanc si vilain
-                  maisiel com vostre fius fist de ce ki li deuist tourner a hounour et a loenge !
-                  Mes de ce me convient ore taire et venir a ce que tuit cil qui demouré estoient se
-                  raloiierent tuit a lui et se missent ensamble et puis eurent de tous sens lor
-                  espiés, ki leur disent nouvieles coument leur avierse partie se maintint.<said
-                     aloud="true" direct="true">Bien va, dist li rois. Or vos metés apriés, car je
-                     vos aseur que ja piés ne nos escapera.</said> Isi se sont mis apriés de lonc,
-                  mais ce me convient tout laissier et venir a <persName key="Pelyarmenus"
-                     >Peliarmenus</persName>, ki grant mervelle eut puis que si chevalier furent
-                  parti de lui, ensi com il est contenu el conte.</p>
+                     l'inversion qui est ainsi proposée dans la présentation de la sentence. Le Roux
+                     de Lincy fait référence au Jehan Miélot (15e siècle) pour l'origine de ce
+                     proverbe. Son origine est donc nettement antérieure.</note>. Ha ! Senescaus de
+                     <placeName key="Rome">Rome</placeName>, qui si vilain roi engenrastes en une si
+                  vallans dame, <unclear cert="low" reason="hole">com</unclear> vous envis euissiés
+                  dagnier soufrir faire <unclear cert="low" reason="hole">de</unclear> vostre <cb
+                     n="b"/> car et de vostre sanc si vilain maisiel com vostre fius fist de ce ki
+                  li deuist tourner a hounour et a loenge ! Mes de ce me convient ore taire et venir
+                  a ce que tuit cil qui demouré estoient se raloiierent tuit a lui et se missent
+                  ensamble et puis eurent de tous sens lor espiés, ki leur disent nouvieles coument
+                  leur avierse partie se maintint.<said aloud="true" direct="true">Bien va, dist li
+                     rois. Or vos metés apriés, car je vos aseur que ja piés ne nos escapera.</said>
+                  Isi se sont mis apriés de lonc, mais ce me convient tout laissier et venir a
+                     <persName key="Pelyarmenus">Peliarmenus</persName>, ki grant mervelle eut puis
+                  que si chevalier furent parti de lui, ensi com il est contenu el conte.</p>
             </div>
             <div type="section">
                <p n="P159">
