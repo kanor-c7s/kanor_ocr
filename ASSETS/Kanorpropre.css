@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: local('EB Garamond 12'), url(https://brick.freetls.fastly.net/fonts/ebgaramond/400.woff) format('woff');
+}
+@font-face {
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    src: local('EB Garamond 12 Italic'), url(https://brick.freetls.fastly.net/fonts/ebgaramond/400i.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), url(https://brick.freetls.fastly.net/fonts/opensans/400.woff) format('woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), url(https://brick.freetls.fastly.net/fonts/opensans/700.woff) format('woff');
+}
+
+p {
+    text-align: justify;
+    height: fit-content;
+    font-size: 23px;
+    word-spacing: 2px;
+    line-height: 1.4;
+}
+
+.rubricated {
+    color: darkred;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'EB Garamond';
+    font-language-override: normal;
+    font-kerning: auto;
+    font-feature-settings: 'kern', 'liga', 'dlig', 'hlig', 'cswh';
+    font-synthesis: weight style;
+}
+h2 {
+    color: darkred;
+    font-size: 15px;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 13em;
+    margin-left: 13em;
+    margin-top: 2em;
+    font-family: 'EB Garamond';
+}
+
+.cb {
+    font-size: 15px;
+    color: darkred;
+}
+
+.pb {
+    display: inline-block;
+    text-indent: 0em;
+    font-size: 15px;
+    color: darkred;
+}
+
+.pbfloat {
+    position: absolute;
+    left: 7em;
+}
+
+.cbfloat {
+    position: absolute;
+    left: 5em;
+}
+
+.url {
+    font-size: 15px;
+    color: darkred;
+}
+
+a:link {
+    color: #c00
+} /* unvisited links       */
+a:visited {
+    color: #0c0
+} /* visited links         */
+a:hover,
+a:focus {
+    color: #00c
+} /* user hovers, or focus */
+a:active {
+    color: #ccc
+} /* active links          */
+
+
+
+.persName {
+    text-indent: 0em;
+}
+
+
+.placeName {
+    display: inline-block;
+    text-indent: 0em;
+}
+
+.placeName {
+
+
+}
+
+.rs {
+    color: navy;
+    cursor: pointer;
+}
+
+.place {
+    color: olive;
+    cursor: pointer;
+}
+
+.people {
+    color: pink;
+}
+
+.supplied {
+    font-weight: bold;
+    color: green;
+}
+
+.add {
+}
+
+.lettrine {
+    font-variant: small-caps;
+    font-feature-settings: 'kern', 'swsh';
+    color: orange;
+    text-shadow: 3px 3px 3px silver;
+    line-height: 80%;
+    margin: -.1em 0px;
+    padding-right: .1em
+
+
+}
+
+.num {
+    font-variant: small-caps;
+}
+
+.exp {
+    font-variant: small-caps;
+}
+
+/* .del = exponctuation du scribe*/
+.del {
+    text-decoration: wavy underline red;
+}
+
+/* .surplus = suppression de l'éditeur */
+.surplus {
+}
+
+.lem {
+    font-style: italic;
+}
+
+.note {
+    cursor: pointer;
+}
+
+.tooltip {
+    position: relative;
+    opacity: 1;
+}
+
+.tooltip .tooltip-content {
+    font-size: 18px;
+    visibility: hidden;
+    width: 350px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    z-index: 9999;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.acertain {
+}
+
+.chanson {
+line-height: 1.1;
+  padding: 20px 0 0 100px;
+}
+
+.ntravail {
+    color: orange;
+}
+
+.title {
+    font-size: 50px
+}
+
+.section {
+    margin-top: 70px;
+}
