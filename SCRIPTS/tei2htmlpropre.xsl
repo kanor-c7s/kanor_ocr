@@ -236,9 +236,7 @@
 
     <!-- Template pour les éléments surplus -->
     <xsl:template match="surplus">
-        <span class="surplus">
-            <xsl:apply-templates/>
-        </span>
+      
     </xsl:template>
 
 
@@ -334,7 +332,7 @@
                     </span>
                 </sup>
             </xsl:when>
-            <xsl:when test="@rend = 'italique'">
+            <xsl:when test="@rend = 'italic'">
                 <i>
                     <xsl:apply-templates/>
                 </i>
