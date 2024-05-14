@@ -17,14 +17,18 @@ aburir : voir aussi burir (burir et sa famille en ancien français par albert he
 accointe : commerce, fréquentation
 accointier : bcp de sens : * qqc. de qqn : apprendre, avoir connaissance de qqc (à propos) de qqn
 accoler :  saisir, prendre, agripper 
+entalentius : adjectif : ardent, empressé, désireux
 accueillir : assaillir, attaquer, bcp se sens à détailler
 aceindre : préparer, ou entourer, to gird on, souvent dans le but d'attaquer
 acesmemens : parures, ornements
 achacier : verbe : (Région. (Picardie, Wallonie) poursuivre, pourchasser
 achaindre : aceindre : verbe : "Entourer, enceindre" : * des esporons : frapper des esporons.
 acheter : latin acaptare : dans un sens bien spécifique : faire subir les conséquences néfastes d'une action, d'un méfait (commis par soi-même ou par qqn d'autre)
+escondir : verbe : substantivé : Refus
+enort : substantif : prendre mauvais * de : prendre mauvais conseil auprès de...
 aclaroiier : verbe : fairer * : [Des rangs d'une armée] "Devenir moins serrés, s'éclaircir (du fait des pertes infligées par l'ennemi)" 
 acliner : soumettre
+haste : locution : sor toutes hastes : immédiatement, promptement
 acointer : verbe pronominal : s'* de : "Faire la connaissance de qqn, entrer en relation avec lui" / "Informer qqn de qqc., faire savoir qqc. à qqn" 
 acoiser : soi * : "se dissiper, cesser"
 acorder : verbe pronominal : s'* : se mettre en accord
@@ -34,8 +38,9 @@ acremir : verbe : "Craindre, redouter"
 acrochier : s'* : (contexte de bataille) : Attaquer, s'en prendre à
 acueilloiter : verbe : dans l'expression "accueilloiter une voie" : sens figuré de "accueilleter" : prendre, tenir un chemin.
 acuerre : verbe : sens spirituel : * le regne du ciel : gagner
-ademis : corps ademis : de proportion fine
+ademis : corps ademis : de proportion fine / adjectif : humble, modeste
 piesme : adjectif : Cruel, implacable
+loisir : verbe : Il loist (à qqn) de + inf. "Il est permis (à qqn) de"
 adestrer : se tenir à la droite de quelqu'un, l'accompagner
 adevinor : godefroy : sorcier, prophète, devin
 adoner : adonner qqn [ou, p. méton., un aspect de qqn] à + inf. disposer qqn à faire qqc.
@@ -46,7 +51,7 @@ aerdre : attaquer, livrer assaut à, s'emparer de, s'attaquer à, agresser
 aesmer : verbe : "Estimer, évaluer le nombre de"
 afaitiement : "Avec grâce et politesse" d'une manière parfaite, avec vivacité d'esprit
 aferir : convenir
-afeuteure : afeutreure : pièce rembourrée dont on se garnissait le dos ou quelque autre partie du corps
+afeuteure : afeutreure : housse épaisse placée sur le dos et le col du cheval
 aficher : afichier : soi * à : s'attacher à qqc.
 afiier : verbe : une chose * : assurée, Engager sa foi vis-à-vis de qqc
 afit : "Insulte, provocation"
@@ -59,6 +64,7 @@ aguillier : étui à aiguilles
 aigrement :  [dans un cont. milit.] avec ardeur, impétuosité
 ainch : auparavant, avant / (mais) plutôt, (mais) au contraire / * que : "Avant que"
 aiornee : journée
+guet : substantif : se metre en un * : Action d'exercer une surveillance attentive pour se prémunir d'un danger 
 airement : en * : avec ardeur, acharnement
 ais : planchette de bois du bouclier
 ais : substantif : "Planchette de bois du bouclier"
@@ -72,6 +78,8 @@ allant : * et venant. "Qui vient et qui repart"
 aloe : substantif : une alouette
 alongement : substantif : mot de narration : "Fait d'allonger, prolongation" / délai, retard (synonyme de "alonge")
 alée : substantif : le départ
+despasser : verbe : reculer, faire un pas en arrière
+ongemens : substantif : pommade, onguent
 amanevir : se * : se préparer, se disposer à (Godefroy cite 1446)
 amembrer : verbe construction réfléchie : se souvenir de qqc
 amende : en * de : à titre de réparation
@@ -90,10 +98,11 @@ anchiseour : (mal écrit : anchiseouu) ancêtre
 andioche : nom propre : souvent mis pour antioche
 andui : adj. "(les) deux, tous deux" 
 ane : cane, femelle du canard
+piument : substantif : piment : Baume
 angle : substantif : angel : ange
 angre : sans dout ancre
 anguiseusement : adverbe : violemment, durement
-anieusement : avec ennui
+anieusement : au sens passif : avec souffrance, peine, gravement
 anieux : qui cause du dommage, dommageable, préjudiciable
 aniter : anientir : verbe : "Réduire qqn / qqc. à néant, réduire à rien, détruire, ruiner"
 ante : "Tante : soeur du père ou de la mère ou bien femme de l'oncle"
@@ -132,6 +141,7 @@ armeure : "Armement ; ensemble d'armes, défensives ou offensives ; pièce de ce
 aroi : Prendre * de + inf. "Se disposer à qqc., s'y engager"
 arroyer : avoir son cors * : s'armer, se préparer pour un combat, s'équiper
 arte : atirie?
+aatir : verbe : défier, provoquer / s'* que : se faire fort de
 artiel : orteil (cf. artillon cf. orteil/arteil)
 artillon : doigt de pied (graphie de orteillon)
 asaiier : verbe : "Mettre à l'épreuve"
@@ -142,13 +152,16 @@ asentement : substantif : locution "par *" : Avec l'accord, le consentement
 asmé : estre * : mis pour "armé"
 asorre : verbe : voir absoudre
 asouvir : verbe : * une chose : "Mener à terme, accomplir, réaliser (une action, une entreprise, un processus)" * un conte, une histoire : raconter un conte, une histoire
+costoier : verbe : longer un lieu, traverser
 assener : qqn : marier qqn
+allour : substantif : voyageur, passeur : ici, dans un sens dépréciatif de "passants", "inconnus dans la rue"
 asseurer : verbe : estre * de qqn : rassurer / "Garantir, protéger qqn de qqc./qqn"
 astiele : "Éclat, morceau (de bois), planchette" 
 astinence : privation volontaire de qqc. [d'un besoin, d'un plaisir...], jeûne
 astrenomie : "Science qui consiste dans l'observation des astres et de leurs mouvements, plus partic. dans le but de déterminer leur influence sur la destinée humaine, les événements terrestres et les conditions météorologiques" (Godefroy cite le 1446 en 74v)
 ataignanment : vivement, avec force, convenablement (Godefroy cite le ms de Turin pour Kassidorus) 
 atant : là-dessus, à ce moment-là, alors
+virer : verbe : Se diriger qq. part"
 atargier : (atarger) tarder, retarder, différer
 atenir : * à qqn. convenir, appartenir à qqn
 atorner : verbe : * son afaire : Arranger son affaire
@@ -170,6 +183,7 @@ auques : somewhat, a little; in some measure, to some extent; fairly, rather; at
 ausement : adverbe : "Aussi, également" 
 autresi : "de la même façon, pareillement"
 avaler : Descendre
+tor : substantif : taureau
 avancement : substantif : "Avantage, profit, succès de qqn"?
 avantage :  faveur, privilège
 avenanment : "Convenablement, comme il convient"
@@ -219,7 +233,7 @@ bouche : dire de * : dire soi-même ou de vive voix.
 bouche : substantif : locution "à la * du pape" ? : ressemble à "À bouche de prestre."" "À voix basse (comme en confession)" ; mais le substabtif est plus actualisé.
 bourgoise : "Épouse (ou bien veuve ou encore fille) d'un bourgeois" 
 bouter :  frapper qqn (ou un animal), lui donner des coups 
-boutine : boudine : Ventre, nombril
+boutine : substantif : wallon/picard : boudine : Ventre, nombril
 bracherole : utilisé dans le sens de brassière : Pièce d'armure couvrant le bras" ou small shield, bracer: sens absent du DMF
 braidich : braidif : adjectif : se dit d'un cheval : qui est impétueux, ardent, vite
 braidir : hennir (ou non propre ? le cheval braidiz)
@@ -265,7 +279,7 @@ cheuiel : au singulier : Poil qui garnit la peau du crâne, cheveu
 chief : venir à * que. faire en sorte que / venir à (bon) * de qqc. accomplir, réaliser qqc., mener qqc. à bien ; venir à bout de qqc. Proverbe amusant : quant li chies se diut, il en est a tous les menbres piis. / en venir à * : en venir à bout
 chiele : cellule d'ermite, ermitage
 chierge : substantif : une biche
-chierne : cerne d'occident : cercle ?
+chierne : cerne d'occident : rond ; marque circulaire formée autour de qqch. (Godefroy 1446)
 chiertes : adverbe : a * : "Véritablement, vraiment, pleinement"
 chité : cité
 chois : sans agitation, sans mouvement, sans agir
@@ -282,6 +296,7 @@ claroiier : rendre moins dense, clairsemer
 clef : * de voute : "pierre plus étroite à la base qu'en haut que l'on place en dernier pour fermer la partie centrale d'une voûte en arc de cercle" / * de la quintainne : Lieu stratégique qui contrôle un passage ??
 clergie : estre de * : "Savoir de clerc, p. ext. savoir, instruction, science (religieuse ou profane, chrétienne ou païenne)" 
 clos : pp de clore : se tenir * : enfermé
+clos : adjectif : boiteux, écloppé (Godefroy 1446)
 coeur :  P. méton. "Courage, hardiesse, ardeur, énergie" 
 coge : de lat. caudica afr. coche : MAR. "Bateau de forme arrondie, large à l'avant et à l'arrière" 
 coite : substantif : locution : À * d'esperons. "En piquant des éperons, en toute hâte"
@@ -332,6 +347,7 @@ corner : verbe : * l'eau. "Annoncer au son du cor ou de la trompe que l'on va d�
 cornissiel : substantif : diminutif de cor (Godefroy cite 1446, II, 306c)
 coronement : substantif : cérémonie du Couronnement
 corre : verbe : courir
+corneis : substantif : son du cor
 corsaint : substantif : un saint
 cort : court : adjectif : tenir * qqn : "Laisser peu de liberté à qqn, le surveiller de près"
 coste : porter en * : porter dans ses entrailles
@@ -342,14 +358,15 @@ coupe : avoir coulpe à/de : être en faute à propos de qqc/ y avoir de (la) re
 couroucier : maltraiter qqn, lui infliger une correction
 cousin : "parent collatéral (en partic. par l'oncle ou par la tante), cousin" mais aussi neveu
 coute : unité de mesure : coudée
-couvertement : 	secrètement, discrètement, en cachette 
+son : substantif : le sommet
+couvertement : 	secrètement, discrètement, en cachette (couviertement parler) (Godefroy 1446)
 couverture : substantif : "Couverture (de lit, pour couvrir le corps...)"
 couvretour : covertoir : "Couverture (surtout de lit)" 
 couvrir : ne pouvoir se * : ne pas parvenir à "Dissimuler (ses pensées, ses intentions) à qqn"
 covenace :  engagment, promesse
 covenance : substantif : "Ce qui est convenu, accord, convention" 
 covenant : ce qui convient à qqn ; manière d'être ou de se comporter (habituelle ou occasionnelle) / "Accord, promesse"
-covignablement : comme il convient, de manière appropriée, convenable
+covignablement : comme il convient, de manière appropriée, convenable (Godefroy 1446)
 covintasion : (conjuration) : mot inconnu
 covoieur : "Celui qui accompagne, qui transmet"
 craie : mot non attesté : dans "craie d'une feniestre" : ouverture ??
@@ -364,7 +381,7 @@ croire : faire crédit (à qqn) de
 crois : substantif : sainte * : en partic., croix sur laquelle Jésus fut crucifié
 croiser : verbe : qqn * qqn : RELIG. [Le compl. désigne une pers.] "Faire le signe de croix sur une personne (geste de bénédiction)"
 croiserie : substantif :  Croisade
-croule : "Ébranlement, écroulement"
+croule : crolle : "Ébranlement, écroulement", tremblement de terre
 cruauté : "Acte de méchanceté, de violence (parfois de barbarie)" 
 crueusement : P. ext. "Durement, sévèrement"
 créant : Engagement, assurance, garantie
@@ -372,7 +389,7 @@ créanter :  "Approuver, accorder qqc., consentir à qqc."
 cuer : prendre * de : prendre coeur à, se décider à ?
 cuerre : variante de coure courir currere
 cuidier : verbe à emploi pronominal de forme "se cuidier" : Être présomptueux / est remplacé dans V par le pp. de même sens : sorcuidié.
-cuisençon : "Soin, désir ardent" 
+cuisençon : Soin, souci, sollicitude, peine, tourment
 cuite : quitte : adjectif : "Se délier d'une obligation en, se libérer en" 
 cuivrier : tourmenter, harceler
 cuivrier : verbe : tourmenter, harceler (du lat. coquere). Voir T-L : « cuivriier »
@@ -393,38 +410,47 @@ degré : marche, gradin
 dehé : que la haine de dieu soit sur qqn/qqc. ; malédiction sur qqn/qqc.
 deligaument : adverbe : "D'une manière diligente" (synon. diligentement) 
 delis : "Plaisir"
+porsivant : pp absolu : du même ordre (§275)
 delit : manquement au devoir, faute, péché
 deliter : se réjouir, prendre plaisir, éprouver de la satisfaction, se délecter
 delivrer : * qqn à qqn :  "Livrer qqn à son corps défendant", remettre, confier (=/ délivrer)
 demesle : substantif, un problème
 demettre : qqn: destituer
+fendant : pp : fendant en voie : Faire son chemin dans la voie
 demeurer : verbe : Demeurer à qqn/qqc. que ne + subj. "Dépendre de qqn/qqc. que"
 demoisrer : habiter, avoir son logis qq.part
 demourée : substantif : temps et espace : "Fait de tarder, retard, délai" /  "Fait de rester longtemps au loin, absence"
 departie : substantif :  "Séparation, départ"
 departir : s'en aller (d'un lieu), quitter (un lieu)
 derompre : se blesser, briser, rompre, arracher
+racher : verbe : à rapprocher de arracher / racher qqc de : pull up/tear off from (anglo-normand)
 desairier : verbe : (Godefroy cite le 1446) : se débander, s'enfuir
-desbareter  : débarater : adjectif : "Mettre hors d'état de mener un barat, de combattre, vaincre, déconfire" 
+desbareter  : débarater : adjectif : "Mettre hors d'état de mener un barat, de combattre, vaincre, déconfire", déconfit (Godefroy 1446)
 descendant : * d'une valee : descente, pente
 deschaucier : locution Ne pas estre digne de * qqn : compréhension littérale : ne pas être digne de retirer les chaussures à qqn ; imagée : ne pas pouvoir (avoir le lignage pour) se comparer à qqn.
 desclore :  "Dévoiler, révéler (qqc. qui était tenu caché)" 
 desconfire : "Mettre en déroute, vaincre (l'ennemi, une troupe...)"
+desconfiture : substantif : action de réduire en un piteux état, résultat de cette action ; ruine complète: (Godefroy 1446)
 descoper : descolper : "Disculper qqn"
 descort : discord : "Désaccord, différend, discorde" / "Conflit ou dispute qui vient d'un désaccord" 
 descounisance : descognoissance : [Des- au sens d'un éloignement par opposition] "Signe distinctif, différence"
-descounuement : de façon à n'être pas reconnu, incognito
+descounuement : de façon à n'être pas reconnu, incognito (Godefroy 1446)
 descousuement : adv., en désordre, d'une manière désordonnée
 descovrir : verbe pronominal : "Apprendre l'existence de qqc. (qui était caché)" 
 desempeechier : verbe : débarasser (Godefroy cite 1446)
 desfaire : détruire, anéantir, altérer
-desfendre : "Fendre, déchirer" 
+desfendre : "Fendre, déchirer"
+eme : interjection : en composition avec vos : eme vos : voyez-là (Godefroy 1446)
 desfensable : adjectif : lieu * : "Dont on peut défendre l'entrée à qqn"
 desfense : substantif : mettre à * : "Fait de protéger, de défendre (des personnes, un lieu) par des moyens militaires, de se défendre par les armes"
 deshonor : substantif :  "Perte de l'honneur, honte, infamie" 
 desiers : désert
+cové
+glave : substantif fem :  "Épée ou espèce d'épée, arme tranchante, grand poignard" 
 desierte : mérite (bon ou mauvais), ce qu'on a mérité / faute / récompemse
 desiervir : "Servir qqn avec zèle"
+envial : substantif : en faire son * : n'en faire qu'à sa volonté, à l'envi, avec idée de ruse, de plaisir,
+enviers : adjectif : renversé, à la renverse (Godefroy 1446) (a l'envierse main)
 desiete : insulte "gars *" : degieter ? abaisser, renverser, destituer
 desiteus : diseteur : (desiteuse dans le ms.) adjectif : littéralement qui est dans la disette, emploi métaphorique possible "qui a besoin de qqc., nécesiteux" (dans le ms. 22550 le mot est desireuse : confusion possible menant à un effet amusant, folio 69r, mais c'est un contresens) / par extension : Disetteux de. "Privé de" 
 deslacer : verbe : "Dénouer, délacer"
@@ -435,6 +461,7 @@ desmonter :  En partic. "Faire descendre qqn de cheval ou jeter qqn à bas du ch
 desordener : verbe : sans lui * : "sans se laisser aller", sans se perdre, 
 desordené : littéralement : on sort qqn de l'ordre de chevalerie, déchu. f15
 despechier : libérer, débarasser, ôter
+despanure : substantif : depanures : déchirure : Godefroy 1446
 despendans : être dépensier, voire gaspilleur
 despendre : contexte nég. ne * mie : employer inconsidérément qqc., gaspiller qqc. (temps, argent ou autre chose), dilapider / dépenser
 despit : sens actif et passif :  sentiment provoqué par une déception, un malheur, une humiliation... 
@@ -454,11 +481,14 @@ destrier : cheval de combat du chevalier (éventuellement conduit par un écuyer
 destroit : loc. tenir à * : Mettre/retenir qqn dans une situation pénible, désagréable (* : embarras, rigueur, ddifficulté)
 destruction (dis-) : déchéance (physique ou morale d'une pers.), dégradation (d'une situation) / anéantissement, abolition, suppression
 destruer : ruiner, anéantir (qqn)
+digestion : substantif : substance qui facilite la digestion (Godefroy 1446)
 destruire :  faire périr, anéantir / porter préjudice à, * moralement : (couple avec estre honnis)
+destruision : substantif : action de détruire (Godefroy 1446)
 desver : * de : avoir un désir furieur de (construction verbale intéressante)
 detenir :  retenir qqn ou qqc.
 detordre : tordre (les poings) : prend le sens analogique de "se tourmenter"
 detri : "Retard, délai" "delaiement"
+dissension : substantif : discorde (Godefroy 1446)
 detriance : un retard, un délai, une perte de temps 
 devant : * ce que : avant que, jusqu'à ce que
 devant : substantif : aller au * de qqc : S'opposer à qqc. (aller encontre)
@@ -469,6 +499,7 @@ deça : * mer : De ce côté-ci de la mer
 deçà : "De ce côté-ci de" 
 diestre : substantif : "Qui est à droite" 
 diete : deité
+Eskarbocle : escarboucle : substantif: variété de grenat rouge, qui a beaucoup d’éclat (Godefroy 1446)
 diete : substantif : "warder *" : Hygiène de vie, régime de santé touchant l'air, la nourriture et la boisson, le sommeil et la veille, le travail et le repos, l'inanition et la réplétion, les passions, etc.
 diference : "Ensemble de caractères qui distinguent une chose d'une autre, ce qui diffère, divergence, distinction, différence"
 discension : dissension : substantif : Désaccord, dissentiment, discorde suscitée par une opposition d'intérêts ou d'opinions, dissension" 
@@ -483,6 +514,7 @@ dont : [dans l'interr.] d'où  / [empl. neutre (l'antécédent est un contenu pr
 dont : bcp de sens : d'où, dont, alors
 dos : substantif : dans le segment adverbial "au dos" : par derrière
 doudre : double de doloir
+
 doulaissier : delaissier : quitter, abandonner (un lieu, un bien foncier...), renoncer
 doute :  crainte, peur, inquiétuden / avoir (grant) *...
 douter : se * de : supposer qqc. possible, probable, pressentir, deviner qqc. / craindre qqc., avoir peur de qqc.
@@ -508,6 +540,7 @@ empirer : endommager, détériorer qqc.
 emploiier : verbe : * s'onor : Tirer le meilleur parti de qqc., mettre qqc. à profit
 employer : qqn : "Donner, destiner qqc. (à qqn), mettre entre les mains de qqn" voire "destiner, marier qqn." / bien * : bien faire,  S'employer à/en qqc. "S'appliquer, s'occuper, se consacrer à qqc." 
 emprier : prier
+estinciel : substantif : étincelle (Godefroy 1446)
 emprise : emprisse : substantif : Tournoi/partie de jeu
 emprès : [À valeur temporelle] "Après, à la suite de"
 empuignier : verbe :  "S'emparer de, mettre la main sur"
@@ -526,7 +559,7 @@ enconbrier :  "Désagrément, situation fâcheuse, ennui"
 encriemé : encriesmé : criminel, scélérat (mais le cotexte oriente vers une compréhension différente : "encriemeté" : action, conduite criminelle, crime ; conformément à V ?)
 encuser :  "Accuser, dénoncer qqn" 
 endroit : d'* de qqn : À l'égard de qqn. (en faveur de qqn ou contre qqn)
-enforciement : adv, présent chez Godefroy : "En usant de la force, avec violence", "de toutes ses forces" mais aussi "avec force" dans le sens "grandement", "à un grand degré"
+enforciement : adv, présent chez Godefroy 1446 : "En usant de la force, avec violence", "de toutes ses forces" mais aussi "avec force" dans le sens "grandement", "à un grand degré"
 enforcier : enforchier : * qqn : faire violence à qqn, mais dans le cas d'une femme : violer.
 enfors : renfort force armée
 enfrun : adjectif (opoosé à cortois) : Renfrogné, dur, cruel
@@ -560,7 +593,7 @@ entendance : peut-être dans le sens de prédiction, compréhension, en cotexte 
 entendanment : adverbe : intelligiblement
 entendans : faire à * : faire entendre, savoir
 entendement : substantif : noble * : "Façon d'envisager les choses, intention, dessein, volonté"
-entendre : s'* : se rendre compte que ?
+entendre : s'* : se rendre compte que ? /entendre à qqn :  "Tourner son attention vers qqc. ou qqn, s'y intéresser et éventuellement s'en occuper"
 entente : Effort porté à qqc., application mise à qqc / "Intention, projet ; désir, aspiration ; but, finalité"
 ententiument : "Avec application, avec attention, de manière attentive" 
 enton : mis pour "entour"
@@ -586,15 +619,15 @@ escharbocle : "Rubis ou variété de grenat rouge foncé, escarboucle" (eskarboc
 eschariement : adverbe : en si pauvre équipage
 escharnir: verbe Empl. trans. "Se moquer de qqn, railler qqn ; se jouer de qqn, le tromper" 
 eschas : jeu des échecs, mais pas exactement celui du FM
-eschignemens : "Risée, moquerie" 
+eschignement : "Risée, moquerie" (Godefroy 1446)
+escharnisemens : substantif : injure, outrage, insutle
 esciver :  "Éviter qqc. (une réalité mauvaise, néfaste, ou jugée telle)" 
 esclos : substantif : "tous l'*" : À la trace, à la piste / construction verbale : se mettre * : se mettre sur la trace
-esclots : se mettre apries qqn les * : Suivre les traces de qqn.
 escondit : 	"Amende honorable (que fait un accusé devant le tribunal)" 
-escorgie : un type de fouet (mot picard ?)
+escorgie : un type de fouet, écourgée (mot picard), fouet fait à plusieurs courroies
 escors : giron
 escoth :  "Part de chaque convive pour un repas pris en commun, quote-part" 
-escremie : lutte, combat
+escremie : lutte à pied, combat, joute
 escrit : substantif : mettre qqn en * : noter le nom, l'identité de qqn
 escrois : En partic. "Coup de tonnerre" 
 escu : bouclier
@@ -631,13 +664,15 @@ espouser : verbe : * qqn à qqn : marier qqn avec qqn
 esprover : verbe : "Vérifier, constater qqc., (la qualité de qqc.) par une expérience, faire l'essai de qqc."
 esquarie : substantif : "Forme carrée, carré"
 essaier :  mettre à l'épreuve  p. ext. essayer ses forces contre qqn ; d'où affronter
+saiier : verbe : sayer : essayer, se mesurer avec, éprouver (emploi nord)
 estable : qui est sûr de durer, stable, solide / [D'un sentiment] Ferme et estable. "Qui a une certaine permanence"
 estace : substantif : désigne le poteau dans la quintaine
 estal : regarder tout à * : dévisager
-estanfiche : "Meneau vertical d'une croisée" /  "Support vertical"
+estanfiche : "Meneau vertical d'une croisée" /  "Support vertical" : trumeau
 estant : se dresser en (son) * (latin stare) : Se mettre debout, se redresser
 esteindre : * qqn : mettre à mort qqn., faire périr
 esteme : voici, voyez-là
+pire : substantif : un chemin, passage (few hainaut, flandre, picard)
 estordre : tordre de douleur
 estouper :  "Barrer, fermer (une voie, un passage)" 
 estovoir : être nécessaire
@@ -645,9 +680,10 @@ estragnement : adverbe : étrangement
 estraire : verbe : estrait : "Qui tire son origine (d'une région, d'une ville, d'un pays)"
 estrine : "Cadeau que l'on offre, souvent au début de qqc. (un cycle, un état...), en signe de bon présage"
 estrit : affrontement, dispute
+frongne : substantif : mine refrognée, faire la * : faire la grimace (Godefroy 1446)
 estriver : * a : "Rivaliser avec qqn" (Amour)
 estroit : en parlant d'un style de vie : rigoureux, strict voire austère
-esviertuer : "Reprendre de la vigueur, retrouver des forces"  / "Mettre en jeu tout ce qu'on a de force, employer, dépenser toute sa force (à)" cotexte : abandon / se * de : "S'efforcer de faire qqc."
+esviertuer : "Reprendre de la vigueur, retrouver des forces"  / "Mettre en jeu tout ce qu'on a de force, employer, dépenser toute sa force (à)" cotexte : abandon / se * de : "S'efforcer de faire qqc." faire un grand effort pour (Godefroy 1446)
 esvoiturer : conduire à terme ; verbe de narration : à faire, à raconter / (maintenir ?)
 example : substantif : Preuve concrète de qqc.
 excusance :  "Raison invoquée ou alléguée pour justifier qqc. (le fait de se dérober à une obligation, à une promesse...)" 
@@ -656,6 +692,7 @@ expressement : De manière explicite
 faicons : ??
 faillir : * em pieds : perdre l'équilibre (confusion avec saillir ?)
 faillus : feuillu (arbre)
+invisible : adjectif : qui n'est pas visible (Godefroy 1446)
 faintement : en feignant, en dissimulant, d'une manière feinte 
 fais : < faix < fascis : En grand nombre, en quantité / troupe qui charge
 fais : chose qui pèse, chose lourde
@@ -675,8 +712,10 @@ fauseté : fausseté : substantif : "Ce qui est contraire à la vérité (par er
 feble : adjectif : peu dangereux / sans force de caractère
 felon :  [D'une chose] "Terrible, cruel"
 ferce : mis pour foriest au 42r84
+loiemier : substantif : (picardisme lumier) vaurien + goinfre.
 fereis : substantif : "Action de frapper de manière répétée (surtout au combat) ; choc, cliquetis des armes" 
 ferir : verbe : attaquer
+cheue : substantif : queue, l'extrémité, désignant en cotexte la tête
 fermement : adverbe :  "De manière constante, sûre, déterminée, sans faiblir" 
 fermer : château : fortifier, entourer, enclore (un lieu, une ville)
 fervestir : "Vêtir de fer, armer" 
@@ -764,12 +803,12 @@ guiier : verbe : Montrer le chemin
 guimple : guimpe : substantif : "Ornement de tête, guimpe"
 guisse : guise : substantif : à sa * : "Selon son goût, selon sa volonté", manière
 gésir : verbe : "Être couché (pour dormir, pour passer la nuit, ...)"
-habet : abet : substantif : ruse, excitation ??
+habet : abet : substantif : ruse, tromperie (on trouve le mot au f. 78b dans le Renart Coroné)
 hainuhier : hainuhier/Hainnuiers : substantif : une personne du Hainaut
 hanas : hanap : "Grand vase à boire (gén. en métal), monté sur un pied" 
 hardement : substantif : "audace, bravoure, courage"
 harligotes : Empl. trans. "Maltraiter, taillader, déchirer de coups" considéré comme de l'argot
-harnas : "Équipement d'un homme d'armes, armure" / emploi métonymique : équipage / Équipement, bagages (de qqn qui se déplace)" / faire mener * : se déplacer avec un tel équipement
+harnas : "Équipement d'un homme d'armes, armure" / emploi métonymique : équipage / Équipement, bagages (de qqn qui se déplace)" / faire mener * : se déplacer avec un tel équipement / locution estre a * : être équipé, garni
 haschiee : tourment, supplice
 hasteement : "Hâtivement, rapidement" 
 haubregier :  "Revêtir le haubert" 
@@ -786,6 +825,7 @@ heurteure : action de heurter, coup, choc, meurtrissure
 hiaume : casque enveloppant la tête et le visage, muni d'ouvertures pour le visage
 hierbierge : auberge, habitation, logement, logis, campement, cantonnement
 hierechier : hérisser, dresser
+cant : substantif : du * : de côté
 hiretage : substantif : "Toute propriété (immeuble, terre...) transmissible par voie de succession, biens-fonds"
 holier : "Débauché, ribaud, homme de mauvaise conduite, maquereau" 
 honneur : spécifiquement : palais : retourner en son * : retourner dans son palais
@@ -797,7 +837,8 @@ hospital : substantif : "Établissement charitable (souvent dépendant d'un mona
 hourdeis : "Échafaudage, estrade dressée" 
 hu : "Cri, clameur (surtout pour avertir d'un danger et pour appeler ceux qui l'entendent à s'assembler)" 
 huchier : crier, appeler à voix plus ou moins haute
-huers : hors
+huers : préposition : hors
+fauder : verbe : picard : plier
 huimais : adverbe : Aujourd'hui
 humanité :  "Attitude de compréhension, de bienveillance, comportement qui exclut la cruauté, la dureté"  (mis pour humilité)
 humileté : vertu qui fait qu'on oublie ses prérogatives, le sentiment de sa valeur au profit d'autre chose (le pardon, l'indulgence, le compromis...) 
@@ -805,21 +846,22 @@ humle : adjectif (parfois substantivé) : humble
 humlement : avec respect, déférence, humilité
 hurter : verbe : * le diestrier : Éperonner un cheval
 hustin : p. méton. "tapage, manifestation bruyante"
-iauwe : eau
+iauwe : eau / expression "estre ausi come entre deus *" : A1 ne se compromet pas, il reste neutr
+tout : locution : mettre le * por le * : employer ses dernières ressources à une tâche
 iestre : Enquerre qqn de son *. "Demander à qqn qui il est"
 illuech : "Là, à cet endroit-là (le lieu dont il est question et où le locuteur n'est pas)" / [La signification temp. l'emporte sur la signification locale] "À ce moment-là, alors"
-impediment : "Empêchement, inconvénient, désagrément"
 impediment : substantif : "Empêchement, inconvénient, désagrément" 
 inconvenien : "Ce qui est fâcheux, événement fâcheux, dommageable, ou conséquence fâcheuse, dommageable"
-incouenient :  "événement fâcheux, situation fâcheuse, dommageable, dommage, embarras, désagrément, malheur" 
 inde : Adj. "D'une couleur bleu foncé tirant sur le violet, indigo" 
 indulgense : substantif : "Faveur, dispense accordée à qqn" / "Rémission totale ou partielle des peines dues aux péchés accordée par l'Église (principalement par le Pape)"
+demaintenir : verbe : révoquer
 ingremancie : "Science occulte qui évoque les morts, les mauvais esprits, nécromancie"
 irour : "Colère douloureuse et violente" 
 isniel : adjectif ou parfois adverbe : rapide / Sans tarder, immédiatement
 issue : substantif : fin, conclusion d'une chanson
 itant : pronom quantitatif : bcp de sens : tant
 jehui : adverbe : aujourd'hui
+apierté : substantif : Rapidité, vitesse
 journement : terme juridique : "Ajournement"
 jouste : préposition : Au propre [Dans l'espace] "À côté de, auprès de, le long de" 
 jouste : substantif : "Combat sportif et festif entre deux chevaliers" 
@@ -834,6 +876,7 @@ keure : chëure : chutte (de flèches)
 keuwe : (on a cette orthographe (wallone) chez Froissart) queue
 lacis : substantif : "Armure de mailles" 
 lai : la * gent : "Laïc, qui n'est pas clerc, qui n'est pas ecclésiastique", emploi adj intéressant : usage quasi prvbe : li iors vẽra encore q̃ la laie gent couẽra p̾chier le clergie.
+entrelarder : verbe : entremêler
 laidoier : (à la place de laidenger : "Injurier, outrager, railler, maltraiter" ) : "Maltraiter, malmener qqn" 
 laidure :	"outrage, injure, insulte"/"déshonneur, infamie, ignominie, honte"
 laissier : Ne (pas) * que + subj. "Ne pas renoncer à, ne pas s'abstenir de, ne pas manquer de" 
@@ -851,7 +894,7 @@ lever : élever
 liban : nom propre : il s'agirait d'un fleuve, p-ê le fleuve de Libanos en Ethiopie...
 licon : leçon
 liege : lige : adjectif : dans * seigneur : "Seigneur envers qui le vassal est tenu à une fidélité absolue"
-locu : [Des cheveux, d'une pers.] "Hirsute, ébouriffé" 
+locu : (picard) [Des cheveux, d'une pers.] "Hirsute, ébouriffé" 
 loer : verbe : * son createur : "Rendre gloire, rendre grâce à Dieu"
 logier : verbe : se * :  "Camper (qq. part), en dressant les tentes, établir son camp (qq. part), se placer, prendre position (qq. part), prendre ses quartiers (qq. part)" 
 loi : substantif : emploi particulier : "Foi, croyance, religion
@@ -865,9 +908,13 @@ longes : adverbe : longtemps
 lorain : "Courroies du harnais (servant en partic. à maintenir la selle, souvent ornées)" 
 lorain : chevauchier à * : courroies du harnais (servant en partic. à maintenir la selle, souvent ornées)
 louier : aussi leuier : rémunération due à une personne pour un travail rendu, salaire / figuré : récompense
-lovicement : à la manière d'un loup : allaiter *
+lovicement : adverbe : Gloutonnement, à la manière d'un loup : allaiter * (Godefroy 1446)
 lumiere : * d'un heaume : "Oeillères dans la visière du heaume"
 lupars : léopard
+chevauçons : locution : à * : comme si on était à cheval
+coge : substantif : vaisseau, bâteau
+tempies : substantis : tempête, orage
+pechié : substantif : soi mettre à *
 maiement : adverbe : "De la même façon, de même" 
 maillie : valeur d'une maille, la maille elle-même ; loc. fig. tenir maillee de qqc. tenir compte de qqc.
 mainburnie : "Puissance de gouverneur, domination" 	DR. "Garde, protection légale, tutelle"
@@ -881,6 +928,7 @@ mal : * de qqn : malédiction sur qqn
 maladie : "Altération critique de la santé, maladie" 
 malart : mâle du canard sauvage
 maleois : maudit
+gesir : verbe : * d'un fil : accoucher d'un fil
 malingner : "Agir mal, tromper, frauder"
 malisse : "Disposition qui pousse à faire le mal"
 maloite : * gens : Empl. trans. "Maudire"  : maudite
@@ -897,6 +945,7 @@ marchie : substantif :
 marchir : verbe : 
 marine : mer ; p. méton. bord de la mer, eau de la mer
 marvoier : "devenir fou, devenir comme fou (sous l'effet du souci, de la douleur, de la colère...)" / "S'égarer, se fourvoyer"
+voier : verbe : cheminer, aller
 mas : mais : plus (intensité)
 mat : > MATTUS : "Abattu, triste, affligé, découragé" / mat : [Croisement avec mat2, idée de défaite (v. aussi les empl. p. métaph., s.v. mat2 et mater1)] "Vaincu, battu, brisé"
 mecreant : substantif : (Celui) qui croit à une fausse religion ou qui est hérétique
@@ -916,25 +965,33 @@ mescheoir : verbe : * à qqn : "Arriver malheur à qqn"
 meschief : issue fâcheuse, tout ce qui est fâcheux, dommageable / douleur, peine, chagrin désagrément qui accompagnent ce qui est fâcheux, dommageable
 meschine : jeune fille / servante / arabe miskin
 meschinote : substantif :	"Jeune servante"
+eschenre : verbe : se secouer, s'agiter
+arçoiier : arquer : 
 mescoisir : "Rater (qqn qu'on veut frapper)" / ne pas reconnaître
 mesconte : (mescompte ?) mensonge, tricherie
 mesestovoir : verbe : forme mesestuet : A REVOIR
+cordiele : substantif : mettre qqn à sa * : être maître de qqn, duper, abuser
 mesfaire : mal agir, faire du tort, commettre une faute
 mesfaiture : mefaiture : (Godefroy cite 1446) : mauvaise action, méfait
 mesprison : (mesprisure) : substantif : "Action blâmable, faute, tort" 
 mestire : maistire : en cotexte : habileté, adresse, soin
 meutier : mortier
+eschipir : verbe : éclore (Godefroy 1446 : III, p. 366 : mauvaise référence de Godefroy)
 meçoigne : (mençoigne) : fable, fiction, mensonge
 mirable : adjectif : grand, fort, puissant
 miracle : substantif féminin : "Événement qui se produit par l'intervention de Dieu, par l'intervention d'un saint, contre les lois naturelles et qui est considéré comme un signe de Dieu, miracle" 
 mirre : médecin (fisisiien)
 mohaistre : mahustre : maistre : le haut du bras
-moiien : clément, modéré
+moien : adjectif : clément, modéré
+ escomovoir : verbe : ébranler
+ main : locution : * a * : l'une aprés l'autre
+piertrisot : substantif : perdreau (Godefroy 1446 : VI, 97)
 moire : moindre (attesté par few) : moindre : à peu près
 moker : verbe : "Ne faire aucun cas de qqn, traiter qqn avec mépris, se moquer de qqn" 
 mokerie : plaisanterie
+drecier : verbe : construction intransitive avec sujet inanimé : être placé dans une position verticale
 mokeur : "Celui qui se moque, railleur, plaisantin, moqueur" 
-molin : meslin : "Querelleur, batailleur"
+molin : substantif : de adj. mol + suffixe -in (hapax ?)
 mon : adverbe : [particule affirm.] certainement, assurément, réellement ; construction Savoir mon + interr. hypo.
 monte : substantif : "Somme, montant de"
 moralité : a * : précepte relatif aux moeurs, aux comportements, à la morale ; conduite ainsi déterminée
@@ -967,16 +1024,18 @@ nier : verbe : Nier à qqn que + subj. "Déclarer à qqn qu'il est faux d'affirm
 noble : adjectif : pour un phénomène : * vent : "Excellent, extraordinaire, puissant, favorable"
 nonpourquant : néanmoins, cependant
 norrir : éduquer, élever
+iestre : préposition : contre
 torcenerie : substantif : violence, exaction
 noue : neuf, nouveau (voire jeune ?)
 nu : estre * de : être "Exempt de" 
 nueté : aussi nuece : la nudité
-occheant : occident
+occheant : substantif : océan
 ochoisoner : + prép de : accuser qqn de qqc., poursuivre qqn en justice au sujet de qqc.
 oiant : participe présent du verbe oïr : en Empl. abs. "* tous" : "En présence de tous" / "* A1" : en présence de A1 / "Devant tous, publiquement (et non à voix basse, en privé)"
 oir : hoir : substantif : un héritier
 bassin : substantif : Calotte de fer portée seule, ou sous le heaume
 oire : erre : chemin, voyage, route ; desjouer de son * : détourner de son chemin / eire : Allure (d'une pers. ou d'un animal qui se déplace, d'un moyen de transport...)
+empenre : verbe : se charger de, entreprendre
 omecide : celui qui tue ou qui cause la perte morale d'un être humain, dans un sens figuré
 omicide : (celui) qui tue, qui a tué un homme (au cours d'une rixe, volontairement ou non, au cours d'une bataille ou bien par meurtre)
 opinion :  "Avis exprimé lors d'une délibération" 
@@ -1012,6 +1071,7 @@ palis : clôture constituée de pieux, palissade
 panne : la peau : * de : la fourrure/peau de
 paradis : nom : État ou lieu de bonheur parfait (sur la terre) (estre en *)
 parant : De belle apparence, de belle prestance
+parance : substantif : par * : d'après les apparences
 parconsivre : verbe : parconsuivre : atteindre (Godefroy cite 1446, V, p. 751), signalé comme happax par FEW
 pardefin : Région. (Picardie, Champagne, Wallonie) En la *: "À la fin, finalement"
 pardire : achever de dire, dire entièrement
@@ -1034,13 +1094,14 @@ perius : vocalisation du l devant s : perils
 perçonniere : substantif : "(Celui / celle) qui partage qqc. avec qqn d'autre"
 peule : substantif : peuple, "Ensemble de personnes habitant un même lieu, population" 
 philosophe : substantif : "Savant qui cultive les sciences sous leur aspect spéculatif, philosophe"  / clerc
-piece : bcp de sens / voler en * : Voler en éclats 
+piece : bcp de sens / voler en * : Voler en éclats / en * : bientôt, rapidement
 piecea : grant * : il y a très longtemps
 pied : substantif : voir faillir et saillir
 piere : pierre : substantif : pierre d'un heaume ?
 pierre : partie d'un heaume, à déterminer
 pieça : de * :  "Depuis un certain temps, depuis longtemps, cela fait un certain temps"
-pignonciaus : penonciaus / penoncel : "Banderole avec des armoiries, petit étendard (en longueur, à la différence de la bannière initialement de forme carrée)" 
+pignonciaus : penonciaus / penoncel : "Banderole avec des armoiries, petit étendard (en longueur, à la différence de la bannière initialement de forme carrée)"
+briser : verbe : Mettre un terme à qqc., interrompre qqc. (une action, un état, une qualité, un engagement, une intention...)"
 pitié : Compassion, miséricorde, pitié
 plaie : substantif : Lésion, blessure d'une partie du corps / en cotexte : les cinq * : blessures infligées au christ lors de sa crucifixion / locution faire * : causer des dommages (lors d'un combat) /
 plain : plaint : Plainte, gémissement (pleurs)
@@ -1092,6 +1153,7 @@ privauté : proximité familière, familiarité ; intimité
 priveement : en privé, dans l'intimité / particulièrement
 procession : substantif : par * : par cortège
 prochain : proche
+chainse : substantif : "Longue tunique de femme, à manches, robe faite de toile de lin ou de chanvre" 
 prochainement : adverbe :  "Dans un délai rapproché, dans peu de temps, bientôt" 
 prodon : prudhomme : substantif : "Homme expert, compétent dans tel ou tel domaine" 
 profitenment : profitamment : "De manière profitable"
@@ -1124,15 +1186,18 @@ raie : ravoir subjonctif présent 1
 raim : Bois du cerf
 raisnable : raisonnable, juste, légitime
 raisnier : parler, discourir voire plaider avec une connotation juridique.
-raison : mettre à *s : "Adresser la parole à qqn, l'interpeller, l'interroger" / par * : "Comme il convient, selon ce qui convient"
+raison : mettre à *s : "Adresser la parole à qqn, l'interpeller, l'interroger" / par * : "Comme il convient, selon ce qui convient" / raison : avantage, commodité : (Godefroy 1446 VI, 569 avec erreur dans la transcription "auroient")
 raloiement : "Action de (se) rallier, de (se) rassembler" 
 ramentevoir : remettre en mémoire, rappeler au souvenir, remémorer qqc., faire penser à qqc. / latin mente habere
 rancier : verbe : (Région. (Wallonie)) mettre à rançon / "Racheter (par rançon) ; délivrer" 
 rasasier : "calmer la faim de (au propre ou au fig.)" 
-rasasier : verbe : "Calmer la faim de (au propre ou au fig.)"
+asasier : verbe : avoir en abondance
 ravi : trouble, exalté
 ravine : impétuosité, élan, force
 rebondir : voir bondir
+tant : tant ne quant : ni peu ni beaucoup
+ahurir : verbe : se précipiter sur (Godefroy 1446)
+rebraidir : verbe : répéter le hennissement d'un cheval, retentir (Godefroy 1446)
 rebriche : rubrique : substantif : "Titre écrit en rouge ; résumé des parties d'un ouvrage figurant en tête de celui-ci"
 recevoir : verbe : qqn est * de + inf. : "Autoriser qqn à + inf."
 rechiet : recept : demeure, logis/tanière/lieu fortifié
@@ -1164,13 +1229,13 @@ rescouse : substantif :  "Aide, secours"
 rescover : rescourre :  "Récupérer qqn/qqc. (en partic. par la force des armes)" 
 resnes : les raines : les raisons, moyen qu'on allègue en justice
 resoigner : Faire à *: "Être à craindre, être redoutable"
-resoviner : mettre de nouveau un malade en position étendue, sur le dos
+resoviner : verbe : retomber, renverser (Godefroy 1446)
 respitier : répiter : Mettre un délai à qqc (une bataille ajournée)
 respons : réponse, mais on n'est pas loin de "Oracle, prédiction" au 46rb
 restor : substantif : "Compensation, dédommagement"
 restorier : restaurer : "Compenser, réparer (un dommage)" 
 restorier : restaurer : A1 (Nostre Sire) * A2 : Rétablir qqn dans ses droits
-retenance : fait de retenir qqc. en mémoire, mémoire, souvenir
+retenance : fait de retenir qqc. en mémoire, mémoire, souvenir (Godefroy 1446)
 retraire : restroire : verbe : narration : "Dire, exposer, évoquer qqc." 
 retributaire : adjectif : tributaire : "(Celui) qui est soumis au paiement d'un tribut" 
 reuser : verbe : "Reculer, se retirer de qq. part"
@@ -1185,6 +1250,7 @@ roiste : adjectif : à propos d'une montagne : Raide, escarpée
 roit : adverbe : rudement
 roster :  [Synon. de ôter (avec une idée intensive plus ou moins vague, "ôter complètement" ?)] 
 roue : * de fortune
+revieler : verbe : "U il n’a chat soris i reviele." manifester sa joie de manière bruyante (Godefroy 1446)
 rover : "rechercher (qqn/qqc.)" 
 rover : latin rogare : demander
 ruignier : grogner, montrer les dents, se mettre en colère (Godefroy cite 1446 en cotexte avec "gromir") Attestation dialectale ds FEW X, 464a, au sens de "grogner" (aussi a.fr. ruigner, GD VII, 263a, FEW X, 461b). Ou rapprocher de grigner ?
@@ -1199,11 +1265,13 @@ saiaus : sceau (un * pend, comme dit le DMF) (orthographe "ard." dans FEW)
 saiete : flêche
 saillir : * em pieds : "Se lever vivement, se dresser" / * sus : "Se relever vivement"
 saison : 
+aremens : substantif : "Liquide noir, encre" 
 samblant : par * : "À ce qu'il semble, à ce qu'il paraît, apparemment, évidemment" 
 sambue : Housse de selle (ou de cheval)" (locution a sambues et a lorains)
 samit : DRAP. "Étoffe de soie sergée, samit" 
 sanch : substantif :  "Liquide organique qui circule dans les artères, dans les veines, dans le corps, qui y entretient la vie, la vitalité" / 
 saner : guérir, soigner
+rihoter : verbe : se disputer, se quereller (Godefroy cite le 1446 mais la citation n'existe pas et le verbe non plus en fait...)
 sanglant : couvert de sang, taché de sang
 sangler : porc sauvage, sanglier
 sanguinité : estre d'une * : avoir des parents directs en commun
@@ -1217,6 +1285,7 @@ sejor : substantif : séjour / ne faire * : ne pas s'attarder
 sejour : estre à * : "Rester, séjourner qq. part"
 semonre : semondre :  DR. FÉOD. [D'un seigneur] "Convoquer (un vassal) pour qu'il accomplisse un de ses devoirs (notamment dans le domaine militaire)" 
 senefiier : signifier
+billeté : adjectif : terme d'héraldique (écu) chargé de petits carrés longs appelés billettes (Godefroy 1446)
 senestre : substantif : "Qui est à gauche" 
 senuech : loc. conj. ne...* que. sans que (picardisme)
 septentrion : "Nord, septentrion" 
@@ -1226,6 +1295,9 @@ siege : substantif : "Action d'assiéger une place, opération militaire qui a p
 sience : "Ensemble de connaissances dans un domaine déterminé, discipline scientifique"
 siergant : serviteur 
 sierine : une sirène
+viestier : verbe : vestir, vêtir
+lés : substantif : côté / perdre un des * : perdre un bras
+moller : verbe : mouler : contremouler : contrefaire
 sierve : substantif: Personne soumise à une autre, servante
 sifait : tel, pareil
 sigler :  "faire voile (dans une direction donnée)"
@@ -1267,7 +1339,7 @@ tailleor : tailloir
 taiser : latin tacere : se taire
 tant : quantificateur : locution "si * non" équivalent à Fors /sauf tant (que). : "Si ce n'est (que)"
 targer : verbe : "Tarder, s'attarder"
-tas : substantif :  "Grande quantité, grand nombre (de personnes, d'animaux, de choses)"
+tas : substantif :  "Grande quantité, grand nombre (de personnes, d'animaux, de choses)" / se ferir au * : frapper fort, d'abondance
 tempiés : tempest : "tempête" mais aussi figurativement : Tracas, tourment
 tempre : "Au bout de peu de temps, vite, rapidement"
 temprement :  "Au bout de peu de temps, vite, rapidement" 
@@ -1275,7 +1347,7 @@ tenchillier : tenqueillier ? : verbe : Région. (Wallonie) : "Tendre ; maintenir
 tenecle : ténébreux, sombre : à rapprocher de l'espagnol "tiniebla" tiré de "tenebra" : le 25500 a compris le mot et met "teniebre"
 tenement : "Domaine, terres, possessions"
 tenrement : avec attendrissement ; avec tendresse
-tenser : * soi :  se défendre, se protéger (couple avec "garantir")
+tenser : verbe : garantir, protéger, défendre
 termine : terme, temps
 terrastre : substantif : désigne une poutre/solive pour la quintaine
 tierme : substantif : plusieurs sens dont : temps
@@ -1290,6 +1362,7 @@ touaille :  "Pièce d'étoffe volante placée sur la tête, sous une autre coiff
 touchier : verbe de narration :  "Parler de qqn ou qqc." 
 toudis : adverbe : "Toujours, sans exception" sans arrêt
 tour : substantif féminin : "Bâtiment construit en hauteur, carré, rond ou polygonal, dominant l'enceinte d'une ville ou d'un château, à fonction défensive" 
+menbreure : substantif : ensemble des membres d'un individus
 tour : substantif masculin : par autre * : d'un autre manière, d'autre façon
 tourbe : multitude de gens, foule, troupe
 tourner : verbe : "Effectuer un mouvement circulaire, un mouvement de rotation (total ou partiel), se mouvoir en rond" / revenir en arrière
@@ -1301,7 +1374,11 @@ trait : substantif : "Cours, parcours"
 tramettre : transmettre : verbe :  "Remettre, donner qqc. (à qqn)" 
 trampler : mis pour trembler
 treble : triple
+faites : substantif: affaires
+courardie : voire couardie
+couardie : substantif : "Lâcheté, couardise" 
 tref : "tente, pavillon" 
+esciver : verbe :
 tresaler : verbe : s'évanouir
 tresjeter : "Parsemer (d'éléments décoratifs)" barioler
 tresorier : substantif : "Celui qui a la responsabilité du Tresor, de la tresorie ou tresorerie (du royaume, d'une seigneurie, d'une communauté...)" 
@@ -1321,6 +1398,7 @@ umilier : verbe pronominal : s'* : "S'incliner devant qqn en signe de déférenc
 vainkere : substantif : "Celui qui a remporté la victoire, vainqueur" 
 vair : adjectif : [Du cheval] "Aux reflets changeants, tacheté" / un cheval gris pommelé, tacheté (le vair d'Orcanie, cheval de Dianor)
 vaiselemente : vaisselle
+dosnoi : substantif : "Plaisir de la galanterie, de la conversation amoureuse, p. ext. plaisir" 
 vallelaridane : ??? inconnu au bataillon
 vallet : serviteur, domestique  / jeune homme noble placé, pour sa formation, au service d'un seigneur (comme page, comme écuyer...)
 van : (?? utilisé comme étalon de mesure : aussi grand comme deux vans) "Corbeille d'osier à fond plat servant à séparer le bon grain des balles, de la paille et de la poussière, van"
@@ -1349,38 +1427,46 @@ vii : vié : interjection dont le sens est à définir
 viler : verbe : jouer un air à la viole
 viliel : substantif : village
 vilisse : vice (graphie à définir)
-virole : "Anneau métallique dont on garnit un outil, un manche, une arme, une pièce... pour l'empêcher de se fendre" 
+virole : "Petit cercle de métal" 
 viser :  "Considérer (qqc), réfléchir (à qqc.), prendre garde à qqc." 
 viseter : visiter : Visiter qqn (du regard), lui apparaître
 viseu : "Rusé, habile"
+amiaublement  adverbe : d'une manière aimable (Godefroy 1446)
 viute : vileté : vilainie :  "Caractère de ce qui est vil, vilain, méprisable, infamie qui s'attache à qqc. (et qui rejaillit sur qqn)" 
 vochier : se * en : protester, contester, invoquer 
 voirement : adverbe : assurément, vraiment, effectivement / locution "si * comme" : "Aussi vrai que"
 voirs : adverbe : vrai
+resuer : verbe : voire suer
+suer : verbe : "Sécher en frottant, essuyer", "il sacha son espiel et le resua illuech a l'ierbe"
 voise : subjonctif présent 1 du verbe aler, aller
 voisin : adjectif :  "Qui est situé à proximité, qui est contigu" 
 volentriu : volenterif :  "Empressé, ardent" 
 vouer : Promettre par voeu, promettre solennellement" / Part. passé en empl. adj. : Estre * (prép.) + inf. : "Être destiné à + inf."
 vôtres : (écrit vrens mais sans doute vr̃es) faire des * : faire des siennes, n'en faire qu'à sa tête
-wacrer : vaucrer : Empl. intrans. "Voguer, naviguer" 
 wage : gage : garantie
+garant : venir à * : venir se mettre à l'abri, en sécurité
 warande : garenne : terrain où il est interdit de chasser sans permission
 warandir : protéger
-wareware : de * : en confusion, en désordre (FEW Douai 1300) ou "embûche" (godefroy)
-waucrer : parcourir en tous sens, courir (un pays, une région)
-wenliewe : 1 Wenelace (lire le commentaire de Gaston Paris)
+wareware : de * : en confusion, en désordre (FEW Douai 1300) ou "embûche" (godefroy cite 1446)
+waucrer : parcourir en tous sens, courir (un pays, une région), / être emporté par le courant (bas normand vancre)
+wenkeuwe : substantif : un détour (dans le renart coroné)
 wes : "abreuvoir, lavoir, étang" 
 wiiis : vide, morphologie à travailler (et à confirmer...)
 yeux : intransitif : mettre * : être attentif à (?? folio 15), avoir * (que) a : n'avoir pour seul but que
-
-
-
-
-
-
+matin : locution : de * : De bonne heure
+ensorcherer : verbe : ensorceler, soumettre à un sortilège (Godefroy 1446)
+guere : substantif : saisir de * : faire prisonnier, capturer, faire otage
+maneie : substantif : se mettre en la * de qqn : être sous la protection de qqn (P222)
+enchoumechier : verbe : commencer (Godefroy 1446)
+asseulé : pp adjectif : être privé de la société
+poines : locution : a poines : avec difficulté
+blanchoiier : verbe : paraître blanc, à la limite "émettre des reflets blancs"
+mor : substantif : en système comparatif (noir come *) : "Celui qui habite le Nord-Ouest de l'Afrique ou qui en est originaire, maure
+moshe : substantif : par analogie chromatique, désigne la pupille de l'oeil. Ce sens semble ne pas être répertorié (FEW 6/3.253a)
+lermion : substantif : désigne sans doute le cristallin (mot non référencé, Matsumura 2048b donne "glande lacrymale" mais ça n'est pas le sens.)
 
 a reprendre : 
-si a le vis .i. poi le tillie
+si a le vis .i. poi letillie : lentilleux
 couche
-descrukrier > descruchrier
+descrukrier > descruchrier = voir descrunquier : tomber violemment
 Celle qͥ la langue auoit ẽue

@@ -108,7 +108,7 @@
     <xsl:template match="p">
         <p style="display:inline;">
             <span style="float: left;padding-right: 15px;">
-                <b>§<span class="paraNum"><xsl:value-of select="substring-after(@n, 'P')"
+                <b>§&#160;<span class="paraNum"><xsl:value-of select="substring-after(@n, 'P')"
                     /></span></b>
             </span>
             <xsl:text> </xsl:text>
@@ -121,11 +121,12 @@
         <xsl:choose>
             <xsl:when test="@type = 'chapter'">
                 <p>
+                    <span class="headNum">[<xsl:value-of select="@n"/>]</span>
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
-            <xsl:when test="@type = 'section'">
-                <p class="section">
+            <xsl:when test="@type = 'sup_paragraphe'">
+                <p class="sup_paragraphe">
                     <xsl:apply-templates/>
                 </p>
             </xsl:when>
@@ -188,47 +189,54 @@
 
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., ',')"
-                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:value-of select="substring(., 1, string-length(.) - 1)"/>&#xA0;», </xsl:when>
+                            ><span style="white-space: nowrap;">—&#xA0;</span><xsl:value-of
+                            select="substring(., 1, string-length(.) - 1)"/>&#xA0;»,</xsl:when>
 
                     <!-- Template pour les spécifiques pour les discours en fin de <p> -->
-                    <xsl:when test="@style = 'last'"><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/></xsl:when>
+                    <xsl:when test="@style = 'last'">
+                        <span style="white-space: nowrap;">—&#xA0;</span>
+                        <xsl:apply-templates/>
+                    </xsl:when>
 
                     <xsl:when
-                        test="preceding-sibling::said and following-sibling::said[1][@rendition = 'dialogue']"
-                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>
+                        test="preceding-sibling::said and following-sibling::said[1][@rendition = 'dialogue']">
+                        <span style="white-space: nowrap;">—&#xA0;</span>
+                        <xsl:apply-templates/>
                     </xsl:when>
-                    
-                    <xsl:when
-                        test="following-sibling::said[1][@rendition = 'dialogue']"
-                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>
+
+                    <xsl:when test="following-sibling::said[1][@rendition = 'dialogue']">
+                        <span style="white-space: nowrap;">—&#xA0;</span>
+                        <xsl:apply-templates/>
                     </xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said or position() = 1 and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '.')"
-                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>&#xA0;» </xsl:when>
+                            ><span style="white-space: nowrap;"
+                        >—&#xA0;</span><xsl:apply-templates/>&#xA0;» </xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '?')"
-                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>&#xA0;»
-                    </xsl:when>
+                            ><span style="white-space: nowrap;"
+                        >—&#xA0;</span><xsl:apply-templates/>&#xA0;» </xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and ends-with(., '!')"
-                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>&#xA0;»
-                    </xsl:when>
+                            ><span style="white-space: nowrap;"
+                        >—&#xA0;</span><xsl:apply-templates/>&#xA0;» </xsl:when>
 
                     <xsl:when
                         test="preceding-sibling::said and not(following-sibling::said[1][@rendition = 'dialogue']) and not(matches(., '^.*[\.!\?]$'))"
-                        ><span style="white-space: nowrap;">–&#xA0;</span><xsl:apply-templates/>&#xA0;»</xsl:when>
+                            ><span style="white-space: nowrap;"
+                        >–&#xA0;</span><xsl:apply-templates/>&#xA0;»</xsl:when>
                 </xsl:choose>
             </xsl:when>
-           
+
 
             <!-- Template pour les débuts DIALOGUE -->
 
-            <xsl:when test="position() = 1 and following-sibling::said[@rendition = 'dialogue']"> 
+            <xsl:when test="position() = 1 and following-sibling::said[@rendition = 'dialogue']">
                 «&#xA0;<xsl:apply-templates/></xsl:when>
-            
+
 
             <xsl:when test="@direct = 'true' and @aloud = 'true' and not(@rendition = 'dialogue')">
                 <xsl:choose>
@@ -239,10 +247,12 @@
                     <!-- Template pour les spécifiques pour les discours type "dis me tu" -->
                     <xsl:when test="@style = 'nogap'">
                         «&#xA0;<xsl:apply-templates/>&#xA0;»</xsl:when>
-                    
+
                     <!-- Template pour les spécifiques pour les discours en fin de <p> -->
-                    <xsl:when test="@style = 'last'">
-                        «&#xA0;<xsl:apply-templates/></xsl:when>
+                    <xsl:when test="@style = 'last'"> «&#xA0;<xsl:apply-templates/></xsl:when>
+
+                    <!-- Template pour les spécifiques pour les discours enchâssés -->
+                    <xsl:when test="@style = 'embedded'"> “<xsl:apply-templates/>”</xsl:when>
 
                     <!-- Condition propre au discours direct avec incise terminale non précédée ou suivie d'un DD (ou sans incise) -->
                     <!-- Type : – Et j'en ferai la besougne ! » dist il. -->
@@ -362,8 +372,7 @@
         <xsl:choose>
             <xsl:when test="starts-with(@rend, 'rubricated')">
                 <span class="rubricated">
-                    <span class="headNum">[<xsl:value-of select="ancestor::div[1]/head/@n"/>]</span>
-                    <xsl:text> </xsl:text>
+                    <span class="headNum"><!--[<xsl:value-of select="ancestor::head/@n"/>] --></span>
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
@@ -374,10 +383,10 @@
                     </span>
                 </sup>
             </xsl:when>
-            <xsl:when test="@rend = 'italique'">
-                <i>
+            <xsl:when test="@rend = 'italic'">
+                <span style="font-style: italic;">
                     <xsl:apply-templates/>
-                </i>
+                </span>
             </xsl:when>
             <xsl:when test="starts-with(@rend, 'decorated-initial')">
                 <span class="lettrine"
@@ -479,9 +488,20 @@
     <xsl:template match="seg">
         <xsl:choose>
             <xsl:when test="@ana = 'lettre'">“<xsl:apply-templates/>”</xsl:when>
-            <xsl:when test="@ana = 'chanson'">“<xsl:apply-templates/>”</xsl:when>
+            <xsl:when test="@ana = 'chanson'">
+                <br/>
+                <div class="chanson">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
             <xsl:when test="@ana = 'proverbe'">“<xsl:apply-templates/>”</xsl:when>
+            <xsl:when test="@ana = 'divergences'">
+                <span class="divergences">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
             <xsl:otherwise>'<xsl:apply-templates/>'</xsl:otherwise>
+
         </xsl:choose>
     </xsl:template>
 
@@ -535,7 +555,7 @@
     </xsl:template>
 
     <xsl:template match="processing-instruction('oxy_comment_start')">
- 
+
         <span class="tooltip">
             <svg fill="#0096ff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="-62.89 -62.89 609.57 609.57" xml:space="preserve" transform="matrix(-1, 0, 0, 1, 0, 0)rotate(0)" stroke="#0096ff" stroke-width="0.00483789"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="4.83789"/><g id="SVGRepo_iconCarrier"> <g> <g> <polygon points="434.77,405.332 465.895,405.332 465.895,122.667 329.895,122.667 329.895,280.288 329.895,293.333 316.073,293.333 167.228,293.333 167.228,405.332 361.895,405.332 361.895,483.789 "/> <path d="M17.895,280h30.88l73.12,79.973V280h45.333h149.333V122.667V0H17.895V280z M266.138,116.6 c6.267,0,11.989,3.4,16.407,6.067c5.43,5.333,8.885,11.845,8.885,19.549c0,13.968-11.325,25.453-25.292,25.453 c-13.968,0-25.294-11.565-25.294-25.533c0-7.701,3.453-14.133,8.886-19.467C254.145,120,259.867,116.6,266.138,116.6z M199.927,116.6c6.267,0,11.99,3.4,16.408,6.067c5.429,5.333,8.886,11.845,8.886,19.549c0,13.968-11.326,25.453-25.294,25.453 c-13.968,0-25.293-11.565-25.293-25.533c0-7.701,3.454-14.133,8.886-19.467C187.937,120,193.66,116.6,199.927,116.6z M133.715,117.243c13.971,0,25.293,11.326,25.293,25.293c0,13.968-11.325,25.293-25.293,25.293 c-13.968,0-25.293-11.325-25.293-25.293C108.422,128.565,119.748,117.243,133.715,117.243z M67.507,117.243 c13.968,0,25.293,11.326,25.293,25.293c0,13.968-11.326,25.293-25.293,25.293c-13.971,0-25.293-11.325-25.293-25.293 C42.214,128.565,53.538,117.243,67.507,117.243z"/> </g> </g> </g></svg>
             <span class="tooltip-content">
@@ -549,8 +569,8 @@
         </span>
     </xsl:template>
 
-<!-- les non breaking spaces sont ici -->
-  
+    <!-- les non breaking spaces sont ici -->
+
 
 
 </xsl:stylesheet>

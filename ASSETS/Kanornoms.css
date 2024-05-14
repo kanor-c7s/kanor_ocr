@@ -109,20 +109,22 @@ a:active {
 
 
 
-.persName {
-
-}
 
 
 .placeName {
     display: inline-block;
     text-indent: 0em;
+        color:magenta;
 }
 
-.placeName {
-
-
+.persName {
+    text-indent: 0em;
+    color:blue;
+        display: inline-block;
+    text-indent: 0em;
+    color:red;
 }
+
 
 .rs {
     color: navy;

@@ -8,7 +8,7 @@
 
             <head>
                 <title>Kanor et ses frères</title>
-                <link rel="stylesheet" type="text/css" href="./ASSETS/Kanorpropre.css"/>
+                <link rel="stylesheet" type="text/css" href="./ASSETS/Kanornoms.css"/>
                 <meta http-equiv="cache-control" content="no-cache"/>
                 <meta http-equiv="expires" content="0"/>
                 <meta http-equiv="pragma" content="no-cache"/>
@@ -365,7 +365,7 @@
 
     <!-- Template pour les éléments persName -->
     <xsl:key name="person-by-id" match="person" use="@xml:id"/>
-
+    
     <xsl:template match="persName">
         <span class="tooltip">
             <span class="persName">
@@ -395,15 +395,15 @@
             </span>
         </span>
     </xsl:template>
-
-
+    
+    
     <!-- Template pour les éléments placeName -->
     <xsl:template match="placeName">
         <span class="placeName">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
+    
     <!-- Template pour les éléments rs -->
     <xsl:template match="rs">
         <span class="tooltip">

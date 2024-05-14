@@ -30,7 +30,7 @@
    </teiHeader>
    <text>
       <body>
-         
+
          <div>
             <head> L'ODD </head>
             <schemaSpec ident="septSages" start="TEI">
@@ -94,6 +94,7 @@
                            <valItem ident="#hand1"/>
                            <valItem ident="#hand2"/>
                            <valItem ident="#hand3"/>
+                           <valItem ident="#hand4"/>
                         </valList>
                      </attDef>
                   </attList>
@@ -174,24 +175,14 @@ cette dernière est fautive
                               <desc> Any physical harm to the surface that entirely ereases
                                  information </desc>
                            </valItem>
-                           <valItem ident="illegible">
-                           </valItem>
+                           <valItem ident="illegible"> </valItem>
                            <valItem ident="unknown">
                               <desc>Where the type of gap is unknown.</desc>
                            </valItem>
                         </valList>
                      </attDef>
-                     <attDef ident="unit" mode="replace" usage="opt">
-                        <valList type="closed">
-                           <valItem ident="g">
-                              <desc> The unit to be measured is glyph coded in the "g" element. It
-                                 is comparable to a character. </desc>
-                           </valItem>
-                           <valItem ident="ab">
-                              <desc> The unit to be measured is a glyph-block coded in the "ab"
-                                 element. </desc>
-                           </valItem>
-                        </valList>
+                     <attDef ident="extent" mode="change" usage="req">
+                        <valList type="open"/>
                      </attDef>
                   </attList>
                </elementSpec>
@@ -255,13 +246,13 @@ cette dernière est fautive
                </elementSpec>
 
 
-                 <elementSpec ident="quote" module="core" mode="change">
+               <elementSpec ident="quote" module="core" mode="change">
                   <attList>
                      <attDef ident="type" mode="replace" usage="req">
                         <valList type="closed">
                            <valItem ident="proverbe"/>
                         </valList>
-                        </attDef>
+                     </attDef>
                   </attList>
                </elementSpec>
 
@@ -517,6 +508,7 @@ cette dernière est fautive
                            <valItem ident="discoursEnchassé"/>
                            <valItem ident="lettre"/>
                            <valItem ident="chanson"/>
+                           <valItem ident="divergences"/>
                         </valList>
                      </attDef>
                      <attDef ident="rendition" mode="replace" usage="opt">
@@ -526,15 +518,15 @@ cette dernière est fautive
                      </attDef>
                   </attList>
                </elementSpec>
-               
+
                <!-- éléments du module MSDESCRIPTION -->
 
                <elementSpec ident="altIdentifier" module="msdescription" mode="change">
                   <content>
-                        <elementRef key="idno" minOccurs="1" maxOccurs="2"/>
+                     <elementRef key="idno" minOccurs="1" maxOccurs="2"/>
                   </content>
                </elementSpec>
-               
+
                <elementSpec ident="msDesc" module="msdescription" mode="change">
                   <content>
                      <sequence>
@@ -594,9 +586,16 @@ cette dernière est fautive
                         <valList type="closed">
                            <valItem ident="damage"/>
                            <valItem ident="omitted"/>
-                           <valItem ident="unknown"/>
+                           <valItem ident="missing"/>
                         </valList>
                      </attDef>
+                   <!--  <attDef ident="source" mode="replace" usage="req">
+                        <valList type="closed">
+                           <valItem ident="#B"/>
+                           <valItem ident="#McMunn"/>
+                           <valItem ident="#FPZ"/>
+                        </valList>
+                     </attDef>-->
                      <attDef ident="cert" mode="replace" usage="opt">
                         <valList type="closed">
                            <valItem ident="low"/>
@@ -605,7 +604,7 @@ cette dernière est fautive
                      </attDef>
                   </attList>
                </elementSpec>
-               
+
                <elementSpec ident="surplus" mode="change" module="transcr">
                   <attList>
                      <attDef ident="reason" mode="replace" usage="req">
