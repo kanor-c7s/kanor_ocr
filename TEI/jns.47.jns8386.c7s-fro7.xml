@@ -14123,10 +14123,11 @@
                   avoit entendues lor paroles, si fu apareilliés, et dist : <said aloud="true"
                      direct="true">Dame, mout i faites ore un lonch train de venir amont u li
                      chastelains vos mande.</said>
-                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist elle, merci.
-                     Volentiers i vois et envis<note type="notelangue">À contre-coeur, malgré
-                        moi.</note> le lais.</said></p>
+                  <said rendition="dialogue" aloud="true" direct="true" style="last">Sire, dist
+                     elle, merci. Volentiers i vois et envis<note type="notelangue">À contre-coeur,
+                        malgré moi.</note> le lais.</said></p>
             </div>
+
             <div type="sup_paragraphe">
                <p n="P331"><hi rend="decorated-initial 2 red">D</hi>ame, dist la puciele encore vos
                   je que vos faites grant folie de laler devant ce que vos sacies u li tourier st̾.
