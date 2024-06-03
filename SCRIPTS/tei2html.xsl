@@ -489,10 +489,9 @@
         <xsl:choose>
             <xsl:when test="@ana = 'lettre'">“<xsl:apply-templates/>”</xsl:when>
             <xsl:when test="@ana = 'chanson'">
-                <br/>
-                <div class="chanson">
+                <span class="chanson">
                     <xsl:apply-templates/>
-                </div>
+                </span>
             </xsl:when>
             <xsl:when test="@ana = 'proverbe'">“<xsl:apply-templates/>”</xsl:when>
             <xsl:when test="@ana = 'divergences'">
