@@ -7759,8 +7759,9 @@
                      dist <persName key="Hayno">Haynos</persName>. Or ça ! Dites dont queus novieles
                      nos dirés vos por coi vostre vie puist iestre sauvé.</said>
                   <said rendition="dialogue" aloud="true" direct="true">Et coment, biau signeur !
-                     Queus novieles volé vos oïr ? Si vorroie morrir en piece de tiere avant que je
-                     ne vos fuisse aidans a vostre hounour sauver !</said>
+                     Queus novieles volé<supplied reason="omitted">s</supplied> vos oïr ? Si vorroie
+                     morrir en piece de tiere avant que je ne vos fuisse aidans a vostre hounour
+                     sauver !</said>
                   <said rendition="dialogue" aloud="true" direct="true">C'est faus ! dist <persName
                         key="Hayno">Haynos</persName>. Ja n'i es tu des chevaliers <persName
                         key="Pelyarmenus">Peliarmenus</persName>.</said>
@@ -13633,17 +13634,17 @@
                   que li damoisiel eurent l'otroi dou roi de Hongrie qu'il devoient a lui repairier
                   ja si tost ne seroient sage de ce que vos avés oït. Si se partirent de
                      Meotopane<note type="notecritique">Il s'agit d'une graphie sans doute fautive
-                     de <hi rend="italic">Mesopotanie</hi> avec absence de s et métathèse.</note>,
-                  une citei u il demoiroient a celui tans, et si se misent en lor chemin ensi qu'il
-                  cuidierent mius venir en la contré dont il estoient venut. Mais avant qu'il
-                  euissent chevauchié <num>x</num> jors entiers, leur avint qu'il s'enbatirent en un
-                  chastiel u il lor avint une mervilleuse aventure, car li chastelains avoit veut
-                  enchiés le roi les damoisiaus, si les encontra a l'issue dou chastiel ensi com il
-                  i devoient entrer. Et il les conut, et il lui niant. Dont il s'aresta a aus et lor
-                  enquist <said aloud="true" direct="false">qui il furent</said>, ausi com il ne les
-                  euist onques veus. Il disent qu'<said aloud="true" direct="false">il estoient de
-                     la tiere au roi de Hongrie, et si s'en aloient en une besoigne u il avoient
-                     afaire.</said>
+                     de <hi rend="italic">Mesopotanie</hi> avec absence de s et métathèse. B comme C
+                     disent Meotopane.</note>, une citei u il demoiroient a celui tans, et si se
+                  misent en lor chemin ensi qu'il cuidierent mius venir en la contré dont il
+                  estoient venut. Mais avant qu'il euissent chevauchié <num>x</num> jors entiers,
+                  leur avint qu'il s'enbatirent en un chastiel u il lor avint une mervilleuse
+                  aventure, car li chastelains avoit veut enchiés le roi les damoisiaus, si les
+                  encontra a l'issue dou chastiel ensi com il i devoient entrer. Et il les conut, et
+                  il lui niant. Dont il s'aresta a aus et lor enquist <said aloud="true"
+                     direct="false">qui il furent</said>, ausi com il ne les euist onques veus. Il
+                  disent qu'<said aloud="true" direct="false">il estoient de la tiere au roi de
+                     Hongrie, et si s'en aloient en une besoigne u il avoient afaire.</said>
                   <said rendition="dialogue" aloud="true" direct="true">Biau signor, dist il, je
                      veil que vos o moi demorés, et si soiiés anuit mi oste, car je vos ai veus en
                      l'osteil mon signor le roi, a cui je sui mout amis.</said> Cil demorerent la
@@ -14242,7 +14243,7 @@
                   trovés. Vees ici une chose dont li damoisiel furent trop mal avisé, car il
                   maintenant la porterent emi la court por plus de grevance as damoisiaus, et quant
                   la chastelaine le vit, si eut plus grant confusion que elle cheï par arriere,
-                  pasmée. Et quant elle revint, si dist : <said aloud="true" direct="true">Ha ! Trés
+                  pasmée. Et quant elle revint, si dist : <said aloud="true" direct="true">Ha ! Tres
                      mal avisé avés vos esté, biau signor, que je me dout que il ne vos covigne
                      morir de cest fait, car vos deuissiés avoir mon signor chaiens laisiet et pus
                      faint que vos le tenissiés com em prison por vostre raison avoir de lui. Or ne
@@ -15086,214 +15087,369 @@
                      por Diu.</said></p>
             </div>
             <div type="sup_paragraphe">
-               <p n="P352">
-                  <!-- nͣt li bons rois oi ce; que li
-                  damoi̾ disoit si fu trop plus ioians quil ne mosts̾t. et
-                  dist. je ne sai se cil que vos ci males comendant est plus de vostre partie que de
-                  lautre. mais je le veil veoir. a cest mot si vint la chastelaine devant le roi et
-                  se mist a genos depͥant amains ioites. Sire rois n/e/ doit fc̾hier pͬ amͬ ne pͬ
-                  hͣine. Dame dist il ne doutes. dites moi moi qui vos iestes. la dame qui auisee fu
-                  li dist tout en auteil çou leur de droit et de tort com vos avés oit. quant li
-                  rois eut ce enten dut; se neut mout grant mervelle et dist. Dame or nos faites
-                  venir vostre pere et elle si fist. adont conut li rois que ce fu cil qui avoit dit
-                  ce que je devant touchai. ensi com il li vint a lencont̾ et dist. Sire chevalier
-                  iaie entendut aucune chose de vos pͬ co je ve il connoist̾ se vos tous iestes com
-                  on me fait a entend̾. Sire vos ne av t̾s qui onques ne me virent. ne mont povoir
-                  de conoist̾ nient plus que pͬ un. trespas. Nonpͬqͣt dist li provierbes. que ꝑ le
-                  baisier comence li am̾s. tout autresi poues vos amer u hair lequeil que li cuers
-                  vos adonra mius en cestui kas qui ci est avenut ensi conme je lai entendut des
-                  parties. Ꝑ mon cief dist li rois. je saroie mout volentiers les raisnes de lun et
-                  de lautre. Iamaiᷤ dist li sires de crubois ne le saries devant ce que vos ares
-                  enten du les II parties. Iai entendut la chastelaine vre fille. quil a son signor
-                  ꝑdut. et si lont ochist cil damoisiel qui ci sont; ne sai mie a quel droit ne a
-                  quel tort. et nonpͬqͣt sil est ensi que la da me a dit; sai /ie/ bien a pau pries
-                  quil en est afaire. ire dist la dame je ne sai que cil damoisiel dit ont. mais a
-                  ce que ien sai de mon signor meime et d'iaus qui lont ocis. il est ensi come je
-                  vos ai dit. et vos biau signor dist li rois quen dites vus. Kanor si respondi.
-                  Sire la dame vos en a dit en partie verite. mais il vos covient savoir lochoison
-                  pͬ coi. Sicorus en fist ce que vos po̾es savoir. Nest nus hon qui ait cuer et
-                  entendement a vise; qui mout mius n'en doie amer de soie met̾ en lauentͬe de
-                  nostre signor pͬ tant que raisons de droit si atigne. ke soi met̾ pa pa our en la
-                  main a .i. traitoir mauais; que merci ne pitie na roit de nului. Sire de crubois
-                  dist li rois or respondes a ce que vos oois. Sire dist il; ma response est teille
-                  q selonch ce que li damoisiaus nos doune a entend̾; Sicorus si fu tͦp hastius
-                  selonch ce que il peuissent bien le chastel̾. avoir tenut ca sus. deci adont que
-                  il couingnable coulor euissent de lui iustecier. ꝑ /mon/ cief d̾ li rois je ne voi
-                  mie; que se li chast̾ euist este .i. de foi; quil ne covenist a ce ale que li sire
-                  de crubois a dit. mais ore alons a ce. que je mandai le chastel̾ quil n'euist
-                  envoiie les damoisiaus arrier dont il savoient quil sestoient parti de mon osteil
-                  u ien auoie fait autant come des miens meime. et il me remanda arrier quil
-                  estoient de soi parti. or cuit quil me mentist anchois en est avenut ce com j'ai
-                  une partie entendut. Sire dist li damoisiaus Kanor; despus que li chast̾ nos eut
-                  miᷤ en son osteil ꝑ grant signe damour et pus si nus mist seure ce dont nus ne
-                  sauomes parler. ne si ne soumes coupable nient autrement coume chascuns de vos
-                  seit. Nos ne partismes de lui quil ne nus ait covenu iestre cha sus en teil peril
-                  come vos poes savoir. ¶ quant li damoi̾ eut ce dist. li rois d̾. ore biau sire que
-                  dires vos que li chastelain me cela les damoisiaus en teil point que vos oes. Sire
-                  dist il. ne feist mie teus choses a cel̾ a vos mains ca nul autre et sil est ensi
-                  que vos avés dit. et li damoisiel dautre part tiesmoignent. mout ne fait a plaid̾
-                  ce quil len est avenut. par mon chief dist li rois je ne pus mie veoir que li
-                  chast̾ ne mesfeist plus enviers moi; quil ne feist enviers sicorus qui la ocis.
-                  Sire dist sicorus. sil mesfist plus enuers vos quil navoit fait enviers moi. Dont
-                  poues vos en vos auques concheuoir. que sil euist eut espasse; il i euist autremet
-                  mespris quil navoit. biau sire dist li rois. pͬ ce cuit je bien que vos vus
-                  hatᷤastes. que vos dou ties dou piis a recheuoir. Amen dist sicorus. Ꝑ mon chief
-                  d̾ li rois mais hasteḷ nest mie preus. mais je ne pus savoir; que celle ne fust
-                  mise ases a point misse au feu. Por a point et a eure siervir dou tierch mes. lors
-                  clugna li sire de crubois le roi et dist. Sire or vos covient que vos oes mon
-                  signor de princefuel. or tost dist il faites moi venir avant le bailliu de
-                  meotopane et le signor de princefuel. quant Kanor oi ce; si eut mout grant paour.
-                  coment sire u est li baillius quil nest ci aueuch vus. biau sire Kanor ia mavoit
-                  on fait a entend̾ qui li sire de pͥn cefuel le vos avoit amene et vos mie ne le
-                  vausistes conois tre. anchois laues blecie ensi conme je lai entendut. Si re dist
-                  il sauue soit vostre grasce. je doi a merveille amer celui qui pͬ mon bien vos a
-                  ci fait venir. mais de gondri vostre bail liu de meotopane. nai je mie veu despus
-                  que je me parti de vus. coment dist li rois ne la veistes vos mie venir aueuch le
-                  signor de princ̾. Sire dist li damoisiaus se ce fu il dont me men tirent mi oiel.
-                  et sui tͦp mesfais enviers vus. et non mie mainᷤ. enviers lui. Ce sares vos dist
-                  li rois. atant vint li baillius gon dris. et monta amont en la tour u li rois ere.
-                  et quant Kanor et li damois̾. le vinrent si sont sailli contre et si lont conioi
-                  si m̾ ueilleusem̃t que mout fu diu̾se chose a veoir. lors ꝑarla li rois et dist.
-                  coment baillius u est li sire de pͥncefuel. Sire dist il. li sires de prince̾ na
-                  mie conseil pͬ venir en vre p̾sence deci adont quil iert autrement aseures quil
-                  nest. voire dist li rois et u est il. Sire dist il ia est III liues loing u plus.
-                  et co ment dist li rois on mavoit fait a entend̾ que vos esties mout blecies. Dont
-                  sorrist li baillius et dist que dieus avoit fait en lui miracle. lors eut li rois
-                  grant joie et dist. Kanor biau sire Kanor que dites vos dou signor de princefuel
-                  qui sest partis de nos et li baillius nos est demorres qui Dieus a fait teil aiue
-                  co me vos poes veoir. Sire dist li ḅạịḷḷịụ damoisiaus dou bail liu qui ci est sui
-                  je mout ioians. et lies que nostre sire li a p̾stee sante et vigor tant quil puist
-                  met̾ confort et aiue que raisons et droitͬe nos soit faite dou honte et dou peril
-                  meime de la dece uance u nos auomes demorre pͬ coi la noreture ne li a mors que
-                  vos avés eue a nos; ne nos euist valut se poi non n'euist este sicorus mes freres
-                  et je meine qui mavisai dov traitor qui nus cuida decheuoir ꝑ la sanblance dou
-                  bailliu qui ci est. Kanor dist li rois or ne vos anuit car il porroit avenir encor
-                  bien que vos et autre en seront bien vengiet. Donn demanda li rois u cil ere qui
-                  son bailliu auot contrefait ausi come li mesa ges li avoit conte u il lavoit tͦue.
-                  Sire dist li rois il est au si come pries mors. Je veil dist li rois qui en ait
-                  son geͬre don. et toute ceste tiere soit mise en saisine. meime ce que li sires de
-                  princ̾. tient de nus mais que lires de cͬbois si acort. ire dist li sires de
-                  crubois je loeroie que vos fussies sai sis de ce que vos pories des parties deci
-                  adont que selonch les raisnes et les droitures; iugemens en fust rendus. autrement
-                  dist li rois nira il mie. ce ne seroit mie consaus couignb̾. qui autrement le
-                  feroit dist Kanor. Ensi avint que li rois fist saisier a lun les et a lautre por
-                  coi il avint que il covint que li damoi̾ et li chaste̾ de Gomor meime la chast̾
-                  dilluech furent arri ere mene en la citei de meotopane. mais bien povois savoir
-                  que il eurent aisie pͥson. Car quant la roine de hongͥe seut la verite des damoi̾.
-                  qui isi furent fil a lenp̾ et a lemꝑ de ro me si en eut si grant joie; que ia ne
-                  cuida reveoir le jor que le jamais les peuist reveoir. Por coi je truis escrit que
-                  de toutes les ioies dont j'ai parle ci devant en ceste histoire; nu le ne sen
-                  apartient a cesti que la roine fist des damoi̾; meime de la chast̾ quant elle eut
-                  entendut coment elle avoit d'iaus esploitie. Mais ci me covient laissier a parler
-                  d'iaus car bien i sarai repairier en liu et en tans et veil venir au roi Celidus
-                  de ih̾rle̾m dont je lasai le conte isi come vous aues oit devant. Ci endroit nus
-                  dist or/e/ li contes ausi come vos avés oit de sus. que quant li rois Celidus de
-                  ih̾rlm̾ eut faite sa fieste de son mariage; la roine si avoit detenue la biele Ga
-                  nor dont je vos auoie devant tͬitie coment li preus et li biaus di anor avoit son
-                  cuer ausi come desmaneue. Cest a di re que ꝑ la biaute quil vit en la puciele
-                  Ganor; il. ce fu ses cuers qui sesvanui de lui. et se mist en la puciele fust lui
-                  bi el u lait. et tout autresi fu il de la puciele; por coi que vosist u non; la
-                  roine le covint savoir qui mie n'en sen fist pau joians Dont je truis el conte;
-                  que quant elle seut le covenant de lun et de lautre elle vit au roi et li dist. Ha
-                  ! sire conme je me pus aui eusement tenir que je ne vos face asavoir une chose
-                  dont je ne sai mie se vos en niestes apierceus. Dame dist il dont me dires vos de
-                  coi. Je le vos dirai dist elle mais que vos maiies en covent que vos a nulu n'en
-                  mosteres samblant nient plus que vos n'en seuissies nient. Je ne vos arai ia ce en
-                  covent dist il. Car je ne sui mie a ce disposes que je tenir me peuisse de faire
-                  aucun samblant de pluisors choseᷤ qui mie ne se puent celer en cors doume qui
-                  auques puist iestre noueliers ausi com je sui. quant la roine oi ce si coumenca a
-                  sourire et dist. voire nient aues vos droit et je ne sui mie sages de ce que je me
-                  iue a vus. Car tous jours cuidies vos iestre trͣis. ha dame dist il; ce nest mie
-                  mͬueille se je me doute qui sui ent̾ tous honis. coment sire est ce au millor sens
-                  que vos avés que je me giu a vos et si ne saues de coi et pus si dites teus ꝑoles.
-                  Dame dame d̾ il; ne vos anuit nest mestiers que vos me diies chose qui me pu ist
-                  mouoir a ce dont je vos puisse reprend̾ ne vos moi. Sire d̾ elle je n'en sui mie
-                  consillie dou faire. et pͬ ce me veil taire de ce que je vos voloie dire. ¶ Ha !
-                  Dius com il diut iestre aue nus t̾s grans maus et crueus anuis de cestui afaire et
-                  vos dirai coment. li diables qui ne gaite fors les boins avoit grant duel quil
-                  avoit pierdut ce quil avoit mis selonch tans au por chacier. et mist en corage au
-                  bon roi Celidus. que Dianor ses cousins n'euist male volente enviers la roine cui
-                  il tenoit mout corte de jour en jor de paroletes qui toucho ient a ganor la biele
-                  quil en ama si parfaitement quil en ꝑdi le boire et le megier. et tant ala li
-                  afaires que la puciele sen pierciut dont il avint quen lamͬ queelle meime eut a
-                  lui elle deuint si orgueillouse; que parfaitemet les .vii. bran ches dorguel
-                  sestendirent si lonch entor soi que li osteus dov roi en estoit tous propͥs et si
-                  faisoit ꝑtout onbre el plus haut dou soleil deste. Ce est a dire; que quant on
-                  quidoit avoir plus de joie et plus desbatement en losteil la biele Gan̾ sesmo uoit
-                  daucun rain dorguel et si torbloit toute la court et faisoit ꝑtout tenecle. Dont
-                  il avint en cestui point que j'ai desus dit. que li rois senbati .i. jour es
-                  chanbres. la roine et dian̾ si erent mout fort a conseil de celi Ganor qui si ert
-                  devenue orguilleuse de ce quele seut que dian̾ lamoit que quant il pierciurent le
-                  roi chascuns mua co lor et li rois les vit et si cuida maintenant une chose qui
-                  mout fu contͣire a son cuidier. Mais la roine savi sa quil ne fu mie biel au roi
-                  de ce quil les avoit tͦues issi parlant li vns a lat̾ et que fist. Nature qui tͦp
-                  pau pẹuet mentir en feme; si sen orgueilli dautre pt en la roine ꝑ le pͬchas du
-                  diauble qui ne chacoit el que il peuist met̾ courous u il avoit si t̾s parfaite
-                  amͬ. Por coi la roine vint maintenant au roi. et li dist. que il chiere biauᷤ sire
-                  rois faites vus. Dame dist il je ne porroie faire se bone chiere non tant come je
-                  saroie que vos ne seissies se bien non. Mais quant je saroie que vos en feissies
-                  le contraire tout autresi feroie ie. voire dist la roine est ce orͤ de celi.
-                  Coment dame dist li rois est de celui. Ce nest or e de celui sire dist la dame;
-                  anchois est de celi. Dame dist li rois; tout autresi nest ce mie de celi; anchois
-                  est de celui. Ꝑ mon chief dist elle je veil que vos me diies del quel çou est; et
-                  puis vos dirai de laquele. Dame dist il se je vos disoie douqueil çou est; il
-                  covenroit que vos fussies mlt secree a ce que parole n'en issist. dont je ne
-                  autres n'en fusies mes meut en nule male maniere por coi je me corech̾s ce a vos
-                  ne vos a moi. Sire dist la dame tout autresi vos pus je dire de celi. Dame dist il
-                  bien aues dit. Je vos demant queus conseil aues vos si estrois a mon cousin dian̾.
-                  Sire dist elle; ce est de celi; de cui dist il sire de la biele Ganor. enqueil
-                  maniere dist li rois. En celi sire dist elle que vostre cousin ne sen puet
-                  consirer a ce quil dist. Dame dist il wardes que vos me diies voir. Sire se je ne
-                  vos di voir si cueres qui le vos die. Dame je vos croic mout. Sire et je vos poi.
-                  Dame je vos ai de celui. Sire et je vos di de celi. Dame or macoles. Sire or men
-                  sousfres. nsi demoura ceste chose en bien qui cuida iestre tor nee en grant
-                  malauenture. Dont li rois vint a dian̾ son cousin et li tͣist une raison mout
-                  estrange devant et dist. coment dian̾ me cuidies vos tous jors celer; ce dont vos
-                  iestes si ent̾pͥs. Sire dist il maisement vos pus ce ler ce dont li pluisor se
-                  piercoiuent. Nonpͬqͣt ne cuit je or mie que je sace pͬ coi vos avés dit ce que
-                  j'ai entendut. Je le le vos entend̾ dist li rois. ce veil je savoir dist il. Dont
-                  veil je dist que vos me dites pͬ que il raison vostre coulors est si paile et
-                  tainte que nov̾s ꝑ conseil de fisisien nul que je voie entor vus. Sire dist il ce
-                  que je nai fait porroie encore bien faire. Mais je ne sai fisisien nul en cui je
-                  euisse fiance com tout seul. mais cil si mest contraires a ce que vos poues veoir.
-                  Ha ! biaus cousin come li hon pͬcha ce sa male pais qui en dangier se meit. Je le
-                  pus auques sauo ir dist dian̾. Dont manoie dist il que vos iestes mis. Ha ! sire
-                  fait li chr̾s ia nest il mie hon qui en aucun dangier ne couigne iest̾. Il sont
-                  dangier san cui on ne puet et autre cui il covient met̾ arriere. Sire pͬ Diu dist
-                  dian̾. je ne sui en dangier qui mout bien ne me plaise. ꝑ mon cief dist li rois
-                  tout autresi feroit il moi se je estoie en vostre point. Mais sachies que se je i
-                  estoie; autre ment que vos ne faites je en esploiteroie. mout ano ioit dian̾ que
-                  li rois le tenoit isi de ꝑole. car en nule maniere il ne vausist que nus seuist sa
-                  maladie fors cele qui issi laloit destͣignant por coi il dist biau sire mout me
-                  plairoit que je seuisse que on fait en vostre contͤe car je mout sovent i sui en
-                  mon dormant. Dian̾ biau cousin mout me plairoit li alee de moi et de vos qui faire
-                  le porroit a lonor de Diu tout autresi com nos venimeᷤ en cesti contree. Sire dist
-                  il de vos ne cuit je mie que ce peuist iestre legierem̃t. mais de moi coment il
-                  que ce soit coument quil vos soit lait ne biel. avoi; sire çou sin quest ce ore
-                  que vos avés dit. Ia saues vos que je ne durroie .i. mois en ceste contree sans
-                  vos que maintenant ne me co russent seure cil qui maintenant st̾ tuit lie que je
-                  les lais en pais. nͣt dian̾ entendi le roi mout fu joians et dist. je ver rai
-                  coment il en iert car je covoite le rioite. Ꝑ mon chief dist li rois; je ne sai
-                  que vos feres mais ꝑ mon congie nires vos mie que je ne vois aueuch vus. Car je
-                  vos aseur que se vos iesties anuit meus; je demain moueroie coi ke la tiere deuist
-                  devenir. Ha ! sire cousin dist dia̾. ia vos cuidoie si sage. coment porroit il
-                  avenir que vos teil chose feries. pͬ lalee dun chevalier que vos ratenries de jor
-                  en jour. ꝑ mon chief dist li rois je naroie mie fiance que se vos de moi esties
-                  partis que je jamais vos deuisse reue oir. a mon besoing. mout eut grant merveille
-                  dian̾. de ce quil ooit le roi issi demener de salee. et nopͬqͣt ne sen peut
-                  consirer quil ne feist sanblant daler sa uoie; pͬ la raison de ce que la biele
-                  ganor le ietoit si lonch de maniere et de sanblant; com elle feist le plus sinple
-                  chevalier de losteil. Dian̾ qui avoit .i. cuer orguilleus a lautre les; si faisoit
-                  ausi come poi len fust. et touteᷤ voies len fu il tant que j'ai deseure dit. Mais
-                  pͬ chose quil en fust de sa bouche ne desclosist ce qui dedens soi estoit enclos.
-                  Car a samblant quil povoit en la puciele pier ceuoir ce fust pͬ nient. Dont il
-                  avint cun jor li rois ne se peut celer que il ne deist a la roine. Je ne regar leu
-                  re que nus pierdoines Dianor nostre cousin. Coment sire dist la roine que/st/ ce
-                  ore que vos dites. dame dist ce que vos poes oir. Stre dist elle je ne sui mie sor
-                  de benois soit ih̾ucͥs. Mais au mains me dites en que il maniere vos le cuidies
-                  pierd̾. En cesti ꝑole senbati la biele gan̾ qui avoit entendut que la dame avoit
-                  dit; en quel ma niere le crees vos a pierd̾. por coi elle cuida que ce fust de li
-                  et dist. Dame est ce ore consaus que vos dites. Damoisiele dist elle; ce nest
+               <p n="P352"><hi rend="decorated-initial 2 red">Q</hi>uant li bons rois oï ce que li
+                  damoisiaus disoit, si fu trop plus joians qu'il ne mostrat, et dist : <said
+                     aloud="true" direct="true">Je ne sai se cil que vos ci m'alés comendant est
+                     plus de vostre partie que de l'autre, mais je le veil veoir.</said> A cest mot,
+                  si vint la chastelaine devant <cb n="b"/> le roi et se mist a genos depriant a
+                  mains joi<supplied reason="missing">n</supplied>tes : <said aloud="true"
+                     direct="true">Sire, rois n<add hand="#hand1" place="above">e</add> doit
+                     flechier por amor ne por haine.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dame, dist il, ne doutés.
+                     Dites moi <surplus reason="repeated">moi</surplus> qui vos iestes.</said> La
+                  dame, qui avisee fu, li dist tout en auteil couleur de droit et de tort com vos
+                  avés oït. Quant li rois eut ce entendut, s'en eut mout grant mervelle, et dist :
+                     <said aloud="true" direct="true">Dame, or nos faites venir vostre pere.</said>
+                  Et elle si fist. Adont conut li rois que ce fu cil qui avoit dit ce que je devant
+                  touchai. Ensi com il li vint a l'encontre, et dist : <said aloud="true"
+                     direct="true">Sire chevalier, j'aie entendut aucune chose de vos por
+                        co<supplied reason="omitted">i</supplied> je veil connoistre se vos teus
+                     iestes com on me fait a entendre.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, vos ne autres qui
+                     onques ne me virent ne m'ont povoir de conoistre nient plus que por un trespas.
+                     Nonporquant dist li provierbes que <seg ana="proverbe">par le baisier comence
+                        li amors</seg><note type="notecritique">On peut ajouter également, sur la
+                        réversibilité des sentiments, <hi rend="italic">tel baise qui
+                        trahit</hi>.</note>, tout autresi povés vos amer u haïr lequeil que li cuers
+                     vos adonra mius en cestui kas qui ci est avenut, ensi conme je l'ai entendut
+                     des parties.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Par mon cief, dist li rois,
+                     je saroie mout volentiers les raisnes<note type="notelangue"><hi rend="italic"
+                           >Motif, argument qu'on allègue en justice.</hi> Origine latine commune
+                        avec <hi rend="italic">raison</hi> : <hi rend="italic">ratio</hi>.</note> de
+                     l'un et de l'autre.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Jamais, dist li sires de
+                     Crubois, ne le sariés devant ce que vos arés entendu les <num>ii</num>
+                     parties.</said>
+                  <said rendition="dialogue" aloud="true" direct="true" style="last">J'ai entendut
+                     la chastelaine, v<supplied reason="omitted">ost</supplied>re fille, qui<surplus
+                        reason="syntaxe">l</surplus><note type="notelangue">Nous pourrions
+                        considérer que <hi rend="italic">il</hi> est ici pronom personnel féminin de
+                        rang 3, ce qui est possible en picard. Mais postuler une légère erreur du
+                        scribe rend la syntaxe plus fluide.</note> a son signor perdut, et si l'ont
+                     ochist cil damoisiel qui ci sont, ne sai mie a quel droit ne a quel tort. Et
+                     nonporquant, s'il est ensi que la dame a dit, sai <add hand="#hand1"
+                        place="above">je</add> bien a pau priés qu'il en est afaire.</said></p>
+            </div>
+            <div type="sup_paragraphe">
+               <p n="P353"><said rendition="dialogue" aloud="true" direct="true"><hi
+                        rend="decorated-initial 2 blue">S</hi>ire, dist la dame, je ne sai que cil
+                     damoisiel diront, mais a ce que j'en sai de mon signor meime et d'iaus qui
+                     l'ont ocis, il est ensi come je vos ai dit.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Et vos, biau signor, dist li
+                     rois, qu'en dites vos ?</said> Kanor si respondi : <said aloud="true"
+                     direct="true">Sire, la dame vos en a dit en partie verité, mais il vos covient
+                     savoir l'ochoison por coi. Sicorus en fist ce que vos porés savoir. N'est nus
+                     hom qui ait cuer et entendement avisé qui mout mius n'en doie amer de soie
+                     metre en l'aventure de Nostre Signor por tant que raisons de droit si atigne ke
+                     soi metre pa<supplied reason="omitted">r</supplied> paour en la main a un <choice>
+                        <orig>traïtoir</orig>
+                        <reg>traïtour</reg>
+                     </choice> mavais que merci ne pitié n'aroit de nului.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire de Crubois, dist li
+                     rois, or respondés a ce que vos <choice>
+                        <orig>ooïs</orig>
+                        <reg>oés</reg>
+                     </choice>.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist il, ma response
+                     est teille q<supplied reason="omitted">ue</supplied>, selonch ce que li
+                     damoisiaus nos doune a entendre, Sicorus si fu trop hastius, selonch ce que il
+                     peuissent bien le chastelain avoir tenut çasus de ci a dont que il covingnable
+                     coulor euissent de lui justecier.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Par <add hand="#hand1"
+                        place="above">mon</add> cief, dist li rois, je ne voi mie que, se li
+                     chastelains euist esté uns <supplied reason="missing">hom</supplied> de foi,
+                     qu'il ne covenist a ce <supplied reason="missing" source="#KanorM"
+                        >estre</supplied> alé que li sire de Crubois a dit. Mais ore alons a ce que
+                     je mandai le chastelain qu'il m'euist envoiié les damoisiaus arrier, dont il
+                        savoi<del type="exponctuation" hand="#hand1">en</del>t qu'il s'estoient
+                     parti de mon osteil u j'en avoie fait autant come des miens meime. Et il me
+                     remanda arrier qu'il estoient de soi parti, or cuit qu'il me mentist, anchois
+                     en est avenut ce com j'ai une partie entendut.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist li damoisiaus
+                     Kanor, despus que li chastelains nos eut mis en son osteil par grant signe
+                     d'amour, et pus si nos mist seure ce dont nos ne savomes parler ne si ne soumes
+                     coupable nient autrement coume chascuns de vos seit, nos ne partismes de lui
+                     qu'il ne nos ait covenu iestre chasus en teil peril come vos poés
+                     savoir.</said></p>
+               <p n="P354">Quant li damoisiaus eut ce dist, li rois dist : <said aloud="true"
+                     direct="true">Ore, biau sire, que dirés vos que li chastelain me cela les
+                     damoisiaus en teil point que vos oés.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist il, ne feist mie
+                     teus choses a celer a vos mains c'a nul autre, et s'il est ensi que vos avés
+                     dit, et li damoisiel d'autre part tiesmoignent, mout ne fait a plai<supplied
+                        reason="omitted">n</supplied>dre ce qu'il<surplus reason="repeated"
+                        >l</surplus> en est avenut.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Par mon chief, dist li rois,
+                     je ne pus mie veoir que li chastelains ne mesfeist plus enviers moi qu'il ne
+                     feist enviers Sicorus qui <pb
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f109.image" n="52r"/>
+                     l'a ocis.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist Sicorus, s'il
+                     mesfist plus enviers vos qu'il n'avoit fait enviers moi, dont povés vos en vos
+                     auques conchevoir que s'il euist eut espasse, il i euist autreme<supplied
+                        reason="omitted">n</supplied>t mespris qu'il n'avoit.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Biau sire, dist li rois, por
+                     ce cuit je bien que vos vos hastastes, que<note type="notelangue">que vaut car.
+                        Dans KanorM, on lit : <hi rend="italic">que vous hastastes la besoingne pour
+                           ce que vous vous doutiez avoir encor pis.</hi></note> vos doutiés dou
+                     piis a rechevoir.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Amen,</said> dist Sicorus.
+                     <said aloud="true" direct="true">Par mon chief, dist li rois, <seg
+                        ana="proverbe">mais haste<del type="exponctuation" hand="#hand1">l</del>
+                        n'est mie preus</seg><note type="notecritique">Morawski 1208 : Mauvese
+                        ha[s]te n'est preuz ; Hassell 133, H15.</note>, mais je ne pus savoir que
+                     celle ne fust mise asés a point <surplus reason="repeated">misse</surplus> au
+                     feu por a point et a eure siervir dou tierch mes.</said> Lors clugna li sire de
+                  Crubois le roi, et dist : <said aloud="true" direct="true">Sire, or vos covient
+                     que vos oés mon signor de Princefuel.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Or tost, dist il, faites moi
+                     venir avant le bailliu de Meotopane et le signor de Princefuel.</said> Quant
+                  Kanor oï ce, si eut mout grant paour : <said aloud="true" direct="true">Coment,
+                     sire, u est li baillius qu'il n'est ci aveuch vos ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Biau sire Kanor, ja m'avoit
+                     on fait a entendre que li sire de Princefuel le vos avoit amené et vos mie ne
+                     le vausistes conoistre, anchois l'avés blecié, ensi conme je l'ai
+                     entendut.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire dist il, sauve soit
+                     vostre grasce, je doi a merveille amer celui qui por mon bien vos a ci fait
+                     venir, mais de Gondri, vostre bailliu de Meotopane, n'ai je mie veu despus que
+                     je me parti de vos.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Coment, dist li rois, ne <choice>
+                        <orig>la</orig>
+                        <reg>le</reg>
+                     </choice> veistes vos mie venir aveuch le signor de Princefuel ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist li damoisiaus, se
+                     ce fu il, dont me mentirent mi oiel, et sui trop mesfais enviers vos, et non
+                     mie mains enviers lui.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Ce sarés vos,</said> dist li
+                  rois. Atant vint li baillius Gondris, et monta amont en la tour u li rois ere. Et
+                  quant Kanor et li damoisiel le <choice>
+                     <orig>vinrent</orig>
+                     <reg>virent</reg>
+                  </choice>, si sont sailli contre, et si l'ont conjoï si merveilleusement que mout
+                  fu diverse chose a veoir. Lors par<surplus reason="repeated">ar</surplus>la li
+                  rois, et dist : <said aloud="true" direct="true">Coment, baillius ? U est li sire
+                     de Princefuel ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist il, li sires de
+                     Princefuel n'a mie conseil por venir en v<supplied reason="omitted"
+                        >ost</supplied>re presence de ci a dont qu'il iert autrement aseurés qu'il
+                     n'est.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Voire, dist li rois, et u
+                     est il ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist il, ja est
+                        <num>iii</num> liues loing u plus.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Et coment, dist li rois, on
+                     m'avoit fait a entendre que vos estiés mout bleciés ?</said> Dont sorrist li
+                  baillius, et dist que <said aloud="true" direct="false">Dieus avoit fait en lui
+                     miracle.</said> Lors eut li rois grant joie, et dist : <said aloud="true"
+                     direct="true">Kanor, biau sire Kanor, que dites vos dou signor de Princefuel
+                     qui s'est partis de nos, et li baillius nos est demorrés, qui Dieus a fait teil
+                     aiue come vos poés veoir ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist li <del
+                        type="exponctuation" hand="#hand1">bailliu</del> damoisiaus, dou bailliu qui
+                     ci est sui je mout joians et liés que Nostre Sire li a prestee santé et vigor
+                     tant qu'il puist metre confort et aiue que raisons et droiture nos soit faite
+                     dou honte et dou peril, meime de la decevance, u nos avomes demorré. Por coi la
+                     noreture ne li amors que vos avés eue a nos ne nos euist valut se poi non,
+                     n'euist esté Sicorus, mes freres, et je meine, qui m'avisai dou traïtor qui nos
+                     cuida dechevoir par la samblance dou bailliu qui ci est.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Kanor, dist li rois, or ne
+                     vos anuit, car il porroit avenir encor bien que vos et autre en seront bien
+                     vengiet.</said> Dont demanda li rois <said aloud="true" direct="false">u cil
+                     ere qui son bailliu avo<supplied reason="omitted">i</supplied>t
+                     contrefait</said> ausi come li mesages li avoit conté u il l'avoit trové. <said
+                     aloud="true" direct="true">Sire, dist li <choice>
+                        <orig>rois</orig>
+                        <reg>baillius</reg>
+                     </choice>, il est ausi come priés mors.</said>
+                  <said rendition="dialogue" aloud="true" direct="true" style="last">Je veil, dist
+                     li rois, qu'i en ait son gueredon et toute ceste tiere soit mise en saisine,
+                     meime ce que li sires de Princefuel tient de nos, mais que li <supplied
+                        reason="omitted">si</supplied>res de Crubois s'i acort.</said></p>
+            </div>
+            <div type="sup_paragraphe">
+               <p n="P355"><said rendition="dialogue" aloud="true" direct="true"><hi
+                        rend="decorated-initial 2 red">S</hi>ire, dist li sires de Crubois, je
+                     loeroie que vos fussiés saisis de ce que vos poriés des parties, de ci a dont
+                     que selonch les raisnes et les droitures jugemens en fust rendus.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Autrement, dist li rois,
+                     n'ira il mie.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Ce ne seroit mie consaus
+                        covign<supplied reason="omitted">a</supplied>ble <cb n="b"/> qui autrement
+                     le feroit,</said> dist Kanor. Ensi avint que li rois fist saisier<note
+                     type="notelangue">Employé dans le sens de <hi rend="italic">saisir</hi> ou <hi
+                        rend="italic">saisiner</hi>.</note> a l'un lés et a l'autre, par coi il
+                  avint que il covint que li damoisiel et li chastelains de Gomor, meime la
+                  chastelaine d'illuech, furent arriere mené en la citei de Meotopane. Mais bien
+                  povois savoir que il eurent aisïe prison car, quant la roine de Hongrie seut la
+                  verité des damoisiaus, qui isi furent fil a l'enpereour et a l'empereris de Rome,
+                  si en eut si grant joie que ja ne cuida reveoir le jor qu'ele jamais les peuist
+                  reveoir, por coi je truis escrit que de toutes les joies dont j'ai parlé ci devant
+                  en ceste histoire, nule ne s'en apartient a cesti que la roine fist des
+                  damoisiaus, meime de la chastelaine, quant elle eut entendut coment elle avoit
+                  d'iaus esploitié. Mais ci me covient laissier a parler d'iaus, car bien i sarai
+                  repairier en liu et en tans, et veil venir au roi Celidus de Jherusalem dont je
+                  lasai le conte, isi come vous avés oït devant.</p>
+            </div>
+         </div>
+         <div type="chapter" n="C20">
+            <div type="sup_paragraphe">
+               <p n="P356"><hi rend="decorated-initial 11 red">I</hi>ci endroit nos dist or<add
+                     place="above" hand="#hand1">e</add> li contes, ausi come vos avés oït desus,
+                  que, quant li rois Celidus de Jherusalem eut faite sa fieste de son mariage, la
+                  roine si avoit detenue la biele Ganor, dont je vos avoie devant traitié, coment li
+                  preus et li biaus Dianor avoit son cuer ausi come desmanevé<note
+                     type="notecritique">Le mot apparaît d'ailleurs au § 91 dans un sens plus
+                     concret.</note>, c'est a dire que par la biauté qu'il vit en la puciele Ganor,
+                     <surplus reason="syntaxe"><unclear reason="acertain" cert="low"
+                     >il</unclear></surplus> ce fu ses cuers qui s'esvanui de lui et se mist en la
+                  puciele, fust lui biel u lait. Et tout autresi fu il de la puciele, por coi que,
+                  vosist u non, la roine le covint savoir qui mie n'en <surplus reason="syntaxe"
+                     >s'en</surplus> fist pau joians. Dont je truis el conte que, quant elle seut le
+                  covenant de l'un et de l'autre, elle vi<supplied reason="omitted">n</supplied>t au
+                  roi, et li dist : <said aloud="true" direct="true">Ha ! Sire conme je me pus
+                     anieusement tenir que je ne vos face asavoir une chose dont je ne sai mie se
+                     vos en n'iestes apierceus.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dame, dist il, dont me dirés
+                     vos de coi.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Je le vos dirai, dist elle,
+                     mais que vos m'aiiés en covent que vos a nulu n'en mosterés samblant nient plus
+                     que vos n'en seuissiés nient.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Je ne vos arai ja ce en
+                     covent, dist il, car je ne sui mie a ce disposés que je tenir me peuisse de
+                     faire aucun samblant de pluisors choses qui mie ne se puent celer en cors
+                     d'oume qui auques puist iestre noveliers ausi com je sui.</said> Quant la roine
+                  oï ce, si coumença a sourrire, et dist : <said aloud="true" direct="true">Voire,
+                     nient avés vos droit, et je ne sui mie sages de ce que je me jue a vos, car
+                     tous jours cuidiés vos iestre traïs.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Ha ! Dame, dist il, ce n'est
+                     mie merveille se je me doute, qui sui entre tous honis.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Coment, sire, est ce au
+                     millor sens que vos avés, que je me giu a vos et si ne savés de coi, et pus si
+                     dites teus paroles.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dame, dame, dist il, ne vos
+                     anuit. N'est mestiers que vos me diiés chose qui me puist movoir a ce dont je
+                     vos puisse reprendre, ne vos moi.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist elle, je n'en sui
+                     mie consillïe dou faire, et por ce me veil taire de ce que je vos voloie
+                     dire.</said></p>
+               <p n="P357">Ha ! Dius, com il diut iestre avenus tres grans maus et crueus anuis de
+                  cestui afaire, et vos dirai coment. Li diables, qui ne gaite fors les boins, avoit
+                  grant duel qu'il avoit pierdut ce qu'il avoit mis se lonch tans au porchacier, et
+                  mist en corage au bon roi Celidus que Dianor, ses cousins, n'euist male volenté
+                  enviers la roine cui il tenoit mout corte de jour en jor de paroletes<note
+                     type="notelangue"><hi rend="italic">petits discours agréables et frivoles</hi>.
+                     FEW, 7.604b donne le mot pour hapax au 13e siècle.</note>, qui touchoient a
+                  Ganor la biele, qu'il enama si parfaitement qu'il en perdi le boire et le megier.
+                  Et tant ala li afaires que la puciele s'en pierciut. Dont il avint qu'en l'amor
+                  que elle meime eut a lui, <pb
+                     facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f110.image" n="52v"/>
+                  elle devint si orgueillouse que parfaitement les <num>vii</num> branches d'orguel
+                  s'estendirent si lonch entor soi que li osteus dou roi en estoit tous propris, et
+                  si faisoit partout ombre el plus haut dou soleil d'esté, ce est a dire que, quant
+                  on quidoit avoir plus de joie et plus d'esbatement en l'osteil, la biele Ganor
+                  s'esmovoit d'aucun rain d'orguel et si torbloit<note type="notecritique"><hi
+                        rend="italic">Torbler</hi>, graphie de <hi rend="italic">troubler</hi>,
+                     contient à la fois l'idée de brouille, d'intranquillité, et de
+                     mécontentement.</note> toute la court, et faisoit partout tenecle<note
+                     type="notelangue">L'usage adjectival signifie <hi rend="italic">ténébreux</hi>,
+                        <hi rend="italic">sombre</hi>. Ici, l'emploi est plutôt substantival et se
+                     traduit par <hi rend="italic">obscurité</hi>. Les autres témoins ont bien
+                     compris la graphie, car on lit <hi rend="italic">teniebres</hi>. On croit
+                     percevoir une hésitation dans le tracé du <hi rend="italic">l</hi> qui
+                     ressemble à un <hi rend="italic">b</hi>. Cette graphie est reprise par le FEW,
+                     10.205, (avec variantes <hi rend="italic">teniecle</hi>/<hi rend="italic"
+                        >tenegre</hi>) et Godefroy, 7.678b avec des exemples dans <hi rend="italic"
+                        >Philippe Mousket</hi> ou <hi rend="italic">Ami et Amile</hi>, ou encore le
+                        <hi rend="italic">Roman de Thèbes</hi> (Léopold Constans note avec humour,
+                     dans son édition (Glossaire, LXXVIIIa), que le mot est <hi rend="italic">à
+                        rapprocher de l'espagnol <hi rend="italic">tiniebla</hi>, de <hi
+                           rend="italic">tenebra</hi>, mais que la dérivation est
+                     «obscure».</hi>)</note>. Dont il avint en cestui point que j'ai desus dit que
+                  li rois s'enbati un jour es chambres. La roine et Dianor si erent mout fort a
+                  conseil de celi Ganor qui si ert devenue orguilleuse de ce qu'ele seut que Dianor
+                  l'amoit que quant il pierciurent le roi, chascuns mua color. Et li rois les vit et
+                  si cuida maintenant une chose qui mout fu contraire a son cuidier. Mais la roine
+                  s'avisa qu'il ne fu mie biel au roi de ce qu'il les avoit trovés issi parlant li
+                  uns a l'a<supplied reason="omitted">u</supplied>tre. Et que fist ? Nature, qui
+                  trop pau p<del type="exponctuation" hand="#hand1">e</del>uet mentir en feme, si
+                  s'en orgueilli d'autre p<supplied reason="omitted">ar</supplied>t en la roine par
+                  le porchas du diauble qui ne chaçoit el que il peuist metre courous u il avoit si
+                  tres parfaite amor, por coi la roine vint maintenant au roi, et li dist : <said
+                     aloud="true" direct="true">Queil chiere, biaus sire rois, faites vos ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dame, dist il, <unclear
+                        reason="rewritten" cert="low">je</unclear> ne porroie faire se bone chiere
+                     non tant come je saroie que vos ne seissiés se bien non. Mais quant je saroie
+                     que vos en feissiés le contraire, tout autresi feroie je.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Voire, dist la roine, est ce
+                     ore de celi.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Coment, dame, dist li rois,
+                     est de celui ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Ce n'est ore de celui, sire,
+                     dist la dame, anchois est de celi.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dame, dist li rois, tout
+                     autresi n'est ce mie de celi, anchois est de celui.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Par mon chief, dist elle, je
+                     veil que vos me diiés del quel çou est, et puis vos dirai de laquele.</said>
+                  Dame dist il se je vos disoie douqueil çou est; il covenroit que vos fussies mlt
+                  secree a ce que parole n'en issist. dont je ne autres n'en fusies mes meut en nule
+                  male maniere por coi je me corech̾s ce a vos ne vos a moi. Sire dist la dame tout
+                  autresi vos pus je dire de celi. Dame dist il bien aues dit. Je vos demant queus
+                  conseil aues vos si estrois a mon cousin dian̾. Sire dist elle; ce est de celi; de
+                  cui dist il sire de la biele Ganor. enqueil maniere dist li rois. En celi sire
+                  dist elle que vostre cousin ne sen puet consirer a ce quil dist. Dame dist il
+                  wardes que vos me diies voir. Sire se je ne vos di voir si cueres qui le vos die.
+                  Dame je vos croic mout. Sire et je vos poi. Dame je vos ai de celui. Sire et je
+                  vos di de celi. Dame or macoles. Sire or men sousfres. nsi demoura ceste chose en
+                  bien qui cuida iestre tor nee en grant malauenture. Dont li rois vint a dian̾ son
+                  cousin et li tͣist une raison mout estrange devant et dist. coment dian̾ me
+                  cuidies vos tous jors celer; ce dont vos iestes si ent̾pͥs. Sire dist il maisement
+                  vos pus ce ler ce dont li pluisor se piercoiuent. Nonpͬqͣt ne cuit je or mie que
+                  je sace pͬ coi vos avés dit ce que j'ai entendut. Je le le vos entend̾ dist li
+                  rois. ce veil je savoir dist il. Dont veil je dist que vos me dites pͬ que il
+                  raison vostre coulors est si paile et tainte que nov̾s ꝑ conseil de fisisien nul
+                  que je voie entor vus. Sire dist il ce que je nai fait porroie encore bien faire.
+                  Mais je ne sai fisisien nul en cui je euisse fiance com tout seul. mais cil si
+                  mest contraires a ce que vos poues veoir. Ha ! biaus cousin come li hon pͬcha ce
+                  sa male pais qui en dangier se meit. Je le pus auques sauo ir dist dian̾. Dont
+                  manoie dist il que vos iestes mis. Ha ! sire fait li chr̾s ia nest il mie hon qui
+                  en aucun dangier ne couigne iest̾. Il sont dangier san cui on ne puet et autre cui
+                  il covient met̾ arriere. Sire pͬ Diu dist dian̾. je ne sui en dangier qui mout
+                  bien ne me plaise. ꝑ mon cief dist li rois tout autresi feroit il moi se je estoie
+                  en vostre point. Mais sachies que se je i estoie; autre ment que vos ne faites je
+                  en esploiteroie. mout ano ioit dian̾ que li rois le tenoit isi de ꝑole. car en
+                  nule maniere il ne vausist que nus seuist sa maladie fors cele qui issi laloit
+                  destͣignant por coi il dist biau sire mout me plairoit que je seuisse que on fait
+                  en vostre contͤe car je mout sovent i sui en mon dormant. Dian̾ biau cousin mout
+                  me plairoit li alee de moi et de vos qui faire le porroit a lonor de Diu tout
+                  autresi com nos venimeᷤ en cesti contree. Sire dist il de vos ne cuit je mie que
+                  ce peuist iestre legierem̃t. mais de moi coment il que ce soit coument quil vos
+                  soit lait ne biel. avoi; sire çou sin quest ce ore que vos avés dit. Ia saues vos
+                  que je ne durroie .i. mois en ceste contree sans vos que maintenant ne me co
+                  russent seure cil qui maintenant st̾ tuit lie que je les lais en pais. nͣt dian̾
+                  entendi le roi mout fu joians et dist. je ver rai coment il en iert car je covoite
+                  le rioite. Ꝑ mon chief dist li rois; je ne sai que vos feres mais ꝑ mon congie
+                  nires vos mie que je ne vois aueuch vus. Car je vos aseur que se vos iesties anuit
+                  meus; je demain moueroie coi ke la tiere deuist devenir. Ha ! sire cousin dist
+                  dia̾. ia vos cuidoie si sage. coment porroit il avenir que vos teil chose feries.
+                  pͬ lalee dun chevalier que vos ratenries de jor en jour. ꝑ mon chief dist li rois
+                  je naroie mie fiance que se vos de moi esties partis que je jamais vos deuisse
+                  reue oir. a mon besoing. mout eut grant merveille dian̾. de ce quil ooit le roi
+                  issi demener de salee. et nopͬqͣt ne sen peut consirer quil ne feist sanblant
+                  daler sa uoie; pͬ la raison de ce que la biele ganor le ietoit si lonch de maniere
+                  et de sanblant; com elle feist le plus sinple chevalier de losteil. Dian̾ qui
+                  avoit .i. cuer orguilleus a lautre les; si faisoit ausi come poi len fust. et
+                  touteᷤ voies len fu il tant que j'ai deseure dit. Mais pͬ chose quil en fust de sa
+                  bouche ne desclosist ce qui dedens soi estoit enclos. Car a samblant quil povoit
+                  en la puciele pier ceuoir ce fust pͬ nient. Dont il avint cun jor li rois ne se
+                  peut celer que il ne deist a la roine. Je ne regar leu re que nus pierdoines
+                  Dianor nostre cousin. Coment sire dist la roine que/st/ ce ore que vos dites. dame
+                  dist ce que vos poes oir. Stre dist elle je ne sui mie sor de benois soit ih̾ucͥs.
+                  Mais au mains me dites en que il maniere vos le cuidies pierd̾. En cesti ꝑole
+                  senbati la biele gan̾ qui avoit entendut que la dame avoit dit; en quel ma niere
+                  le crees vos a pierd̾. por coi elle cuida que ce fust de li et dist. Dame est ce
+                  ore consaus que vos dites. <!-- Damoisiele dist elle; ce nest
                   consaus quil ne vos ceuenist mout savoir se il iert avenut. Dame toutes les choses
                   que je poroie bien savoir quant elles seroient avenues; ne seroit mie mes tiers
                   que je le seuisse devant. li rois respondi a ce et dist. Nonpͬqͣt na mie demi an
