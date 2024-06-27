@@ -2534,7 +2534,7 @@
                      aloud="true" direct="true">Sire, vees ici un mien fil que je covoite mout qu'il
                      vous peuist faire siervice, et autresi a vostre enfans que vous peuist plaire.
                      Et por itant vous requier je que vous en faciés chevalier a l'honor de Diu et
-                     de Sainte Eglise.</said> Li emperere esgarda le damoisiel, si vit q<supplied
+                     de sainte Eglise.</said> Li emperere esgarda le damoisiel, si vit q<supplied
                      reason="omitted">u</supplied>'a grant biauté n'avoit il mie failli, et il li
                   enquist son non. Il li dist qu'il avoit non <persName key="Ganor"
                      >Ganor</persName>.<said aloud="true" direct="true"><persName key="Ganor"
@@ -2585,7 +2585,7 @@
                VIIe au moment de la chute des voyelles finales, donc &gt; compte, conte et raconte.
                Par analogie donc, 'racont'."?>racont<?oxy_comment_end?>, car je
                   cuit que asés legier fussent asiervit, car chascuns ne chaçoit mie le ventre a
-                  emplir, mais a faire chose dont on peuist savoir que il, li siergant de Sainte
+                  emplir, mais a faire chose dont on peuist savoir que il, li siergant de sainte
                   Eglise, seroient contre ciaus qui adont le vausissent foler <note type="apparat"
                      >Comprendre avec V3 «fouler» > fullare et non «foler» > follis </note>. Teus
                   estoit lor ordenemens au tans de dont. Je ne sai mie queus il est au jor d'ui. Por
@@ -2674,7 +2674,7 @@
                   >r</del>ierfaus descent a sa proie, se sont entraprochiet ferant des esporons. Qui
                   dont euist veü la contenance d'iaus <num>ii</num> dire peuist : <said aloud="true"
                      direct="true" style="nogap">Cist n'ont mie le repos encoumenchiet !</said> Car
-                  je truis escrit que si ataignanment feri li uns sor l'autre que longement n'euist
+                  je truis escrit que si ataïgnanment feri li uns sor l'autre que longement n'euist
                   mie duré li Grius quant uns chevalier de <placeName key="Puille"
                      >Puille</placeName>, que li escris apiele <persName key="Fenor"
                      >Fenor</persName>, jeta les mains a <persName key="Dorus">Dorus</persName> et
@@ -3671,7 +3671,7 @@
                      ?</said> Dont li fu dit : <said aloud="true" direct="true">Dame, <add
                         hand="#hand1" place="above">une</add> puciele les aporte de hors vile, mais
                      nous ne savons qui çou a fait.</said>
-                  <said rendition="dialogue" aloud="true" direct="true">Par Sainte Crois, dist elle,
+                  <said rendition="dialogue" aloud="true" direct="true">Par sainte Crois, dist elle,
                      savoir le veil.</said> Dont avint un jor apriés que la puciele aporta autre
                   juiaus en la vile, par coi elle fu espiie et menee devant la chastelainne, et li
                   fu enquis do<supplied reason="omitted">n</supplied>t teil juiel venoient ne qui
@@ -5365,7 +5365,7 @@
                   porfendoient chevaus et chevalier. Li autre avoient faicons<note type="ntravail"
                      >lat. >factio ? C'est peu satisfaisant. Le mot est coordonné à plusieurs termes
                      relevant de l'armement. Le mot "façon" ne comprend pas ce sens.</note> et
-                  braceroles et mainte pluisor autre armeure qui ne fust nus qui treist come Sainte
+                  braceroles et mainte pluisor autre armeure qui ne fust nus qui treist come sainte
                   Englise si prova.</p>
                <p n="P104">Li chastelains, qui mie ne se mist arriere de l'eglise son droit a
                   soustenir, achainst le marchis a l'un lés et ne fust nus qui contre lui et les
@@ -5458,7 +5458,7 @@
                   devant li et joinst ses mains, et dist : <said aloud="true" direct="true">Puciele,
                      mais que ce voirs soit, hautement en merci celui qui por vos autresi morrut
                      come por moi, et vos tigne parseveranment en cest estat. Por coi, a l'aide de
-                     moi, et a vostre confort, Sainte Eglise en puist iestre ensaucïe.</said>
+                     moi, et a vostre confort, sainte Eglise en puist iestre ensaucïe.</said>
                   <said rendition="dialogue" aloud="true" direct="true">Amis, dist elle, a mon
                      povoir vostre requeste en iert asovie. Mais ceste chose covient mout ferment
                      celer, de ci a dont que Nostre Sire nos en donra maniere, por coi il en iert
@@ -5714,8 +5714,8 @@
                      merci, pusqu'il est ensi qu'il plaist a <placeName key="Jhesucrist"
                         >Jhesucrist</placeName> que vos soiiés de ciaus qu'il rachata de son
                      precieus sanc <supplied reason="omitted" source="V3">quant il fu</supplied>
-                     estendut en la figure de la Sainte Crois, si porchachiés tant que nos par
-                     puissons venir o liu ou il morut a si grant honte come Sainte <supplied
+                     estendut en la figure de la sainte Crois, si porchachiés tant que nos par
+                     puissons venir o liu ou il morut a si grant honte come sainte <supplied
                         reason="omitted" source="V3">Eglise</supplied> le tiesmoigne.</said>
                   <said rendition="dialogue" aloud="true" direct="true">Or esgardons, dist elle, en
                      queil maniere coment nos en puissons mius a chief venir, car il est voirs que
@@ -15580,264 +15580,431 @@
                      povés auques savor qui ce puet iestre, et se vos ne savés, j'el vos dirai. Ce
                      est mes cousin Dianor, qui de moi se vieut partir et repairier en son païs
                      arrier.</said></p>
+
+               <p n="P363">Quant la puciele ce entendi, mout li ganga<note type="notelangue">Il
+                     s'agit d'une dérivation de <hi rend="italic">canger</hi>, <hi rend="italic"
+                        >changer</hi>, à approfondir.</note> en poi d'eure ses corages et mua
+                  colour, vausist u non, dont elle par fu trop courecïe en li meime, et dist ausi
+                  come por li escuser : <said aloud="true" direct="true">Biau sire, de v<supplied
+                        reason="omitted">ost</supplied>re cosin n'ai je mie mout grant merveille,
+                     s'il vos laissoit et il vos en anuioit, mais de moi ne vos puet il mie mout
+                     iestre a ce que je ne pus veoir que vostre osteus en soit mie mout embielis
+                     quant je plus i seroie.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Damoisiele, dist la
+                        roine,<cb n="b"/> il ne vos covient mie mout parler de ce, car li pluisor
+                     sevent bien le biauté et l'osbcurté<note type="notelangue">La métathèse
+                        n'empêche pas de comprendre le mot.</note></said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dame, dist elle, vos avés
+                     voir dit.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Coment, sire, dist la roine,
+                     est ce a chiertes de vostre cousin qu'il repairier s'en vieut arriere en France
+                     ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dame, dist il, ensi le vieut
+                     faire cui qu'il soit, biel ne lait.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dame, dist la puciele,
+                     voirement avoie je droit, se je ne m'en sui entremisse de lui amer ne chierir a
+                     ce que je ne m'en puisse deporter quant lui plaira partir de la contree.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Damoisiele, dist elle,
+                     toutes ne sont mie si sages q<supplied reason="omitted">ue</supplied> vos
+                     iestes.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Par mon chief, dist li rois,
+                     quant ce venroit au voir dire damoisiele d'Eschalone que je cuit que vos me
+                     tolés men cousin.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Avoi ! Sire, qu'est ce ore
+                     que vos avés dit ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Par sainte Crois,
+                     damoisiele, je ne sai qui le dist mon s<supplied reason="omitted"
+                     >i</supplied>gnor, mais ¶ il se dist voir.</said></p>
             </div>
             <div type="sup_paragraphe">
-               <p n="P363"> ¶ quant la puciele ce entendi; mout li ganga en poi deure ses corages.
-                  et mua colour vausist u non dont elle ꝑfu tͦp courecie en li meime et dist ausi
-                  come pͬ li escuser. Biau sire de vre co sin nai je mie mout grant m̾veille sil vos
-                  laiᷤsoit et il vos en anuioit. Mais de moi ne vos puet il mie mout iestre a ce que
-                  je ne pus veoir que vostre osteus en fait mie mout enbielis. quant je plus i
-                  seroie. Damoisiele dist la roine il ne vos covient mie mout parler de ce. Car li
-                  pluisor se uent bien le biaute et losbcurte. Dame dist elle vos avés voir dit.
-                  Coment sire dist la roine; est ce a chiertes de vostre cousi̾ quil repairier sen
-                  uient ar riere en france. Dame dist il; ensi le vieut faire cui quil soit biel ne
-                  lait. Dame dist la puciele voi rement auoie je droit se je ne men sui ent̾misse de
-                  lui amer ne chierir a ce que je ne men puisse de porter quant lui plaͥra partir de
-                  la contree. Damoi siele dist elle. toutes ne sont mie si sages q vos iestes. ꝑ mon
-                  chief dist li rois quant ce venroit au voir dire. damoisiele deschalone que je
-                  cuit que vos me toles men cousin. avoi; sire quest ce ore que vos avés dit. ꝑ
-                  sainte crois damoisiele je ne sai quile dist mon sgnͬ; maiᷤ a puciele quant elle
-                  oi ce; onques. ¶ il se d̾ voir. nule feme ne peut iestre plus joians com elle fu
-                  et dist. Dame dont me dires vos en que il maniere. Iel vos dirai dist elle. dont
-                  le tͣist a soi et li dist en bas. Ia saues vos les ꝑoles que je vos ai aucune fois
-                  dites de lui et vos pus les aues ietees si lonch de vus. Dame dist elle merci. Ia
-                  saues vos que cest nature de feme et de nos toutes que quant nos veons .i. home
-                  que nos sa uons quel nos aime que nos mains le prisons. que celui de cui il ne lor
-                  est riens de nos. Ha ! dist la roine co me vos aues dite une ꝑole. que je tieng a
-                  mal or denee. et que se je estoie que de Dianor; come je vos en feroi cencor a
-                  soufir. Ꝑ sainte crois je ne vos en doute ne lui ausi. Damoisiele damoisiele pͬ
-                  Diu merci; laissies poure gent durer. Je sui ce le qui jamais ne veil ma bouche
-                  ouurir. nen euisse je fait. se ꝑ vos n'euist este. quant la puciele oi ce; si se
-                  repenti de ce quele avoit dit. et si pesa en soi meime et dist. vraiement dame je
-                  sui tpͦ hastiue; et bien saie que pͤmierement. mes cuers sadouna a ce que tͦp me
-                  pleut la biautes de dian̾. Mais ce quil ne me requist onques si ataignaum̃t com il
-                  deuist. ne me puet mener a ce quil men soit nient auteͬment que vos avés veu. Je
-                  sa dist elle com ment çou est. Dont le me dires vos dist elle. Ia mais ne vos en
-                  cuer parler dist la roine. Dont vos comant a Diu dist la puciele. Isi tost ne vos
-                  me teres vos mie a la voie dist la roine que nus ne parlomeᷤ autrement a uos.
-                  quant ce entendi la biele gan̾ que li covenoit de la roine qui si gndement lavoit
-                  honeree; se li atenri se orgues et vint en aucun liu et prist une suie puciele et
-                  dist. coment vos siet li cuers de ce que nos nus deuomes de ci partir pͬ ral̾ ent
-                  en nostre paiis. ha damoisiele dist cele qui amo it ꝑ amors .i. escuhier dian̾. Je
-                  mes cors de ci sen puet partr. mais li miens cuers demoura el roial osteil de
-                  ih̾rlm̾. coment dist elle; vos ni a mes mie ꝑ amͬs. ꝑ amͬs; dist elle oiie autant
-                  com vos faites. autant com je fais se tu tant i aimes com car il meime sest pͥsies
-                  deci a ore. Mais a ce ien ia entendut; d'iaus et grans pities en peut avenir pͬ
-                  poi dochoison. or me dites lochoison dist la biele ganor car je le veil savoir. Ia
-                  dist cele le sares. ce nest ꝑ fors ꝑ vostre orgueil qui en poi deure iert tost
-                  abatus mais que cil ait passe le mer de gͤsse. va; fole dist la pu ciele come tu
-                  ies hardie quant tu ce moses dire conques ne fist ma dame la roine. Je sai mius
-                  quil en puet avenir quelle ne sach̾ dist la meschine. voir se d̾. Car au matin
-                  sans a nului prend̾ congiet se fu mis au chemin ent̾ lui et son escuhier ausi come
-                  .i. hon qui ne seut que il faisoit et ne fina derrer lun jour plus lautre mains et
-                  vint en la citei dakre. Illuech ert .i. prinches de franche venus en pelerinage et
-                  ert cuens de la maͬche. aliaumeᷤ avoit non et fu au tans au roi Gaurri; dont je
-                  deuant auoie fait mension u conte issi come Neror /li damoius/ ariva en cartage.
-                  Mais de ce ne fait ore li contes autre mension que quant Dianor fu venus en acͤ.
-                  Il sacointa a celui aliaume qui iert mout jones chr̾s et hon de grant chr̾e et
-                  preudon de son cors et grans riches hon. pͬ coi dia̾ li fu tͦp bien venus. mais
-                  dou tout ne dist mie dont il fu fors tant quil dist; quil venoit de la tiere de
-                  ih̾rlm̾. u il avoit demor re III ans. et pͬ ce quil avoit triues ou pais ert il
-                  venus en acre. Pͬ coi li rois de ih̾rlm̾ fu mout esbahis quant il li virent
-                  novieles que ses cousins se fu issi patis de lui. et ne veut a nu lui iehir la
-                  verite pͬ le confusion de lui. anchois li salua la roine et la biele ganor pͬ ce
-                  que vos porres oir. Coment dist la roine puet ce avenir quil est de nus partis en
-                  teil maniere. Da me dist il; nel tenes ore mie a vilounie. mais a grant mervel le.
-                  Car mes cousin est dune maniere quil a le cuer si piteus quil ne peuist prend̾
-                  congiet a nos sans tpͦ grant confusion de cuer. pͬ demoree quil doie faire. ꝑ foi
-                  d̾ la roine ainch mais de teil chose noi. a puciele ganor quant elle ce entendi.
-                  onqs. ¶ parler. mais feme ne fu si abaubie et dist. Ha ! dame merci; je meime me
-                  sui tolue ꝑ mon orgueil que vos poes veoir. ꝑ ma foi dist la roine onques mais
-                  feme de valour; si grant orguel ne ut en li come vos avés eut. Dame dist elle.
-                  onques ne fu isi orguilleusse; come je sui en endroit humelie. Cieͬtes dist elle;
-                  quant la vengance de vos iert pͥse. ore sui je lie. dont li com fusions et li
-                  damages doit iestre vres. mout se demenerent en tre la biele ganor et la roine. Ne
-                  fust qus qui euist oi les repro ces que la roine li dist. que mout grant mervelle
-                  n'en peuist avoir de ce que la puciele soufroit. si deboinairement ce que on li di
-                  soit. Por coi il avint /que/en pluisors lius envoia /le/ chevalier apries me sages
-                  pͥues pͬ savoir en quel liu il ert viertis. Dont il avint quelle seut quil ert en
-                  acre. en teil maniere come j'ai dit desus. A celi tans nestoit encore marages fais
-                  de la fille au roi gauri dont j'ai toucie devant. et dou prince de Kartage. Celle
-                  puciele avoit non liibane et fu puciele de teil non que tͦp en ot la biele puciele
-                  ganor grant doute. pour coi elle vint a sa meschine et dist. voirement maues vos
-                  bien dit ce que j'ai troue. Encore dist cele ne saues vos a que chief vos en
-                  porrieᷤ venir. Non dist elle; et pͬ ce en veil je ourer ꝑ ton conseil. Je vos lo
-                  dist la puciele que pus que mesire vos a mandee; que vos faites que vos soies
-                  enchies lui; et pus si men laissie covenir ¶ Ensi d̾ elle soit. adont pͬchaca et
-                  fist tant la puciele. Ganor; quele eut le gͤ dou roi et de la roine .i. mois mais
-                  apries ceḷẹ quele repairast. se le jamais voloit avoir noviele dou chevalier
-                  dian̾. Isi avint que quant elle fu enchies son pere et sa mere. dou tout se mist
-                  au lit. et ne se peut conforter; anchois dist que jamais naroit sante deci adont
-                  quele seroit arriere. li princes ses pere en eut trop grant duel. car il se
-                  pierciut camorᷤ avoient a ce mise la puciele. et pͬ celui dian̾ qui issi partis
-                  sesto it dou paiis. Issi come il estoit en cestui anui li rois gau ri dacre envoia
-                  a lui quil le secourust de lui. car il avoit jor de bataille au prince de cartage.
-                  la puciele seut cest mant. et pria mout devotem̃t quil i alast et feist au roi sou
-                  cours. li pͥces i ala plus pͬ le priiere de sa fille que por el il se mist cele
-                  part a tout grant gent et qñ avint. ausi com ꝑ auen ture dian̾ seut que li pͥnces
-                  fu la venus. mais onques a lui ne se fist conoist̾. anchois eurent lor gent li
-                  rois et li prinches de cartage. et si pleut a nostre signor que cͤstiien furent
-                  desconfi en maniere que li rois dacͤ fu pris. et li prices descalone me nes en
-                  voie quant Dianor le rescoust a laide del preu conte aliau me. qui tant eurent
-                  celui jour a sousfrir que mout seroit grans pi ties seroit dou recorder. mais ce
-                  que je nai mie espasse et me covient aillors entend̾. me fait que je men passe
-                  outre a ce que quant la bataille fu remesse. li cuens aliaume vint au prince des
-                  calone et li dist. Sire prince je nai mie merveille se vos iestes rescous. mais de
-                  ce que la desierte en a faite vorroie je oir parler volentiers. Ha ! sire dist li
-                  prince merci. Je ne sai mie que nus autres que Dius en peuist faire le desierte.
-                  fors ce que je sui tous vr̃es afaire vostre comandement. Ꝑ mon chief dist li
-                  cuens. a moi nen gist mie do tout li guerredons. anchois ai .i. chr cui vos en
-                  deues gre savoir. Sire dist il dont covient que je sace qui il est. Il ma deffendu
-                  dist li cuens; que je n'en face ia men sion. mais je veil que vos le voiies.
-                  coment a non dist li princes; Dianor. Ꝑ mon chief dist li cuens voir aves dit. je
-                  ne sai qui le vos noma. Ha ! sire dist li pͥnces. Ia navons nos en la tiere de
-                  ih̾rl̾en. que II chr̾s dont cest li .vn dist li p̾nc̾ bien le cͦi dist li cuens
-                  mais dites moi de que il linage il est qui si eschari ement vint a moi en ceste
-                  citei. li princes li a tout iehi qnͣquil en savoit. et li dist que nus hon nestoit
-                  si abaubis de ce que li rois ne savoit /v/ il estoit. Je nen veil ore plus savoir
-                  dist li cu ens puis que je sai qui il est. Ne vos onques plus n'en faites mension.
-                  ont avint que li pͥ̃ces de cartage manda le roi devant lui et eurent tost concorde
-                  faite parmi ce que li rois envoia la puciele libane au prince chedrus ꝑ maniere
-                  que je de uant ai touchie ai el conte. li princes descalone se mist ar riere en la
-                  tiere de ih̾rlm̾ u il avoit laissiet la puciele gan̾. qui mout avoit pierdue de sa
-                  biaute. en ce que tainte et paille es toit de la grant amor quele avoit au biel
-                  Dianor. et quant li pͥnc̾ vint devant la puciele elle encoumenca mout tenrement a
-                  plo rer et dist. ha biaus pere u est li iuiaus que vos me ramenes. main tenant
-                  seut li princ̾. de quil iuiel elle parloit et dist. Ha ! chiere fille. come je
-                  cuit se cil iuiaus n'euist este de cui vos parles ṇẹụ ịṣṭ ẹṣṭẹ que ieuisse este en
-                  grant dangier. Dont me dires vos dist elle de que il iuiel vos cuidies que je
-                  ꝑoil. Ꝑ foi je cuit que ce soit d̾ il; du preu et cortois Dianor qui me rescoust u
-                  on men eeuoit. pris ꝑ deuiers le pͥce de cartage. Coment sire pͬ queil rai son
-                  aues vos ore ce dit. Por ce dist il que je me cuide voir dire. Ꝑ sainte crois dist
-                  elle; bon adeuinor vos sai. Je le pensoie bien dist il; et coment dist elle; fu ce
-                  que vos ne le ramenastes en ces paiis. Por ce dist il; que il ne veut mie que nus
-                  le coneuist de ceste contree. Ꝑ foi dist elle ioi grant merueille. Dont ꝑ lerent
-                  mout et se demenerent mout de son repairier. et avint que li rois seut cest
-                  covenant et manda le prince qui li conta co ment li rois dacre avoit esploitiet
-                  isi com j'ai dit desus. et quant il euret tant demene ce que dian̾ avoit fait. si
-                  dist li rois. Prinches je me dout de mon cousin ꝑd̾ en lochoison de la biele ganor
-                  vostre fille. Sire dist li pinces je pense bien que vos voles dire. et ien feraiᷤ
-                  tout ce quil vos plaira et a ma da me la roine. vos avés bien dit fait li rois.
-                  Dont eurent consel de mander le chevalier et il si fisent. mais il leur remanda
-                  quil ert a signor quil ne peut ore mie laissier devant ce quil en aroit plus grant
-                  mestier. Dont il avint ausi conme ce fust chose souᷤ haidie. que li rois des
-                  mediiens et cil de pierse meimes li ke nelui et li rois dinde. asanblerent lor
-                  gent ausi come soudain nement et a larron et vinrent en la tiere dendioce. li
-                  pr̃ces qui ases pourement ert conviertis; lais asavoir au roi quil le soucorust et
-                  il maintenant a son cousin ce que vos aues oit. i rois qui ne fu mie a seiour mist
-                  grant painne a ce quil peuist aler au devant de cele gent. lor se mist a sagent
-                  semonre et ni eut prince nul qui mout ne fust abau bis del chevalier Dianor qui
-                  mie nestoit el paiis. Mais nonpͬqͣt misent il lor gent ensanble. et vinrent a une
-                  jornee danthi oce u li os as sarasins estoit. Nouieleᷤ virent au prince qui vo
-                  lentiers se meist a merci ꝑ maniere quil demeurast sire de la cite. mais nulement
-                  ne le voloient saͬrasin consentir. et il leur fist asavoir quil leur renderoit le
-                  roi de ihrlm̾ a faire leur volente. Il lor dist̾ que se il peuist ce fera il de
-                  moroit en la princee. Por coi len dist que li rois seut cest afai re ꝑ ce que les
-                  femes au prince; dont Dianor avoit este si bien com jou ai dit desus le fist
-                  savoir au prince de rohais ausi com ꝑ .i. mervilleus tour. li prince vint au roi
-                  et li dist; que il ere trais se il se conbatoit contre sarrasins coment le saues
-                  vus. il li dist. vees ici let̾s que ien ai eue de la feme au prince. li rois fu
-                  abaubis et ne seut que il conseil croire. Car mout avoient de gent sarrasin plus
-                  quil ne peuist avoir. Por coi il sauisa dune chose mout merveilleuse. Car il manda
-                  au roi dinde .i. jour de parlement qui sacorderoit volentiers a aus de la tiere
-                  dandioche ꝑ le conseil du prince qui mie nestoit bons cͤstiiens a ce quil
-                  entendoit. Cil rois dinde estoit a merve ille loiaus ch̾es et parlent ensamble en
-                  triues. et leur covint a ce que li roir d inde; seut le traison dou pͥc̾he et
-                  dist. Sire de ih̾rlm̾ retraiies arriere et je sarai dou price la ueri te en triues
-                  que je veil qui soient donees ent̾ nos. ¶ Ensi a uint que li rois dinde pͥst
-                  respit et manda le pͥnce danthͥ oce et il vint a lui et li iehi quil voloit trair
-                  le roi de ih̾rl̾m ensi come j'ai dit desus. Ha ! dist li rois dinde come cest male
-                  chose de tͣir son signor. et je loeroie que on vos detͣ sist a chevaus qui iestes
-                  de teil engien. Sire dist il autremet nai je povoir de demourer en ma tiere. Ia
-                  par cest tor ni demorres dist li rois et retͣies vos arriere dont vos iestes
-                  venus. li princes se remist dedens anthioce et fu mout abaubis et ne seut que
-                  faire. Car il seut bien que se sarasin venoient au de seure de lui quil ne
-                  demoroit mie quil ne fust destruis. lors vint au roi de ih̾rlm̾ et li dist. Ha !
-                  sire je me doute je ne sai se j'ai droit. Ia saues vos que ma tiere fu ausi come
-                  couiertie a la vostre loi. et je meime vos ai ma suer dounee et doit a uoir grant
-                  amor ent̾ vos et moi. Sire princes dist li rois je na roie point de fiance que vos
-                  deuissies faire nule vilounie en viers moi tant com je fusse si bien de vostre
-                  serour com je sui. li princes quant il oi le roi ensi pler. si se repͥst en lui
-                  meime et dist. Sire je vos meit le princee en vostre main. Come cil qui rien ni
-                  clain. car sarrasin me heent et sui tous ciertains que tant que je viue la tiere
-                  ne tenroie en pais. pͥnces dist li rois sageᷤ iestes et je vos donrai aillors
-                  tiere et bien a vostre chois. pͬ coi je veil que vos me demores pͬ faire cel chose
-                  estable. Por coi je ve il en cief prendre ceste bataille. au roi de mede. De ceste
-                  chose fu a merveille lies. et avint que li rois se mist dedens an thioce et se
-                  fist aseure de tous. dont il en fu a merveille pͥsieᷤ. et mout joiant en furent
-                  cil de la cite pͬ la noble grasce que li rois avoit. Dont il avint quil ne demora
-                  mie que li une ꝑ tie et li autre eurent leur afaire atire pͬ avoir la batail le a
-                  lendemain dont li respis failloit a la nuit deuant. este chose ne peut mie iestre
-                  celee. queauant que ce peu ist iestre avenut avoient courut novieles de cestui
-                  afaire por coi li pͥnces Dianor avoit le conte aliaume a ce mis quil sestoient mis
-                  a uenir a ceste empͥse que je vos ai fait mension. Por coi le nuit de la bataille
-                  desus dite. vinrent au roi qui si ioians en fu de lor venue que il li sambla quil
-                  ne uist chose a faire dont il deuist bien avenanment a chief venir. Dont nus
-                  tͦuons ca lendemain il i ot si grant baịtaille que trop seroit grant riote dou
-                  recorder. et por ce me veil je ore atant passer out̾ et a ce venir quen la fin
-                  furent sarain desconfi si a poi pries que li rois si seut et vit. que chose quil
-                  feist. ne le peuist avoir tense quil n'euist este vaincus. se li cuens aliav mes
-                  et dian̾ ne leuissent secorut. mais cil fisent tant dar mes que nus ne le poroit
-                  croire. mout i eut de gent a lun les et a lautre .ṽinin. sarasin et .inininin.
-                  cͤstiiens. furent asme dune part et dautre. la endroit fu ochis li prinches de
-                  rohais et cil danthioce et li pͥnches de rohais afoles dune ianbe. a lav t̾ les.
-                  li rois de mede ochist li rois de ihr̾lm̾ et pluisors autres. li cuens aliaumes
-                  ocist .i. turch dinde qui mout avoit fait de damage a lor gent. li preus Dianor
-                  autres. ocist II auma cors. lun de gͥfale et lautre de cordes. et aueuch maint
-                  plui sor autre. Tout ce asoui. avint que mout grant loenge et grant joie eut en
-                  anthioce apries ceste avenue. Ni de mora eglise qui mout n'en fust enforciement
-                  honoree. ¶ Apries ce li pͥnces descalone manda le roi que pͬ Diu il ve nist a lui
-                  come cil qui cuidoit maintenaint morir. et quant il vint devant lui si li dist en
-                  grant amor quil a son viuant ase nast sa fille en lui dont il morus plus a pais.
-                  li rois fist apieler Dianor et li dist. biaus cousin je vos aime come mon bon ami.
-                  et mon proisme. Je vos doins le prince danthioce et toutes les apedances. quant
-                  dian̾ oi ce; mout le rechieut en grant amor si que ce ne fu mie mout grant
-                  merveille. Car a ce lui tans ert ce la millors tiere de ihrlm̾. En cestui don li
-                  d̾ li rois. biaus cousin sor vos veil je marier. pͬ ce que je ne veil mie que vos
-                  puissies guerpir la contree. si demant au prince descalo ne qui ci est la biele
-                  Ganor sa fille. quil le vos doinst a feme; co ment quil lenploit bien u autrement.
-                  Ha ! sire dist li princes bien saues que je ne la porroie si bien enploiier. lors
-                  fu joians dia̾. que ne se seut a plus grant joie a contenir com il fist. et ne
-                  demora que ceste noviele ne demoura que ceste noviele ne venist en eskalone a la
-                  biele Ganor qui ne se seut coment elle se peuist plus ioiousement contenir et dist
-                  a la pricesse sa me re. Ha ! tres bone eureuse qui me portastes pͬ si grant honor
-                  a recheuoir; come je entent que li souerains Dius de natureᷤ ma porueu a avoir que
-                  je a bien pau pries euisse pierdu ꝑ mon orguel se je ne me fusse reprise. a ce que
-                  j'ai tante soufrance en ai despuis eue. la dame qui mout amoit la puciele eut
-                  grant joie et ne demoura que maitenant fu man dee li une et li autre en anthioce.
-                  la eut mout grant asamblee. por t̾s grant fieste faire. et avint que quant la
-                  roine de ih̾rlm̾ seut cest covenant. tost eut oublie le duel de son frere pͬ le re
-                  ue vos en iroie ore plus delaiant. ¶ manant de bien fait. ces noces furent faites
-                  a grant honor; quevne merveille seroit del raconter. et une detriance de lentend̾
-                  si veil or a ce venir que onques doi vrait amant si neurent tant de leur de sirier
-                  come cil eurent. pͬ coi je me veil ici endroit a ce metre que ci endroit me veil
-                  tṛaire de ceste matere que plus ni veil demorer puisque je corone ai a roi de
-                  ih̾rlm̾. le preu et le cortois celidun. et fait Dianor. signor et prince dan
-                  thioce et deskalone. pͬ coi je me veil met̾ au repairier au roi diomarche deragon
-                  issi come je en auoie laissie a parler devant en ma matere Au roi daragon. i
-                  endroit repaire li contes au roi daragon isi com il avoit procure a hedipun le
-                  prince de bethsai da lotroi et le mariage dou damoisiel sen fil qui avoit non
-                  raifors. et de la ducoise kassidore de lenborch ch qui fille a lenp̾ kassid̾ avoit
-                  este. Dont il avint ausi ceme je en auoie laissie a parler devant. que li damoius
-                  rainfors avoit ia mis son cuer et ses ententes a la duchoise seruir. Por coi la
-                  dame sen apierciut mout. mais elle si navoit cure de nul mariage come cele qui
-                  nulement ne peut oubli er la mort de son signor. Meime lemꝑ qui de li sestoit
-                  partie ausi come je desus auoie tͣitie ne pot elle met̾ a ce que ses cuers n'en
-                  fust jor et nuit en mout grant pensee. Encor avoit elle mis son cuer et se
-                  sententes a faire norrir Neror qui li avoit este ausi come chargies a faire a a
-                  penre a escole. Dont il avint que li enfes crut et amenda. tant quil fu en leage
-                  de .vi. ans et fu mis a escole. Si a uint que cil enfes si fu de si grant grasces
-                  et de si grant engi en que tous li mons lamoit et le covoitoit. li duchoise mei me
-                  i avoit si mises sen ententes que ce fu mout grant merveil le. Por coi li rois
-                  sauisa quil feroit malmet̾ cel enfant pͬ ce quil ne voloit mie que nus ipedimens
-                  en peuist avenir. Li damoisus si vint en leage de .x. ans. et li rois vint a la
-                  duchoise et dist dame je ueil que pus quil est ensi que vos metes si grant cure a
-                  cel clerc faire aprend̾ quil sort mis entre clers qui grant cure metent a li
-                  aprend̾. Sire dist la duchoi se et je vos em proi. li damoisus qui ia avoit
-                  conchiut en lui meime de queil sience il voloit iestre ꝑfais dist. quil voloit
-                  aler a tolete pͬ savoir lart et le sience dast̾nomie et ce qui a teil clergie
-                  atient. la volentes de lui fu aconplie et fu en uoiies mout sousfisanment a
-                  escole. et si comanda li rois a sa maisnie sa volente a faire. Mais coi que nus
+               <p n="P364"><hi rend="decorated-initial 2 red">L</hi>a puciele, quant elle oï ce,
+                  onques nule feme ne peüt iestre plus joians com elle fu, et dist : <said
+                     aloud="true" direct="true">Dame, dont me dirés vos en queil maniere.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">J'el vos dirai,</said> dist
+                  elle. Dont le traist a soi, et li dist en bas : <said aloud="true" direct="true"
+                     >Ja savés vos les paroles que je vos ai aucune fois dites de lui, et vos pus
+                     les avés jetees si lonch de vos.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dame, dist elle, merci. Ja
+                     savés vos que c'est nature de feme et de nos toutes que, quant nos veons un
+                     home que nos savons qu'il nos aime, que nos mains le prisons que celui de cui
+                     il ne lor est riens de nos.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Ha ! dist la roine, come vos
+                     avés dite une parole que je tieng a mal ordenee, et que, se je estoie que<note
+                        type="notelangue">= come</note> de Dianor, come je vos en feroie encor a <choice>
+                        <orig>soufir</orig>
+                        <reg source="#B">soufrir</reg>
+                     </choice>.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Par sainte Crois, je ne vos
+                     en doute, ne lui ausi.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Damoisiele, damoisiele ! Por
+                     Diu merci, laissiés povre gent durer. Je sui cele qui jamais ne veil ma bouche
+                     ouvrir, n'en euisse je fait, se par vos n'euist esté.</said> Quant la puciele
+                  oï ce, si se repenti de ce qu'ele avoit dit, et si pesa<note type="ntravail">On
+                     trouve "penser en soi" au § 168. Peser peut avoir le sens de examiner qqc. avec
+                     attention, considérer qqc., soupeser qqc.</note> en soi meime, et dist : <said
+                     aloud="true" direct="true">Vraiement, dama, je sui trop hastive, et bien sa je
+                     que premierement mes cuers s'adouna a ce que trop me pleut la biautés de
+                     Dianor, mais ce qu'il ne me requist onques si ataïgnaument com il deuist, ne me
+                     puet mener a ce qu'il m'en soit nient autrement que vos avés veu.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Je sa dist elle, comment çou
+                     est.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dont le me dirés vos, dist
+                     elle.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Jamais ne vos en cuer
+                     parler, dist la roine.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Dont vos comant a Diu, dist
+                     la puciele.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Isi tost ne vos meterés vos
+                     mie a la voie, dist la roine, que nos ne parlomes autrement a vos.</said> Quant
+                  ce entendi la biele Ganor, que li covenoit <supplied reason="missing" source="#B"
+                     >partie</supplied> de la roine qui si g<supplied reason="omitted"
+                     >ran</supplied>ndement l'avoit honeree, se li atenri se<note type="notelangue"
+                     >Dét. CR masc. sg. (GreubCollet, 5.1b Picardie/Wallonie)</note>
+                  <choice>
+                     <orig>orgues</orig>
+                     <reg>orguel</reg>
+                  </choice><note type="notelangue">On régularise la graphie sur la base de
+                     l'ensemble des occurrences du mot dans le ms.</note>, et vint en aucun liu et
+                  prist une suie puciele, et dist : <said aloud="true" direct="true">Coment vos siet
+                     li cuers de ce que nos nos devomes de ci partir por raler ent en nostre paiis
+                     ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Ha ! Damoisiele, dist cele
+                     qui amoit par amors un escuhier Dianor, <surplus reason="repeated"
+                        >le</surplus><note type="notelangue">Nous supprimons pour ne pas alourdir le
+                        texte. Il faudrait sinon corriger en <hi rend="italic">li miens</hi>.</note>
+                     mes cors de ci s'en puet part<supplied reason="omitted">i</supplied>r, mais li
+                     miens cuers demoura el roial osteil de Jherusalem.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Coment ? dist elle. Vos n'i
+                     amés mie par amors ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Par amors, dist elle, oiie,
+                     autant com vos faites.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Autant com je fais ? Se tu
+                     tant i aimes com <pb
+                        facs="https://gallica.bnf.fr/ark:/12148/btv1b10023851v/f112.image" n="53v"/>
+                     je fas, damoisiele, je ne cuit que vos i amés mie par amors, que je puise
+                     savoir. Et <supplied reason="missing">si</supplied> je le faisoie, je cuit que
+                     tout autresi la sariés vos. Et por coi dis tu que li tiens cuers demora en cest
+                     roial oisteil ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Por ce, dist elle, que toute
+                     honor i abonde, ne en tout monde n'a une dame si plainne de foi ne de loiauté
+                     com ma dame la roine, et mesire li rois est un dieus et une grans honor en
+                     tiere.</said></p>
+            </div>
+
+
+
+            <div type="sup_paragraphe">
+               <p n="P365"><hi rend="decorated-initial 2 blue">M</hi>out loa la puciele l'osteil au
+                  roi de Jherusalem qu'i n'estoit clos ne borgnes, c'est a dire qu'il n'i avoit
+                  nului qui plainement ne feist honor et cortoisie par tout selonch ce que chascuns
+                  estoit. N'i eut mesdisant bordeur qui nient plus clochast a l'un lés com i faisoit
+                  a l'autre. Clerement veoient li maistre partout u on devoit honor et amistié
+                  faire. Li rois meimes n'ert mie cil qui maintenant vausist croire d'aucun nule
+                  vilonie qui bien ne fust esprovee voiant celui cui on lui fist encoper. Entour lui
+                  ne demoroit nul qui ne fust covignables et droituriés en ses fais et en ses
+                  jugemens. Onques n'ama home qui li meist avant lasqueté a faire, tous jors amenda
+                  ses osteus et la soie honors, por coi la puciele a la biele Ganor eut matere et
+                  colour de dire et de faire ce qu'elle veut esvoiturer. Ha ! Si grans bien et si
+                  grans honors en avint puis que quanque j'ai dit fust alé a la confusion de
+                  droiture, n'euist esté puciele de cui sens et de cui honor la puciele Ganor
+                     <supplied reason="omitted">rec</supplied>ovra pus mainte biele anemie, ensi
+                  come vos m'orrés retraire avant que je fine mon livre, por coi raison je vos veil
+                  ore ci faire mension d'un proverbe que j'ai oï dire : <seg ana="proverbe">par un
+                     clau piert on un fier de cheval, par le fier un piet, par le piet un cheval,
+                     par le cheval chevalier, par le chevalier un chastiel, et par le chastiel un
+                     paiis, par le paiis un roiaume, par le roiaume un empire, par un empire le
+                     chief de sainte Glise, par sainte Glise le court de Paradis, et qui le court de
+                     Paradis piert, il li covient avoir le parfont puis d'infer</seg><note
+                     type="notecritique">Famille "Par un seul clou on perd un bon cheval"</note>,
+                  dont Dius gart tous ciaus qui a ce entenderont por coi j'ai cest provierbe ci
+                  desus dit <supplied reason="missing">et</supplied> traitié a ce qui me covient que
+                  je la <unclear reason="acertain" cert="low">keuse</unclear> a ce que mout petit de
+                  chose si puet torner a la fois a mout grant confusion. Ausi come je vos avoie dit
+                  ça deriere que par un clau piert on a la fois ce que vos avés oï, tout autresi
+                  piert a la fois un gentius <del type="exponctuation" hand="#hand1">hom</del> cuers
+                  par un mesdisant croire mout de sen bon los. En queil maniere ? En ce qu'il li
+                  conseille lasqueté a faire en mainte pluisor caitiveté. Et por coi es<supplied
+                     reason="omitted">t</supplied> ce ? Por ce qu'il sont aucun cuer qui plus tost
+                  s'adonent a vilounie et a mesdit a faire et a croire, qu'il ne font a cortoisie ne
+                  a bien dire <supplied reason="missing">et</supplied> a entendre. Et coment sont
+                  teil cuer gentil qui a ce entendent ? Non mie mais vilain, felon et malvais, et
+                  par les envieus qui sont signor d'iaus et qui des gentius cuers font vilains
+                  entiers, dont je par cest proverbe veil venir a ma matere. Que com il fust ensi
+                  que li rois Celidus fust engenrés en Celidoine du preu et noble chevalier
+                  Kassidorus, ensi come il est aillors traitié et dit, ne pierdi mie sa noble nature
+                  Celidus en croire felons, envieus et mesdisans, n'i eut plus com Salemons que
+                  David engenra en la feme Urie. Cil Salemons ne peut onques croire mesdit que on
+                  deist d'autrui, anchois trueons de lui que uns siergans qui haioit un autre vint
+                  une foi a un sortiseur, et li dist : <said aloud="true" direct="true">se tu
+                     voloies une chose faire que je te priero<cb n="b" break="no"/>ie, je te donroie
+                     mon palefroi por mains <num>c</num> saus qu'il ne vaille.</said> Cil fu
+                  covoiteus, et dist qu'il feroit mout por cent saus, et deist <said direct="false"
+                     aloud="true">qu'il voloit que il feist.</said> Je veil, dist il, que tu
+                  m'afermes par ton sort ce que je prove veritable par avision. Coment il <unclear
+                     reason="acertain" cert="low">l'aiou</unclear> : <said aloud="true"
+                     direct="true">Je pierdi ceste sesmaine mon coutiel dont je trenchoie devant mon
+                     signor. Or me vint anuit en avision qui'il ert el lit d'un nostre compaignon,
+                     et l'ai trové u il est por ce que mesire ne porroit croire qu'il euist fait
+                     teil vilounie, si vorroie que tu l'afremasses par ton sort.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Ne me veilles mie decevoir,
+                     fait cil. Garde que tu me dies voir !</said> Cil li mostra le coutiel u il ere.
+                  Lors fu seu par l'osteil que cil coutiaus fu perdus et que li sortisieres avoit
+                  dit u il ere. Et maintenant fu trovés et cil amenés devant Salemon qui esgarda
+                  celui qui poi u nient s'abaubi de ce qu'on li metoit seule<note type="notelangue"
+                        ><hi rend="italic">metre un crime sus à qqn</hi> : <hi rend="italic">imputer
+                        un crime à qqn</hi>. La graphie <hi rend="italic">seule</hi> est inconnue ;
+                     elle réapparaît plus bas où elle alterne avec <hi rend="italic"
+                     >seure</hi>.</note>. Et li rois li dist : <said aloud="true" direct="true">n'as
+                     tu mie viergugne de ce qu'il t'est avenut ?</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Mais vos orreur <del
+                        type="exponctuation" hand="#hand1">qui te</del>, dist cil, qui teus gens vos
+                     cuident dechevoir<note type="notecritique">Dvp thème de la parrhésie / justice
+                        / philosophie cynique.</note>.</said> Quant li rois Salemons eut celui
+                  entendut, si s'avisa qu'il n'avoit coupe a ce que on li metoit seule, et dist :
+                     <said aloud="true" direct="true">que demandés vos cest home ?</said> Dit li fu
+                  coment li sors avoit enseignié le coutiel ou lit celui. Lors fu apielés li
+                  sortissieres, et il vint devant Salemon, et il li dist : <said aloud="true"
+                     direct="true">En toi a bon devineor, mais que tu me saches a dire d'un braiier
+                     a boucles de fin or que je boutai ceste sesmainne en mon lit. Or ne <unclear
+                        reason="acertain" cert="low">il</unclear><note type="ntravail">Comment
+                        expliquer ce il au lieu de li ?</note> pus trover.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Sire, dist cil, je ne me
+                     melleroie de vos choses radrecier : s'il n'i est, une autre fois i sera.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Ne vos vaut, fait li rois
+                     Salemons. Dire vos covient ce que vos porés savoir de ce que je demant.</said>
+                  Cil, qui estoit menteres et traitres, prist tierme de respondre de ce que li rois
+                  voloit savoir, et quant lui covint respondre, si dist : <said aloud="true"
+                     direct="true">Je ne pus savoir autre noviele de ce braiier c'uns hom en sa
+                     chemise le chainst entor soi et si l'emporta <del type="exponctuation"
+                        hand="#hand1">entor soi</del> hors de la chambre. Je ne sai se tu ne autres
+                     li as remis.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Prendés moi, dist li rois,
+                     cest traïtors qui me cuide dechevoir !</said> Cil dist : <said aloud="true"
+                     direct="true">Sire, je vos ai dit ce que mes sors m'aprent.</said>
+                  <said rendition="dialogue" aloud="true" direct="true">Tu as menti, dist li rois.
+                     Tu ies uns deceveres de gens. J'ai, je meime, menti por toi a dechevoir. Je
+                     t'aseure que je n'ai braiier nul que je onkes boutaisse ensi que je t'ai fait a
+                     entendre. Nient autrement sai je por voir que cil n'a coupe a ce que tu li as
+                     mis seure.</said></p>
+
+
+               <p n="">
+                  <!-- car il meime sest pͥsies deci a ore. Mais a ce ien ia entendut; d'iaus
+                  et grans pities en peut avenir pͬ poi dochoison. or me dites lochoison dist la
+                  biele ganor car je le veil savoir. Ia dist cele le sares. ce nest ꝑ fors ꝑ vostre
+                  orgueil qui en poi deure iert tost abatus mais que cil ait passe le mer de gͤsse.
+                  va; fole dist la pu ciele come tu ies hardie quant tu ce moses dire conques ne
+                  fist ma dame la roine. Je sai mius quil en puet avenir quelle ne sach̾ dist la
+                  meschine. voir se d̾. Car au matin sans a nului prend̾ congiet se fu mis au chemin
+                  ent̾ lui et son escuhier ausi come .i. hon qui ne seut que il faisoit et ne fina
+                  derrer lun jour plus lautre mains et vint en la citei dakre. Illuech ert .i.
+                  prinches de franche venus en pelerinage et ert cuens de la maͬche. aliaumeᷤ avoit
+                  non et fu au tans au roi Gaurri; dont je deuant auoie fait mension u conte issi
+                  come Neror /li damoius/ ariva en cartage. Mais de ce ne fait ore li contes autre
+                  mension que quant Dianor fu venus en acͤ. Il sacointa a celui aliaume qui iert
+                  mout jones chr̾s et hon de grant chr̾e et preudon de son cors et grans riches hon.
+                  pͬ coi dia̾ li fu tͦp bien venus. mais dou tout ne dist mie dont il fu fors tant
+                  quil dist; quil venoit de la tiere de ih̾rlm̾. u il avoit demor re III ans. et pͬ
+                  ce quil avoit triues ou pais ert il venus en acre. Pͬ coi li rois de ih̾rlm̾ fu
+                  mout esbahis quant il li virent novieles que ses cousins se fu issi patis de lui.
+                  et ne veut a nu lui iehir la verite pͬ le confusion de lui. anchois li salua la
+                  roine et la biele ganor pͬ ce que vos porres oir. Coment dist la roine puet ce
+                  avenir quil est de nus partis en teil maniere. Da me dist il; nel tenes ore mie a
+                  vilounie. mais a grant mervel le. Car mes cousin est dune maniere quil a le cuer
+                  si piteus quil ne peuist prend̾ congiet a nos sans tpͦ grant confusion de cuer. pͬ
+                  demoree quil doie faire. ꝑ foi d̾ la roine ainch mais de teil chose noi. a puciele
+                  ganor quant elle ce entendi. onqs. ¶ parler. mais feme ne fu si abaubie et dist.
+                  Ha ! dame merci; je meime me sui tolue ꝑ mon orgueil que vos poes veoir. ꝑ ma foi
+                  dist la roine onques mais feme de valour; si grant orguel ne ut en li come vos
+                  avés eut. Dame dist elle. onques ne fu isi orguilleusse; come je sui en endroit
+                  humelie. Cieͬtes dist elle; quant la vengance de vos iert pͥse. ore sui je lie.
+                  dont li com fusions et li damages doit iestre vres. mout se demenerent en tre la
+                  biele ganor et la roine. Ne fust qus qui euist oi les repro ces que la roine li
+                  dist. que mout grant mervelle n'en peuist avoir de ce que la puciele soufroit. si
+                  deboinairement ce que on li di soit. Por coi il avint /que/en pluisors lius envoia
+                  /le/ chevalier apries me sages pͥues pͬ savoir en quel liu il ert viertis. Dont il
+                  avint quelle seut quil ert en acre. en teil maniere come j'ai dit desus. A celi
+                  tans nestoit encore marages fais de la fille au roi gauri dont j'ai toucie devant.
+                  et dou prince de Kartage. Celle puciele avoit non liibane et fu puciele de teil
+                  non que tͦp en ot la biele puciele ganor grant doute. pour coi elle vint a sa
+                  meschine et dist. voirement maues vos bien dit ce que j'ai troue. Encore dist cele
+                  ne saues vos a que chief vos en porrieᷤ venir. Non dist elle; et pͬ ce en veil je
+                  ourer ꝑ ton conseil. Je vos lo dist la puciele que pus que mesire vos a mandee;
+                  que vos faites que vos soies enchies lui; et pus si men laissie covenir ¶ Ensi d̾
+                  elle soit. adont pͬchaca et fist tant la puciele. Ganor; quele eut le gͤ dou roi
+                  et de la roine .i. mois mais apries ceḷẹ quele repairast. se le jamais voloit
+                  avoir noviele dou chevalier dian̾. Isi avint que quant elle fu enchies son pere et
+                  sa mere. dou tout se mist au lit. et ne se peut conforter; anchois dist que jamais
+                  naroit sante deci adont quele seroit arriere. li princes ses pere en eut trop
+                  grant duel. car il se pierciut camorᷤ avoient a ce mise la puciele. et pͬ celui
+                  dian̾ qui issi partis sesto it dou paiis. Issi come il estoit en cestui anui li
+                  rois gau ri dacre envoia a lui quil le secourust de lui. car il avoit jor de
+                  bataille au prince de cartage. la puciele seut cest mant. et pria mout devotem̃t
+                  quil i alast et feist au roi sou cours. li pͥces i ala plus pͬ le priiere de sa
+                  fille que por el il se mist cele part a tout grant gent et qñ avint. ausi com ꝑ
+                  auen ture dian̾ seut que li pͥnces fu la venus. mais onques a lui ne se fist
+                  conoist̾. anchois eurent lor gent li rois et li prinches de cartage. et si pleut a
+                  nostre signor que cͤstiien furent desconfi en maniere que li rois dacͤ fu pris. et
+                  li prices descalone me nes en voie quant Dianor le rescoust a laide del preu conte
+                  aliau me. qui tant eurent celui jour a sousfrir que mout seroit grans pi ties
+                  seroit dou recorder. mais ce que je nai mie espasse et me covient aillors entend̾.
+                  me fait que je men passe outre a ce que quant la bataille fu remesse. li cuens
+                  aliaume vint au prince des calone et li dist. Sire prince je nai mie merveille se
+                  vos iestes rescous. mais de ce que la desierte en a faite vorroie je oir parler
+                  volentiers. Ha ! sire dist li prince merci. Je ne sai mie que nus autres que Dius
+                  en peuist faire le desierte. fors ce que je sui tous vr̃es afaire vostre
+                  comandement. Ꝑ mon chief dist li cuens. a moi nen gist mie do tout li guerredons.
+                  anchois ai .i. chr cui vos en deues gre savoir. Sire dist il dont covient que je
+                  sace qui il est. Il ma deffendu dist li cuens; que je n'en face ia men sion. mais
+                  je veil que vos le voiies. coment a non dist li princes; Dianor. Ꝑ mon chief dist
+                  li cuens voir aves dit. je ne sai qui le vos noma. Ha ! sire dist li pͥnces. Ia
+                  navons nos en la tiere de ih̾rl̾en. que II chr̾s dont cest li .vn dist li p̾nc̾
+                  bien le cͦi dist li cuens mais dites moi de que il linage il est qui si eschari
+                  ement vint a moi en ceste citei. li princes li a tout iehi qnͣquil en savoit. et
+                  li dist que nus hon nestoit si abaubis de ce que li rois ne savoit /v/ il estoit.
+                  Je nen veil ore plus savoir dist li cu ens puis que je sai qui il est. Ne vos
+                  onques plus n'en faites mension. ont avint que li pͥ̃ces de cartage manda le roi
+                  devant lui et eurent tost concorde faite parmi ce que li rois envoia la puciele
+                  libane au prince chedrus ꝑ maniere que je de uant ai touchie ai el conte. li
+                  princes descalone se mist ar riere en la tiere de ih̾rlm̾ u il avoit laissiet la
+                  puciele gan̾. qui mout avoit pierdue de sa biaute. en ce que tainte et paille es
+                  toit de la grant amor quele avoit au biel Dianor. et quant li pͥnc̾ vint devant la
+                  puciele elle encoumenca mout tenrement a plo rer et dist. ha biaus pere u est li
+                  iuiaus que vos me ramenes. main tenant seut li princ̾. de quil iuiel elle parloit
+                  et dist. Ha ! chiere fille. come je cuit se cil iuiaus n'euist este de cui vos
+                  parles ṇẹụ ịṣṭ ẹṣṭẹ que ieuisse este en grant dangier. Dont me dires vos dist elle
+                  de que il iuiel vos cuidies que je ꝑoil. Ꝑ foi je cuit que ce soit d̾ il; du preu
+                  et cortois Dianor qui me rescoust u on men eeuoit. pris ꝑ deuiers le pͥce de
+                  cartage. Coment sire pͬ queil rai son aues vos ore ce dit. Por ce dist il que je
+                  me cuide voir dire. Ꝑ sainte crois dist elle; bon adeuinor vos sai. Je le pensoie
+                  bien dist il; et coment dist elle; fu ce que vos ne le ramenastes en ces paiis.
+                  Por ce dist il; que il ne veut mie que nus le coneuist de ceste contree. Ꝑ foi
+                  dist elle ioi grant merueille. Dont ꝑ lerent mout et se demenerent mout de son
+                  repairier. et avint que li rois seut cest covenant et manda le prince qui li conta
+                  co ment li rois dacre avoit esploitiet isi com j'ai dit desus. et quant il euret
+                  tant demene ce que dian̾ avoit fait. si dist li rois. Prinches je me dout de mon
+                  cousin ꝑd̾ en lochoison de la biele ganor vostre fille. Sire dist li pinces je
+                  pense bien que vos voles dire. et ien feraiᷤ tout ce quil vos plaira et a ma da me
+                  la roine. vos avés bien dit fait li rois. Dont eurent consel de mander le
+                  chevalier et il si fisent. mais il leur remanda quil ert a signor quil ne peut ore
+                  mie laissier devant ce quil en aroit plus grant mestier. Dont il avint ausi conme
+                  ce fust chose souᷤ haidie. que li rois des mediiens et cil de pierse meimes li ke
+                  nelui et li rois dinde. asanblerent lor gent ausi come soudain nement et a larron
+                  et vinrent en la tiere dendioce. li pr̃ces qui ases pourement ert conviertis; lais
+                  asavoir au roi quil le soucorust et il maintenant a son cousin ce que vos aues
+                  oit. i rois qui ne fu mie a seiour mist grant painne a ce quil peuist aler au
+                  devant de cele gent. lor se mist a sagent semonre et ni eut prince nul qui mout ne
+                  fust abau bis del chevalier Dianor qui mie nestoit el paiis. Mais nonpͬqͣt misent
+                  il lor gent ensanble. et vinrent a une jornee danthi oce u li os as sarasins
+                  estoit. Nouieleᷤ virent au prince qui vo lentiers se meist a merci ꝑ maniere quil
+                  demeurast sire de la cite. mais nulement ne le voloient saͬrasin consentir. et il
+                  leur fist asavoir quil leur renderoit le roi de ihrlm̾ a faire leur volente. Il
+                  lor dist̾ que se il peuist ce fera il de moroit en la princee. Por coi len dist
+                  que li rois seut cest afai re ꝑ ce que les femes au prince; dont Dianor avoit este
+                  si bien com jou ai dit desus le fist savoir au prince de rohais ausi com ꝑ .i.
+                  mervilleus tour. li prince vint au roi et li dist; que il ere trais se il se
+                  conbatoit contre sarrasins coment le saues vus. il li dist. vees ici let̾s que ien
+                  ai eue de la feme au prince. li rois fu abaubis et ne seut que il conseil croire.
+                  Car mout avoient de gent sarrasin plus quil ne peuist avoir. Por coi il sauisa
+                  dune chose mout merveilleuse. Car il manda au roi dinde .i. jour de parlement qui
+                  sacorderoit volentiers a aus de la tiere dandioche ꝑ le conseil du prince qui mie
+                  nestoit bons cͤstiiens a ce quil entendoit. Cil rois dinde estoit a merve ille
+                  loiaus ch̾es et parlent ensamble en triues. et leur covint a ce que li roir d
+                  inde; seut le traison dou pͥc̾he et dist. Sire de ih̾rlm̾ retraiies arriere et je
+                  sarai dou price la ueri te en triues que je veil qui soient donees ent̾ nos. ¶
+                  Ensi a uint que li rois dinde pͥst respit et manda le pͥnce danthͥ oce et il vint
+                  a lui et li iehi quil voloit trair le roi de ih̾rl̾m ensi come j'ai dit desus. Ha
+                  ! dist li rois dinde come cest male chose de tͣir son signor. et je loeroie que on
+                  vos detͣ sist a chevaus qui iestes de teil engien. Sire dist il autremet nai je
+                  povoir de demourer en ma tiere. Ia par cest tor ni demorres dist li rois et
+                  retͣies vos arriere dont vos iestes venus. li princes se remist dedens anthioce et
+                  fu mout abaubis et ne seut que faire. Car il seut bien que se sarasin venoient au
+                  de seure de lui quil ne demoroit mie quil ne fust destruis. lors vint au roi de
+                  ih̾rlm̾ et li dist. Ha ! sire je me doute je ne sai se j'ai droit. Ia saues vos
+                  que ma tiere fu ausi come couiertie a la vostre loi. et je meime vos ai ma suer
+                  dounee et doit a uoir grant amor ent̾ vos et moi. Sire princes dist li rois je na
+                  roie point de fiance que vos deuissies faire nule vilounie en viers moi tant com
+                  je fusse si bien de vostre serour com je sui. li princes quant il oi le roi ensi
+                  pler. si se repͥst en lui meime et dist. Sire je vos meit le princee en vostre
+                  main. Come cil qui rien ni clain. car sarrasin me heent et sui tous ciertains que
+                  tant que je viue la tiere ne tenroie en pais. pͥnces dist li rois sageᷤ iestes et
+                  je vos donrai aillors tiere et bien a vostre chois. pͬ coi je veil que vos me
+                  demores pͬ faire cel chose estable. Por coi je ve il en cief prendre ceste
+                  bataille. au roi de mede. De ceste chose fu a merveille lies. et avint que li rois
+                  se mist dedens an thioce et se fist aseure de tous. dont il en fu a merveille
+                  pͥsieᷤ. et mout joiant en furent cil de la cite pͬ la noble grasce que li rois
+                  avoit. Dont il avint quil ne demora mie que li une ꝑ tie et li autre eurent leur
+                  afaire atire pͬ avoir la batail le a lendemain dont li respis failloit a la nuit
+                  deuant. este chose ne peut mie iestre celee. queauant que ce peu ist iestre avenut
+                  avoient courut novieles de cestui afaire por coi li pͥnces Dianor avoit le conte
+                  aliaume a ce mis quil sestoient mis a uenir a ceste empͥse que je vos ai fait
+                  mension. Por coi le nuit de la bataille desus dite. vinrent au roi qui si ioians
+                  en fu de lor venue que il li sambla quil ne uist chose a faire dont il deuist bien
+                  avenanment a chief venir. Dont nus tͦuons ca lendemain il i ot si grant baịtaille
+                  que trop seroit grant riote dou recorder. et por ce me veil je ore atant passer
+                  out̾ et a ce venir quen la fin furent sarain desconfi si a poi pries que li rois
+                  si seut et vit. que chose quil feist. ne le peuist avoir tense quil n'euist este
+                  vaincus. se li cuens aliav mes et dian̾ ne leuissent secorut. mais cil fisent tant
+                  dar mes que nus ne le poroit croire. mout i eut de gent a lun les et a lautre
+                  .ṽinin. sarasin et .inininin. cͤstiiens. furent asme dune part et dautre. la
+                  endroit fu ochis li prinches de rohais et cil danthioce et li pͥnches de rohais
+                  afoles dune ianbe. a lav t̾ les. li rois de mede ochist li rois de ihr̾lm̾ et
+                  pluisors autres. li cuens aliaumes ocist .i. turch dinde qui mout avoit fait de
+                  damage a lor gent. li preus Dianor autres. ocist II auma cors. lun de gͥfale et
+                  lautre de cordes. et aueuch maint plui sor autre. Tout ce asoui. avint que mout
+                  grant loenge et grant joie eut en anthioce apries ceste avenue. Ni de mora eglise
+                  qui mout n'en fust enforciement honoree. ¶ Apries ce li pͥnces descalone manda le
+                  roi que pͬ Diu il ve nist a lui come cil qui cuidoit maintenaint morir. et quant
+                  il vint devant lui si li dist en grant amor quil a son viuant ase nast sa fille en
+                  lui dont il morus plus a pais. li rois fist apieler Dianor et li dist. biaus
+                  cousin je vos aime come mon bon ami. et mon proisme. Je vos doins le prince
+                  danthioce et toutes les apedances. quant dian̾ oi ce; mout le rechieut en grant
+                  amor si que ce ne fu mie mout grant merveille. Car a ce lui tans ert ce la millors
+                  tiere de ihrlm̾. En cestui don li d̾ li rois. biaus cousin sor vos veil je marier.
+                  pͬ ce que je ne veil mie que vos puissies guerpir la contree. si demant au prince
+                  descalo ne qui ci est la biele Ganor sa fille. quil le vos doinst a feme; co ment
+                  quil lenploit bien u autrement. Ha ! sire dist li princes bien saues que je ne la
+                  porroie si bien enploiier. lors fu joians dia̾. que ne se seut a plus grant joie a
+                  contenir com il fist. et ne demora que ceste noviele ne demoura que ceste noviele
+                  ne venist en eskalone a la biele Ganor qui ne se seut coment elle se peuist plus
+                  ioiousement contenir et dist a la pricesse sa me re. Ha ! tres bone eureuse qui me
+                  portastes pͬ si grant honor a recheuoir; come je entent que li souerains Dius de
+                  natureᷤ ma porueu a avoir que je a bien pau pries euisse pierdu ꝑ mon orguel se je
+                  ne me fusse reprise. a ce que j'ai tante soufrance en ai despuis eue. la dame qui
+                  mout amoit la puciele eut grant joie et ne demoura que maitenant fu man dee li une
+                  et li autre en anthioce. la eut mout grant asamblee. por t̾s grant fieste faire.
+                  et avint que quant la roine de ih̾rlm̾ seut cest covenant. tost eut oublie le duel
+                  de son frere pͬ le re ue vos en iroie ore plus delaiant. ¶ manant de bien fait.
+                  ces noces furent faites a grant honor; quevne merveille seroit del raconter. et
+                  une detriance de lentend̾ si veil or a ce venir que onques doi vrait amant si
+                  neurent tant de leur de sirier come cil eurent. pͬ coi je me veil ici endroit a ce
+                  metre que ci endroit me veil tṛaire de ceste matere que plus ni veil demorer
+                  puisque je corone ai a roi de ih̾rlm̾. le preu et le cortois celidun. et fait
+                  Dianor. signor et prince dan thioce et deskalone. pͬ coi je me veil met̾ au
+                  repairier au roi diomarche deragon issi come je en auoie laissie a parler devant
+                  en ma matere Au roi daragon. i endroit repaire li contes au roi daragon isi com il
+                  avoit procure a hedipun le prince de bethsai da lotroi et le mariage dou damoisiel
+                  sen fil qui avoit non raifors. et de la ducoise kassidore de lenborch ch qui fille
+                  a lenp̾ kassid̾ avoit este. Dont il avint ausi ceme je en auoie laissie a parler
+                  devant. que li damoius rainfors avoit ia mis son cuer et ses ententes a la
+                  duchoise seruir. Por coi la dame sen apierciut mout. mais elle si navoit cure de
+                  nul mariage come cele qui nulement ne peut oubli er la mort de son signor. Meime
+                  lemꝑ qui de li sestoit partie ausi come je desus auoie tͣitie ne pot elle met̾ a
+                  ce que ses cuers n'en fust jor et nuit en mout grant pensee. Encor avoit elle mis
+                  son cuer et se sententes a faire norrir Neror qui li avoit este ausi come chargies
+                  a faire a a penre a escole. Dont il avint que li enfes crut et amenda. tant quil
+                  fu en leage de .vi. ans et fu mis a escole. Si a uint que cil enfes si fu de si
+                  grant grasces et de si grant engi en que tous li mons lamoit et le covoitoit. li
+                  duchoise mei me i avoit si mises sen ententes que ce fu mout grant merveil le. Por
+                  coi li rois sauisa quil feroit malmet̾ cel enfant pͬ ce quil ne voloit mie que nus
+                  ipedimens en peuist avenir. Li damoisus si vint en leage de .x. ans. et li rois
+                  vint a la duchoise et dist dame je ueil que pus quil est ensi que vos metes si
+                  grant cure a cel clerc faire aprend̾ quil sort mis entre clers qui grant cure
+                  metent a li aprend̾. Sire dist la duchoi se et je vos em proi. li damoisus qui ia
+                  avoit conchiut en lui meime de queil sience il voloit iestre ꝑfais dist. quil
+                  voloit aler a tolete pͬ savoir lart et le sience dast̾nomie et ce qui a teil
+                  clergie atient. la volentes de lui fu aconplie et fu en uoiies mout sousfisanment
+                  a escole. et si comanda li rois a sa maisnie sa volente a faire. Mais coi que nus
                   die; ne puet iestre peri ce que li Dieus de nature a establi a ꝑseuerer. Cil qui
                   de lui ocire ꝑ puison se deurent ent̾met̾; eurent a mor et pitie dou damoisiel
                   tant quil neurent cuer ne volente de lui mal faire. Ensi demoura li damoisiaus a
