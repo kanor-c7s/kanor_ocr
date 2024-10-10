@@ -108,14 +108,13 @@ a:active {
 
 .persName {
     text-indent: 0em;
-    color:blue;
 }
 
 
 .placeName {
     display: inline-block;
     text-indent: 0em;
-    color:violet;
+  
 }
 
 
@@ -154,10 +153,10 @@ a:active {
 }
 
 .num {
-      text-transform: uppercase;
+    text-transform: uppercase;
 }
 
-.exp {    
+.exp {
     text-transform: none;
     font-variant: small-caps;
 }
@@ -209,8 +208,13 @@ a:active {
     opacity: 1;
 }
 
-.acertain {
+.acertain_low {
     color: red;
+    font-weight: bold;
+}
+
+.acertain_medium {
+    color: orange;
     font-weight: bold;
 }
 
@@ -223,8 +227,8 @@ a:active {
 }
 
 .section {
-    
+
 }
 .chanson {
-    
+
 }

@@ -109,7 +109,7 @@
         <p style="display:inline;">
             <span style="float: left;padding-right: 15px;">
                 <b>§&#160;<span class="paraNum"><xsl:value-of select="substring-after(@n, 'P')"
-                    /></span></b>
+                        /></span></b>
             </span>
             <xsl:text> </xsl:text>
             <xsl:apply-templates/>
@@ -372,7 +372,8 @@
         <xsl:choose>
             <xsl:when test="starts-with(@rend, 'rubricated')">
                 <span class="rubricated">
-                    <span class="headNum"><!--[<xsl:value-of select="ancestor::head/@n"/>] --></span>
+                    <span class="headNum"
+                        ><!--[<xsl:value-of select="ancestor::head/@n"/>] --></span>
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
@@ -507,8 +508,13 @@
     <!-- Template pour les éléments unclear -->
     <xsl:template match="unclear">
         <xsl:choose>
-            <xsl:when test="@reason = 'acertain'">
-                <span class="acertain">
+            <xsl:when test="@reason = 'acertain' and @cert = 'low'">
+                <span class="acertain_low">
+                    <i>[<xsl:apply-templates/>]</i>
+                </span>
+            </xsl:when>
+            <xsl:when test="@reason = 'acertain' and @cert = 'medium'">
+                <span class="acertain_medium">
                     <i>[<xsl:apply-templates/>]</i>
                 </span>
             </xsl:when>
