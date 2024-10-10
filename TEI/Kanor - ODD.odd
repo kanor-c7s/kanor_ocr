@@ -227,6 +227,7 @@ cette dernière est fautive
                            <valItem ident="decorated-initial 7 blue"/>
                            <valItem ident="decorated-initial 8 blue"/>
                            <valItem ident="decorated-initial 9 blue"/>
+                           <valItem ident="decorated-initial 11 red"/>
                            <valItem ident="italic"/>
                            <valItem ident="title"/>
                            <valItem ident="exp"/>
@@ -261,10 +262,11 @@ cette dernière est fautive
                   <attList>
                      <attDef ident="type" mode="replace" usage="req">
                         <valList type="closed">
-                           <valItem ident="apparat"/>
-                           <valItem ident="ntravail"/>
-                           <valItem ident="notecritique"/>
-                           <valItem ident="notelangue"/>
+                           <valItem ident="note_apparat"/>
+                           <valItem ident="note_travail"/>
+                           <valItem ident="note_commentaire"/>
+                           <valItem ident="note_langue"/>
+                           <valItem ident="note_glossaire"/>
                            <valItem ident="tei-header"/>
                         </valList>
                      </attDef>
@@ -426,6 +428,7 @@ cette dernière est fautive
                            <valItem ident="rewritten"/>
                            <valItem ident="transparence"/>
                            <valItem ident="stain"/>
+                           <valItem ident="stitching"/>
                         </valList>
 
 
@@ -589,7 +592,7 @@ cette dernière est fautive
                            <valItem ident="missing"/>
                         </valList>
                      </attDef>
-                   <!--  <attDef ident="source" mode="replace" usage="req">
+                     <!--  <attDef ident="source" mode="replace" usage="req">
                         <valList type="closed">
                            <valItem ident="#B"/>
                            <valItem ident="#McMunn"/>
@@ -599,6 +602,7 @@ cette dernière est fautive
                      <attDef ident="cert" mode="replace" usage="opt">
                         <valList type="closed">
                            <valItem ident="low"/>
+                           <valItem ident="medium"/>
                            <valItem ident="high"/>
                         </valList>
                      </attDef>
