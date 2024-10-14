@@ -494,7 +494,7 @@
                     <xsl:apply-templates/>
                 </span>
             </xsl:when>
-            <xsl:when test="@ana = 'proverbe'">“<xsl:apply-templates/>”</xsl:when>
+            <xsl:when test="@ana = 'proverbe'">‘<xsl:apply-templates/>’</xsl:when>
             <xsl:when test="@ana = 'divergences'">
                 <span class="divergences">
                     <xsl:apply-templates/>
