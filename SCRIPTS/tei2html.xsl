@@ -12,6 +12,20 @@
                 <meta http-equiv="cache-control" content="no-cache"/>
                 <meta http-equiv="expires" content="0"/>
                 <meta http-equiv="pragma" content="no-cache"/>
+                <script>
+                    function toggleTooltip(element) {
+                    const tooltip = element.nextSibling;
+                    tooltip.classList.toggle('active');
+                    element.addEventListener('mouseleave', () => {
+                    tooltip.classList.remove('active');
+                    });
+                    }
+                    
+                    function hideTooltip(element) {
+                    element.classList.remove('active');
+                    }
+                    
+                </script>
             </head>
             <body>
                 <span class="title">
@@ -339,22 +353,22 @@
     <xsl:template match="note">
         <xsl:choose>
             <xsl:when test="@type = 'notecritique'">
-                <span class="tooltip">
-                    <span class="note">💬<span class="tooltip-content">
+                <span class="tooltip_notes">
+                    <span class="note">💬<span class="tooltip_notes-content">
                             <xsl:apply-templates/>
                         </span></span>
                 </span>
             </xsl:when>
             <xsl:when test="@type = 'ntravail'">
-                <span class="tooltip">
-                    <span class="ntravail">&#10067;<span class="tooltip-content">
+                <span class="tooltip_notes">
+                    <span class="ntravail">&#10067;<span class="tooltip_notes-content">
                             <xsl:apply-templates/>
                         </span></span>
                 </span>
             </xsl:when>
             <xsl:otherwise>
-                <span class="tooltip">
-                    <span class="note">💬<span class="tooltip-content">
+                <span class="tooltip_notes">
+                    <span class="note">💬<span class="tooltip_notes-content">
                             <xsl:apply-templates/>
                         </span></span>
                 </span>
@@ -364,7 +378,7 @@
 
     <!-- Template pour les éléments add -->
     <xsl:template match="add">
-        <span class="add">^<xsl:apply-templates/>^</span>
+        <span class="add">‸<xsl:apply-templates/></span>
     </xsl:template>
 
     <!-- Template pour les éléments hi -->
@@ -410,10 +424,10 @@
 
     <!-- Template pour les éléments persName -->
     <xsl:key name="person-by-id" match="person" use="@xml:id"/>
-
+    
     <xsl:template match="persName">
         <span class="tooltip">
-            <span class="persName">
+            <span class="persName" onclick="toggleTooltip(this)" onmouseleave="hideTooltip(this.nextSibling)">
                 <xsl:apply-templates/>
             </span>
             <span class="tooltip-content">
@@ -440,12 +454,37 @@
             </span>
         </span>
     </xsl:template>
-
-
+    
+    
+    
+    
     <!-- Template pour les éléments placeName -->
+    
+    
+    
+    <xsl:key name="place-by-id" match="place" use="@xml:id"/>
+    
     <xsl:template match="placeName">
-        <span class="placeName">
-            <xsl:apply-templates/>
+        <span class="tooltip">
+            <span class="placeName" onclick="toggleTooltip(this)">
+                <xsl:apply-templates/>
+            </span>
+            <span class="tooltip-content" onmouseleave="hideTooltip(this)">
+                <xsl:for-each select="key('place-by-id', @key)">
+                    <span class="info_place">
+                        <b>
+                            <xsl:value-of select="placeName"/>
+                        </b>
+                        <br/>
+                        <xsl:for-each select="note">
+                            <span class="note">
+                                <xsl:value-of select="."/>
+                                <br/>
+                            </span>
+                        </xsl:for-each>
+                    </span>
+                </xsl:for-each>
+            </span>
         </span>
     </xsl:template>
 

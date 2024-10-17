@@ -106,15 +106,25 @@ a:active {
 
 
 
+/* PersName */
 .persName {
-    text-indent: 0em;
+    border-bottom: 1px dotted;
+    cursor: pointer;
+}
+
+.persName:hover {
+    cursor: pointer;
 }
 
 
+/* PlaceName */
 .placeName {
-    display: inline-block;
-    text-indent: 0em;
-  
+    border-bottom: 1px dotted;
+    cursor: pointer;
+}
+
+.placeName:hover {
+    cursor: pointer;
 }
 
 
@@ -179,12 +189,37 @@ a:active {
     cursor: pointer;
 }
 
+
 .tooltip {
     position: relative;
     opacity: 1;
 }
 
-.tooltip .tooltip-content {
+.tooltip_notes {
+    position: relative;
+    opacity: 1;
+}
+
+.tooltip-content {
+    display: none;
+    font-size: 18px;
+    width: 550px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    z-index: 9999;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip_notes-content {
     font-size: 18px;
     visibility: hidden;
     width: 550px;
@@ -203,7 +238,18 @@ a:active {
     transition: opacity 0.3s;
 }
 
+.tooltip-content.active {
+    display: block;
+    opacity: 1;
+}
+
+
 .tooltip:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip_notes:hover .tooltip_notes-content {
     visibility: visible;
     opacity: 1;
 }

@@ -12,6 +12,22 @@
                 <meta http-equiv="cache-control" content="no-cache"/>
                 <meta http-equiv="expires" content="0"/>
                 <meta http-equiv="pragma" content="no-cache"/>
+
+                <script>
+                    function toggleTooltip(element) {
+                    const tooltip = element.nextSibling;
+                    tooltip.classList.toggle('active');
+                    element.addEventListener('mouseleave', () => {
+                    tooltip.classList.remove('active');
+                    });
+                    }
+                    
+                    function hideTooltip(element) {
+                    element.classList.remove('active');
+                    }
+                    
+                </script>
+                
             </head>
             <body>
                 <span class="title">
@@ -365,10 +381,10 @@
 
     <!-- Template pour les éléments persName -->
     <xsl:key name="person-by-id" match="person" use="@xml:id"/>
-
+    
     <xsl:template match="persName">
         <span class="tooltip">
-            <span class="persName">
+            <span class="persName" onclick="toggleTooltip(this)" onmouseleave="hideTooltip(this.nextSibling)">
                 <xsl:apply-templates/>
             </span>
             <span class="tooltip-content">
@@ -395,14 +411,48 @@
             </span>
         </span>
     </xsl:template>
+    
+    
 
 
     <!-- Template pour les éléments placeName -->
+
+    
+    
+    <xsl:key name="place-by-id" match="place" use="@xml:id"/>
+    
     <xsl:template match="placeName">
-        <span class="placeName">
-            <xsl:apply-templates/>
+        <span class="tooltip">
+            <span class="placeName" onclick="toggleTooltip(this)">
+                <xsl:apply-templates/>
+            </span>
+            <span class="tooltip-content" onmouseleave="hideTooltip(this)">
+                <xsl:for-each select="key('place-by-id', @key)">
+                    <span class="info_place">
+                        <b>
+                            <xsl:value-of select="placeName"/>
+                        </b>
+                        <br/>
+                        <xsl:for-each select="note">
+                            <span class="note">
+                                <xsl:value-of select="."/>
+                                <br/>
+                            </span>
+                        </xsl:for-each>
+                    </span>
+                </xsl:for-each>
+            </span>
         </span>
     </xsl:template>
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     <!-- Template pour les éléments rs -->
     <xsl:template match="rs">
