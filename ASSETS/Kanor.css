@@ -128,16 +128,14 @@ a:active {
 }
 
 
-.rs {
-    color: navy;
-    cursor: pointer;
-}
-
 .place {
+    color: #F9429E;
     cursor: pointer;
 }
 
 .people {
+    color: #F9429E;
+    cursor: pointer;
 }
 
 .supplied {

@@ -962,72 +962,6 @@
                         <persName ref="#Luce">Luce</persName>
                   </note>
                </person>
-
-
-               <!-- Ajouts propres au roman de Kanor -->
-
-               <person xml:id="HuguesIIdeChatillon">
-                  <persName>Hugues II de Châtillon</persName>
-                  <occupation>Dédicataire du roman dans l'incipit et l'explicit.</occupation>
-               </person>
-
-
-
-
-               <person xml:id="Kanor">
-                  <persName>Kanor</persName>
-                  <occupation>Empereur de <placeName ref="#Rome">Rome</placeName> aprés <persName
-                        ref="#Pelear">Pelear</persName>
-                  </occupation>
-                  <note type="relationships">Fils de <persName ref="#Fastige">Fastige</persName> et
-                        <persName ref="#Cassidorus">Cassidorus</persName>
-                  </note>
-                  <note type="relationships">Frère de <persName ref="#Sycor">Sycor</persName>,
-                        <persName ref="#Domor">Domor</persName> et <persName ref="#Rusticor"
-                        >Rusticor</persName>
-                  </note>
-               </person>
-
-               <person xml:id="Sycor">
-                  <persName>Sycor</persName>
-                  <occupation>Membre de la fratrie <persName>Kanor</persName></occupation>
-                  <note type="relationships">Fils de <persName ref="#Fastige">Fastige</persName> et
-                        <persName ref="#Cassidorus">Cassidorus</persName>
-                  </note>
-                  <note type="relationships">Frère de <persName ref="#Kanor">Kanor</persName>,
-                        <persName ref="#Domor">Domor</persName> et <persName ref="#Rusticor"
-                        >Rusticor</persName>
-                  </note>
-               </person>
-
-               <person xml:id="Domor">
-                  <persName>Domor</persName>
-                  <occupation>Membre de la fratrie <persName>Kanor</persName></occupation>
-                  <note type="relationships">Fils de <persName ref="#Fastige">Fastige</persName> et
-                        <persName ref="#Cassidorus">Cassidorus</persName>
-                  </note>
-                  <note type="relationships">Frère de <persName ref="#Kanor">Kanor</persName>,
-                        <persName ref="#Sycor">Sycor</persName> et <persName ref="#Rusticor"
-                        >Rusticor</persName>
-                  </note>
-               </person>
-
-               <person xml:id="Rusticor">
-                  <persName>Rusticor</persName>
-                  <occupation>Membre de la fratrie <persName>Kanor</persName></occupation>
-                  <note type="relationships">Fils de <persName ref="#Fastige">Fastige</persName> et
-                        <persName ref="#Cassidorus">Cassidorus</persName>
-                  </note>
-                  <note type="relationships">Frère de <persName ref="#Kanor">Kanor</persName>,
-                        <persName ref="#Domor">Sycor</persName> et <persName ref="#Domor"
-                        >Domor</persName>
-                  </note>
-               </person>
-
-
-
-
-
                <relation type="familial" name="paternel" active="#Cassidorus" passive="#Pelyarmenus"/>
                <relation type="familial" name="paternel" active="#Cassidorus" passive="#Helcanus"/>
                <relation type="familial" name="paternel" active="#Cassidorus" passive="#Fastidorus"/>
@@ -1156,18 +1090,18 @@
          <div type="chapter" n="C1">
             <head type="rubrique" n="R1">
                <hi rend="rubricated">Ichi encomence li histoire de <persName key="Kanor"
-                     >Kanor</persName> et de <name type="people" ref="#Sycor #Domor #Rusticor">ses
-                     freres</name>, liqueil furent fil au noble <persName key="Cassidorus"
-                     >Kassidorus</persName>, empereor de <placeName key="Constantinople"
-                     >Costostinnoble</placeName> et de <placeName key="Rome">Rome</placeName>,
-                  liqueil furent engenré en l'emperis <persName key="Fastige">Fastige</persName>, ki
-                  fille fu a l'empereor <persName key="Fiséus">Phiseus</persName>.</hi>
+                     >Kanor</persName> et de ses freres, liqueil furent fil au noble <persName
+                     key="Cassidorus">Kassidorus</persName>, empereor de <placeName
+                     key="Constantinople">Costostinnoble</placeName> et de <placeName key="Rome"
+                     >Rome</placeName>, liqueil furent engenré en l'emperis <persName key="Fastige"
+                     >Fastige</persName>, ki fille fu a l'empereor <persName key="Fiséus"
+                     >Phiseus</persName>.</hi>
             </head>
 
             <div type="sup_paragraphe">
                <p n="P1">
                   <hi rend="decorated-initial 8 red">H</hi>a ! Diex, si sousfissanment ai esté
-                  requis de noble prince <persName key="HuguesIIdeChatillon">Huon de
+                  requis de noble prince <persName key="HuondeCasteillon">Huon de
                      Casteillon</persName><note type="note_commentaire">En fait, il semble que les
                      conclusions de Lewis Thorpe, dans son article "Paulin Paris and the French
                      sequels etc.", soient déjà présentes dans un ouvrage de Maur Dantine (18e
@@ -1175,31 +1109,26 @@
                      autres monuments, depuis la naissance de J.-C. Le ms. 1446 y est bien rattaché
                      à Hugues VI de Saint-Pol, le fils, et non Hugues I de Châtillon. C'est un
                      témoignage qui date du temps où le ms. était chez monsieur de Thou, dont on
-                     trouve bien l'ex-libris.</note> et <name type="people"
-                     ref="#HuguesIIdeChatillon">conte de <placeName key="SaintPol">Saint
-                        Pol</placeName></name>, pour lequeil je ne me porroie mie tenir que toute
-                  m'entente ne me covingne metre a ce que il premierement, et autres en apriés lui,
-                  sacent qui cil <name type="people" ref="#Kanor #Sycor #Domor #Rusticor">quatre
-                     frere</name> furent, dont je, en la rebriche ci encoste, ai fait mension. Et
-                  por ce que li envieus<note type="note_commentaire">topos de prologue que de
-                     rejeter les critiques à l'avance. Ce qui est intéressant, c'est l'utilisation
-                     d'un cas sujet alors que finalement le GN est CO2 : ou alors il y a une
-                     anacoluthe...</note>, qui nul avancement ne vauroient avoir sor nul home qui
-                  blasmer seuist aus, ne ceus de leur lignie, veil je le mien non del tout en tout
-                  celer, quant il me doit sousfire a ce que li miens sire le sace devant dis, sans cui
-                  confort je ne porroie mie teil ouvrage asovir legierement. Si veil comencier en
-                  teil maniere que je en apiel Celui qui en gré prent toutes ouevres qui sont faites
-                  et dites en colour de droiture, de raison et de verité, çou est Cil qui tout cria
-                  et fist por home mener et conduire el regne dou ciel.</p>
-               <p n="P2">Voirs fu, si come je truis en pluisors lius escrit que jadis eut <name
-                     type="people" ref="#Cassidorus">un empereour</name> en la citei de <placeName
-                     key="Constantinople">Coustantinoble</placeName>, ensi come je desus ai dit. Cil
-                  eut non <persName key="Cassidorus">Kassidorus</persName> et fu nobles princes, si
-                  com li histoire le devise, qui dist en teil maniere que il avoit eu <name
-                     type="people" ref="#Fastige #Helcana"><num>ii</num> femes</name>, desqueles il
-                  avoit eut <name type="people"
-                     ref="#Kanor #Sycor #Domor #Rusticor #Dorus #Cassidoire #Celydus #Pelyarmenus #Helcanus"
-                     >enfans</name>, liqueil avoient eut dissencion entr'iaus, si come il est
+                     trouve bien l'ex-libris.</note> et conte de Saint Pol, pour lequeil je ne me
+                  porroie mie tenir que toute m'entente ne me covingne metre a ce que il
+                  premierement, et autres en apriés lui, sacent qui cil quatre frere furent, dont
+                  je, en la rebriche ci encoste, ai fait mension. Et por ce que li envieus<note
+                     type="note_commentaire">topos de prologue que de rejeter les critiques à
+                     l'avance. Ce qui est intéressant, c'est l'utilisation d'un cas sujet alors que
+                     finalement le GN est CO2 : ou alors il y a une anacoluthe...</note>, qui nul
+                  avancement ne vauroient avoir sor nul home qui blasmer seuist aus, ne ceus de leur
+                  lignie, veil je le mien non del tout en tout celer, quant il me doit sousfire a ce
+                  que li miens sire le sace devant dis, sans cui confort je ne porroie mie teil
+                  ouvrage asovir legierement. Si veil comencier en teil maniere que je en apiel
+                  celui qui en gré prent toutes ouevres qui sont faites et dites en colour de
+                  droiture, de raison et de verité, çou est cil qui tout cria et fist por home mener
+                  et conduire el regne dou ciel.</p>
+               <p n="P2">Voirs fu, si come je truis en pluisors lius escrit que jadis eut un
+                  empereour en la citei de <placeName key="Constantinople"
+                     >Coustantinoble</placeName>, ensi come je desus ai dit. Cil eut non <persName
+                     key="Cassidorus">Kassidorus</persName> et fu nobles princes, si com li histoire
+                  le devise, qui dist en teil maniere que il avoit eu <num>ii</num> femes, desqueles
+                  il avoit eut enfans, liqueil avoient eut dissencion entr'iaus, si come il est
                   contenut en l'istoire qui vient devant cesti. Mais por çou que je ne puis mie
                   legiererement entrer en matere qui se puist acorder a celle dont je vos veil
                   touchier, si m'estuet venir a çou que vos sachiés en cestui livre qui furent ces
