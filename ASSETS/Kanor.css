@@ -108,6 +108,7 @@ a:active {
 
 /* PersName */
 .persName {
+    color: #ee53d8;
     border-bottom: 1px dotted;
     cursor: pointer;
 }
@@ -119,6 +120,7 @@ a:active {
 
 /* PlaceName */
 .placeName {
+    color: #23b61e;
     border-bottom: 1px dotted;
     cursor: pointer;
 }
@@ -129,12 +131,12 @@ a:active {
 
 
 .place {
-    color: #F9429E;
+    color: #e3ff00;
     cursor: pointer;
 }
 
 .people {
-    color: #F9429E;
+    color: #f2c300;
     cursor: pointer;
 }
 

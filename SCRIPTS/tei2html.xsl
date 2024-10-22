@@ -439,12 +439,13 @@
                         </b>
                         <br/>
                     </span>
-                    <span class="occupation">
-                        <b>
-                            <xsl:value-of select="occupation"/>
-                        </b>
-                        <br/>
-                    </span>
+                    <xsl:for-each select="occupation">
+                        <span class="occupation">
+                            <b><xsl:value-of select="."/></b>
+                            <br/>
+                        </span>
+                    </xsl:for-each>
+                   
                     <xsl:for-each select="note">
                         <span class="note">
                             <xsl:value-of select="."/>
