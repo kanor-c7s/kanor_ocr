@@ -1,18 +1,18 @@
-schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-title: 'C7S : Li Histoire de Kanor et de ses freres'
-url: https://github.com/kanor-c7s
 authors:
-  - name: Florian-Pierre
-    surname: Zanardi
-    orcid: 0009-0005-2868-0006
-    roles:
-      - transcriber
-      - aligner
-      - project-manager
-      - quality-control
-      - digitization
-      - support
-institutions: []
+- name: Florian-Pierre
+  orcid: 0009-0005-2868-0006
+  roles:
+  - transcriber
+  - aligner
+  - project-manager
+  - quality-control
+  - digitization
+  - support
+  surname: Zanardi
+automatically-aligned: true
+characters:
+  members: []
+  mode: NFD
 description: >-
   This repository contains the transcription of the final "continuation" of the
   Seven Sages of Rome (C7S) in the French tradition, titled Le Roman de Kanor,
@@ -35,25 +35,35 @@ description: >-
   its likely connection to prominent patrons like Hugues II de Châtillon or Gui
   de Dampierre, suggesting its role in reinforcing dynastic ties and cultural
   prestige within medieval Francophone courts.
-project-name: 'Canoniser les Sept Sages: Li Histoire de Kanor et de ses freres (BnF fr. 1446)'
-project-website: https://www.unige.ch/c7s/
-language:
-  - fro
-production-software: eScriptorium + Kraken
-automatically-aligned: true
-script:
-  - iso: Latn
-script-type: only-manuscript
-time:
-  notBefore: '1290'
-  notAfter: '1305'
+format: Alto-XML
 hands:
   count: less-than-11
   precision: exact
+institutions: []
+language:
+- fro
 license:
   name: CC-BY 4.0
   url: https://creativecommons.org/licenses/by/4.0/
-format: Alto-XML
+production-software: eScriptorium + Kraken
+project-name: 'Canoniser les Sept Sages: Li Histoire de Kanor et de ses freres (BnF
+  fr. 1446)'
+project-website: https://www.unige.ch/c7s/
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1305'
+  notBefore: '1290'
+title: 'C7S : Li Histoire de Kanor et de ses freres'
+url: https://github.com/kanor-c7s
 volume:
-  - metric: lines
-    count: 14800
+- count: 0
+  metric: characters
+- count: 140
+  metric: files
+- count: 0
+  metric: lines
+- count: 668
+  metric: regions
