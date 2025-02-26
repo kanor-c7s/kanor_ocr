@@ -1,0 +1,59 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: 'C7S : Li Histoire de Kanor et de ses freres'
+url: https://github.com/kanor-c7s
+authors:
+  - name: Florian-Pierre
+    surname: Zanardi
+    orcid: 0009-0005-2868-0006
+    roles:
+      - transcriber
+      - aligner
+      - project-manager
+      - quality-control
+      - digitization
+      - support
+institutions: []
+description: >-
+  This repository contains the transcription of the final "continuation" of the
+  Seven Sages of Rome (C7S) in the French tradition, titled Le Roman de Kanor,
+  specifically Li Histoire de Kanor et de ses freres. This text is preserved in
+  manuscript BnF fr. 1446, a composite manuscript that reflects the complex
+  history of the Seven Sages tradition. The version of Roman de Kanor, written
+  in Old Picard prose during the 13th century, serves as the sixth and last
+  continuation of this narrative cycle. It includes a reworking and partial
+  abridgment of earlier continuations, such as the Roman de Pelyarmenus, and
+  presents reworded material centered on Kanor and his brothers, sons of Emperor
+  Cassidorus.
+
+
+  The Seven Sages of Rome is a medieval frame story originating in the East,
+  which entered Western literary traditions in the 12th century. It became
+  widely popular in both verse and prose forms, with numerous adaptations across
+  Europe. The Roman de Kanor stands out for its intricate plotlines involving
+  themes like dynastic struggles, identity swaps, and moral lessons. The
+  manuscript itself reflects broader cultural and political dynamics, including
+  its likely connection to prominent patrons like Hugues II de Châtillon or Gui
+  de Dampierre, suggesting its role in reinforcing dynastic ties and cultural
+  prestige within medieval Francophone courts.
+project-name: 'Canoniser les Sept Sages: Li Histoire de Kanor et de ses freres (BnF fr. 1446)'
+project-website: https://www.unige.ch/c7s/
+language:
+  - fro
+production-software: eScriptorium + Kraken
+automatically-aligned: true
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1290'
+  notAfter: '1305'
+hands:
+  count: less-than-11
+  precision: exact
+license:
+  name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+  - metric: lines
+    count: 14800
