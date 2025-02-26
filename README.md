@@ -1,3 +1,5 @@
+![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg) 
+
 # Présentation du projet C7S
 
 Le projet **Canoniser les Sept Sages de Rome (C7S)** vise l'étude du cycle de romans de continuations du _Roman des Sept Sages de Rome_.
