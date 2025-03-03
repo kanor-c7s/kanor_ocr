@@ -38,16 +38,27 @@ Ground truths were created using [eScriptorium](https://escriptorium.inria.fr). 
 
 ### Transcription standards
 
-Transcription choices adopted in this project are detailed in a dedicated document. They are based on the recommendations of the CREMMA project and Ariane Pinche’s *Transcription Guidelines for 10th to 15th Century Manuscripts* (2022): [hal-03697382](https://hal.science/hal-03697382/document).  We also tried to our best to follow the guidelines of the [cremma-medieval/HTR-United initiative]{https://github.com/HTR-United/cremma-medieval}.
+Transcription choices adopted in this project are detailed in a dedicated document. They are based on the recommendations of the CREMMA project and Ariane Pinche’s *Transcription Guidelines for 10th to 15th Century Manuscripts* (2022): [hal-03697382](https://hal.science/hal-03697382/document).  We also tried to our best to follow the guidelines of the [cremma-medieval/HTR-United initiative](https://github.com/HTR-United/cremma-medieval).
 
 ###  Editorial choices
 
 Our approach follows a “pseudo-graphematic” method: each allograph is reduced to a standardized form but without preserving the original sequence of letters. We chose to directly segment words to align the transcription with modern conventions and streamline the editing process. We ensured the preservation of the following elements:
 
-* Original spellings of words,
-* The abbreviation system,
-* Punctuation marks,
-* Structure of the text, including word and line segmentation,
-* Scribal additions and deletions, along with their conditions.
+* Original spellings of words
+* The abbreviation system
+* Punctuation marks
+* Structure of the text, including word and line segmentation
+* Scribal additions and deletions, along with their conditions
 
-These choices aim to balance fidelity to the original manuscript with modern readability. The ALTO output files are available in the `bnf_fr_1446/ground_truth/xml_alto`
+These choices aim to balance fidelity to the original manuscript with modern readability. The ALTO output files are available in the 'bnf_fr_1446/ground_truth/xml_alto'
+
+# Outputs
+
+The outputs here are only from the digital side of this work, which is not the primary focus of the thesis:
+
+## Model trained on the ms. 1446
+
+An initial automatic transcription of folios 1 to 10 from manuscript BnF fr. 1446 was generated using the [Generic CREMMA Model for Medieval Manuscripts (Latin and Old French), 8-15th century](https://zenodo.org/records/7234166#.Y7f69afMJhE), followed by manual corrections on eScriptorium. Based on this data, I trained an initial version of my own model. A second version was subsequently developed using a 40-folio golden data corpus. Ultimately, I created a model tailored to the primary hands of ms. BnF fr. 1446, which could facilitate faster transcription of the entire text.
+
+This model is available at `bnf_fr_1446/model`
+
