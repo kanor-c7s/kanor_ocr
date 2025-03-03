@@ -1,6 +1,6 @@
 # Repository overview  
 
-*This project is a work in progress.*  
+*This DH project is a work in progress.*
 
 ## Project Description  
 
@@ -67,6 +67,8 @@ The **second transcription** follows most of the guidelines from *Conseils pour 
 ---
 
 ## Outputs  
+
+Only DH outputs here.
 
 ### Golden Dataset from ms. BnF fr. 1446  
 
