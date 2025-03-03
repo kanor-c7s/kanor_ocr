@@ -10,15 +10,17 @@
 
 ## 🖋️ Project Description  
 
-This repository aims at creating a digital edition of the medieval French novel *Li Histoire de Kanor et ses frere* in XML-TEI format. The goal is to produce a sustainable, searchable, and scholarly edition that facilitates the reading and study of this non-cyclical version of the *Roman de Kanor*, final continuation of the *Cycle des Sept Sages de Rome*.  
+This repository hosts a digital edition of the medieval French novel *Li Histoire de Kanor et ses frere* in XML-TEI format.
 
-This work is part of Florian-Pierre Zanardi’s doctoral research (UNIGE/Lyon-II) and contributes to the FNS project **Camonizing the Seven Sages** (C7S), led by Professors Yasmina Foehr-Janssens (UNIGE) and Simone Ventura (ULB).  
+This work is part of Florian-Pierre Zanardi’s doctoral research (UNIGE/Lyon-II) and contributes to the FNS project **Camonizing the Seven Sages** (C7S), led by Professors Yasmina Foehr-Janssens (UNIGE) and Simone Ventura (ULB).
 
-The repository includes:  
-- Source files and manuscript images  
-- Detailed transcription and editorial guides  
-- An XML-TEI edition  
-- A custom transcription model trained on ms. BnF fr. 1446  
+The goal is to produce a sustainable, searchable, and scholarly edition that facilitates the reading and study of this non-cyclical version of the *Roman de Kanor*, final continuation of the *Cycle des Sept Sages de Rome*.
+
+The repository includes:
+- Source files and manuscript images
+- Controlled dataset, transcriptions and editorial guides
+- An XML-TEI edition
+- A custom transcription model trained on ms. BnF fr. 1446
 
 ---
 
