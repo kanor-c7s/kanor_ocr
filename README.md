@@ -2,6 +2,8 @@
 
 ![ms. BnF fr. 1446, f. 1r](badges/français_1446__btv1b10023851v_7.jpg)
 
+*Ichi encomence li histoire de Kanor et de ses freres, liqueil furent fil au noble Kassidorus, empereor de Costostinnoble et de Rome, liqueil furent engenré en l'emperis Fastige, ki fille fu a l'empereor Phiseus.*
+
 # 📚 Repository Overview  
 
 *This DH project is a work in progress.*  
