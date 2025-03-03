@@ -1,5 +1,7 @@
 ![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg) 
 
+![screenshot](badges/Français_1446__btv1b10023851v_7.jpg)
+
 # 📚 Repository Overview  
 
 *This DH project is a work in progress.*  
@@ -78,7 +80,7 @@ Transcriptions in `bnf_fr_1446/ground_truth/xml_alto` have been checked for accu
 
 ### 🤖 Custom Transcription Model  
 
-An initial automatic transcription was generated for folios 1–10 using the [Generic CREMMA Model for Medieval Manuscripts (Latin and Old French), 8–15th century](https://zenodo.org/records/7234166#.Y7f69afMJhE). Manual corrections were applied via eScriptorium, forming the basis for training a custom model.
+An initial automatic transcription was generated for folios 1–10 using the [Generic CREMMA Model for Medieval Manuscripts (Latin and Old French), 8–15th century](https://zenodo.org/records/7234166#.Y7f69afMJhE). Manual corrections were applied via eScriptorium, forming a golden dataset for training a custom model.
 
 A second version was trained on a controlled dataset of 40 folios, resulting in a model tailored to the primary hands of ms. BnF fr. 1446. This model facilitates faster transcription across the manuscript and is available in `bnf_fr_1446/model`.  
 
@@ -87,6 +89,3 @@ A second version was trained on a controlled dataset of 40 folios, resulting in 
 A complete XML-TEI edition of *Li Histoire de Kanor et ses frere* has been created and is available in `xml_tei/jns.47.jns8386.c7s-fro7.xml`.
 
 A comprehensive guide to this edition can be found in `ODD/ODD-c7s-fro7.pdf`. The edition is also accessible online: [https://kanor-c7s.github.io/index.html](url).
-```
-
-Sources
