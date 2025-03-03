@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>35_91c50_default.jpg</fileName>
+      <fileIdentifier>https://gallica.bnf.fr/iiif/ark:/12148/btv1b10023851v/f36/full/full/0/default.jpg</fileIdentifier>
+    </sourceImageInformation>
+  </Description>
+  
+  <Tags>
+    <OtherTag ID="BT5162" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT5166" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT5167" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT7824" LABEL="TitlePageZone" DESCRIPTION="block type TitlePageZone"/><OtherTag ID="BT8488" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT8490" LABEL="TableZone" DESCRIPTION="block type TableZone"/><OtherTag ID="BT8491" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT8505" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT8508" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT21525" LABEL="QuireMarksZone" DESCRIPTION="block type QuireMarksZone"/>
+    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
+  </Tags>
+  
+  <Layout>
+    <Page WIDTH="3376"
+          HEIGHT="4647"
+          PHYSICAL_IMG_NR="29"
+          ID="eSc_dummypage_">
+      <PrintSpace HPOS="0"
+                  VPOS="0"
+                  WIDTH="3376"
+                  HEIGHT="4647">
+        
+        <TextBlock HPOS="278"
+                   VPOS="237"
+                   WIDTH="1372"
+                   HEIGHT="3911"
+                   ID="eSc_textblock_8869df60"
+                   TAGREFS="BT5162">
+          <Shape><Polygon POINTS="1619 247 1650 423 1650 4107 1588 4148 299 4128 278 2881 309 2684 348 2664 452 2715 464 2651 441 2579 309 2589 309 299 516 247 1345 237"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1760"
+                   VPOS="222"
+                   WIDTH="1409"
+                   HEIGHT="3937"
+                   ID="eSc_textblock_61107e40"
+                   TAGREFS="BT5162">
+          <Shape><Polygon POINTS="3128 258 3169 3632 3148 4024 3107 4148 2366 4159 1797 4138 1766 4107 1777 3242 1797 3180 1908 3170 1963 3105 1921 2922 1808 2919 1777 2785 1777 392 1772 370 1760 324 1776 274 1874 245 1894 243 2151 222"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="274"
+                   VPOS="2551"
+                   WIDTH="178"
+                   HEIGHT="168"
+                   ID="eSc_textblock_37477dce"
+                   TAGREFS="BT5166">
+          <Shape><Polygon POINTS="278 2551 274 2715 452 2719 452 2551"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1760"
+                   VPOS="2929"
+                   WIDTH="180"
+                   HEIGHT="230"
+                   ID="eSc_textblock_907b3500"
+                   TAGREFS="BT5166">
+          <Shape><Polygon POINTS="1760 2929 1760 3029 1760 3159 1820 3159 1940 3159 1940 3052 1940 2933"/></Shape>
+          
+        </TextBlock>
+        
+
+        
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

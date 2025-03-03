@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>80_fbf2a_default.jpg</fileName>
+      <fileIdentifier>https://gallica.bnf.fr/iiif/ark:/12148/btv1b10023851v/f81/full/full/0/default.jpg</fileIdentifier>
+    </sourceImageInformation>
+  </Description>
+  
+  <Tags>
+    <OtherTag ID="BT5162" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT5166" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT5167" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT7824" LABEL="TitlePageZone" DESCRIPTION="block type TitlePageZone"/><OtherTag ID="BT8488" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT8490" LABEL="TableZone" DESCRIPTION="block type TableZone"/><OtherTag ID="BT8491" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT8505" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT8508" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT21525" LABEL="QuireMarksZone" DESCRIPTION="block type QuireMarksZone"/>
+    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
+  </Tags>
+  
+  <Layout>
+    <Page WIDTH="3446"
+          HEIGHT="4741"
+          PHYSICAL_IMG_NR="74"
+          ID="eSc_dummypage_">
+      <PrintSpace HPOS="0"
+                  VPOS="0"
+                  WIDTH="3446"
+                  HEIGHT="4741">
+        
+        <TextBlock HPOS="347"
+                   VPOS="147"
+                   WIDTH="1431"
+                   HEIGHT="3990"
+                   ID="eSc_textblock_5846c90b"
+                   TAGREFS="BT5162">
+          <Shape><Polygon POINTS="1694 168 1725 242 1778 2359 1757 4106 1725 4137 389 4127 358 4085 358 2770 379 2581 495 2473 516 2381 482 2304 368 2315 347 2283 347 337 349 330 360 197 424 198 537 200 1562 147"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1845"
+                   VPOS="153"
+                   WIDTH="1440"
+                   HEIGHT="3963"
+                   ID="eSc_textblock_9aa1e314"
+                   TAGREFS="BT5162">
+          <Shape><Polygon POINTS="3274 1348 3285 3231 3243 4021 3179 4116 1886 4116 1845 153 1981 156 3197 220"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="3150"
+                   VPOS="326"
+                   WIDTH="19"
+                   HEIGHT="8"
+                   ID="eSc_textblock_76beacc1"
+                   TAGREFS="BT5162">
+          <Shape><Polygon POINTS="3169 326 3169 334 3150 334 3156 326"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="356"
+                   VPOS="2334"
+                   WIDTH="126"
+                   HEIGHT="202"
+                   ID="eSc_textblock_2daeb095"
+                   TAGREFS="BT5166">
+          <Shape><Polygon POINTS="461 2338 482 2441 461 2504 379 2536 356 2334"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="3220"
+                   VPOS="137"
+                   WIDTH="139"
+                   HEIGHT="106"
+                   ID="eSc_textblock_425718ee"
+                   TAGREFS="BT8505">
+          <Shape><Polygon POINTS="3220 137 3220 243 3355 243 3359 137"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1830"
+                   VPOS="3020"
+                   WIDTH="214"
+                   HEIGHT="147"
+                   ID="eSc_textblock_9eaac9a8"
+                   TAGREFS="BT5166">
+          <Shape><Polygon POINTS="1830 3020 1830 3167 2044 3163 2044 3020"/></Shape>
+          
+        </TextBlock>
+        
+
+        
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

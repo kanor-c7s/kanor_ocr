@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>138_aa933_default.jpg</fileName>
+      <fileIdentifier>https://gallica.bnf.fr/iiif/ark:/12148/btv1b10023851v/f139/full/full/0/default.jpg</fileIdentifier>
+    </sourceImageInformation>
+  </Description>
+  
+  <Tags>
+    <OtherTag ID="BT5162" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT5166" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT5167" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT7824" LABEL="TitlePageZone" DESCRIPTION="block type TitlePageZone"/><OtherTag ID="BT8488" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT8490" LABEL="TableZone" DESCRIPTION="block type TableZone"/><OtherTag ID="BT8491" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT8505" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT8508" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT21525" LABEL="QuireMarksZone" DESCRIPTION="block type QuireMarksZone"/>
+    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
+  </Tags>
+  
+  <Layout>
+    <Page WIDTH="3491"
+          HEIGHT="4726"
+          PHYSICAL_IMG_NR="132"
+          ID="eSc_dummypage_">
+      <PrintSpace HPOS="0"
+                  VPOS="0"
+                  WIDTH="3491"
+                  HEIGHT="4726">
+        
+        <TextBlock HPOS="441"
+                   VPOS="378"
+                   WIDTH="29"
+                   HEIGHT="28"
+                   ID="eSc_textblock_6024a92a"
+                   TAGREFS="BT5162">
+          <Shape><Polygon POINTS="470 396 441 406 441 388 454 378"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="346"
+                   VPOS="279"
+                   WIDTH="1442"
+                   HEIGHT="4024"
+                   ID="eSc_textblock_d2f65c95"
+                   TAGREFS="BT5162">
+          <Shape><Polygon POINTS="1738 4292 378 4303 346 4051 378 1869 399 1816 512 1848 588 1772 533 1625 399 1677 378 1604 437 279 653 288 811 295 1333 318 1788 319"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1857"
+                   VPOS="317"
+                   WIDTH="1381"
+                   HEIGHT="4007"
+                   ID="eSc_textblock_209b189b"
+                   TAGREFS="BT5162">
+          <Shape><Polygon POINTS="3018 346 3175 378 3217 441 3238 3620 3217 4198 3186 4292 3123 4324 1993 4313 1857 4282 1878 2142 1899 2047 1991 2037 2025 1982 2001 1898 1899 1898 1888 1814 1909 668 1941 388 1944 317 2026 329 2029 329 2209 325"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="381"
+                   VPOS="1661"
+                   WIDTH="147"
+                   HEIGHT="163"
+                   ID="eSc_textblock_043bb7dd"
+                   TAGREFS="BT5166">
+          <Shape><Polygon POINTS="528 1667 501 1824 398 1804 381 1661 474 1665"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="3258"
+                   VPOS="207"
+                   WIDTH="105"
+                   HEIGHT="148"
+                   ID="eSc_textblock_bd7f4a7c"
+                   TAGREFS="BT8505">
+          <Shape><Polygon POINTS="3258 207 3258 355 3363 355 3363 207"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1862"
+                   VPOS="1912"
+                   WIDTH="168"
+                   HEIGHT="152"
+                   ID="eSc_textblock_ce6a7c1c"
+                   TAGREFS="BT5166">
+          <Shape><Polygon POINTS="1862 1912 1862 2064 2030 2064 2030 1912"/></Shape>
+          
+        </TextBlock>
+        
+
+        
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
