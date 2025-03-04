@@ -2,7 +2,7 @@
 
 # *Li Histoire de Kanor et ses freres*, ms. BnF fr. 1446
 
-![ms. BnF fr. 1446, f. 1r](badges/français_1446__btv1b10023851v_7.jpg)
+![ms. BnF fr. 1446, f. 1r](badges/francais_1446__btv1b10023851v_7.jpg)
 
 *Ichi encomence li histoire de Kanor et de ses freres, li queil furent fil au noble Kassidorus, empereor de Costostinnoble et de Rome, liqueil furent engenré en l'emperis Fastige, ki fille fu a l'empereor Phiseus.*
 
