@@ -2,13 +2,19 @@
 
 # *Li Histoire de Kanor et ses freres*, ms. BnF fr. 1446
 
-![ms. BnF fr. 1446, f. 1r](badges/français_1446__btv1b10023851v_7.jpg)
+![ms. BnF fr. 1446, f. 1r](badges/francais_1446__btv1b10023851v_7.jpg)
 
 *Ichi encomence li histoire de Kanor et de ses freres, li queil furent fil au noble Kassidorus, empereor de Costostinnoble et de Rome, liqueil furent engenré en l'emperis Fastige, ki fille fu a l'empereor Phiseus.*
 
 # 📚 Repository Overview  
 
-*This DH project is a work in progress.*  
+*This DH project is a work in progress.*
+
+## 📂 GitHub structure
+
+This GitHub contains two repositories:  
+- [`kanor_xml_ocr/`](https://github.com/kanor-c7s/kanor_ocr/) for image files, ALTO transcriptions, and a trained model
+- [`kanor_xml_tei/`](https://github.com/kanor-c7s/kanor_tei/) for XML-TEI files, guides, and HTML outputs
 
 ## 🖋️ Project Description  
 
@@ -94,4 +100,6 @@ A **second version** was trained on a controlled dataset of 40 folios, resulting
 
 An XML-TEI edition of *Li Histoire de Kanor et ses frere* has been coded and is available in `xml_tei/jns.47.jns8386.c7s-fro7.xml`
 
-A comprehensive guide to this edition can be found in `ODD/ODD-c7s-fro7.pdf`. The edition is also accessible online: [https://kanor-c7s.github.io/index.html](url)
+A guide to this edition can be found in `kanor_xml_tei/ODD-c7s-fro7.pdf`
+
+An online edition is also available at [https://kanor-c7s.github.io/index.html](url)
