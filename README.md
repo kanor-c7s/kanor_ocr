@@ -94,4 +94,6 @@ A **second version** was trained on a controlled dataset of 40 folios, resulting
 
 An XML-TEI edition of *Li Histoire de Kanor et ses frere* has been coded and is available in `xml_tei/jns.47.jns8386.c7s-fro7.xml`
 
-A comprehensive guide to this edition can be found in `ODD/ODD-c7s-fro7.pdf`. The edition is also accessible online: [https://kanor-c7s.github.io/index.html](url)
+A guide to this edition can be found in `kanor_xml_tei/ODD-c7s-fro7.pdf`
+
+An online edition is also available at [https://kanor-c7s.github.io/index.html](url)
