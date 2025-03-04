@@ -24,7 +24,7 @@ This work is part of Florian-Pierre Zanardi’s doctoral research (UNIGE/Lyon-II
 
 The goal is to produce a sustainable, searchable, and scholarly edition that facilitates the reading and study of this non-cyclical version of the *Roman de Kanor*, final continuation of the *Cycle des Sept Sages de Rome*.
 
-The repository includes:
+The DH project includes:
 - Source files and manuscript images
 - Controlled dataset, transcriptions and editorial guides
 - An XML-TEI edition
