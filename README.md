@@ -86,20 +86,25 @@ The **second transcription** follows most of the guidelines from *Conseils pour 
 
 Only DH outputs here.
 
-### 🏅 Golden Dataset from ms. BnF fr. 1446  
+| **Output Type**       | **Description**                                                                 | **Location**                                                                                     |
+|------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| **Golden Dataset**     | Checked transcriptions from ms. BnF fr. 1446 for OCR training                 | [`/kanor_ocr/xml_ocr/bnf_fr_1446/ground_truth/xml_alto/`](https://github.com/kanor-c7s/kanor_ocr/tree/main/bnf_fr_1446/ground_truth/xml_alto/) |
+| **Custom OCR Model**   | Tailored model trained on 40 folios of ms. BnF fr. 1446 for faster transcription | [`/kanor_ocr/trained_ocr_model_kanor_1446/`](https://github.com/kanor-c7s/kanor_ocr/tree/main/trained_ocr_model_kanor_1446/) |
+| **XML-TEI Edition**    | Encoded digital edition of *Li Histoire de Kanor et ses freres*.               | [`/kanor_xml_tei/xml_tei/jns.47.jns8386.c7s-fro7.xml`](https://github.com/kanor-c7s/kanor_xml_tei/blob/main/xml_tei/jns.47.jns8386.c7s-fro7.xml) |
+| **Website**| Online edition with enriched content                                       | [https://kanor-c7s.github.io/index.html](url) |
 
-Transcriptions in [`/kanor_ocr/xml_ocr/bnf_fr_1446/ground_truth/xml_alto/`](https://github.com/kanor-c7s/kanor_ocr/tree/main/bnf_fr_1446/ground_truth/xml_alto/) have been checked for accuracy, though minor errors may (do...) persist in the XML-ALTO files.  
+### Notes
 
-### 🤖 Custom Transcription Model  
+Minor errors do persist in the XML-ALTO files.
 
-An **initial automatic transcription** was generated for folios 1–10 using the [Generic CREMMA Model for Medieval Manuscripts (Latin and Old French), 8–15th century](https://zenodo.org/records/7234166#.Y7f69afMJhE). Manual corrections were applied via eScriptorium, forming a golden dataset for training a custom model.
+An **initial automatic transcription** was generated for folios 1–10 using the [Generic CREMMA Model for Medieval Manuscripts (Latin and Old French), 8–15th century](https://zenodo.org/records/7234166#.Y7f69afMJhE). Manual corrections were applied via eScriptorium, forming a golden dataset for training a custom model. A **second version** was trained on a controlled dataset of 40 folios, resulting in a model tailored to the primary hands of ms. BnF fr. 1446.
 
-A **second version** was trained on a controlled dataset of 40 folios, resulting in a model tailored to the primary hands of ms. BnF fr. 1446. This model facilitates faster transcription across the manuscript and is available in [`kanor_ocr/trained_ocr_model_kanor_1446/`](https://github.com/kanor-c7s/kanor_ocr/tree/main/trained_ocr_model_kanor_1446)
+An ODD guide can be found in [`kanor_xml_tei//ODD/ODD-c7s-fro7.pdf`](https://github.com/kanor-c7s/kanor_xml_tei/blob/main/ODD/ODD-c7s-fro7.pdf)
 
-### 📖 XML-TEI Edition  
+### Acknowledgments
 
-An XML-TEI edition of *Li Histoire de Kanor et ses frere* has been coded and is available at [`kanor_xml_tei/xml_tei/jns.47.jns8386.c7s-fro7.xml`](https://github.com/kanor-c7s/kanor_xml_tei/blob/main/xml_tei/jns.47.jns8386.c7s-fro7.xml)
+To be done
 
-A guide to this edition can be found in [`kanor_xml_tei//ODD/ODD-c7s-fro7.pdf`](https://github.com/kanor-c7s/kanor_xml_tei/blob/main/ODD/ODD-c7s-fro7.pdf)
-
-An online edition is also available at [https://kanor-c7s.github.io/index.html](url)
+-Ariane Pinche (INRIA serve, model training and help), Camille Carnaille (and C7S Pelyarmenus team for help, structure, ODD, names) etc.-
+-various scripts
+-LLM Perplexity for rephrasing and structure
