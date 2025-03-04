@@ -76,7 +76,7 @@ Despite these adjustments, key features are retained:
 - Text structure, including word and line segmentation
 - Scribal additions, deletions, and their contexts
 
-These choices balance fidelity to the manuscript with usability for modern readers. The ALTO output files are stored in [`xml_ocr/bnf_fr_1446/ground_truth/xml_alto`](https://github.com/kanor-c7s/xml_ocr/blob/main/bnf_fr_1446/ground_truth/xml_alto)
+These choices balance fidelity to the manuscript with usability for modern readers. The ALTO output files are stored in [`/kanor_ocr/xml_ocr/bnf_fr_1446/ground_truth/xml_alto`](https://github.com/kanor-c7s/kanor_ocr/tree/main/bnf_fr_1446/ground_truth/xml_alto)
 
 The **second transcription** follows most of the guidelines from *Conseils pour l'édition des textes médiévaux* (fasc. 1-3) by Olivier Guyotjeannin, Pascale Bourgain, and Françoise Vielliard.
 
@@ -88,7 +88,7 @@ Only DH outputs here.
 
 ### 🏅 Golden Dataset from ms. BnF fr. 1446  
 
-Transcriptions in [`xml_ocr/bnf_fr_1446/ground_truth/xml_alto`](https://github.com/kanor-c7s/xml_ocr/blob/main/bnf_fr_1446/ground_truth/xml_alto) have been checked for accuracy, though minor errors may (do...) persist in the XML-ALTO files.  
+Transcriptions in [`/kanor_ocr/xml_ocr/bnf_fr_1446/ground_truth/xml_alto`](https://github.com/kanor-c7s/kanor_ocr/tree/main/bnf_fr_1446/ground_truth/xml_alto) have been checked for accuracy, though minor errors may (do...) persist in the XML-ALTO files.  
 
 ### 🤖 Custom Transcription Model  
 
@@ -98,8 +98,8 @@ A **second version** was trained on a controlled dataset of 40 folios, resulting
 
 ### 📖 XML-TEI Edition  
 
-An XML-TEI edition of *Li Histoire de Kanor et ses frere* has been coded and is available in [`xml_tei/jns.47.jns8386.c7s-fro7.xml`](https://github.com/kanor-c7s/xml_tei/blob/main/jns.47.jns8386.c7s-fro7.xml)
+An XML-TEI edition of *Li Histoire de Kanor et ses frere* has been coded and is available in [`kanor_xml_tei/xml_tei/jns.47.jns8386.c7s-fro7.xml`](https://github.com/kanor-c7s/kanor_xml_tei/blob/main/xml_tei/jns.47.jns8386.c7s-fro7.xml)
 
-A guide to this edition can be found in [`kanor_xml_tei/ODD-c7s-fro7.pdf`](https://github.com/kanor-c7s/kanor_xml_tei/blob/main/ODD/ODD-c7s-fro7.pdf)
+A guide to this edition can be found in [`kanor_xml_tei//ODD/ODD-c7s-fro7.pdf`](https://github.com/kanor-c7s/kanor_xml_tei/blob/main/ODD/ODD-c7s-fro7.pdf)
 
 An online edition is also available at [https://kanor-c7s.github.io/index.html](url)
