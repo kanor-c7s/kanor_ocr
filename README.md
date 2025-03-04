@@ -14,7 +14,7 @@
 
 This GitHub contains two repositories:  
 - [`kanor_xml_ocr/`](https://github.com/kanor-c7s/kanor_ocr/) for image files, ALTO transcriptions, and a trained model
-- [`kanor_xml_tei/`](https://github.com/kanor-c7s/kanor_tei/) for XML-TEI files, guides, and HTML outputs
+- [`kanor_xml_tei/`](https://github.com/kanor-c7s/kanor_xml_tei/) for XML-TEI files, guides, and HTML outputs
 
 ## 🖋️ Project Description  
 
