@@ -76,7 +76,7 @@ Despite these adjustments, key features are retained:
 - Text structure, including word and line segmentation
 - Scribal additions, deletions, and their contexts
 
-These choices balance fidelity to the manuscript with usability for modern readers. The ALTO output files are stored in `bnf_fr_1446/ground_truth/xml_alto`
+These choices balance fidelity to the manuscript with usability for modern readers. The ALTO output files are stored in [`xml_ocr/bnf_fr_1446/ground_truth/xml_alto`](https://github.com/kanor-c7s/xml_ocr/bnf_fr_1446/ground_truth/xml_alto)
 
 The **second transcription** follows most of the guidelines from *Conseils pour l'édition des textes médiévaux* (fasc. 1-3) by Olivier Guyotjeannin, Pascale Bourgain, and Françoise Vielliard.
 
@@ -88,18 +88,18 @@ Only DH outputs here.
 
 ### 🏅 Golden Dataset from ms. BnF fr. 1446  
 
-Transcriptions in `bnf_fr_1446/ground_truth/xml_alto` have been checked for accuracy, though minor errors may (do...) persist in the XML-ALTO files.  
+Transcriptions in [`xml_ocr/bnf_fr_1446/ground_truth/xml_alto`](https://github.com/kanor-c7s/xml_ocr/bnf_fr_1446/ground_truth/xml_alto) have been checked for accuracy, though minor errors may (do...) persist in the XML-ALTO files.  
 
 ### 🤖 Custom Transcription Model  
 
 An **initial automatic transcription** was generated for folios 1–10 using the [Generic CREMMA Model for Medieval Manuscripts (Latin and Old French), 8–15th century](https://zenodo.org/records/7234166#.Y7f69afMJhE). Manual corrections were applied via eScriptorium, forming a golden dataset for training a custom model.
 
-A **second version** was trained on a controlled dataset of 40 folios, resulting in a model tailored to the primary hands of ms. BnF fr. 1446. This model facilitates faster transcription across the manuscript and is available in `bnf_fr_1446/model`
+A **second version** was trained on a controlled dataset of 40 folios, resulting in a model tailored to the primary hands of ms. BnF fr. 1446. This model facilitates faster transcription across the manuscript and is available in [`xml_ocr/trained_ocr_model_kanor_1446`](https://github.com/kanor-c7s/xml_ocr/trained_ocr_model_kanor_1446)
 
 ### 📖 XML-TEI Edition  
 
-An XML-TEI edition of *Li Histoire de Kanor et ses frere* has been coded and is available in `xml_tei/jns.47.jns8386.c7s-fro7.xml`
+An XML-TEI edition of *Li Histoire de Kanor et ses frere* has been coded and is available in [`xml_tei/jns.47.jns8386.c7s-fro7.xml`](https://github.com/kanor-c7s/xml_tei/jns.47.jns8386.c7s-fro7.xml)
 
-A guide to this edition can be found in `kanor_xml_tei/ODD-c7s-fro7.pdf`
+A guide to this edition can be found in [`kanor_xml_tei/ODD-c7s-fro7.pdf`](https://github.com/kanor-c7s/kanor_xml_tei/ODD-c7s-fro7.pdf)
 
 An online edition is also available at [https://kanor-c7s.github.io/index.html](url)
