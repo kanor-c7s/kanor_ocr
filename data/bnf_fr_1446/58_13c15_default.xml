@@ -12,7 +12,7 @@
   
   <Tags>
     <OtherTag ID="BT5162" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT5166" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT5167" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT7824" LABEL="TitlePageZone" DESCRIPTION="block type TitlePageZone"/><OtherTag ID="BT8488" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT8490" LABEL="TableZone" DESCRIPTION="block type TableZone"/><OtherTag ID="BT8491" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT8505" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT8508" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT21525" LABEL="QuireMarksZone" DESCRIPTION="block type QuireMarksZone"/>
-    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
+    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/><OtherTag ID="LT6927" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/><OtherTag ID="LT8590" LABEL="HeadingLine:rubric" DESCRIPTION="line type HeadingLine:rubric"/>
   </Tags>
   
   <Layout>
@@ -699,17 +699,34 @@
           
           <TextLine ID="eSc_line_d5d91961"
                     TAGREFS="LT1723"
-                    BASELINE="232 3137 896 3142 1518 3166" 
-                    HPOS="229"
+                    BASELINE="232 3137 528 3139" 
+                    HPOS="227"
                     VPOS="3071"
-                    WIDTH="1289"
-                    HEIGHT="131">
-            <Shape><Polygon POINTS="229 3171 1152 3181 1191 3186 1400 3202 1403 3202 1515 3189 1518 3166 1518 3116 1374 3095 1371 3095 1168 3103 1073 3105 1008 3098 914 3085 911 3085 870 3092 830 3100 804 3090 786 3082 783 3082 781 3082 747 3087 723 3092 705 3087 684 3079 682 3079 679 3079 640 3085 582 3092 567 3082 561 3077 559 3077 556 3077 553 3077 551 3077 538 3082 499 3095 454 3095 433 3077 431 3074 428 3074 425 3074 423 3074 420 3074 418 3074 418 3077 415 3077 402 3092 352 3092 321 3074 316 3071 313 3071 232 3071 232 3137"/></Shape>
-	    <String CONTENT="poĩs en iere Ensi come celidꝰ ⁊ dianor virẽt en."
-                    HPOS="229"
+                    WIDTH="298"
+                    HEIGHT="98">
+            <Shape><Polygon POINTS="231 3107 231 3134 227 3169 521 3169 525 3138 517 3071 250 3075 231 3107"/></Shape>
+	    <String CONTENT="poĩs en iere"
+                    HPOS="227"
                     VPOS="3071"
-                    WIDTH="1289"
-                    HEIGHT="131"></String>
+                    WIDTH="298"
+                    HEIGHT="98"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_780c42dc"
+                    
+                    BASELINE="532 3139 896 3142 1518 3166" 
+                    HPOS="525"
+                    VPOS="3071"
+                    WIDTH="992"
+                    HEIGHT="122">
+            <Shape><Polygon POINTS="529 3138 525 3166 1509 3193 1517 3162 1513 3107 529 3071 529 3138"/></Shape>
+	    <String CONTENT="Ensi come celidꝰ ⁊ dianor virẽt en."
+                    HPOS="525"
+                    VPOS="3071"
+                    WIDTH="992"
+                    HEIGHT="122"></String>
           </TextLine>
 
           

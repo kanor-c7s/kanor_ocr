@@ -12,7 +12,7 @@
   
   <Tags>
     <OtherTag ID="BT5162" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT5166" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT5167" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT7824" LABEL="TitlePageZone" DESCRIPTION="block type TitlePageZone"/><OtherTag ID="BT8488" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT8490" LABEL="TableZone" DESCRIPTION="block type TableZone"/><OtherTag ID="BT8491" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT8505" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT8508" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT21525" LABEL="QuireMarksZone" DESCRIPTION="block type QuireMarksZone"/>
-    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
+    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/><OtherTag ID="LT6927" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/><OtherTag ID="LT8590" LABEL="HeadingLine:rubric" DESCRIPTION="line type HeadingLine:rubric"/>
   </Tags>
   
   <Layout>
@@ -1467,17 +1467,34 @@
           
           <TextLine ID="eSc_line_de17d4cf"
                     TAGREFS="LT1723"
-                    BASELINE="1923 2638 3242 2665" 
-                    HPOS="1921"
-                    VPOS="2581"
-                    WIDTH="1321"
-                    HEIGHT="126">
-            <Shape><Polygon POINTS="1923 2638 1921 2659 2102 2665 2104 2667 2130 2686 2133 2686 2136 2686 2138 2686 2243 2672 2267 2670 2288 2675 2353 2691 2356 2691 2647 2696 2649 2696 2652 2696 2678 2688 2712 2678 2815 2693 2878 2701 2880 2701 2964 2699 3121 2691 3237 2707 3242 2665 3242 2617 3121 2617 3119 2615 3108 2604 3108 2602 3106 2602 3103 2602 3100 2602 2927 2610 2867 2612 2864 2610 2857 2599 2854 2599 2854 2596 2851 2596 2849 2596 2846 2596 2668 2604 2602 2607 2233 2602 2227 2596 2214 2586 2212 2586 2209 2586 2207 2586 2204 2586 2178 2594 2175 2596 2172 2594 2162 2586 2162 2583 2159 2583 2157 2583 2154 2583 2151 2583 2128 2594 2120 2596 2091 2594 1994 2581 1992 2581 1923 2589 1923 2638"/></Shape>
-	    <String CONTENT="el ꝯte desus dit en losteil au prince de kartage. De lẽꝑ."
-                    HPOS="1921"
-                    VPOS="2581"
-                    WIDTH="1321"
-                    HEIGHT="126"></String>
+                    BASELINE="1923 2638 3064 2661" 
+                    HPOS="1916"
+                    VPOS="2582"
+                    WIDTH="1145"
+                    HEIGHT="134">
+            <Shape><Polygon POINTS="1998 2633 1959 2633 1920 2625 1920 2637 1916 2696 2179 2704 2183 2704 2187 2704 2191 2704 2227 2676 2333 2676 2443 2708 2447 2708 2451 2708 2455 2708 2478 2708 2789 2684 3053 2716 3061 2657 3057 2606 2026 2582 1998 2633"/></Shape>
+	    <String CONTENT="el ꝯte desus dit en losteil au prince de kartage."
+                    HPOS="1916"
+                    VPOS="2582"
+                    WIDTH="1145"
+                    HEIGHT="134"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_5e17f7d7"
+                    TAGREFS="LT8590"
+                    BASELINE="3068 2661 3242 2665" 
+                    HPOS="3065"
+                    VPOS="2582"
+                    WIDTH="173"
+                    HEIGHT="145">
+            <Shape><Polygon POINTS="3065 2716 3112 2696 3226 2727 3238 2661 3238 2594 3065 2582 3065 2657"/></Shape>
+	    <String CONTENT="De lẽꝑ."
+                    HPOS="3065"
+                    VPOS="2582"
+                    WIDTH="173"
+                    HEIGHT="145"></String>
           </TextLine>
 
           

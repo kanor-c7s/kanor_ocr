@@ -12,7 +12,7 @@
   
   <Tags>
     <OtherTag ID="BT5162" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT5166" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT5167" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT7824" LABEL="TitlePageZone" DESCRIPTION="block type TitlePageZone"/><OtherTag ID="BT8488" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT8490" LABEL="TableZone" DESCRIPTION="block type TableZone"/><OtherTag ID="BT8491" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT8505" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT8508" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT21525" LABEL="QuireMarksZone" DESCRIPTION="block type QuireMarksZone"/>
-    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
+    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/><OtherTag ID="LT6927" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/><OtherTag ID="LT8590" LABEL="HeadingLine:rubric" DESCRIPTION="line type HeadingLine:rubric"/>
   </Tags>
   
   <Layout>
@@ -35,7 +35,7 @@
           
           
           <TextLine ID="eSc_line_8a7a771b"
-                    TAGREFS="LT1723"
+                    TAGREFS="LT8590"
                     BASELINE="514 222 1672 255" 
                     HPOS="509"
                     VPOS="132"
@@ -52,13 +52,13 @@
           
           
           <TextLine ID="eSc_line_27ece60d"
-                    TAGREFS="LT1723"
+                    TAGREFS="LT8590"
                     BASELINE="478 301 1680 323" 
                     HPOS="475"
                     VPOS="232"
                     WIDTH="1205"
                     HEIGHT="114">
-            <Shape><Polygon POINTS="1642 255 1627 255 1622 258 1596 270 1566 258 1556 253 1553 253 1551 253 1548 253 1546 253 1543 255 1525 268 1490 255 1475 250 1472 250 1470 250 1419 253 1280 265 1250 250 1240 245 1237 245 1234 245 1232 245 1222 250 1194 263 1017 263 1002 245 999 242 999 240 997 240 994 240 992 240 936 242 781 255 754 240 749 235 746 235 744 235 741 235 713 237 630 253 607 237 602 232 599 232 597 232 594 232 478 232 478 301 475 321 723 321 728 326 738 334 738 336 741 336 744 336 913 339 916 339 918 339 954 328 959 328 966 328 1009 341 1012 341 1014 341 1067 331 1085 328 1128 331 1277 346 1280 346 1677 339 1680 323 1680 260 1652 255 1642 255"/></Shape>
+            <Shape><Polygon POINTS="1627 255 1622 258 1596 270 1566 258 1556 253 1553 253 1551 253 1548 253 1546 253 1543 255 1525 268 1490 255 1475 250 1472 250 1470 250 1419 253 1280 265 1250 250 1240 245 1237 245 1234 245 1232 245 1222 250 1194 263 1017 263 1002 245 999 242 999 240 997 240 994 240 992 240 936 242 781 255 754 240 749 235 746 235 744 235 741 235 713 237 630 253 607 237 602 232 599 232 597 232 594 232 478 232 478 301 475 321 723 321 728 326 738 334 738 336 741 336 744 336 913 339 916 339 918 339 954 328 959 328 966 328 1009 341 1012 341 1014 341 1067 331 1085 328 1128 331 1277 346 1280 346 1677 339 1680 323 1680 260 1652 255 1642 255"/></Shape>
 	    <String CONTENT="ses freres liqueil furent fil au noble kas"
                     HPOS="475"
                     VPOS="232"
@@ -69,13 +69,13 @@
           
           
           <TextLine ID="eSc_line_8006540f"
-                    TAGREFS="LT1723"
+                    TAGREFS="LT8590"
                     BASELINE="475 377 1682 392" 
                     HPOS="473"
                     VPOS="308"
                     WIDTH="1209"
                     HEIGHT="104">
-            <Shape><Polygon POINTS="1159 316 1156 316 1153 316 1113 326 1078 336 1019 323 964 313 961 313 885 321 789 328 744 316 726 311 723 311 475 308 475 377 473 394 675 412 678 412 1680 409 1682 392 1682 346 1488 323 1485 323 1482 323 1480 323 1462 339 1460 341 1283 341 1272 331 1255 318 1252 318 1250 318 1247 318 1245 318 1207 331 1204 331 1199 331 1161 316 1159 316"/></Shape>
+            <Shape><Polygon POINTS="1156 316 1153 316 1113 326 1078 336 1019 323 964 313 961 313 885 321 789 328 744 316 726 311 723 311 475 308 475 377 473 394 675 412 678 412 1680 409 1682 392 1682 346 1488 323 1485 323 1482 323 1480 323 1462 339 1460 341 1283 341 1272 331 1255 318 1252 318 1250 318 1247 318 1245 318 1207 331 1204 331 1199 331 1161 316 1159 316"/></Shape>
 	    <String CONTENT="sidorus empereor de costostinnoble ⁊ de"
                     HPOS="473"
                     VPOS="308"
@@ -86,13 +86,13 @@
           
           
           <TextLine ID="eSc_line_0a3f86bb"
-                    TAGREFS="LT1723"
+                    TAGREFS="LT8590"
                     BASELINE="458 452 1713 465" 
                     HPOS="455"
                     VPOS="384"
                     WIDTH="1258"
                     HEIGHT="114">
-            <Shape><Polygon POINTS="455 480 698 470 761 488 766 488 769 488 771 488 781 488 862 473 954 488 956 488 1166 475 1202 490 1207 493 1209 493 1212 493 1229 493 1356 478 1394 493 1396 493 1556 495 1558 495 1561 495 1563 495 1589 480 1601 493 1601 495 1604 495 1606 495 1609 498 1710 498 1713 465 1713 407 1490 394 1488 394 1485 394 1482 394 1472 402 1462 409 1447 402 1437 397 1434 397 1432 397 1364 399 1214 407 1171 397 1143 389 1141 389 1138 389 1070 394 999 399 979 392 961 387 959 387 883 387 880 387 878 387 875 387 873 392 857 404 789 404 776 389 774 389 774 387 771 387 769 387 766 387 741 389 640 399 594 387 587 384 584 384 582 384 571 384 513 399 460 384 458 452 455 480"/></Shape>
+            <Shape><Polygon POINTS="698 470 761 488 766 488 769 488 771 488 781 488 862 473 954 488 956 488 1166 475 1202 490 1207 493 1209 493 1212 493 1229 493 1356 478 1394 493 1396 493 1556 495 1558 495 1561 495 1563 495 1589 480 1601 493 1601 495 1604 495 1606 495 1609 498 1710 498 1713 465 1713 407 1490 394 1488 394 1485 394 1482 394 1472 402 1462 409 1447 402 1437 397 1434 397 1432 397 1364 399 1214 407 1171 397 1143 389 1141 389 1138 389 1070 394 999 399 979 392 961 387 959 387 883 387 880 387 878 387 875 387 873 392 857 404 789 404 776 389 774 389 774 387 771 387 769 387 766 387 741 389 640 399 594 387 587 384 584 384 582 384 571 384 513 399 460 384 458 452 455 480"/></Shape>
 	    <String CONTENT="rome: liqueil furent engenre en lemper"
                     HPOS="455"
                     VPOS="384"
@@ -103,13 +103,13 @@
           
           
           <TextLine ID="eSc_line_fb90261f"
-                    TAGREFS="LT1723"
+                    TAGREFS="LT8590"
                     BASELINE="496 516 1715 546" 
                     HPOS="493"
                     VPOS="455"
                     WIDTH="1222"
                     HEIGHT="124">
-            <Shape><Polygon POINTS="571 455 546 455 521 455 496 455 496 516 493 546 744 556 746 556 749 556 759 551 774 544 784 551 794 559 797 559 799 559 1002 564 1004 564 1007 564 1029 556 1042 551 1202 551 1207 559 1217 566 1217 569 1219 569 1222 569 1224 569 1285 559 1305 556 1331 559 1414 574 1417 574 1584 564 1586 564 1606 579 1609 579 1612 579 1614 579 1713 564 1715 546 1715 490 576 455 571 455"/></Shape>
+            <Shape><Polygon POINTS="546 455 521 455 496 455 496 516 493 546 744 556 746 556 749 556 759 551 774 544 784 551 794 559 797 559 799 559 1002 564 1004 564 1007 564 1029 556 1042 551 1202 551 1207 559 1217 566 1217 569 1219 569 1222 569 1224 569 1285 559 1305 556 1331 559 1414 574 1417 574 1584 564 1586 564 1606 579 1609 579 1612 579 1614 579 1713 564 1715 546 1715 490 576 455 571 455"/></Shape>
 	    <String CONTENT="is fastige ki fille fu a lempereor phiseus."
                     HPOS="493"
                     VPOS="455"
@@ -1867,26 +1867,6 @@
           
         </TextBlock>
         
-        <TextBlock HPOS="1413"
-                   VPOS="66"
-                   WIDTH="296"
-                   HEIGHT="57"
-                   ID="eSc_textblock_6e6a82dc"
-                   TAGREFS="BT8508">
-          <Shape><Polygon POINTS="1413 66 1413 123 1709 123 1709 66"/></Shape>
-          
-        </TextBlock>
-        
-        <TextBlock HPOS="1488"
-                   VPOS="445"
-                   WIDTH="7"
-                   HEIGHT="7"
-                   ID="eSc_textblock_a39fb57a"
-                   TAGREFS="BT5162">
-          <Shape><Polygon POINTS="1495 452 1488 452 1488 445 1493 445"/></Shape>
-          
-        </TextBlock>
-        
         <TextBlock HPOS="612"
                    VPOS="4089"
                    WIDTH="490"
@@ -1904,6 +1884,16 @@
                    ID="eSc_textblock_2182a00c"
                    TAGREFS="BT5166">
           <Shape><Polygon POINTS="357 556 357 1160 965 1160 965 560"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1488"
+                   VPOS="445"
+                   WIDTH="7"
+                   HEIGHT="7"
+                   ID="eSc_textblock_a39fb57a"
+                   TAGREFS="BT5162">
+          <Shape><Polygon POINTS="1495 452 1488 452 1488 445 1493 445"/></Shape>
           
         </TextBlock>
         

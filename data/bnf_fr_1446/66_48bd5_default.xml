@@ -12,7 +12,7 @@
   
   <Tags>
     <OtherTag ID="BT5162" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT5166" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT5167" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT7824" LABEL="TitlePageZone" DESCRIPTION="block type TitlePageZone"/><OtherTag ID="BT8488" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT8490" LABEL="TableZone" DESCRIPTION="block type TableZone"/><OtherTag ID="BT8491" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT8505" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT8508" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT21525" LABEL="QuireMarksZone" DESCRIPTION="block type QuireMarksZone"/>
-    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
+    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/><OtherTag ID="LT6927" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/><OtherTag ID="LT8590" LABEL="HeadingLine:rubric" DESCRIPTION="line type HeadingLine:rubric"/>
   </Tags>
   
   <Layout>
@@ -750,17 +750,34 @@
           
           <TextLine ID="eSc_line_16a3e8fa"
                     TAGREFS="LT1723"
-                    BASELINE="352 3355 1689 3378" 
-                    HPOS="349"
-                    VPOS="3308"
-                    WIDTH="1340"
-                    HEIGHT="91">
-            <Shape><Polygon POINTS="352 3355 349 3373 796 3396 798 3399 1686 3399 1689 3378 1689 3321 352 3308 352 3355"/></Shape>
-	    <String CONTENT="uoie toucie deuãt. Ci vient li contes as .iii. chr̾s."
-                    HPOS="349"
-                    VPOS="3308"
-                    WIDTH="1340"
-                    HEIGHT="91"></String>
+                    BASELINE="352 3355 883 3364" 
+                    HPOS="344"
+                    VPOS="3298"
+                    WIDTH="537"
+                    HEIGHT="98">
+            <Shape><Polygon POINTS="344 3373 873 3396 881 3361 877 3306 348 3298 348 3353"/></Shape>
+	    <String CONTENT="uoie toucie deuãt."
+                    HPOS="344"
+                    VPOS="3298"
+                    WIDTH="537"
+                    HEIGHT="98"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_9f09aff3"
+                    TAGREFS="LT8590"
+                    BASELINE="890 3364 1689 3378" 
+                    HPOS="885"
+                    VPOS="3302"
+                    WIDTH="803"
+                    HEIGHT="106">
+            <Shape><Polygon POINTS="1594 3314 1555 3314 1516 3314 1476 3314 1437 3310 1422 3310 1398 3310 1359 3310 1320 3310 1281 3310 1253 3306 1155 3306 1124 3306 1085 3306 1069 3302 889 3302 889 3361 885 3396 1680 3408 1688 3377 1688 3314 1633 3310 1633 3314"/></Shape>
+	    <String CONTENT="Ci vient li contes as .iii. chr̾s."
+                    HPOS="885"
+                    VPOS="3302"
+                    WIDTH="803"
+                    HEIGHT="106"></String>
           </TextLine>
 
           

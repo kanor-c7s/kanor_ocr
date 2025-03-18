@@ -12,7 +12,7 @@
   
   <Tags>
     <OtherTag ID="BT5162" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT5166" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT5167" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT7824" LABEL="TitlePageZone" DESCRIPTION="block type TitlePageZone"/><OtherTag ID="BT8488" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT8490" LABEL="TableZone" DESCRIPTION="block type TableZone"/><OtherTag ID="BT8491" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT8505" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT8508" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT21525" LABEL="QuireMarksZone" DESCRIPTION="block type QuireMarksZone"/>
-    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
+    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/><OtherTag ID="LT6927" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/><OtherTag ID="LT8590" LABEL="HeadingLine:rubric" DESCRIPTION="line type HeadingLine:rubric"/>
   </Tags>
   
   <Layout>
@@ -767,17 +767,34 @@
           
           <TextLine ID="eSc_line_b3d64bf3"
                     TAGREFS="LT1723"
-                    BASELINE="389 3384 1715 3408" 
-                    HPOS="387"
-                    VPOS="3323"
-                    WIDTH="1328"
-                    HEIGHT="122">
-            <Shape><Polygon POINTS="389 3384 387 3405 682 3431 1064 3437 1067 3437 1069 3437 1103 3421 1146 3439 1148 3439 1151 3439 1251 3424 1317 3424 1333 3439 1333 3442 1335 3442 1338 3442 1341 3442 1446 3429 1528 3445 1530 3445 1533 3445 1565 3429 1710 3429 1715 3408 1710 3345 1480 3355 1354 3342 1322 3339 1320 3339 1317 3339 1314 3339 1314 3342 1312 3342 1301 3352 1283 3342 1277 3337 1275 3337 1272 3337 1269 3337 1267 3337 1264 3337 1259 3342 1243 3352 1185 3342 1156 3337 1154 3337 1093 3342 980 3350 940 3339 914 3334 911 3334 909 3334 906 3334 893 3339 880 3347 685 3347 666 3339 634 3329 632 3329 629 3329 571 3339 550 3342 545 3339 516 3323 513 3323 511 3323 389 3337 389 3384"/></Shape>
-	    <String CONTENT="laissai a faire mension deuant. a Mardocheus."
-                    HPOS="387"
-                    VPOS="3323"
-                    WIDTH="1328"
-                    HEIGHT="122"></String>
+                    BASELINE="389 3384 1245 3399" 
+                    HPOS="383"
+                    VPOS="3318"
+                    WIDTH="858"
+                    HEIGHT="119">
+            <Shape><Polygon POINTS="387 3381 383 3409 581 3413 593 3433 597 3433 597 3437 601 3437 605 3437 609 3437 1238 3425 1241 3397 1238 3346 387 3318 387 3381"/></Shape>
+	    <String CONTENT="laissai a faire mension deuant."
+                    HPOS="383"
+                    VPOS="3318"
+                    WIDTH="858"
+                    HEIGHT="119"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_1d382069"
+                    
+                    BASELINE="1257 3400 1715 3408" 
+                    HPOS="1249"
+                    VPOS="3330"
+                    WIDTH="463"
+                    HEIGHT="99">
+            <Shape><Polygon POINTS="1688 3338 1649 3338 1609 3338 1570 3338 1530 3338 1491 3334 1451 3334 1412 3334 1372 3334 1332 3334 1293 3334 1253 3330 1253 3397 1249 3425 1704 3429 1712 3405 1708 3338 1688 3338"/></Shape>
+	    <String CONTENT="A Mardocheus."
+                    HPOS="1249"
+                    VPOS="3330"
+                    WIDTH="463"
+                    HEIGHT="99"></String>
           </TextLine>
 
           

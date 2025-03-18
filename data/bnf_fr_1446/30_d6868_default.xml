@@ -12,7 +12,7 @@
   
   <Tags>
     <OtherTag ID="BT5162" LABEL="MainZone" DESCRIPTION="block type MainZone"/><OtherTag ID="BT5166" LABEL="DropCapitalZone" DESCRIPTION="block type DropCapitalZone"/><OtherTag ID="BT5167" LABEL="MarginTextZone" DESCRIPTION="block type MarginTextZone"/><OtherTag ID="BT7824" LABEL="TitlePageZone" DESCRIPTION="block type TitlePageZone"/><OtherTag ID="BT8488" LABEL="StampZone" DESCRIPTION="block type StampZone"/><OtherTag ID="BT8490" LABEL="TableZone" DESCRIPTION="block type TableZone"/><OtherTag ID="BT8491" LABEL="RunningTitleZone" DESCRIPTION="block type RunningTitleZone"/><OtherTag ID="BT8505" LABEL="NumberingZone" DESCRIPTION="block type NumberingZone"/><OtherTag ID="BT8508" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT21525" LABEL="QuireMarksZone" DESCRIPTION="block type QuireMarksZone"/>
-    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/>
+    <OtherTag ID="LT1723" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/><OtherTag ID="LT2911" LABEL="DropCapitalLine" DESCRIPTION="line type DropCapitalLine"/><OtherTag ID="LT6927" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/><OtherTag ID="LT8590" LABEL="HeadingLine:rubric" DESCRIPTION="line type HeadingLine:rubric"/>
   </Tags>
   
   <Layout>
@@ -1355,30 +1355,47 @@
           
           <TextLine ID="eSc_line_9705eaaa"
                     TAGREFS="LT1723"
-                    BASELINE="1871 2089 3118 2105" 
-                    HPOS="1868"
-                    VPOS="2034"
-                    WIDTH="1250"
-                    HEIGHT="107">
-            <Shape><Polygon POINTS="1871 2089 1868 2110 2076 2131 2613 2136 2615 2136 2696 2123 2717 2139 2719 2139 2722 2139 2725 2139 2904 2126 3037 2141 3040 2141 3115 2126 3118 2105 3112 2060 2912 2063 2852 2053 2810 2047 2808 2047 2805 2047 2790 2053 2761 2060 2714 2050 2683 2045 2680 2045 2678 2045 2660 2050 2631 2058 2597 2047 2581 2045 2579 2045 2576 2045 2574 2045 2571 2045 2568 2047 2555 2058 2316 2058 2287 2042 2285 2042 2282 2042 2277 2042 2194 2053 2173 2040 2170 2040 2168 2040 2165 2040 2157 2040 2053 2050 1871 2034 1871 2089"/></Shape>
-	    <String CONTENT="deuãt ai fait mẽsion el ꝯte. Ensi come li empe"
-                    HPOS="1868"
-                    VPOS="2034"
-                    WIDTH="1250"
-                    HEIGHT="107"></String>
+                    BASELINE="1871 2089 2545 2098" 
+                    HPOS="1863"
+                    VPOS="2037"
+                    WIDTH="680"
+                    HEIGHT="102">
+            <Shape><Polygon POINTS="2023 2084 1984 2072 1945 2057 1906 2045 1891 2037 1867 2037 1867 2088 1863 2115 2535 2139 2543 2096 2539 2049 2090 2037 2059 2088"/></Shape>
+	    <String CONTENT="deuãt ai fait mẽsion el ꝯte."
+                    HPOS="1863"
+                    VPOS="2037"
+                    WIDTH="680"
+                    HEIGHT="102"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_8e6d5f05"
+                    TAGREFS="LT8590"
+                    BASELINE="2573 2098 3118 2105" 
+                    HPOS="2566"
+                    VPOS="2041"
+                    WIDTH="551"
+                    HEIGHT="86">
+            <Shape><Polygon POINTS="2566 2123 3110 2127 3117 2103 3113 2053 2570 2041 2570 2096"/></Shape>
+	    <String CONTENT="Ensi come li empe"
+                    HPOS="2566"
+                    VPOS="2041"
+                    WIDTH="551"
+                    HEIGHT="86"></String>
           </TextLine>
 
           
           
           <TextLine ID="eSc_line_766916f5"
-                    TAGREFS="LT1723"
+                    TAGREFS="LT8590"
                     BASELINE="2186 2159 3232 2183" 
                     HPOS="2183"
                     VPOS="2102"
                     WIDTH="1049"
                     HEIGHT="122">
-            <Shape><Polygon POINTS="2186 2159 2183 2188 2321 2209 2324 2209 2540 2201 2563 2201 2566 2201 2581 2214 2584 2214 2587 2214 2589 2214 2592 2214 2594 2214 2610 2204 2631 2193 2855 2196 2938 2214 2998 2224 3000 2224 3040 2217 3107 2204 3227 2222 3232 2183 3230 2136 3136 2113 3133 2113 3034 2131 3021 2131 3016 2128 2980 2110 2977 2110 2902 2107 2899 2107 2751 2123 2732 2123 2727 2120 2709 2105 2706 2105 2704 2105 2644 2102 2641 2102 2639 2102 2581 2118 2563 2120 2186 2107 2186 2159"/></Shape>
-	    <String CONTENT="rere ⁊ lempereris furent ꝑti de rome."
+            <Shape><Polygon POINTS="2183 2188 2321 2209 2324 2209 2540 2201 2563 2201 2566 2201 2581 2214 2584 2214 2587 2214 2589 2214 2592 2214 2594 2214 2610 2204 2631 2193 2855 2196 2938 2214 2998 2224 3000 2224 3040 2217 3107 2204 3227 2222 3232 2183 3230 2136 3136 2113 3133 2113 3034 2131 3021 2131 3016 2128 2980 2110 2977 2110 2902 2107 2899 2107 2751 2123 2732 2123 2727 2120 2709 2105 2706 2105 2704 2105 2644 2102 2641 2102 2639 2102 2581 2118 2563 2120 2186 2107 2186 2159"/></Shape>
+	    <String CONTENT="rere ⁊ lemperris furent ꝑti de rome."
                     HPOS="2183"
                     VPOS="2102"
                     WIDTH="1049"
