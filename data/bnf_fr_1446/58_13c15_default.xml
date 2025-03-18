@@ -704,7 +704,7 @@
                     VPOS="3071"
                     WIDTH="298"
                     HEIGHT="98">
-            <Shape><Polygon POINTS="231 3107 231 3134 227 3169 521 3169 525 3138 517 3071 250 3075 231 3107"/></Shape>
+            <Shape><Polygon POINTS="231 3134 227 3169 521 3169 525 3138 517 3071 250 3075 231 3107"/></Shape>
 	    <String CONTENT="poĩs en iere"
                     HPOS="227"
                     VPOS="3071"
@@ -715,13 +715,13 @@
           
           
           <TextLine ID="eSc_line_780c42dc"
-                    
+                    TAGREFS="LT8590"
                     BASELINE="532 3139 896 3142 1518 3166" 
                     HPOS="525"
                     VPOS="3071"
                     WIDTH="992"
                     HEIGHT="122">
-            <Shape><Polygon POINTS="529 3138 525 3166 1509 3193 1517 3162 1513 3107 529 3071 529 3138"/></Shape>
+            <Shape><Polygon POINTS="525 3166 1509 3193 1517 3162 1513 3107 529 3071 529 3138"/></Shape>
 	    <String CONTENT="Ensi come celidꝰ ⁊ dianor virẽt en."
                     HPOS="525"
                     VPOS="3071"
