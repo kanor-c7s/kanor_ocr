@@ -87,17 +87,17 @@
           
           <TextLine ID="eSc_line_4018da95"
                     TAGREFS="LT1723"
-                    BASELINE="407 540 1735 548" 
-                    HPOS="405"
-                    VPOS="480"
-                    WIDTH="1330"
-                    HEIGHT="97">
-            <Shape><Polygon POINTS="407 540 405 569 1730 577 1735 548 1733 506 1461 506 1453 504 1385 485 1382 485 1380 485 1293 498 1236 483 1233 483 951 483 948 483 946 483 909 496 891 483 888 483 886 483 883 483 797 493 724 480 721 480 648 496 635 498 622 496 538 480 535 480 533 480 530 480 530 483 514 496 509 498 407 496 407 540"/></Shape>
+                    BASELINE="515 535 1735 548" 
+                    HPOS="509"
+                    VPOS="478"
+                    WIDTH="1224"
+                    HEIGHT="109">
+            <Shape><Polygon POINTS="513 532 509 564 1725 587 1733 544 1729 478 513 478 513 532"/></Shape>
 	    <String CONTENT="q̃elle ne sabaubeist mie de si gnͣt honor come diꝰ"
-                    HPOS="405"
-                    VPOS="480"
-                    WIDTH="1330"
-                    HEIGHT="97"></String>
+                    HPOS="509"
+                    VPOS="478"
+                    WIDTH="1224"
+                    HEIGHT="109"></String>
           </TextLine>
 
           

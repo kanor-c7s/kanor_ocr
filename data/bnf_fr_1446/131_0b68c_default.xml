@@ -905,7 +905,7 @@
           
           
           <TextLine ID="eSc_line_4e3b88c0"
-                    
+                    TAGREFS="LT1723"
                     BASELINE="207 4106 1595 4141" 
                     HPOS="202"
                     VPOS="4035"
@@ -922,7 +922,7 @@
           
           
           <TextLine ID="eSc_line_1e8a7465"
-                    
+                    TAGREFS="LT1723"
                     BASELINE="207 4191 707 4196 1579 4232" 
                     HPOS="202"
                     VPOS="4117"
@@ -1837,7 +1837,7 @@
           
           
           <TextLine ID="eSc_line_75c6ef48"
-                    
+                    TAGREFS="LT1723"
                     BASELINE="1683 4225 2331 4253 3096 4266" 
                     HPOS="1678"
                     VPOS="4156"
