@@ -11,7 +11,85 @@ authors:
   surname: Zanardi
 automatically-aligned: true
 characters:
-  members: []
+  members:
+  - e
+  - i
+  - s
+  - t
+  - a
+  - o
+  - l
+  - r
+  - u
+  - n
+  - ̃
+  - c
+  - d
+  - m
+  - .
+  - q
+  - p
+  - v
+  - f
+  - h
+  - ̾
+  - ⁊
+  - ꝰ
+  - ͥ
+  - g
+  - b
+  - ':'
+  - ͣ
+  - ꝑ
+  - ꝯ
+  - ͬ
+  - I
+  - ;
+  - D
+  - M
+  - C
+  - k
+  - ̣
+  - '-'
+  - S
+  - ᷤ
+  - E
+  - /
+  - Q
+  - x
+  - ¶
+  - N
+  - P
+  - ꝓ
+  - ͦ
+  - A
+  - ͤ
+  - Ꝑ
+  - w
+  - B
+  - L
+  - O
+  - y
+  - ᷑
+  - T
+  - G
+  - '?'
+  - V
+  - R
+  - z
+  - '9'
+  - ᷠ
+  - ͧ
+  - K
+  - F
+  - X
+  - ̅
+  - W
+  - H
+  - 
+  - ‸
+  - (
+  - )
   mode: NFD
 description: >-
   This repository contains the transcription of the final "continuation" of the
@@ -59,11 +137,11 @@ time:
 title: 'C7S : Li Histoire de Kanor et de ses freres'
 url: https://github.com/kanor-c7s
 volume:
-- count: 0
+- count: 650672
   metric: characters
-- count: 139
+- count: 140
   metric: files
-- count: 0
+- count: 14590
   metric: lines
-- count: 668
+- count: 672
   metric: regions
