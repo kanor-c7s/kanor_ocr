@@ -61,8 +61,8 @@ characters:
   - N
   - P
   - ꝓ
-  - ͦ
   - A
+  - ͦ
   - ͤ
   - Ꝑ
   - w
@@ -137,11 +137,11 @@ time:
 title: 'C7S : Li Histoire de Kanor et de ses freres'
 url: https://github.com/kanor-c7s
 volume:
-- count: 650672
+- count: 650671
   metric: characters
 - count: 140
   metric: files
-- count: 14590
+- count: 14599
   metric: lines
-- count: 669
+- count: 668
   metric: regions
