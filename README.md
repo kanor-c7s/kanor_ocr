@@ -1,10 +1,10 @@
 ![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg) 
 
-# *Li Histoire de Kanor et ses freres*, ms. BnF fr. 1446
+# *Li histoire de Kanor et ses freres*, ms. BnF fr. 1446
 
 ![ms. BnF fr. 1446, f. 1r](badges/francais_1446__btv1b10023851v_7.jpg)
 
-*Ichi encomence li histoire de Kanor et de ses freres, li queil furent fil au noble Kassidorus, empereor de Costostinnoble et de Rome, liqueil furent engenré en l'emperis Fastige, ki fille fu a l'empereor Phiseus.*
+*Ichi encomence li histoire de Kanor et de ses freres, li queil furent fil au noble Kassidorus, empereor de Costostinnoble et de Rome, li queil furent engenré en l'emperis Fastige, ki fille fu a l'empereor Phiseus.*
 
 # 📚 Repository Overview  
 
@@ -14,7 +14,7 @@
 
 This GitHub contains two repositories:  
 - [`kanor_xml_ocr/`](https://github.com/kanor-c7s/kanor_ocr/) for image files, ALTO transcriptions, and a trained model
-- [`kanor_xml_tei/`](https://github.com/kanor-c7s/kanor_xml_tei/) for XML-TEI files, guides, and HTML outputs
+- [`kanor_xml_tei/`](https://github.com/kanor-c7s/kanor_xml_tei/) for XML-TEI files, guides, glossary, and HTML outputs
 
 ## 🖋️ Project Description  
 
@@ -29,6 +29,7 @@ The DH project includes:
 - Controlled dataset, transcriptions and editorial guides
 - An XML-TEI edition
 - A custom transcription model trained on ms. BnF fr. 1446
+- An on-going glossary of the text
 
 ---
 
@@ -92,6 +93,7 @@ Only DH outputs here.
 | **Custom OCR Model**   | Custom model trained on 40 folios from 1446  | [`/kanor_ocr/trained_ocr_model_kanor_1446/`](https://github.com/kanor-c7s/kanor_ocr/tree/main/trained_ocr_model_kanor_1446/) |
 | **XML-TEI Edition**    | Encoded digital edition of *Li Histoire de Kanor*.               | [`/kanor_xml_tei/xml_tei/jns.47.jns8386.c7s-fro7.xml`](https://github.com/kanor-c7s/kanor_xml_tei/blob/main/xml_tei/jns.47.jns8386.c7s-fro7.xml) |
 | **Website**| Online edition                                     | [https://kanor-c7s.github.io/index.html](url) |
+| **Glossary**| A TEI Lex-0 glossary                                     | [`/kanor_ocr/trained_ocr_model_kanor_1446/](https://github.com/kanor-c7s/kanor_xml_tei/glossary) |
 
 ### Notes
 
@@ -107,4 +109,3 @@ To be done
 
 -Ariane Pinche (INRIA serve, model training and help), Camille Carnaille (and C7S Pelyarmenus team for help, structure, ODD, names) etc.-
 -various scripts
--LLM Perplexity for rephrasing and structure
