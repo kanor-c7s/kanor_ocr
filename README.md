@@ -77,7 +77,7 @@ Despite these adjustments, key features are retained:
 - Text structure, including word and line segmentation
 - Scribal additions, deletions, and their contexts
 
-These choices balance fidelity to the manuscript with usability for modern readers. The ALTO output files are stored in [`/kanor_ocr/xml_ocr/bnf_fr_1446/ground_truth/xml_alto/`](https://github.com/kanor-c7s/kanor_ocr/tree/main/bnf_fr_1446/ground_truth/xml_alto/)
+These choices balance fidelity to the manuscript with usability for modern readers. The ALTO output files are stored in [`/kanor_ocr/data/bnf_fr_1446/`](https://github.com/kanor-c7s/kanor_ocr/tree/main/data/bnf_fr_1446)
 
 The **second transcription** follows most of the guidelines from *Conseils pour l'édition des textes médiévaux* (fasc. 1-3) by Olivier Guyotjeannin, Pascale Bourgain, and Françoise Vielliard.
 
