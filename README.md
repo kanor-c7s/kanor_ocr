@@ -89,7 +89,7 @@ Only DH outputs here.
 
 | **Output Type**       | **Description**                                                                 | **Location**                                                                                     |
 |------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| **Golden Dataset**     | Checked transcriptions from 1446                | [`/kanor_ocr/data/bnf_fr_1446/`](https://github.com/kanor-c7s/kanor_ocr/data/bnf_fr_1446/) |
+| **Golden Dataset**     | Checked transcriptions from 1446                | [`/kanor_ocr/data/bnf_fr_1446/`](https://github.com/kanor-c7s/kanor_ocr/tree/main/data/bnf_fr_1446) |
 | **Custom OCR Model**   | Custom model trained on 40 folios from 1446  | [`/kanor_ocr/trained_ocr_model_kanor_1446/`](https://github.com/kanor-c7s/kanor_ocr/tree/main/trained_ocr_model_kanor_1446/) |
 | **XML-TEI Edition**    | Encoded digital edition of *Li Histoire de Kanor*.               | [`/kanor_xml_tei/xml_tei/jns.47.jns8386.c7s-fro7.xml`](https://github.com/kanor-c7s/kanor_xml_tei/xml_tei/) |
 | **Website**| Online edition                                     | [https://kanor-c7s.github.io/index.html](url) |
